@@ -1,0 +1,32 @@
+{
+  "cave_keys_grid": {
+    "type": "itemgrid",
+    "item_size": 40,
+    "rows": [
+      [
+        "ecentrancekey",
+        "scentrancekey",
+        "fcentrancekey",
+        ""
+      ],
+      [
+        "hobentrancekey",
+        "wfgentrancekey",
+        "bkentrancekey",
+        "shentrancekey"
+      ],
+      [
+        "cosentrancekey",
+        "gkentrancekey",
+        "srentrancekey",
+        "smgcentrancekey"
+      ],
+      [
+        "cocentrancekey",
+        "hohentrancekey",
+        "ddentrancekey",
+        ""
+      ]
+    ]
+  }
+}

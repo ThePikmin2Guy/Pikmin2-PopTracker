@@ -1,0 +1,26 @@
+{
+  "explorer_kit_grid": {
+    "type": "itemgrid",
+    "item_size": 40,
+    "rows": [
+      [
+        "amplifiedamplifier",
+        "justicealloy",
+        "repugnantappendage",
+        "sphericalatlas"
+      ],
+      [
+        "professionalnoisemaker",
+        "forgedcourage",
+        "bruteknuckles",
+        "geographicprojection"
+      ],
+      [
+        "stellarorb",
+        "dreammaterial",
+        "prototypedetector",
+        "five-mannapsack"
+      ]
+    ]
+  }
+}

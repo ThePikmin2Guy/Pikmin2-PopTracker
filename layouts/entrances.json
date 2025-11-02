@@ -1,0 +1,48 @@
+{
+  "entrances_grid": {
+    "type": "itemgrid",
+    "item_size": 40,
+    "rows": [
+      [
+        "EC_ent",
+        "EC_dst",
+        "SC_ent",
+        "SC_dst",
+        "FC_ent",
+        "FC_dst",
+        "",
+        ""
+      ],
+      [
+        "HoB_ent",
+        "HoB_dst",
+        "WFG_ent",
+        "WFG_dst",
+        "BK_ent",
+        "BK_dst",
+        "SH_ent",
+        "SH_dst"
+      ],
+      [
+        "CoS_ent",
+        "CoS_dst",
+        "GK_ent",
+        "GK_dst",
+        "SR_ent",
+        "SR_dst",
+        "SMGC_ent",
+        "SMGC_dst"
+      ],
+      [
+        "CoC_ent",
+        "CoC_dst",
+        "HoH_ent",
+        "HoH_dst",
+        "DD_ent",
+        "DD_dst",
+        "",
+        ""
+      ]
+    ]
+  }
+}

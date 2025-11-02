@@ -1,0 +1,80 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Pikmins",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "pikmin_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Explorer Kit",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "explorer_kit_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Cave Keys",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "cave_keys_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Titan Dweevil Weapons",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "td_weapons_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Pokos",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "pokos_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Cave Entrance Randomization",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "entrances_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "content": [
+            {
+              "type": "layout",
+              "key": "tabs"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

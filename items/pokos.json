@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Current Pokos Ten Thousands Digit",
+    "type": "progressive",
+    "loop": true,
+    "codes": "pokos_tenthousand",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/num/0.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/1.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/2.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/3.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/4.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/5.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/6.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/7.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/8.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/9.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Current Pokos Thousands Digit",
+    "type": "progressive",
+    "loop": true,
+    "codes": "pokos_thousand",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/num/0.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/1.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/2.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/3.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/4.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/5.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/6.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/7.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/8.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/9.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Current Pokos Hundreds Digit",
+    "type": "progressive",
+    "loop": true,
+    "codes": "pokos_hundred",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/num/0.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/1.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/2.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/3.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/4.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/5.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/6.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/7.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/8.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/9.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Current Pokos Tens Digit",
+    "type": "progressive",
+    "loop": true,
+    "codes": "pokos_ten",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/num/0.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/1.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/2.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/3.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/4.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/5.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/6.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/7.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/8.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/9.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Current Pokos Ones Digit",
+    "type": "progressive",
+    "loop": true,
+    "codes": "pokos_one",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/num/0.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/1.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/2.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/3.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/4.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/5.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/6.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/7.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/8.png",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/num/9.png",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

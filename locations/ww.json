@@ -1,0 +1,2826 @@
+[
+  {
+    "name": "WW",
+    "access_rules": [
+      "$DebtPayedOff"
+    ],
+    "chest_unopened_img": "images/items/duck.png",
+    "chest_opened_img": "images/items/duckbw.png",
+    "children": [
+      {
+        "name": "Doomsday Apparatus",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Treasure",
+            "hosted_item": "loc_doomsdayapparatus"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wistfulwild",
+            "x": 27,
+            "y": 116,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Seed of Greed",
+        "access_rules": [
+          "$Has|BP,$Has|WP",
+          "$Has|BP,^$SB"
+        ],
+        "sections": [
+          {
+            "name": "Treasure",
+            "hosted_item": "loc_seedofgreed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wistfulwild",
+            "x": 210,
+            "y": 163,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Anti-hiccup Fungus",
+        "access_rules": [
+          "$Has|BP,$Has|WP",
+          "$Has|BP,^$SB"
+        ],
+        "sections": [
+          {
+            "name": "Treasure",
+            "hosted_item": "loc_anti-hiccupfungus"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wistfulwild",
+            "x": 220,
+            "y": 151,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Armored Nut",
+        "access_rules": [
+          "$Has|BP"
+        ],
+        "sections": [
+          {
+            "name": "Treasure",
+            "hosted_item": "loc_armorednut"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wistfulwild",
+            "x": 232,
+            "y": 220,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Conifer Spire",
+        "access_rules": [
+          "$Has|YP,$Has|BP"
+        ],
+        "sections": [
+          {
+            "name": "Treasure",
+            "hosted_item": "loc_coniferspire"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wistfulwild",
+            "x": 123,
+            "y": 278,
+            "size": 8
+          }
+        ]
+      },
+      {
+        "name": "Cavern of Chaos",
+        "access_rules": [
+          "$HasKey|CoC"
+        ],
+        "children": [
+          {
+            "name": "Emergence Cave",
+            "visibility_rules": "$IsSelectedDestination|CoC|EC",
+            "sections": [
+              {
+                "name": "Citrus Lump",
+                "hosted_item": "loc_citruslump"
+              },
+              {
+                "name": "Quenching Emblem",
+                "hosted_item": "loc_quenchingemblem"
+              },
+              {
+                "name": "Spherical Atlas",
+                "hosted_item": "loc_sphericalatlas"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Subterranean Complex",
+            "visibility_rules": "$IsSelectedDestination|CoC|SC",
+            "sections": [
+              {
+                "name": "Exhausted Superstick",
+                "hosted_item": "loc_exhaustedsuperstick"
+              },
+              {
+                "name": "Nouveau Table",
+                "hosted_item": "loc_nouveautable"
+              },
+              {
+                "name": "Network Mainbrain",
+                "hosted_item": "loc_networkmainbrain"
+              },
+              {
+                "name": "Spirit Flogger",
+                "hosted_item": "loc_spiritflogger"
+              },
+              {
+                "name": "Coiled Launcher",
+                "hosted_item": "loc_coiledlauncher"
+              },
+              {
+                "name": "Omega Flywheel",
+                "hosted_item": "loc_omegaflywheel"
+              },
+              {
+                "name": "Superstrong Stabilizer",
+                "hosted_item": "loc_superstrongstabilizer"
+              },
+              {
+                "name": "Adamantine Girdle",
+                "hosted_item": "loc_adamantinegirdle"
+              },
+              {
+                "name": "Mystical Disc",
+                "hosted_item": "loc_mysticaldisc"
+              },
+              {
+                "name": "Repair Juggernaut",
+                "hosted_item": "loc_repairjuggernaut"
+              },
+              {
+                "name": "Space Wave Receiver",
+                "hosted_item": "loc_spacewavereceiver"
+              },
+              {
+                "name": "Vacuum Processor",
+                "hosted_item": "loc_vacuumprocessor"
+              },
+              {
+                "name": "Furious Adhesive",
+                "hosted_item": "loc_furiousadhesive"
+              },
+              {
+                "name": "Indomitable CPU",
+                "hosted_item": "loc_indomitablecpu"
+              },
+              {
+                "name": "Thirst Activator",
+                "hosted_item": "loc_thirstactivator"
+              },
+              {
+                "name": "Stellar Orb",
+                "hosted_item": "loc_stellarorb"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Frontier Cavern",
+            "visibility_rules": "$IsSelectedDestination|CoC|FC",
+            "sections": [
+              {
+                "name": "Essence of Rage",
+                "hosted_item": "loc_essenceofrage"
+              },
+              {
+                "name": "Essential Furnishing",
+                "hosted_item": "loc_essentialfurnishing"
+              },
+              {
+                "name": "Icon of Progress",
+                "hosted_item": "loc_iconofprogress"
+              },
+              {
+                "name": "Joy Receptacle",
+                "hosted_item": "loc_joyreceptacle"
+              },
+              {
+                "name": "Danger Chime",
+                "hosted_item": "loc_dangerchime"
+              },
+              {
+                "name": "Fleeting Art Form",
+                "hosted_item": "loc_fleetingartform"
+              },
+              {
+                "name": "Gemstar Husband",
+                "hosted_item": "loc_gemstarhusband"
+              },
+              {
+                "name": "Innocence Lost",
+                "hosted_item": "loc_innocencelost"
+              },
+              {
+                "name": "Omniscient Sphere",
+                "hosted_item": "loc_omniscientsphere"
+              },
+              {
+                "name": "Brute Knuckles",
+                "hosted_item": "loc_bruteknuckles"
+              },
+              {
+                "name": "Priceless Statue",
+                "hosted_item": "loc_pricelessstatue"
+              },
+              {
+                "name": "Worthless Statue",
+                "hosted_item": "loc_worthlessstatue"
+              },
+              {
+                "name": "Flame Tiller",
+                "hosted_item": "loc_flametiller"
+              },
+              {
+                "name": "Spouse Alert",
+                "hosted_item": "loc_spousealert"
+              },
+              {
+                "name": "Repugnant Appendage",
+                "hosted_item": "loc_repugnantappendage"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Hole of Beasts",
+            "visibility_rules": "$IsSelectedDestination|CoC|HoB",
+            "sections": [
+              {
+                "name": "Stone of Glory",
+                "hosted_item": "loc_stoneofglory"
+              },
+              {
+                "name": "Cosmic Archive",
+                "hosted_item": "loc_cosmicarchive"
+              },
+              {
+                "name": "Strife Monolith",
+                "hosted_item": "loc_strifemonolith"
+              },
+              {
+                "name": "Dream Architect",
+                "hosted_item": "loc_dreamarchitect"
+              },
+              {
+                "name": "Luck Wafer",
+                "hosted_item": "loc_luckwafer"
+              },
+              {
+                "name": "Prototype Detector",
+                "hosted_item": "loc_prototypedetector"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "White Flower Garden",
+            "visibility_rules": "$IsSelectedDestination|CoC|WFG",
+            "sections": [
+              {
+                "name": "Alien Billboard",
+                "hosted_item": "loc_alienbillboard"
+              },
+              {
+                "name": "Drought Ender",
+                "hosted_item": "loc_droughtender"
+              },
+              {
+                "name": "Petrified Heart",
+                "hosted_item": "loc_petrifiedheart"
+              },
+              {
+                "name": "Superstick Textile",
+                "hosted_item": "loc_supersticktextile"
+              },
+              {
+                "name": "Survival Ointment",
+                "hosted_item": "loc_survivalointment"
+              },
+              {
+                "name": "Toxic Toadstool",
+                "hosted_item": "loc_toxictoadstool"
+              },
+              {
+                "name": "Five-man Napsack",
+                "hosted_item": "loc_five-mannapsack"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Bulblax Kingdom",
+            "visibility_rules": "$IsSelectedDestination|CoC|BK",
+            "sections": [
+              {
+                "name": "Crystal Clover",
+                "hosted_item": "loc_crystalclover"
+              },
+              {
+                "name": "Tear Stone",
+                "hosted_item": "loc_tearstone"
+              },
+              {
+                "name": "Olimarnite Shell",
+                "hosted_item": "loc_olimarniteshell"
+              },
+              {
+                "name": "Crystal King",
+                "hosted_item": "loc_crystalking"
+              },
+              {
+                "name": "Unknown Merit",
+                "hosted_item": "loc_unknownmerit"
+              },
+              {
+                "name": "Anxious Sprout",
+                "hosted_item": "loc_anxioussprout"
+              },
+              {
+                "name": "Colossal Fossil",
+                "hosted_item": "loc_colossalfossil"
+              },
+              {
+                "name": "Eternal Emerald Eye",
+                "hosted_item": "loc_eternalemeraldeye"
+              },
+              {
+                "name": "Forged Courage",
+                "hosted_item": "loc_forgedcourage"
+              },
+              {
+                "name": "Gyroid Bust",
+                "hosted_item": "loc_gyroidbust"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Snagret Hole",
+            "visibility_rules": "$IsSelectedDestination|CoC|SH",
+            "sections": [
+              {
+                "name": "Crystallized Telekinesis",
+                "hosted_item": "loc_crystallizedtelekinesis"
+              },
+              {
+                "name": "Leviathan Feather",
+                "hosted_item": "loc_leviathanfeather"
+              },
+              {
+                "name": "Combustion Berry",
+                "hosted_item": "loc_combustionberry"
+              },
+              {
+                "name": "Taste Sensation",
+                "hosted_item": "loc_tastesensation"
+              },
+              {
+                "name": "Meat Satchel",
+                "hosted_item": "loc_meatsatchel"
+              },
+              {
+                "name": "Crystallized Telepathy",
+                "hosted_item": "loc_crystallizedtelepathy"
+              },
+              {
+                "name": "Cupid's Grenade",
+                "hosted_item": "loc_cupidsgrenade"
+              },
+              {
+                "name": "Heavy-duty Magnetizer",
+                "hosted_item": "loc_heavy-dutymagnetizer"
+              },
+              {
+                "name": "Crystallized Clairvoyance",
+                "hosted_item": "loc_crystallizedclairvoyance"
+              },
+              {
+                "name": "Emperor Whistle",
+                "hosted_item": "loc_emperorwhistle"
+              },
+              {
+                "name": "Salivatrix",
+                "hosted_item": "loc_salivatrix"
+              },
+              {
+                "name": "Science Project",
+                "hosted_item": "loc_scienceproject"
+              },
+              {
+                "name": "Stupendous Lens",
+                "hosted_item": "loc_stupendouslens"
+              },
+              {
+                "name": "Triple Sugar Threat",
+                "hosted_item": "loc_triplesugarthreat"
+              },
+              {
+                "name": "Justice Alloy",
+                "hosted_item": "loc_justicealloy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Citadel of Spiders",
+            "visibility_rules": "$IsSelectedDestination|CoC|CoS",
+            "sections": [
+              {
+                "name": "Love Nugget",
+                "hosted_item": "loc_lovenugget"
+              },
+              {
+                "name": "Creative Inspiration",
+                "hosted_item": "loc_creativeinspiration"
+              },
+              {
+                "name": "Lip Service",
+                "hosted_item": "loc_lipservice"
+              },
+              {
+                "name": "Paradoxical Enigma",
+                "hosted_item": "loc_paradoxicalenigma"
+              },
+              {
+                "name": "Memorial Shell",
+                "hosted_item": "loc_memorialshell"
+              },
+              {
+                "name": "Patience Tester",
+                "hosted_item": "loc_patiencetester"
+              },
+              {
+                "name": "Flame of Tomorrow",
+                "hosted_item": "loc_flameoftomorrow"
+              },
+              {
+                "name": "King of Sweets",
+                "hosted_item": "loc_kingofsweets"
+              },
+              {
+                "name": "Time Capsule",
+                "hosted_item": "loc_timecapsule"
+              },
+              {
+                "name": "Regal Diamond",
+                "hosted_item": "loc_regaldiamond"
+              },
+              {
+                "name": "The Key",
+                "hosted_item": "loc_thekey"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Glutton's Kitchen",
+            "visibility_rules": "$IsSelectedDestination|CoC|GK",
+            "sections": [
+              {
+                "name": "Master's Instrument",
+                "hosted_item": "loc_mastersinstrument"
+              },
+              {
+                "name": "Massive Lid",
+                "hosted_item": "loc_massivelid"
+              },
+              {
+                "name": "Imperative Cookie",
+                "hosted_item": "loc_imperativecookie"
+              },
+              {
+                "name": "Director of Destiny",
+                "hosted_item": "loc_directorofdestiny"
+              },
+              {
+                "name": "Harmonic Synthesizer",
+                "hosted_item": "loc_harmonicsynthesizer"
+              },
+              {
+                "name": "Invigorator",
+                "hosted_item": "loc_invigorator"
+              },
+              {
+                "name": "Happiness Emblem",
+                "hosted_item": "loc_happinessemblem"
+              },
+              {
+                "name": "White Goodness",
+                "hosted_item": "loc_whitegoodness"
+              },
+              {
+                "name": "Boom Cone",
+                "hosted_item": "loc_boomcone"
+              },
+              {
+                "name": "Sulking Antenna",
+                "hosted_item": "loc_sulkingantenna"
+              },
+              {
+                "name": "Dream Material",
+                "hosted_item": "loc_dreammaterial"
+              },
+              {
+                "name": "Hideous Victual",
+                "hosted_item": "loc_hideousvictual"
+              },
+              {
+                "name": "Meat of Champions",
+                "hosted_item": "loc_meatofchampions"
+              },
+              {
+                "name": "Sweet Dreamer",
+                "hosted_item": "loc_sweetdreamer"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Shower Room",
+            "visibility_rules": "$IsSelectedDestination|CoC|SR",
+            "sections": [
+              {
+                "name": "Merciless Extractor",
+                "hosted_item": "loc_mercilessextractor"
+              },
+              {
+                "name": "Durable Energy Cell",
+                "hosted_item": "loc_durableenergycell"
+              },
+              {
+                "name": "Sud Generator",
+                "hosted_item": "loc_sudgenerator"
+              },
+              {
+                "name": "Mirrored Stage",
+                "hosted_item": "loc_mirroredstage"
+              },
+              {
+                "name": "Scrumptious Shell",
+                "hosted_item": "loc_scrumptiousshell"
+              },
+              {
+                "name": "Vorpal Platter",
+                "hosted_item": "loc_vorpalplatter"
+              },
+              {
+                "name": "Arboreal Frippery",
+                "hosted_item": "loc_arborealfrippery"
+              },
+              {
+                "name": "Broken Food Master",
+                "hosted_item": "loc_brokenfoodmaster"
+              },
+              {
+                "name": "Endless Repository",
+                "hosted_item": "loc_endlessrepository"
+              },
+              {
+                "name": "Pondering Emblem",
+                "hosted_item": "loc_ponderingemblem"
+              },
+              {
+                "name": "Abstract Masterpiece",
+                "hosted_item": "loc_abstractmasterpiece"
+              },
+              {
+                "name": "Behemoth Jaw",
+                "hosted_item": "loc_behemothjaw"
+              },
+              {
+                "name": "Rubber Ugly",
+                "hosted_item": "loc_rubberugly"
+              },
+              {
+                "name": "Amplified Amplifier",
+                "hosted_item": "loc_amplifiedamplifier"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Submerged Castle",
+            "visibility_rules": "$IsSelectedDestination|CoC|SMGC",
+            "sections": [
+              {
+                "name": "Bug Bait",
+                "hosted_item": "loc_bugbait"
+              },
+              {
+                "name": "Diet Doomer",
+                "hosted_item": "loc_dietdoomer"
+              },
+              {
+                "name": "Pastry Wheel",
+                "hosted_item": "loc_pastrywheel"
+              },
+              {
+                "name": "Chocolate Cushion",
+                "hosted_item": "loc_chocolatecushion"
+              },
+              {
+                "name": "Comfort Cookie",
+                "hosted_item": "loc_comfortcookie"
+              },
+              {
+                "name": "Confection Hoop",
+                "hosted_item": "loc_confectionhoop"
+              },
+              {
+                "name": "Activity Arouser",
+                "hosted_item": "loc_activityarouser"
+              },
+              {
+                "name": "Compelling Cookie",
+                "hosted_item": "loc_compellingcookie"
+              },
+              {
+                "name": "Succulent Mattress",
+                "hosted_item": "loc_succulentmattress"
+              },
+              {
+                "name": "Drone Supplies",
+                "hosted_item": "loc_dronesupplies"
+              },
+              {
+                "name": "Pale Passion",
+                "hosted_item": "loc_palepassion"
+              },
+              {
+                "name": "Proton AA",
+                "hosted_item": "loc_protonaa"
+              },
+              {
+                "name": "Professional Noisemaker",
+                "hosted_item": "loc_professionalnoisemaker"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cavern of Chaos",
+            "visibility_rules": "$IsSelectedDestination|CoC|CoC",
+            "sections": [
+              {
+                "name": "Enamel Buster",
+                "hosted_item": "loc_enamelbuster"
+              },
+              {
+                "name": "Mirth Sphere",
+                "hosted_item": "loc_mirthsphere"
+              },
+              {
+                "name": "Essence of Despair",
+                "hosted_item": "loc_essenceofdespair"
+              },
+              {
+                "name": "Frosty Bauble",
+                "hosted_item": "loc_frostybauble"
+              },
+              {
+                "name": "Gemstar Wife",
+                "hosted_item": "loc_gemstarwife"
+              },
+              {
+                "name": "Child of the Earth",
+                "hosted_item": "loc_childoftheearth"
+              },
+              {
+                "name": "Infernal Vegetable",
+                "hosted_item": "loc_infernalvegetable"
+              },
+              {
+                "name": "Milk Tub",
+                "hosted_item": "loc_milktub"
+              },
+              {
+                "name": "Mysterious Remains",
+                "hosted_item": "loc_mysteriousremains"
+              },
+              {
+                "name": "Growshroom",
+                "hosted_item": "loc_growshroom"
+              },
+              {
+                "name": "Princess Pearl",
+                "hosted_item": "loc_princesspearl"
+              },
+              {
+                "name": "Fuel Reservoir",
+                "hosted_item": "loc_fuelreservoir"
+              },
+              {
+                "name": "Impenetrable Cookie",
+                "hosted_item": "loc_impenetrablecookie"
+              },
+              {
+                "name": "Fruit Guard",
+                "hosted_item": "loc_fruitguard"
+              },
+              {
+                "name": "Maternal Sculpture",
+                "hosted_item": "loc_maternalsculpture"
+              },
+              {
+                "name": "Wiggle Noggin",
+                "hosted_item": "loc_wigglenoggin"
+              },
+              {
+                "name": "Silencer",
+                "hosted_item": "loc_silencer"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Hole of Heroes",
+            "visibility_rules": "$IsSelectedDestination|CoC|HoH",
+            "sections": [
+              {
+                "name": "Corpulent Nut",
+                "hosted_item": "loc_corpulentnut"
+              },
+              {
+                "name": "Essence of True Love",
+                "hosted_item": "loc_essenceoftruelove"
+              },
+              {
+                "name": "Love Sphere",
+                "hosted_item": "loc_lovesphere"
+              },
+              {
+                "name": "Lustrous Element",
+                "hosted_item": "loc_lustrouselement"
+              },
+              {
+                "name": "Nutrient Silo",
+                "hosted_item": "loc_nutrientsilo"
+              },
+              {
+                "name": "Joyless Jewel",
+                "hosted_item": "loc_joylessjewel"
+              },
+              {
+                "name": "Dimensional Slicer",
+                "hosted_item": "loc_dimensionalslicer"
+              },
+              {
+                "name": "Treasured Gyro Block",
+                "hosted_item": "loc_treasuredgyroblock"
+              },
+              {
+                "name": "Favorite Gyro Block",
+                "hosted_item": "loc_favoritegyroblock"
+              },
+              {
+                "name": "Lost Gyro Block",
+                "hosted_item": "loc_lostgyroblock"
+              },
+              {
+                "name": "Memorable Gyro Block",
+                "hosted_item": "loc_memorablegyroblock"
+              },
+              {
+                "name": "Fond Gyro Block",
+                "hosted_item": "loc_fondgyroblock"
+              },
+              {
+                "name": "Remembered Old Buddy",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Dream Den",
+            "visibility_rules": "$IsSelectedDestination|CoC|DD",
+            "sections": [
+              {
+                "name": "Disguised Delicacy",
+                "hosted_item": "loc_disguiseddelicacy"
+              },
+              {
+                "name": "Implement of Toil",
+                "hosted_item": "loc_implementoftoil"
+              },
+              {
+                "name": "Manual Honer",
+                "hosted_item": "loc_manualhoner"
+              },
+              {
+                "name": "Glee Spinner",
+                "hosted_item": "loc_gleespinner"
+              },
+              {
+                "name": "Mirrored Element",
+                "hosted_item": "loc_mirroredelement"
+              },
+              {
+                "name": "Insect Condo",
+                "hosted_item": "loc_insectcondo"
+              },
+              {
+                "name": "Future Orb",
+                "hosted_item": "loc_futureorb"
+              },
+              {
+                "name": "Essence of Desire",
+                "hosted_item": "loc_essenceofdesire"
+              },
+              {
+                "name": "Extreme Perspirator",
+                "hosted_item": "loc_extremeperspirator"
+              },
+              {
+                "name": "Possessed Squash",
+                "hosted_item": "loc_possessedsquash"
+              },
+              {
+                "name": "Talisman of Life",
+                "hosted_item": "loc_talismanoflife"
+              },
+              {
+                "name": "Boss Stone",
+                "hosted_item": "loc_bossstone"
+              },
+              {
+                "name": "Yellow Taste Tyrant",
+                "hosted_item": "loc_yellowtastetyrant"
+              },
+              {
+                "name": "Stringent Container",
+                "hosted_item": "loc_stringentcontainer"
+              },
+              {
+                "name": "Universal Com",
+                "hosted_item": "loc_universalcom"
+              },
+              {
+                "name": "Hypnotic Platter",
+                "hosted_item": "loc_hypnoticplatter"
+              },
+              {
+                "name": "Comedy Bomb",
+                "hosted_item": "loc_comedybomb"
+              },
+              {
+                "name": "Flare Cannon",
+                "hosted_item": "loc_flarecannon"
+              },
+              {
+                "name": "King of Bugs",
+                "hosted_item": "loc_kingofbugs"
+              },
+              {
+                "name": "Monster Pump",
+                "hosted_item": "loc_monsterpump"
+              },
+              {
+                "name": "Shock Therapist",
+                "hosted_item": "loc_shocktherapist"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hole of Heroes",
+        "access_rules": [
+          "$HasKey|HoH,$Has|BP,$Has|YP",
+          "$HasKey|HoH,^$SB"
+        ],
+        "children": [
+          {
+            "name": "Emergence Cave",
+            "visibility_rules": "$IsSelectedDestination|HoH|EC",
+            "sections": [
+              {
+                "name": "Citrus Lump",
+                "hosted_item": "loc_citruslump"
+              },
+              {
+                "name": "Quenching Emblem",
+                "hosted_item": "loc_quenchingemblem"
+              },
+              {
+                "name": "Spherical Atlas",
+                "hosted_item": "loc_sphericalatlas"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Subterranean Complex",
+            "visibility_rules": "$IsSelectedDestination|HoH|SC",
+            "sections": [
+              {
+                "name": "Exhausted Superstick",
+                "hosted_item": "loc_exhaustedsuperstick"
+              },
+              {
+                "name": "Nouveau Table",
+                "hosted_item": "loc_nouveautable"
+              },
+              {
+                "name": "Network Mainbrain",
+                "hosted_item": "loc_networkmainbrain"
+              },
+              {
+                "name": "Spirit Flogger",
+                "hosted_item": "loc_spiritflogger"
+              },
+              {
+                "name": "Coiled Launcher",
+                "hosted_item": "loc_coiledlauncher"
+              },
+              {
+                "name": "Omega Flywheel",
+                "hosted_item": "loc_omegaflywheel"
+              },
+              {
+                "name": "Superstrong Stabilizer",
+                "hosted_item": "loc_superstrongstabilizer"
+              },
+              {
+                "name": "Adamantine Girdle",
+                "hosted_item": "loc_adamantinegirdle"
+              },
+              {
+                "name": "Mystical Disc",
+                "hosted_item": "loc_mysticaldisc"
+              },
+              {
+                "name": "Repair Juggernaut",
+                "hosted_item": "loc_repairjuggernaut"
+              },
+              {
+                "name": "Space Wave Receiver",
+                "hosted_item": "loc_spacewavereceiver"
+              },
+              {
+                "name": "Vacuum Processor",
+                "hosted_item": "loc_vacuumprocessor"
+              },
+              {
+                "name": "Furious Adhesive",
+                "hosted_item": "loc_furiousadhesive"
+              },
+              {
+                "name": "Indomitable CPU",
+                "hosted_item": "loc_indomitablecpu"
+              },
+              {
+                "name": "Thirst Activator",
+                "hosted_item": "loc_thirstactivator"
+              },
+              {
+                "name": "Stellar Orb",
+                "hosted_item": "loc_stellarorb"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Frontier Cavern",
+            "visibility_rules": "$IsSelectedDestination|HoH|FC",
+            "sections": [
+              {
+                "name": "Essence of Rage",
+                "hosted_item": "loc_essenceofrage"
+              },
+              {
+                "name": "Essential Furnishing",
+                "hosted_item": "loc_essentialfurnishing"
+              },
+              {
+                "name": "Icon of Progress",
+                "hosted_item": "loc_iconofprogress"
+              },
+              {
+                "name": "Joy Receptacle",
+                "hosted_item": "loc_joyreceptacle"
+              },
+              {
+                "name": "Danger Chime",
+                "hosted_item": "loc_dangerchime"
+              },
+              {
+                "name": "Fleeting Art Form",
+                "hosted_item": "loc_fleetingartform"
+              },
+              {
+                "name": "Gemstar Husband",
+                "hosted_item": "loc_gemstarhusband"
+              },
+              {
+                "name": "Innocence Lost",
+                "hosted_item": "loc_innocencelost"
+              },
+              {
+                "name": "Omniscient Sphere",
+                "hosted_item": "loc_omniscientsphere"
+              },
+              {
+                "name": "Brute Knuckles",
+                "hosted_item": "loc_bruteknuckles"
+              },
+              {
+                "name": "Priceless Statue",
+                "hosted_item": "loc_pricelessstatue"
+              },
+              {
+                "name": "Worthless Statue",
+                "hosted_item": "loc_worthlessstatue"
+              },
+              {
+                "name": "Flame Tiller",
+                "hosted_item": "loc_flametiller"
+              },
+              {
+                "name": "Spouse Alert",
+                "hosted_item": "loc_spousealert"
+              },
+              {
+                "name": "Repugnant Appendage",
+                "hosted_item": "loc_repugnantappendage"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Hole of Beasts",
+            "visibility_rules": "$IsSelectedDestination|HoH|HoB",
+            "sections": [
+              {
+                "name": "Stone of Glory",
+                "hosted_item": "loc_stoneofglory"
+              },
+              {
+                "name": "Cosmic Archive",
+                "hosted_item": "loc_cosmicarchive"
+              },
+              {
+                "name": "Strife Monolith",
+                "hosted_item": "loc_strifemonolith"
+              },
+              {
+                "name": "Dream Architect",
+                "hosted_item": "loc_dreamarchitect"
+              },
+              {
+                "name": "Luck Wafer",
+                "hosted_item": "loc_luckwafer"
+              },
+              {
+                "name": "Prototype Detector",
+                "hosted_item": "loc_prototypedetector"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "White Flower Garden",
+            "visibility_rules": "$IsSelectedDestination|HoH|WFG",
+            "sections": [
+              {
+                "name": "Alien Billboard",
+                "hosted_item": "loc_alienbillboard"
+              },
+              {
+                "name": "Drought Ender",
+                "hosted_item": "loc_droughtender"
+              },
+              {
+                "name": "Petrified Heart",
+                "hosted_item": "loc_petrifiedheart"
+              },
+              {
+                "name": "Superstick Textile",
+                "hosted_item": "loc_supersticktextile"
+              },
+              {
+                "name": "Survival Ointment",
+                "hosted_item": "loc_survivalointment"
+              },
+              {
+                "name": "Toxic Toadstool",
+                "hosted_item": "loc_toxictoadstool"
+              },
+              {
+                "name": "Five-man Napsack",
+                "hosted_item": "loc_five-mannapsack"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Bulblax Kingdom",
+            "visibility_rules": "$IsSelectedDestination|HoH|BK",
+            "sections": [
+              {
+                "name": "Crystal Clover",
+                "hosted_item": "loc_crystalclover"
+              },
+              {
+                "name": "Tear Stone",
+                "hosted_item": "loc_tearstone"
+              },
+              {
+                "name": "Olimarnite Shell",
+                "hosted_item": "loc_olimarniteshell"
+              },
+              {
+                "name": "Crystal King",
+                "hosted_item": "loc_crystalking"
+              },
+              {
+                "name": "Unknown Merit",
+                "hosted_item": "loc_unknownmerit"
+              },
+              {
+                "name": "Anxious Sprout",
+                "hosted_item": "loc_anxioussprout"
+              },
+              {
+                "name": "Colossal Fossil",
+                "hosted_item": "loc_colossalfossil"
+              },
+              {
+                "name": "Eternal Emerald Eye",
+                "hosted_item": "loc_eternalemeraldeye"
+              },
+              {
+                "name": "Forged Courage",
+                "hosted_item": "loc_forgedcourage"
+              },
+              {
+                "name": "Gyroid Bust",
+                "hosted_item": "loc_gyroidbust"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Snagret Hole",
+            "visibility_rules": "$IsSelectedDestination|HoH|SH",
+            "sections": [
+              {
+                "name": "Crystallized Telekinesis",
+                "hosted_item": "loc_crystallizedtelekinesis"
+              },
+              {
+                "name": "Leviathan Feather",
+                "hosted_item": "loc_leviathanfeather"
+              },
+              {
+                "name": "Combustion Berry",
+                "hosted_item": "loc_combustionberry"
+              },
+              {
+                "name": "Taste Sensation",
+                "hosted_item": "loc_tastesensation"
+              },
+              {
+                "name": "Meat Satchel",
+                "hosted_item": "loc_meatsatchel"
+              },
+              {
+                "name": "Crystallized Telepathy",
+                "hosted_item": "loc_crystallizedtelepathy"
+              },
+              {
+                "name": "Cupid's Grenade",
+                "hosted_item": "loc_cupidsgrenade"
+              },
+              {
+                "name": "Heavy-duty Magnetizer",
+                "hosted_item": "loc_heavy-dutymagnetizer"
+              },
+              {
+                "name": "Crystallized Clairvoyance",
+                "hosted_item": "loc_crystallizedclairvoyance"
+              },
+              {
+                "name": "Emperor Whistle",
+                "hosted_item": "loc_emperorwhistle"
+              },
+              {
+                "name": "Salivatrix",
+                "hosted_item": "loc_salivatrix"
+              },
+              {
+                "name": "Science Project",
+                "hosted_item": "loc_scienceproject"
+              },
+              {
+                "name": "Stupendous Lens",
+                "hosted_item": "loc_stupendouslens"
+              },
+              {
+                "name": "Triple Sugar Threat",
+                "hosted_item": "loc_triplesugarthreat"
+              },
+              {
+                "name": "Justice Alloy",
+                "hosted_item": "loc_justicealloy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Citadel of Spiders",
+            "visibility_rules": "$IsSelectedDestination|HoH|CoS",
+            "sections": [
+              {
+                "name": "Love Nugget",
+                "hosted_item": "loc_lovenugget"
+              },
+              {
+                "name": "Creative Inspiration",
+                "hosted_item": "loc_creativeinspiration"
+              },
+              {
+                "name": "Lip Service",
+                "hosted_item": "loc_lipservice"
+              },
+              {
+                "name": "Paradoxical Enigma",
+                "hosted_item": "loc_paradoxicalenigma"
+              },
+              {
+                "name": "Memorial Shell",
+                "hosted_item": "loc_memorialshell"
+              },
+              {
+                "name": "Patience Tester",
+                "hosted_item": "loc_patiencetester"
+              },
+              {
+                "name": "Flame of Tomorrow",
+                "hosted_item": "loc_flameoftomorrow"
+              },
+              {
+                "name": "King of Sweets",
+                "hosted_item": "loc_kingofsweets"
+              },
+              {
+                "name": "Time Capsule",
+                "hosted_item": "loc_timecapsule"
+              },
+              {
+                "name": "Regal Diamond",
+                "hosted_item": "loc_regaldiamond"
+              },
+              {
+                "name": "The Key",
+                "hosted_item": "loc_thekey"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Glutton's Kitchen",
+            "visibility_rules": "$IsSelectedDestination|HoH|GK",
+            "sections": [
+              {
+                "name": "Master's Instrument",
+                "hosted_item": "loc_mastersinstrument"
+              },
+              {
+                "name": "Massive Lid",
+                "hosted_item": "loc_massivelid"
+              },
+              {
+                "name": "Imperative Cookie",
+                "hosted_item": "loc_imperativecookie"
+              },
+              {
+                "name": "Director of Destiny",
+                "hosted_item": "loc_directorofdestiny"
+              },
+              {
+                "name": "Harmonic Synthesizer",
+                "hosted_item": "loc_harmonicsynthesizer"
+              },
+              {
+                "name": "Invigorator",
+                "hosted_item": "loc_invigorator"
+              },
+              {
+                "name": "Happiness Emblem",
+                "hosted_item": "loc_happinessemblem"
+              },
+              {
+                "name": "White Goodness",
+                "hosted_item": "loc_whitegoodness"
+              },
+              {
+                "name": "Boom Cone",
+                "hosted_item": "loc_boomcone"
+              },
+              {
+                "name": "Sulking Antenna",
+                "hosted_item": "loc_sulkingantenna"
+              },
+              {
+                "name": "Dream Material",
+                "hosted_item": "loc_dreammaterial"
+              },
+              {
+                "name": "Hideous Victual",
+                "hosted_item": "loc_hideousvictual"
+              },
+              {
+                "name": "Meat of Champions",
+                "hosted_item": "loc_meatofchampions"
+              },
+              {
+                "name": "Sweet Dreamer",
+                "hosted_item": "loc_sweetdreamer"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Shower Room",
+            "visibility_rules": "$IsSelectedDestination|HoH|SR",
+            "sections": [
+              {
+                "name": "Merciless Extractor",
+                "hosted_item": "loc_mercilessextractor"
+              },
+              {
+                "name": "Durable Energy Cell",
+                "hosted_item": "loc_durableenergycell"
+              },
+              {
+                "name": "Sud Generator",
+                "hosted_item": "loc_sudgenerator"
+              },
+              {
+                "name": "Mirrored Stage",
+                "hosted_item": "loc_mirroredstage"
+              },
+              {
+                "name": "Scrumptious Shell",
+                "hosted_item": "loc_scrumptiousshell"
+              },
+              {
+                "name": "Vorpal Platter",
+                "hosted_item": "loc_vorpalplatter"
+              },
+              {
+                "name": "Arboreal Frippery",
+                "hosted_item": "loc_arborealfrippery"
+              },
+              {
+                "name": "Broken Food Master",
+                "hosted_item": "loc_brokenfoodmaster"
+              },
+              {
+                "name": "Endless Repository",
+                "hosted_item": "loc_endlessrepository"
+              },
+              {
+                "name": "Pondering Emblem",
+                "hosted_item": "loc_ponderingemblem"
+              },
+              {
+                "name": "Abstract Masterpiece",
+                "hosted_item": "loc_abstractmasterpiece"
+              },
+              {
+                "name": "Behemoth Jaw",
+                "hosted_item": "loc_behemothjaw"
+              },
+              {
+                "name": "Rubber Ugly",
+                "hosted_item": "loc_rubberugly"
+              },
+              {
+                "name": "Amplified Amplifier",
+                "hosted_item": "loc_amplifiedamplifier"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Submerged Castle",
+            "visibility_rules": "$IsSelectedDestination|HoH|SMGC",
+            "sections": [
+              {
+                "name": "Bug Bait",
+                "hosted_item": "loc_bugbait"
+              },
+              {
+                "name": "Diet Doomer",
+                "hosted_item": "loc_dietdoomer"
+              },
+              {
+                "name": "Pastry Wheel",
+                "hosted_item": "loc_pastrywheel"
+              },
+              {
+                "name": "Chocolate Cushion",
+                "hosted_item": "loc_chocolatecushion"
+              },
+              {
+                "name": "Comfort Cookie",
+                "hosted_item": "loc_comfortcookie"
+              },
+              {
+                "name": "Confection Hoop",
+                "hosted_item": "loc_confectionhoop"
+              },
+              {
+                "name": "Activity Arouser",
+                "hosted_item": "loc_activityarouser"
+              },
+              {
+                "name": "Compelling Cookie",
+                "hosted_item": "loc_compellingcookie"
+              },
+              {
+                "name": "Succulent Mattress",
+                "hosted_item": "loc_succulentmattress"
+              },
+              {
+                "name": "Drone Supplies",
+                "hosted_item": "loc_dronesupplies"
+              },
+              {
+                "name": "Pale Passion",
+                "hosted_item": "loc_palepassion"
+              },
+              {
+                "name": "Proton AA",
+                "hosted_item": "loc_protonaa"
+              },
+              {
+                "name": "Professional Noisemaker",
+                "hosted_item": "loc_professionalnoisemaker"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cavern of Chaos",
+            "visibility_rules": "$IsSelectedDestination|HoH|CoC",
+            "sections": [
+              {
+                "name": "Enamel Buster",
+                "hosted_item": "loc_enamelbuster"
+              },
+              {
+                "name": "Mirth Sphere",
+                "hosted_item": "loc_mirthsphere"
+              },
+              {
+                "name": "Essence of Despair",
+                "hosted_item": "loc_essenceofdespair"
+              },
+              {
+                "name": "Frosty Bauble",
+                "hosted_item": "loc_frostybauble"
+              },
+              {
+                "name": "Gemstar Wife",
+                "hosted_item": "loc_gemstarwife"
+              },
+              {
+                "name": "Child of the Earth",
+                "hosted_item": "loc_childoftheearth"
+              },
+              {
+                "name": "Infernal Vegetable",
+                "hosted_item": "loc_infernalvegetable"
+              },
+              {
+                "name": "Milk Tub",
+                "hosted_item": "loc_milktub"
+              },
+              {
+                "name": "Mysterious Remains",
+                "hosted_item": "loc_mysteriousremains"
+              },
+              {
+                "name": "Growshroom",
+                "hosted_item": "loc_growshroom"
+              },
+              {
+                "name": "Princess Pearl",
+                "hosted_item": "loc_princesspearl"
+              },
+              {
+                "name": "Fuel Reservoir",
+                "hosted_item": "loc_fuelreservoir"
+              },
+              {
+                "name": "Impenetrable Cookie",
+                "hosted_item": "loc_impenetrablecookie"
+              },
+              {
+                "name": "Fruit Guard",
+                "hosted_item": "loc_fruitguard"
+              },
+              {
+                "name": "Maternal Sculpture",
+                "hosted_item": "loc_maternalsculpture"
+              },
+              {
+                "name": "Wiggle Noggin",
+                "hosted_item": "loc_wigglenoggin"
+              },
+              {
+                "name": "Silencer",
+                "hosted_item": "loc_silencer"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Hole of Heroes",
+            "visibility_rules": "$IsSelectedDestination|HoH|HoH",
+            "sections": [
+              {
+                "name": "Corpulent Nut",
+                "hosted_item": "loc_corpulentnut"
+              },
+              {
+                "name": "Essence of True Love",
+                "hosted_item": "loc_essenceoftruelove"
+              },
+              {
+                "name": "Love Sphere",
+                "hosted_item": "loc_lovesphere"
+              },
+              {
+                "name": "Lustrous Element",
+                "hosted_item": "loc_lustrouselement"
+              },
+              {
+                "name": "Nutrient Silo",
+                "hosted_item": "loc_nutrientsilo"
+              },
+              {
+                "name": "Joyless Jewel",
+                "hosted_item": "loc_joylessjewel"
+              },
+              {
+                "name": "Dimensional Slicer",
+                "hosted_item": "loc_dimensionalslicer"
+              },
+              {
+                "name": "Treasured Gyro Block",
+                "hosted_item": "loc_treasuredgyroblock"
+              },
+              {
+                "name": "Favorite Gyro Block",
+                "hosted_item": "loc_favoritegyroblock"
+              },
+              {
+                "name": "Lost Gyro Block",
+                "hosted_item": "loc_lostgyroblock"
+              },
+              {
+                "name": "Memorable Gyro Block",
+                "hosted_item": "loc_memorablegyroblock"
+              },
+              {
+                "name": "Fond Gyro Block",
+                "hosted_item": "loc_fondgyroblock"
+              },
+              {
+                "name": "Remembered Old Buddy",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Dream Den",
+            "visibility_rules": "$IsSelectedDestination|HoH|DD",
+            "sections": [
+              {
+                "name": "Disguised Delicacy",
+                "hosted_item": "loc_disguiseddelicacy"
+              },
+              {
+                "name": "Implement of Toil",
+                "hosted_item": "loc_implementoftoil"
+              },
+              {
+                "name": "Manual Honer",
+                "hosted_item": "loc_manualhoner"
+              },
+              {
+                "name": "Glee Spinner",
+                "hosted_item": "loc_gleespinner"
+              },
+              {
+                "name": "Mirrored Element",
+                "hosted_item": "loc_mirroredelement"
+              },
+              {
+                "name": "Insect Condo",
+                "hosted_item": "loc_insectcondo"
+              },
+              {
+                "name": "Future Orb",
+                "hosted_item": "loc_futureorb"
+              },
+              {
+                "name": "Essence of Desire",
+                "hosted_item": "loc_essenceofdesire"
+              },
+              {
+                "name": "Extreme Perspirator",
+                "hosted_item": "loc_extremeperspirator"
+              },
+              {
+                "name": "Possessed Squash",
+                "hosted_item": "loc_possessedsquash"
+              },
+              {
+                "name": "Talisman of Life",
+                "hosted_item": "loc_talismanoflife"
+              },
+              {
+                "name": "Boss Stone",
+                "hosted_item": "loc_bossstone"
+              },
+              {
+                "name": "Yellow Taste Tyrant",
+                "hosted_item": "loc_yellowtastetyrant"
+              },
+              {
+                "name": "Stringent Container",
+                "hosted_item": "loc_stringentcontainer"
+              },
+              {
+                "name": "Universal Com",
+                "hosted_item": "loc_universalcom"
+              },
+              {
+                "name": "Hypnotic Platter",
+                "hosted_item": "loc_hypnoticplatter"
+              },
+              {
+                "name": "Comedy Bomb",
+                "hosted_item": "loc_comedybomb"
+              },
+              {
+                "name": "Flare Cannon",
+                "hosted_item": "loc_flarecannon"
+              },
+              {
+                "name": "King of Bugs",
+                "hosted_item": "loc_kingofbugs"
+              },
+              {
+                "name": "Monster Pump",
+                "hosted_item": "loc_monsterpump"
+              },
+              {
+                "name": "Shock Therapist",
+                "hosted_item": "loc_shocktherapist"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dream Den",
+        "access_rules": [
+          "$HasKey|DD,$Has|WP,$Has|BP",
+          "$HasKey|DD,^$SB"
+        ],
+        "children": [
+          {
+            "name": "Emergence Cave",
+            "visibility_rules": "$IsSelectedDestination|DD|EC",
+            "sections": [
+              {
+                "name": "Citrus Lump",
+                "hosted_item": "loc_citruslump"
+              },
+              {
+                "name": "Quenching Emblem",
+                "hosted_item": "loc_quenchingemblem"
+              },
+              {
+                "name": "Spherical Atlas",
+                "hosted_item": "loc_sphericalatlas"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Subterranean Complex",
+            "visibility_rules": "$IsSelectedDestination|DD|SC",
+            "sections": [
+              {
+                "name": "Exhausted Superstick",
+                "hosted_item": "loc_exhaustedsuperstick"
+              },
+              {
+                "name": "Nouveau Table",
+                "hosted_item": "loc_nouveautable"
+              },
+              {
+                "name": "Network Mainbrain",
+                "hosted_item": "loc_networkmainbrain"
+              },
+              {
+                "name": "Spirit Flogger",
+                "hosted_item": "loc_spiritflogger"
+              },
+              {
+                "name": "Coiled Launcher",
+                "hosted_item": "loc_coiledlauncher"
+              },
+              {
+                "name": "Omega Flywheel",
+                "hosted_item": "loc_omegaflywheel"
+              },
+              {
+                "name": "Superstrong Stabilizer",
+                "hosted_item": "loc_superstrongstabilizer"
+              },
+              {
+                "name": "Adamantine Girdle",
+                "hosted_item": "loc_adamantinegirdle"
+              },
+              {
+                "name": "Mystical Disc",
+                "hosted_item": "loc_mysticaldisc"
+              },
+              {
+                "name": "Repair Juggernaut",
+                "hosted_item": "loc_repairjuggernaut"
+              },
+              {
+                "name": "Space Wave Receiver",
+                "hosted_item": "loc_spacewavereceiver"
+              },
+              {
+                "name": "Vacuum Processor",
+                "hosted_item": "loc_vacuumprocessor"
+              },
+              {
+                "name": "Furious Adhesive",
+                "hosted_item": "loc_furiousadhesive"
+              },
+              {
+                "name": "Indomitable CPU",
+                "hosted_item": "loc_indomitablecpu"
+              },
+              {
+                "name": "Thirst Activator",
+                "hosted_item": "loc_thirstactivator"
+              },
+              {
+                "name": "Stellar Orb",
+                "hosted_item": "loc_stellarorb"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Frontier Cavern",
+            "visibility_rules": "$IsSelectedDestination|DD|FC",
+            "sections": [
+              {
+                "name": "Essence of Rage",
+                "hosted_item": "loc_essenceofrage"
+              },
+              {
+                "name": "Essential Furnishing",
+                "hosted_item": "loc_essentialfurnishing"
+              },
+              {
+                "name": "Icon of Progress",
+                "hosted_item": "loc_iconofprogress"
+              },
+              {
+                "name": "Joy Receptacle",
+                "hosted_item": "loc_joyreceptacle"
+              },
+              {
+                "name": "Danger Chime",
+                "hosted_item": "loc_dangerchime"
+              },
+              {
+                "name": "Fleeting Art Form",
+                "hosted_item": "loc_fleetingartform"
+              },
+              {
+                "name": "Gemstar Husband",
+                "hosted_item": "loc_gemstarhusband"
+              },
+              {
+                "name": "Innocence Lost",
+                "hosted_item": "loc_innocencelost"
+              },
+              {
+                "name": "Omniscient Sphere",
+                "hosted_item": "loc_omniscientsphere"
+              },
+              {
+                "name": "Brute Knuckles",
+                "hosted_item": "loc_bruteknuckles"
+              },
+              {
+                "name": "Priceless Statue",
+                "hosted_item": "loc_pricelessstatue"
+              },
+              {
+                "name": "Worthless Statue",
+                "hosted_item": "loc_worthlessstatue"
+              },
+              {
+                "name": "Flame Tiller",
+                "hosted_item": "loc_flametiller"
+              },
+              {
+                "name": "Spouse Alert",
+                "hosted_item": "loc_spousealert"
+              },
+              {
+                "name": "Repugnant Appendage",
+                "hosted_item": "loc_repugnantappendage"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Hole of Beasts",
+            "visibility_rules": "$IsSelectedDestination|DD|HoB",
+            "sections": [
+              {
+                "name": "Stone of Glory",
+                "hosted_item": "loc_stoneofglory"
+              },
+              {
+                "name": "Cosmic Archive",
+                "hosted_item": "loc_cosmicarchive"
+              },
+              {
+                "name": "Strife Monolith",
+                "hosted_item": "loc_strifemonolith"
+              },
+              {
+                "name": "Dream Architect",
+                "hosted_item": "loc_dreamarchitect"
+              },
+              {
+                "name": "Luck Wafer",
+                "hosted_item": "loc_luckwafer"
+              },
+              {
+                "name": "Prototype Detector",
+                "hosted_item": "loc_prototypedetector"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "White Flower Garden",
+            "visibility_rules": "$IsSelectedDestination|DD|WFG",
+            "sections": [
+              {
+                "name": "Alien Billboard",
+                "hosted_item": "loc_alienbillboard"
+              },
+              {
+                "name": "Drought Ender",
+                "hosted_item": "loc_droughtender"
+              },
+              {
+                "name": "Petrified Heart",
+                "hosted_item": "loc_petrifiedheart"
+              },
+              {
+                "name": "Superstick Textile",
+                "hosted_item": "loc_supersticktextile"
+              },
+              {
+                "name": "Survival Ointment",
+                "hosted_item": "loc_survivalointment"
+              },
+              {
+                "name": "Toxic Toadstool",
+                "hosted_item": "loc_toxictoadstool"
+              },
+              {
+                "name": "Five-man Napsack",
+                "hosted_item": "loc_five-mannapsack"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Bulblax Kingdom",
+            "visibility_rules": "$IsSelectedDestination|DD|BK",
+            "sections": [
+              {
+                "name": "Crystal Clover",
+                "hosted_item": "loc_crystalclover"
+              },
+              {
+                "name": "Tear Stone",
+                "hosted_item": "loc_tearstone"
+              },
+              {
+                "name": "Olimarnite Shell",
+                "hosted_item": "loc_olimarniteshell"
+              },
+              {
+                "name": "Crystal King",
+                "hosted_item": "loc_crystalking"
+              },
+              {
+                "name": "Unknown Merit",
+                "hosted_item": "loc_unknownmerit"
+              },
+              {
+                "name": "Anxious Sprout",
+                "hosted_item": "loc_anxioussprout"
+              },
+              {
+                "name": "Colossal Fossil",
+                "hosted_item": "loc_colossalfossil"
+              },
+              {
+                "name": "Eternal Emerald Eye",
+                "hosted_item": "loc_eternalemeraldeye"
+              },
+              {
+                "name": "Forged Courage",
+                "hosted_item": "loc_forgedcourage"
+              },
+              {
+                "name": "Gyroid Bust",
+                "hosted_item": "loc_gyroidbust"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Snagret Hole",
+            "visibility_rules": "$IsSelectedDestination|DD|SH",
+            "sections": [
+              {
+                "name": "Crystallized Telekinesis",
+                "hosted_item": "loc_crystallizedtelekinesis"
+              },
+              {
+                "name": "Leviathan Feather",
+                "hosted_item": "loc_leviathanfeather"
+              },
+              {
+                "name": "Combustion Berry",
+                "hosted_item": "loc_combustionberry"
+              },
+              {
+                "name": "Taste Sensation",
+                "hosted_item": "loc_tastesensation"
+              },
+              {
+                "name": "Meat Satchel",
+                "hosted_item": "loc_meatsatchel"
+              },
+              {
+                "name": "Crystallized Telepathy",
+                "hosted_item": "loc_crystallizedtelepathy"
+              },
+              {
+                "name": "Cupid's Grenade",
+                "hosted_item": "loc_cupidsgrenade"
+              },
+              {
+                "name": "Heavy-duty Magnetizer",
+                "hosted_item": "loc_heavy-dutymagnetizer"
+              },
+              {
+                "name": "Crystallized Clairvoyance",
+                "hosted_item": "loc_crystallizedclairvoyance"
+              },
+              {
+                "name": "Emperor Whistle",
+                "hosted_item": "loc_emperorwhistle"
+              },
+              {
+                "name": "Salivatrix",
+                "hosted_item": "loc_salivatrix"
+              },
+              {
+                "name": "Science Project",
+                "hosted_item": "loc_scienceproject"
+              },
+              {
+                "name": "Stupendous Lens",
+                "hosted_item": "loc_stupendouslens"
+              },
+              {
+                "name": "Triple Sugar Threat",
+                "hosted_item": "loc_triplesugarthreat"
+              },
+              {
+                "name": "Justice Alloy",
+                "hosted_item": "loc_justicealloy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Citadel of Spiders",
+            "visibility_rules": "$IsSelectedDestination|DD|CoS",
+            "sections": [
+              {
+                "name": "Love Nugget",
+                "hosted_item": "loc_lovenugget"
+              },
+              {
+                "name": "Creative Inspiration",
+                "hosted_item": "loc_creativeinspiration"
+              },
+              {
+                "name": "Lip Service",
+                "hosted_item": "loc_lipservice"
+              },
+              {
+                "name": "Paradoxical Enigma",
+                "hosted_item": "loc_paradoxicalenigma"
+              },
+              {
+                "name": "Memorial Shell",
+                "hosted_item": "loc_memorialshell"
+              },
+              {
+                "name": "Patience Tester",
+                "hosted_item": "loc_patiencetester"
+              },
+              {
+                "name": "Flame of Tomorrow",
+                "hosted_item": "loc_flameoftomorrow"
+              },
+              {
+                "name": "King of Sweets",
+                "hosted_item": "loc_kingofsweets"
+              },
+              {
+                "name": "Time Capsule",
+                "hosted_item": "loc_timecapsule"
+              },
+              {
+                "name": "Regal Diamond",
+                "hosted_item": "loc_regaldiamond"
+              },
+              {
+                "name": "The Key",
+                "hosted_item": "loc_thekey"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Glutton's Kitchen",
+            "visibility_rules": "$IsSelectedDestination|DD|GK",
+            "sections": [
+              {
+                "name": "Master's Instrument",
+                "hosted_item": "loc_mastersinstrument"
+              },
+              {
+                "name": "Massive Lid",
+                "hosted_item": "loc_massivelid"
+              },
+              {
+                "name": "Imperative Cookie",
+                "hosted_item": "loc_imperativecookie"
+              },
+              {
+                "name": "Director of Destiny",
+                "hosted_item": "loc_directorofdestiny"
+              },
+              {
+                "name": "Harmonic Synthesizer",
+                "hosted_item": "loc_harmonicsynthesizer"
+              },
+              {
+                "name": "Invigorator",
+                "hosted_item": "loc_invigorator"
+              },
+              {
+                "name": "Happiness Emblem",
+                "hosted_item": "loc_happinessemblem"
+              },
+              {
+                "name": "White Goodness",
+                "hosted_item": "loc_whitegoodness"
+              },
+              {
+                "name": "Boom Cone",
+                "hosted_item": "loc_boomcone"
+              },
+              {
+                "name": "Sulking Antenna",
+                "hosted_item": "loc_sulkingantenna"
+              },
+              {
+                "name": "Dream Material",
+                "hosted_item": "loc_dreammaterial"
+              },
+              {
+                "name": "Hideous Victual",
+                "hosted_item": "loc_hideousvictual"
+              },
+              {
+                "name": "Meat of Champions",
+                "hosted_item": "loc_meatofchampions"
+              },
+              {
+                "name": "Sweet Dreamer",
+                "hosted_item": "loc_sweetdreamer"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Shower Room",
+            "visibility_rules": "$IsSelectedDestination|DD|SR",
+            "sections": [
+              {
+                "name": "Merciless Extractor",
+                "hosted_item": "loc_mercilessextractor"
+              },
+              {
+                "name": "Durable Energy Cell",
+                "hosted_item": "loc_durableenergycell"
+              },
+              {
+                "name": "Sud Generator",
+                "hosted_item": "loc_sudgenerator"
+              },
+              {
+                "name": "Mirrored Stage",
+                "hosted_item": "loc_mirroredstage"
+              },
+              {
+                "name": "Scrumptious Shell",
+                "hosted_item": "loc_scrumptiousshell"
+              },
+              {
+                "name": "Vorpal Platter",
+                "hosted_item": "loc_vorpalplatter"
+              },
+              {
+                "name": "Arboreal Frippery",
+                "hosted_item": "loc_arborealfrippery"
+              },
+              {
+                "name": "Broken Food Master",
+                "hosted_item": "loc_brokenfoodmaster"
+              },
+              {
+                "name": "Endless Repository",
+                "hosted_item": "loc_endlessrepository"
+              },
+              {
+                "name": "Pondering Emblem",
+                "hosted_item": "loc_ponderingemblem"
+              },
+              {
+                "name": "Abstract Masterpiece",
+                "hosted_item": "loc_abstractmasterpiece"
+              },
+              {
+                "name": "Behemoth Jaw",
+                "hosted_item": "loc_behemothjaw"
+              },
+              {
+                "name": "Rubber Ugly",
+                "hosted_item": "loc_rubberugly"
+              },
+              {
+                "name": "Amplified Amplifier",
+                "hosted_item": "loc_amplifiedamplifier"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Submerged Castle",
+            "visibility_rules": "$IsSelectedDestination|DD|SMGC",
+            "sections": [
+              {
+                "name": "Bug Bait",
+                "hosted_item": "loc_bugbait"
+              },
+              {
+                "name": "Diet Doomer",
+                "hosted_item": "loc_dietdoomer"
+              },
+              {
+                "name": "Pastry Wheel",
+                "hosted_item": "loc_pastrywheel"
+              },
+              {
+                "name": "Chocolate Cushion",
+                "hosted_item": "loc_chocolatecushion"
+              },
+              {
+                "name": "Comfort Cookie",
+                "hosted_item": "loc_comfortcookie"
+              },
+              {
+                "name": "Confection Hoop",
+                "hosted_item": "loc_confectionhoop"
+              },
+              {
+                "name": "Activity Arouser",
+                "hosted_item": "loc_activityarouser"
+              },
+              {
+                "name": "Compelling Cookie",
+                "hosted_item": "loc_compellingcookie"
+              },
+              {
+                "name": "Succulent Mattress",
+                "hosted_item": "loc_succulentmattress"
+              },
+              {
+                "name": "Drone Supplies",
+                "hosted_item": "loc_dronesupplies"
+              },
+              {
+                "name": "Pale Passion",
+                "hosted_item": "loc_palepassion"
+              },
+              {
+                "name": "Proton AA",
+                "hosted_item": "loc_protonaa"
+              },
+              {
+                "name": "Professional Noisemaker",
+                "hosted_item": "loc_professionalnoisemaker"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cavern of Chaos",
+            "visibility_rules": "$IsSelectedDestination|DD|CoC",
+            "sections": [
+              {
+                "name": "Enamel Buster",
+                "hosted_item": "loc_enamelbuster"
+              },
+              {
+                "name": "Mirth Sphere",
+                "hosted_item": "loc_mirthsphere"
+              },
+              {
+                "name": "Essence of Despair",
+                "hosted_item": "loc_essenceofdespair"
+              },
+              {
+                "name": "Frosty Bauble",
+                "hosted_item": "loc_frostybauble"
+              },
+              {
+                "name": "Gemstar Wife",
+                "hosted_item": "loc_gemstarwife"
+              },
+              {
+                "name": "Child of the Earth",
+                "hosted_item": "loc_childoftheearth"
+              },
+              {
+                "name": "Infernal Vegetable",
+                "hosted_item": "loc_infernalvegetable"
+              },
+              {
+                "name": "Milk Tub",
+                "hosted_item": "loc_milktub"
+              },
+              {
+                "name": "Mysterious Remains",
+                "hosted_item": "loc_mysteriousremains"
+              },
+              {
+                "name": "Growshroom",
+                "hosted_item": "loc_growshroom"
+              },
+              {
+                "name": "Princess Pearl",
+                "hosted_item": "loc_princesspearl"
+              },
+              {
+                "name": "Fuel Reservoir",
+                "hosted_item": "loc_fuelreservoir"
+              },
+              {
+                "name": "Impenetrable Cookie",
+                "hosted_item": "loc_impenetrablecookie"
+              },
+              {
+                "name": "Fruit Guard",
+                "hosted_item": "loc_fruitguard"
+              },
+              {
+                "name": "Maternal Sculpture",
+                "hosted_item": "loc_maternalsculpture"
+              },
+              {
+                "name": "Wiggle Noggin",
+                "hosted_item": "loc_wigglenoggin"
+              },
+              {
+                "name": "Silencer",
+                "hosted_item": "loc_silencer"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Hole of Heroes",
+            "visibility_rules": "$IsSelectedDestination|DD|HoH",
+            "sections": [
+              {
+                "name": "Corpulent Nut",
+                "hosted_item": "loc_corpulentnut"
+              },
+              {
+                "name": "Essence of True Love",
+                "hosted_item": "loc_essenceoftruelove"
+              },
+              {
+                "name": "Love Sphere",
+                "hosted_item": "loc_lovesphere"
+              },
+              {
+                "name": "Lustrous Element",
+                "hosted_item": "loc_lustrouselement"
+              },
+              {
+                "name": "Nutrient Silo",
+                "hosted_item": "loc_nutrientsilo"
+              },
+              {
+                "name": "Joyless Jewel",
+                "hosted_item": "loc_joylessjewel"
+              },
+              {
+                "name": "Dimensional Slicer",
+                "hosted_item": "loc_dimensionalslicer"
+              },
+              {
+                "name": "Treasured Gyro Block",
+                "hosted_item": "loc_treasuredgyroblock"
+              },
+              {
+                "name": "Favorite Gyro Block",
+                "hosted_item": "loc_favoritegyroblock"
+              },
+              {
+                "name": "Lost Gyro Block",
+                "hosted_item": "loc_lostgyroblock"
+              },
+              {
+                "name": "Memorable Gyro Block",
+                "hosted_item": "loc_memorablegyroblock"
+              },
+              {
+                "name": "Fond Gyro Block",
+                "hosted_item": "loc_fondgyroblock"
+              },
+              {
+                "name": "Remembered Old Buddy",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Dream Den",
+            "visibility_rules": "$IsSelectedDestination|DD|DD",
+            "sections": [
+              {
+                "name": "Disguised Delicacy",
+                "hosted_item": "loc_disguiseddelicacy"
+              },
+              {
+                "name": "Implement of Toil",
+                "hosted_item": "loc_implementoftoil"
+              },
+              {
+                "name": "Manual Honer",
+                "hosted_item": "loc_manualhoner"
+              },
+              {
+                "name": "Glee Spinner",
+                "hosted_item": "loc_gleespinner"
+              },
+              {
+                "name": "Mirrored Element",
+                "hosted_item": "loc_mirroredelement"
+              },
+              {
+                "name": "Insect Condo",
+                "hosted_item": "loc_insectcondo"
+              },
+              {
+                "name": "Future Orb",
+                "hosted_item": "loc_futureorb"
+              },
+              {
+                "name": "Essence of Desire",
+                "hosted_item": "loc_essenceofdesire"
+              },
+              {
+                "name": "Extreme Perspirator",
+                "hosted_item": "loc_extremeperspirator"
+              },
+              {
+                "name": "Possessed Squash",
+                "hosted_item": "loc_possessedsquash"
+              },
+              {
+                "name": "Talisman of Life",
+                "hosted_item": "loc_talismanoflife"
+              },
+              {
+                "name": "Boss Stone",
+                "hosted_item": "loc_bossstone"
+              },
+              {
+                "name": "Yellow Taste Tyrant",
+                "hosted_item": "loc_yellowtastetyrant"
+              },
+              {
+                "name": "Stringent Container",
+                "hosted_item": "loc_stringentcontainer"
+              },
+              {
+                "name": "Universal Com",
+                "hosted_item": "loc_universalcom"
+              },
+              {
+                "name": "Hypnotic Platter",
+                "hosted_item": "loc_hypnoticplatter"
+              },
+              {
+                "name": "Comedy Bomb",
+                "hosted_item": "loc_comedybomb"
+              },
+              {
+                "name": "Flare Cannon",
+                "hosted_item": "loc_flarecannon"
+              },
+              {
+                "name": "King of Bugs",
+                "hosted_item": "loc_kingofbugs"
+              },
+              {
+                "name": "Monster Pump",
+                "hosted_item": "loc_monsterpump"
+              },
+              {
+                "name": "Shock Therapist",
+                "hosted_item": "loc_shocktherapist"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

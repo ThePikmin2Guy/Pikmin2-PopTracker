@@ -1,0 +1,15 @@
+{
+  "pokos_grid": {
+    "type": "itemgrid",
+    "item_size": 40,
+    "rows": [
+      [
+        "pokos_tenthousand",
+        "pokos_thousand",
+        "pokos_hundred",
+        "pokos_ten",
+        "pokos_one"
+      ]
+    ]
+  }
+}

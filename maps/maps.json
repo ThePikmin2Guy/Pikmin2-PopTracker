@@ -1,0 +1,32 @@
+[
+  {
+    "name": "valleyofrepose",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/VoR_texture.png"
+  },
+  {
+    "name": "awakeningwood",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/AW_texture.png"
+  },
+  {
+    "name": "perplexingpool",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/PP_texture.png"
+  },
+  {
+    "name": "wistfulwild",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/WW_texture.png"
+  },
+  {
+    "name": "overview",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/overview.png"
+  }
+]
