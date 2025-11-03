@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Onion randomization",
+    "type": "static",
+    "codes": "setting_onion_rando_txt",
+    "img": "images/settings/onions.png"
+  },
+  {
+    "name": "Starting Onion",
+    "type": "static",
+    "codes": "setting_start_onion_txt",
+    "img": "images/settings/startingOnion.png"
+  },
+  {
+    "name": "Progressive globes",
+    "type": "static",
+    "codes": "setting_prog_globes_txt",
+    "img": "images/settings/globes.png"
+  },
+  {
+    "name": "Caves",
+    "type": "static",
+    "codes": "setting_caves_locked_txt",
+    "img": "images/settings/caves.png"
+  },
+  {
+    "name": "Weapons in Pool",
+    "type": "static",
+    "codes": "setting_weapons_in_pool_txt",
+    "img": "images/settings/bossWeapons.png"
+  },
+  {
+    "name": "Onion randomization",
+    "type": "progressive",
+    "codes": "setting_onion_rando",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Onion randomization - Vanilla",
+        "img": "images/settings/vanilla.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Onion randomization - Shuffled",
+        "img": "images/settings/shuffled.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Onion randomization - In Pool",
+        "img": "images/settings/inPool.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Starting Onion",
+    "type": "progressive",
+    "codes": "setting_start_onion",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Starting Onion - Red",
+        "img": "images/settings/red.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Starting Onion - Yellow",
+        "img": "images/settings/yellow.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Starting Onion - Blue",
+        "img": "images/settings/blue.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Progressive globes",
+    "type": "progressive",
+    "codes": "setting_prog_globes",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Progressive globes - Vanilla",
+        "img": "images/settings/vanilla.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Progressive globes - Progressive",
+        "img": "images/settings/progressive.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Caves Locked",
+    "type": "progressive",
+    "codes": "setting_caves_locked",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Caves Locked - Unlocked",
+        "img": "images/settings/unlocked.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Caves Locked - Locked",
+        "img": "images/settings/locked.png",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Caves Randomization",
+    "type": "progressive",
+    "codes": "setting_caves_rando",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Caves Randomization - Vanilla",
+        "img": "images/settings/vanilla.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Caves Randomization - Shuffled",
+        "img": "images/settings/shuffled.png",
+        "inherit_codes": false
+      }
+    ]
+  }
+]

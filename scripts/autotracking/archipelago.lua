@@ -28,9 +28,6 @@ function OnClear(slot_data)
   -- reset locations
   for _, location in pairs(LOCATION_MAPPING) do
     if location[1] then
-      -- if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-      --     print(string.format("onClear: clearing location %s", v[1]))
-      -- end
       local obj = Tracker:FindObjectForCode(location[1])
       if obj then
         if location[1]:sub(1, 1) == "@" then
@@ -44,33 +41,66 @@ function OnClear(slot_data)
     end
   end
   -- reset items
+  local onion_shuffled = Tracker:FindObjectForCode("setting_onion_rando").CurrentStage
   for _, item in pairs(ITEM_MAPPING) do
     if item[1] and item[2] then
-      -- if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-      --     print(string.format("onClear: clearing item %s of type %s", v[1], v[2]))
-      -- end
-      local obj = Tracker:FindObjectForCode(item[1])
-      if obj then
-        if item[2] == "toggle" then
-          obj.Active = false
-        elseif item[2] == "progressive" then
-          obj.CurrentStage = 0
-          obj.Active = false
+      -- don't reset onions if not in pool
+      if onion_shuffled == 2 or (item[1] ~= "redonion" and item[1] ~= "yellowonion" and item[1] ~= "blueonion") then
+        local obj = Tracker:FindObjectForCode(item[1])
+        if obj then
+          if item[2] == "toggle" then
+            obj.Active = false
+          elseif item[2] == "progressive" then
+            obj.CurrentStage = 0
+            obj.Active = false
+          elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onClear: unknown item type %s for code %s", item[2], item[1]))
+          end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-          print(string.format("onClear: unknown item type %s for code %s", item[2], item[1]))
+          print(string.format("onClear: could not find item obj for code %s", item[1]))
         end
-      elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onClear: could not find item obj for code %s", item[1]))
       end
     end
   end
+
+  if onion_shuffled == 0 then
+    Tracker:FindObjectForCode("redonion").Active = true
+  else
+    local start_onion_id = Tracker:FindObjectForCode("setting_start_onion").CurrentStage
+    if start_onion_id == 0 then
+      Tracker:FindObjectForCode("redonion").Active = true
+    elseif start_onion_id == 1 then
+      Tracker:FindObjectForCode("yellowonion").Active = true
+    elseif start_onion_id == 2 then
+      Tracker:FindObjectForCode("blueonion").Active = true
+    end
+  end
+
+  local caves_locked = Tracker:FindObjectForCode("setting_caves_locked").CurrentStage == 1
+  if not caves_locked then
+    Tracker:FindObjectForCode("ecentrancekey").Active = true
+    Tracker:FindObjectForCode("scentrancekey").Active = true
+    Tracker:FindObjectForCode("fcentrancekey").Active = true
+    Tracker:FindObjectForCode("hobentrancekey").Active = true
+    Tracker:FindObjectForCode("wfgentrancekey").Active = true
+    Tracker:FindObjectForCode("bkentrancekey").Active = true
+    Tracker:FindObjectForCode("shentrancekey").Active = true
+    Tracker:FindObjectForCode("cosentrancekey").Active = true
+    Tracker:FindObjectForCode("gkentrancekey").Active = true
+    Tracker:FindObjectForCode("srentrancekey").Active = true
+    Tracker:FindObjectForCode("smgcentrancekey").Active = true
+    Tracker:FindObjectForCode("cocentrancekey").Active = true
+    Tracker:FindObjectForCode("hohentrancekey").Active = true
+    Tracker:FindObjectForCode("ddentrancekey").Active = true
+  end
+
+  local caves_shuffled = Tracker:FindObjectForCode("setting_caves_rando").CurrentStage == 1
+  if not caves_shuffled then
+    ResetCaves()
+  end
 end
 
--- called when an item gets collected
 function OnItem(index, item_id, item_name, player_number)
-  --   if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-  --     print(string.format("called onItem: %s, %s, %s, %s, %s", index, item_id, item_name, player_number, CUR_INDEX))
-  --   end
   if index <= CUR_INDEX then
     return
   end
@@ -88,11 +118,7 @@ function OnItem(index, item_id, item_name, player_number)
   UpdatePokos()
 end
 
--- called when a location gets cleared
 function OnLocation(location_id, location_name)
-  -- if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-  --   print(string.format("called onLocation: %s, %s", location_id, location_name))
-  -- end
   local location = LOCATION_MAPPING[location_id]
   if not location or not location[1] then
     print(string.format("onLocation: could not find location mapping for id %s", location_id))
@@ -134,11 +160,5 @@ function UpdatePokos()
 end
 
 Archipelago:AddClearHandler("clear handler", OnClear)
-
-if AUTOTRACKER_ENABLE_ITEM_TRACKING then
-  Archipelago:AddItemHandler("item handler", OnItem)
-end
-
-if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
-  Archipelago:AddLocationHandler("location handler", OnLocation)
-end
+Archipelago:AddItemHandler("item handler", OnItem)
+Archipelago:AddLocationHandler("location handler", OnLocation)

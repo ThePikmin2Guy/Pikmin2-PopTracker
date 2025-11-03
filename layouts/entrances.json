@@ -5,6 +5,7 @@
     "content": [
       {
         "type": "itemgrid",
+        "h_alignment": "left",
         "item_size": "80, 40",
         "rows": [
           [
@@ -13,9 +14,7 @@
             "SC_ent",
             "SC_dst",
             "FC_ent",
-            "FC_dst",
-            "",
-            ""
+            "FC_dst"
           ],
           [
             "HoB_ent",
@@ -43,9 +42,7 @@
             "HoH_ent",
             "HoH_dst",
             "DD_ent",
-            "DD_dst",
-            "",
-            ""
+            "DD_dst"
           ]
         ]
       }

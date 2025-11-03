@@ -169,7 +169,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -191,7 +192,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -217,7 +219,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -295,7 +298,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -369,7 +373,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -407,7 +412,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -449,7 +455,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -503,7 +510,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -577,7 +585,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -635,7 +644,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -705,7 +715,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -775,7 +786,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -841,7 +853,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -923,7 +936,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -989,7 +1003,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1087,7 +1102,8 @@
                 "map": "perplexingpool",
                 "x": 77,
                 "y": 226,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           }
@@ -1113,7 +1129,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1135,7 +1152,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1161,7 +1179,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1239,7 +1258,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1313,7 +1333,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1351,7 +1372,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1393,7 +1415,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1447,7 +1470,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1521,7 +1545,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1579,7 +1604,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1649,7 +1675,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1719,7 +1746,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1785,7 +1813,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1867,7 +1896,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1933,7 +1963,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2031,7 +2062,8 @@
                 "map": "perplexingpool",
                 "x": 110,
                 "y": 100,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           }
@@ -2057,7 +2089,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2079,7 +2112,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2105,7 +2139,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2183,7 +2218,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2257,7 +2293,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2295,7 +2332,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2337,7 +2375,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2391,7 +2430,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2465,7 +2505,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2523,7 +2564,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2593,7 +2635,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2663,7 +2706,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2729,7 +2773,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2811,7 +2856,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2877,7 +2923,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2975,7 +3022,8 @@
                 "map": "perplexingpool",
                 "x": 240,
                 "y": 340,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           }
@@ -3002,7 +3050,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3024,7 +3073,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3050,7 +3100,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3128,7 +3179,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3202,7 +3254,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3240,7 +3293,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3282,7 +3336,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3336,7 +3391,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3410,7 +3466,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3468,7 +3525,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3538,7 +3596,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3608,7 +3667,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3674,7 +3734,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3756,7 +3817,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3822,7 +3884,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -3920,7 +3983,8 @@
                 "map": "perplexingpool",
                 "x": 160,
                 "y": 48,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           }

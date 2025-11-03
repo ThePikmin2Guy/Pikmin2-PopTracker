@@ -160,7 +160,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -182,7 +183,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -208,7 +210,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -286,7 +289,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -360,7 +364,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -398,7 +403,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -440,7 +446,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -494,7 +501,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -568,7 +576,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -626,7 +635,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -696,7 +706,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -766,7 +777,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -832,7 +844,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -914,7 +927,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -980,7 +994,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1078,7 +1093,8 @@
                 "map": "valleyofrepose",
                 "x": 133,
                 "y": 210,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           }
@@ -1104,7 +1120,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1126,7 +1143,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1152,7 +1170,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1230,7 +1249,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1304,7 +1324,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1342,7 +1363,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1384,7 +1406,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1438,7 +1461,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1512,7 +1536,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1570,7 +1595,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1640,7 +1666,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1710,7 +1737,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1776,7 +1804,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1858,7 +1887,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -1924,7 +1954,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2022,7 +2053,8 @@
                 "map": "valleyofrepose",
                 "x": 202,
                 "y": 143,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           }
@@ -2047,7 +2079,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2069,7 +2102,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2095,7 +2129,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2173,7 +2208,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2247,7 +2283,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2285,7 +2322,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2327,7 +2365,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2381,7 +2420,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2455,7 +2495,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2513,7 +2554,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2583,7 +2625,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2653,7 +2696,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2719,7 +2763,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2801,7 +2846,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2867,7 +2913,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           },
@@ -2965,7 +3012,8 @@
                 "map": "valleyofrepose",
                 "x": 104,
                 "y": 59,
-                "size": 8
+                "size": 8,
+                "shape": "diamond"
               }
             ]
           }

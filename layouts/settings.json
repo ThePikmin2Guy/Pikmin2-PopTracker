@@ -1,0 +1,37 @@
+{
+  "settings_popup": {
+    "type": "group",
+    "margin": "0, 0",
+    "header": "Randomizer Settings",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "4, 4",
+        "item_size": "240, 40",
+        "rows": [
+          [
+            "setting_onion_rando_txt",
+            "setting_onion_rando"
+          ],
+          [
+            "setting_start_onion_txt",
+            "setting_start_onion"
+          ],
+          [
+            "setting_prog_globes_txt",
+            "setting_prog_globes"
+          ],
+          [
+            "setting_caves_locked_txt",
+            "setting_caves_locked"
+          ],
+          [
+            "",
+            "setting_caves_rando"
+          ]
+        ]
+      }
+    ]
+  }
+}

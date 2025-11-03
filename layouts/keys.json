@@ -1,13 +1,13 @@
 {
   "cave_keys_grid": {
     "type": "itemgrid",
+    "h_alignment": "left",
     "item_size": 40,
     "rows": [
       [
         "ecentrancekey",
         "scentrancekey",
-        "fcentrancekey",
-        ""
+        "fcentrancekey"
       ],
       [
         "hobentrancekey",
@@ -24,8 +24,7 @@
       [
         "cocentrancekey",
         "hohentrancekey",
-        "ddentrancekey",
-        ""
+        "ddentrancekey"
       ]
     ]
   }
