@@ -1,0 +1,101 @@
+{
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_size": 32,
+        "rows": [
+          [
+            "redonion",
+            "yellowonion",
+            "blueonion"
+          ],
+          [
+            "purpleonion",
+            "whiteonion"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_size": 32,
+        "rows": [
+          [
+            "amplifiedamplifier",
+            "justicealloy",
+            "repugnantappendage",
+            "sphericalatlas"
+          ],
+          [
+            "professionalnoisemaker",
+            "forgedcourage",
+            "bruteknuckles",
+            "geographicprojection"
+          ],
+          [
+            "stellarorb",
+            "dreammaterial",
+            "prototypedetector",
+            "five-mannapsack"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_size": 32,
+        "h_alignment": "left",
+        "rows": [
+          [
+            "ecentrancekey",
+            "scentrancekey",
+            "fcentrancekey"
+          ],
+          [
+            "hobentrancekey",
+            "wfgentrancekey",
+            "bkentrancekey",
+            "shentrancekey"
+          ],
+          [
+            "cosentrancekey",
+            "gkentrancekey",
+            "srentrancekey",
+            "smgcentrancekey"
+          ],
+          [
+            "cocentrancekey",
+            "hohentrancekey",
+            "ddentrancekey"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_size": 32,
+        "rows": [
+          [
+            "shocktherapist",
+            "flarecannon",
+            "comedybomb",
+            "monsterpump"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "item_size": 26,
+        "rows": [
+          [
+            "pokos_tenthousand",
+            "pokos_thousand",
+            "pokos_hundred",
+            "pokos_ten",
+            "pokos_one"
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -785,6 +785,7 @@
           {
             "name": "Submerged Castle",
             "visibility_rules": "$IsSelectedDestination|EC|SMGC",
+            "access_rules": "$Has|BP",
             "sections": [
               {
                 "name": "Bug Bait",
@@ -1745,6 +1746,7 @@
           {
             "name": "Submerged Castle",
             "visibility_rules": "$IsSelectedDestination|SC|SMGC",
+            "access_rules": "$Has|BP",
             "sections": [
               {
                 "name": "Bug Bait",
@@ -2704,6 +2706,7 @@
           {
             "name": "Submerged Castle",
             "visibility_rules": "$IsSelectedDestination|FC|SMGC",
+            "access_rules": "$Has|BP",
             "sections": [
               {
                 "name": "Bug Bait",

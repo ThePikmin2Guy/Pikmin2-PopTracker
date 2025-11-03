@@ -32,6 +32,7 @@ Tracker:AddLayouts("layouts/td_weapons.json")
 Tracker:AddLayouts("layouts/pokos.json")
 Tracker:AddLayouts("layouts/entrances.json")
 Tracker:AddLayouts("layouts/settings.json")
+Tracker:AddLayouts("layouts/broadcast.json")
 
 -- Scripts
 ScriptHost:LoadScript("scripts/logic.lua")
