@@ -1,7 +1,6 @@
 {
   "pokos_grid": {
     "type": "itemgrid",
-    "item_size": 40,
     "rows": [
       [
         "pokos_tenthousand",

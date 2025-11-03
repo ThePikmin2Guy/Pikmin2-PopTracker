@@ -157,6 +157,45 @@
         ],
         "children": [
           {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|CoS",
+            "sections": [
+              {
+                "name": "CoS Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "perplexingpool",
+                "x": 77,
+                "y": 226,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|CoS,$IsSelectedDestination|CoS|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|CoS,$IsSelectedDestination|CoS|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "perplexingpool",
+                "x": 77,
+                "y": 226,
+                "size": 8
+              }
+            ]
+          },
+          {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|CoS|EC",
             "sections": [
@@ -1061,6 +1100,45 @@
           "$HasKey|GK,$Has|NS,^$SB"
         ],
         "children": [
+          {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|GK",
+            "sections": [
+              {
+                "name": "GK Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "perplexingpool",
+                "x": 110,
+                "y": 100,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|GK,$IsSelectedDestination|GK|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|GK,$IsSelectedDestination|GK|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "perplexingpool",
+                "x": 110,
+                "y": 100,
+                "size": 8
+              }
+            ]
+          },
           {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|GK|EC",
@@ -1967,6 +2045,45 @@
         ],
         "children": [
           {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|SR",
+            "sections": [
+              {
+                "name": "SR Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "perplexingpool",
+                "x": 240,
+                "y": 340,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|SR,$IsSelectedDestination|SR|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|SR,$IsSelectedDestination|SR|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "perplexingpool",
+                "x": 240,
+                "y": 340,
+                "size": 8
+              }
+            ]
+          },
+          {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|SR|EC",
             "sections": [
@@ -2872,6 +2989,45 @@
           "$HasKey|SMGC,$Has|NS,^$SB"
         ],
         "children": [
+          {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|SMGC",
+            "sections": [
+              {
+                "name": "SMGC Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "perplexingpool",
+                "x": 160,
+                "y": 48,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|SMGC,$IsSelectedDestination|SMGC|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|SMGC,$IsSelectedDestination|SMGC|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "perplexingpool",
+                "x": 160,
+                "y": 48,
+                "size": 8
+              }
+            ]
+          },
           {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|SMGC|EC",

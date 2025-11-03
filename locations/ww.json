@@ -114,6 +114,45 @@
         ],
         "children": [
           {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|CoC",
+            "sections": [
+              {
+                "name": "CoC Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|CoC,$IsSelectedDestination|CoC|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|CoC,$IsSelectedDestination|CoC|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 52,
+                "y": 132,
+                "size": 8
+              }
+            ]
+          },
+          {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|CoC|EC",
             "sections": [
@@ -1019,6 +1058,45 @@
         ],
         "children": [
           {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|HoH",
+            "sections": [
+              {
+                "name": "HoH Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|HoH,$IsSelectedDestination|HoH|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|HoH,$IsSelectedDestination|HoH|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 197,
+                "y": 234,
+                "size": 8
+              }
+            ]
+          },
+          {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|HoH|EC",
             "sections": [
@@ -1923,6 +2001,45 @@
           "$HasKey|DD,^$SB"
         ],
         "children": [
+          {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|DD",
+            "sections": [
+              {
+                "name": "DD Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|DD,$IsSelectedDestination|DD|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|DD,$IsSelectedDestination|DD|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "wistfulwild",
+                "x": 241,
+                "y": 161,
+                "size": 8
+              }
+            ]
+          },
           {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|DD|EC",

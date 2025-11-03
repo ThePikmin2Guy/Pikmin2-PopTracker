@@ -158,6 +158,45 @@
         ],
         "children": [
           {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|HoB",
+            "sections": [
+              {
+                "name": "HoB Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "awakeningwood",
+                "x": 54,
+                "y": 113,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|HoB,$IsSelectedDestination|HoB|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|HoB,$IsSelectedDestination|HoB|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "awakeningwood",
+                "x": 54,
+                "y": 113,
+                "size": 8
+              }
+            ]
+          },
+          {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|HoB|EC",
             "sections": [
@@ -1063,6 +1102,45 @@
           "$HasKey|WFG,$Has|NS,^$SB"
         ],
         "children": [
+          {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|WFG",
+            "sections": [
+              {
+                "name": "WFG Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "awakeningwood",
+                "x": 157,
+                "y": 122,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|WFG,$IsSelectedDestination|WFG|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|WFG,$IsSelectedDestination|WFG|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "awakeningwood",
+                "x": 157,
+                "y": 122,
+                "size": 8
+              }
+            ]
+          },
           {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|WFG|EC",
@@ -1970,6 +2048,45 @@
         ],
         "children": [
           {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|BK",
+            "sections": [
+              {
+                "name": "BK Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "awakeningwood",
+                "x": 160,
+                "y": 156,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|BK,$IsSelectedDestination|BK|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|BK,$IsSelectedDestination|BK|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "awakeningwood",
+                "x": 160,
+                "y": 156,
+                "size": 8
+              }
+            ]
+          },
+          {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|BK|EC",
             "sections": [
@@ -2875,6 +2992,45 @@
           "$HasKey|SH,$Has|NS,^$SB"
         ],
         "children": [
+          {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|SH",
+            "sections": [
+              {
+                "name": "SH Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "awakeningwood",
+                "x": 93,
+                "y": 322,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|SH,$IsSelectedDestination|SH|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|SH,$IsSelectedDestination|SH|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "awakeningwood",
+                "x": 93,
+                "y": 322,
+                "size": 8
+              }
+            ]
+          },
           {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|SH|EC",

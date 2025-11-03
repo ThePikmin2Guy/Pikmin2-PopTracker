@@ -59,6 +59,10 @@ function HasKey(key)
   end
 end
 
+function NotHasKey(key)
+  return not HasKey(key)
+end
+
 function SB()
   return AccessibilityLevel.SequenceBreak
 end

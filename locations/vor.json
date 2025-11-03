@@ -148,6 +148,45 @@
         ],
         "children": [
           {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|EC",
+            "sections": [
+              {
+                "name": "EC Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "valleyofrepose",
+                "x": 133,
+                "y": 210,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|EC,$IsSelectedDestination|EC|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|EC,$IsSelectedDestination|EC|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "valleyofrepose",
+                "x": 133,
+                "y": 210,
+                "size": 8
+              }
+            ]
+          },
+          {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|EC|EC",
             "sections": [
@@ -1053,6 +1092,45 @@
         ],
         "children": [
           {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|SC",
+            "sections": [
+              {
+                "name": "SC Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "valleyofrepose",
+                "x": 202,
+                "y": 143,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|SC,$IsSelectedDestination|SC|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|SC,$IsSelectedDestination|SC|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "valleyofrepose",
+                "x": 202,
+                "y": 143,
+                "size": 8
+              }
+            ]
+          },
+          {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|SC|EC",
             "sections": [
@@ -1956,6 +2034,45 @@
           "$HasKey|FC,$Has|BP"
         ],
         "children": [
+          {
+            "name": "Cave is Closed",
+            "visibility_rules": "$NotHasKey|FC",
+            "sections": [
+              {
+                "name": "FC Key has not been found yet"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "valleyofrepose",
+                "x": 104,
+                "y": 59,
+                "size": 8
+              }
+            ]
+          },
+          {
+            "name": "Cave is Opened [Scout]",
+            "visibility_rules": [
+              "$HasKey|FC,$IsSelectedDestination|FC|unknown"
+            ],
+            "access_rules": [
+              "{$HasKey|FC,$IsSelectedDestination|FC|unknown}"
+            ],
+            "sections": [
+              {
+                "name": "Visit the cave and set the destination"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "valleyofrepose",
+                "x": 104,
+                "y": 59,
+                "size": 8
+              }
+            ]
+          },
           {
             "name": "Emergence Cave",
             "visibility_rules": "$IsSelectedDestination|FC|EC",
