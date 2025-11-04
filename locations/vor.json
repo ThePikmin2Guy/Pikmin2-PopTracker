@@ -1,8 +1,6 @@
 [
   {
     "name": "VoR",
-    "chest_unopened_img": "images/items/duck.png",
-    "chest_opened_img": "images/items/duckbw.png",
     "children": [
       {
         "name": "Courage Reactor",
@@ -152,7 +150,8 @@
             "visibility_rules": "$NotHasKey|EC",
             "sections": [
               {
-                "name": "EC Key has not been found yet"
+                "name": "EC Key has not been found yet",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -175,7 +174,8 @@
             ],
             "sections": [
               {
-                "name": "Visit the cave and set the destination"
+                "name": "Visit the cave and set the destination",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -1113,7 +1113,8 @@
             "visibility_rules": "$NotHasKey|SC",
             "sections": [
               {
-                "name": "SC Key has not been found yet"
+                "name": "SC Key has not been found yet",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -1136,7 +1137,8 @@
             ],
             "sections": [
               {
-                "name": "Visit the cave and set the destination"
+                "name": "Visit the cave and set the destination",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -2073,7 +2075,8 @@
             "visibility_rules": "$NotHasKey|FC",
             "sections": [
               {
-                "name": "FC Key has not been found yet"
+                "name": "FC Key has not been found yet",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -2096,7 +2099,8 @@
             ],
             "sections": [
               {
-                "name": "Visit the cave and set the destination"
+                "name": "Visit the cave and set the destination",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [

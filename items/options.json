@@ -133,5 +133,24 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Boss Weapons",
+    "type": "progressive",
+    "codes": "setting_weapons_in_pool",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Boss Weapons - Vanilla",
+        "img": "images/settings/vanilla.png",
+        "inherit_codes": false
+      },
+      {
+        "name": "Boss Weapons - In Pool",
+        "img": "images/settings/inPool.png",
+        "inherit_codes": false
+      }
+    ]
   }
 ]

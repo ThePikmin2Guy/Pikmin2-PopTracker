@@ -2,31 +2,31 @@
   {
     "name": "Red Onion",
     "type": "toggle",
-    "img": "images/checks/RedOnion.png",
+    "img": "images/pikmins/RedOnion.png",
     "codes": "redonion"
   },
   {
     "name": "Yellow Onion",
     "type": "toggle",
-    "img": "images/checks/YellowOnion.png",
+    "img": "images/pikmins/YellowOnion.png",
     "codes": "yellowonion"
   },
   {
     "name": "Blue Onion",
     "type": "toggle",
-    "img": "images/checks/BlueOnion.png",
+    "img": "images/pikmins/BlueOnion.png",
     "codes": "blueonion"
   },
   {
     "name": "Purple Pikmin",
     "type": "toggle",
-    "img": "images/checks/PurpleCandypop.png",
+    "img": "images/pikmins/PurpleCandypop.png",
     "codes": "purpleonion"
   },
   {
     "name": "White Pikmin",
     "type": "toggle",
-    "img": "images/checks/WhiteCandypop.png",
+    "img": "images/pikmins/WhiteCandypop.png",
     "codes": "whiteonion"
   },
   {
@@ -145,1206 +145,1608 @@
     "name": "Crystal King",
     "type": "toggle",
     "img": "images/locations/crystalking.png",
+    "disabled_img": "images/locations/crystalkingbw.png",
+    "disabled_img_mods": "none",
     "codes": "crystalking"
   },
   {
     "name": "Survival Ointment",
     "type": "toggle",
     "img": "images/locations/survivalointment.png",
+    "disabled_img": "images/locations/survivalointmentbw.png",
+    "disabled_img_mods": "none",
     "codes": "survivalointment"
   },
   {
     "name": "Comedy Bomb",
     "type": "toggle",
     "img": "images/locations/comedybomb.png",
+    "disabled_img": "images/locations/comedybombbw.png",
+    "disabled_img_mods": "none",
     "codes": "comedybomb"
   },
   {
     "name": "White Goodness",
     "type": "toggle",
     "img": "images/locations/whitegoodness.png",
+    "disabled_img": "images/locations/whitegoodnessbw.png",
+    "disabled_img_mods": "none",
     "codes": "whitegoodness"
   },
   {
     "name": "Merciless Extractor",
     "type": "toggle",
     "img": "images/locations/mercilessextractor.png",
+    "disabled_img": "images/locations/mercilessextractorbw.png",
+    "disabled_img_mods": "none",
     "codes": "mercilessextractor"
   },
   {
     "name": "Colossal Fossil",
     "type": "toggle",
     "img": "images/locations/colossalfossil.png",
+    "disabled_img": "images/locations/colossalfossilbw.png",
+    "disabled_img_mods": "none",
     "codes": "colossalfossil"
   },
   {
     "name": "Professional Noisemaker",
     "type": "toggle",
     "img": "images/locations/professionalnoisemaker.png",
+    "disabled_img": "images/locations/professionalnoisemakerbw.png",
+    "disabled_img_mods": "none",
     "codes": "professionalnoisemaker"
   },
   {
     "name": "Spiny Alien Treat",
     "type": "toggle",
     "img": "images/locations/spinyalientreat.png",
+    "disabled_img": "images/locations/spinyalientreatbw.png",
+    "disabled_img_mods": "none",
     "codes": "spinyalientreat"
   },
   {
     "name": "Imperative Cookie",
     "type": "toggle",
     "img": "images/locations/imperativecookie.png",
+    "disabled_img": "images/locations/imperativecookiebw.png",
+    "disabled_img_mods": "none",
     "codes": "imperativecookie"
   },
   {
     "name": "Enamel Buster",
     "type": "toggle",
     "img": "images/locations/enamelbuster.png",
+    "disabled_img": "images/locations/enamelbusterbw.png",
+    "disabled_img_mods": "none",
     "codes": "enamelbuster"
   },
   {
     "name": "Arboreal Frippery",
     "type": "toggle",
     "img": "images/locations/arborealfrippery.png",
+    "disabled_img": "images/locations/arborealfripperybw.png",
+    "disabled_img_mods": "none",
     "codes": "arborealfrippery"
   },
   {
     "name": "The Key",
     "type": "toggle",
     "img": "images/locations/thekey.png",
+    "disabled_img": "images/locations/thekeybw.png",
+    "disabled_img_mods": "none",
     "codes": "thekey"
   },
   {
     "name": "Paradoxical Enigma",
     "type": "toggle",
     "img": "images/locations/paradoxicalenigma.png",
+    "disabled_img": "images/locations/paradoxicalenigmabw.png",
+    "disabled_img_mods": "none",
     "codes": "paradoxicalenigma"
   },
   {
     "name": "Omega Flywheel",
     "type": "toggle",
     "img": "images/locations/omegaflywheel.png",
+    "disabled_img": "images/locations/omegaflywheelbw.png",
+    "disabled_img_mods": "none",
     "codes": "omegaflywheel"
   },
   {
     "name": "Innocence Lost",
     "type": "toggle",
     "img": "images/locations/innocencelost.png",
+    "disabled_img": "images/locations/innocencelostbw.png",
+    "disabled_img_mods": "none",
     "codes": "innocencelost"
   },
   {
     "name": "Gemstar Husband",
     "type": "toggle",
     "img": "images/locations/gemstarhusband.png",
+    "disabled_img": "images/locations/gemstarhusbandbw.png",
+    "disabled_img_mods": "none",
     "codes": "gemstarhusband"
   },
   {
     "name": "Wiggle Noggin",
     "type": "toggle",
     "img": "images/locations/wigglenoggin.png",
+    "disabled_img": "images/locations/wigglenogginbw.png",
+    "disabled_img_mods": "none",
     "codes": "wigglenoggin"
   },
   {
     "name": "Talisman of Life",
     "type": "toggle",
     "img": "images/locations/talismanoflife.png",
+    "disabled_img": "images/locations/talismanoflifebw.png",
+    "disabled_img_mods": "none",
     "codes": "talismanoflife"
   },
   {
     "name": "Joyless Jewel",
     "type": "toggle",
     "img": "images/locations/joylessjewel.png",
+    "disabled_img": "images/locations/joylessjewelbw.png",
+    "disabled_img_mods": "none",
     "codes": "joylessjewel"
   },
   {
     "name": "Compelling Cookie",
     "type": "toggle",
     "img": "images/locations/compellingcookie.png",
+    "disabled_img": "images/locations/compellingcookiebw.png",
+    "disabled_img_mods": "none",
     "codes": "compellingcookie"
   },
   {
     "name": "Remembered Old Buddy",
     "type": "toggle",
     "img": "images/locations/rememberedoldbuddy.png",
+    "disabled_img": "images/locations/rememberedoldbuddybw.png",
+    "disabled_img_mods": "none",
     "codes": "rememberedoldbuddy"
   },
   {
     "name": "Memorable Gyro Block",
     "type": "toggle",
     "img": "images/locations/memorablegyroblock.png",
+    "disabled_img": "images/locations/memorablegyroblockbw.png",
+    "disabled_img_mods": "none",
     "codes": "memorablegyroblock"
   },
   {
     "name": "Infernal Vegetable",
     "type": "toggle",
     "img": "images/locations/infernalvegetable.png",
+    "disabled_img": "images/locations/infernalvegetablebw.png",
+    "disabled_img_mods": "none",
     "codes": "infernalvegetable"
   },
   {
     "name": "Bug Bait",
     "type": "toggle",
     "img": "images/locations/bugbait.png",
+    "disabled_img": "images/locations/bugbaitbw.png",
+    "disabled_img_mods": "none",
     "codes": "bugbait"
   },
   {
     "name": "Behemoth Jaw",
     "type": "toggle",
     "img": "images/locations/behemothjaw.png",
+    "disabled_img": "images/locations/behemothjawbw.png",
+    "disabled_img_mods": "none",
     "codes": "behemothjaw"
   },
   {
     "name": "Joy Receptacle",
     "type": "toggle",
     "img": "images/locations/joyreceptacle.png",
+    "disabled_img": "images/locations/joyreceptaclebw.png",
+    "disabled_img_mods": "none",
     "codes": "joyreceptacle"
   },
   {
     "name": "Director of Destiny",
     "type": "toggle",
     "img": "images/locations/directorofdestiny.png",
+    "disabled_img": "images/locations/directorofdestinybw.png",
+    "disabled_img_mods": "none",
     "codes": "directorofdestiny"
   },
   {
     "name": "Emperor Whistle",
     "type": "toggle",
     "img": "images/locations/emperorwhistle.png",
+    "disabled_img": "images/locations/emperorwhistlebw.png",
+    "disabled_img_mods": "none",
     "codes": "emperorwhistle"
   },
   {
     "name": "Boom Cone",
     "type": "toggle",
     "img": "images/locations/boomcone.png",
+    "disabled_img": "images/locations/boomconebw.png",
+    "disabled_img_mods": "none",
     "codes": "boomcone"
   },
   {
     "name": "Extreme Perspirator",
     "type": "toggle",
     "img": "images/locations/extremeperspirator.png",
+    "disabled_img": "images/locations/extremeperspiratorbw.png",
+    "disabled_img_mods": "none",
     "codes": "extremeperspirator"
   },
   {
     "name": "Optical Illustration",
     "type": "toggle",
     "img": "images/locations/opticalillustration.png",
+    "disabled_img": "images/locations/opticalillustrationbw.png",
+    "disabled_img_mods": "none",
     "codes": "opticalillustration"
   },
   {
     "name": "Spouse Alert",
     "type": "toggle",
     "img": "images/locations/spousealert.png",
+    "disabled_img": "images/locations/spousealertbw.png",
+    "disabled_img_mods": "none",
     "codes": "spousealert"
   },
   {
     "name": "Sweet Dreamer",
     "type": "toggle",
     "img": "images/locations/sweetdreamer.png",
+    "disabled_img": "images/locations/sweetdreamerbw.png",
+    "disabled_img_mods": "none",
     "codes": "sweetdreamer"
   },
   {
     "name": "Harmonic Synthesizer",
     "type": "toggle",
     "img": "images/locations/harmonicsynthesizer.png",
+    "disabled_img": "images/locations/harmonicsynthesizerbw.png",
+    "disabled_img_mods": "none",
     "codes": "harmonicsynthesizer"
   },
   {
     "name": "Diet Doomer",
     "type": "toggle",
     "img": "images/locations/dietdoomer.png",
+    "disabled_img": "images/locations/dietdoomerbw.png",
+    "disabled_img_mods": "none",
     "codes": "dietdoomer"
   },
   {
     "name": "Vorpal Platter",
     "type": "toggle",
     "img": "images/locations/vorpalplatter.png",
+    "disabled_img": "images/locations/vorpalplatterbw.png",
+    "disabled_img_mods": "none",
     "codes": "vorpalplatter"
   },
   {
     "name": "Fortified Delicacy",
     "type": "toggle",
     "img": "images/locations/fortifieddelicacy.png",
+    "disabled_img": "images/locations/fortifieddelicacybw.png",
+    "disabled_img_mods": "none",
     "codes": "fortifieddelicacy"
   },
   {
     "name": "Spherical Atlas",
     "type": "toggle",
     "img": "images/locations/sphericalatlas.png",
+    "disabled_img": "images/locations/sphericalatlasbw.png",
+    "disabled_img_mods": "none",
     "codes": "sphericalatlas"
   },
   {
     "name": "Nouveau Table",
     "type": "toggle",
     "img": "images/locations/nouveautable.png",
+    "disabled_img": "images/locations/nouveautablebw.png",
+    "disabled_img_mods": "none",
     "codes": "nouveautable"
   },
   {
     "name": "Insect Condo",
     "type": "toggle",
     "img": "images/locations/insectcondo.png",
+    "disabled_img": "images/locations/insectcondobw.png",
+    "disabled_img_mods": "none",
     "codes": "insectcondo"
   },
   {
     "name": "Essence of Rage",
     "type": "toggle",
     "img": "images/locations/essenceofrage.png",
+    "disabled_img": "images/locations/essenceofragebw.png",
+    "disabled_img_mods": "none",
     "codes": "essenceofrage"
   },
   {
     "name": "Mirrored Element",
     "type": "toggle",
     "img": "images/locations/mirroredelement.png",
+    "disabled_img": "images/locations/mirroredelementbw.png",
+    "disabled_img_mods": "none",
     "codes": "mirroredelement"
   },
   {
     "name": "Monster Pump",
     "type": "toggle",
     "img": "images/locations/monsterpump.png",
+    "disabled_img": "images/locations/monsterpumpbw.png",
+    "disabled_img_mods": "none",
     "codes": "monsterpump"
   },
   {
     "name": "Doomsday Apparatus",
     "type": "toggle",
     "img": "images/locations/doomsdayapparatus.png",
+    "disabled_img": "images/locations/doomsdayapparatusbw.png",
+    "disabled_img_mods": "none",
     "codes": "doomsdayapparatus"
   },
   {
     "name": "Tear Stone",
     "type": "toggle",
     "img": "images/locations/tearstone.png",
+    "disabled_img": "images/locations/tearstonebw.png",
+    "disabled_img_mods": "none",
     "codes": "tearstone"
   },
   {
     "name": "Scrumptious Shell",
     "type": "toggle",
     "img": "images/locations/scrumptiousshell.png",
+    "disabled_img": "images/locations/scrumptiousshellbw.png",
+    "disabled_img_mods": "none",
     "codes": "scrumptiousshell"
   },
   {
     "name": "Love Nugget",
     "type": "toggle",
     "img": "images/locations/lovenugget.png",
+    "disabled_img": "images/locations/lovenuggetbw.png",
+    "disabled_img_mods": "none",
     "codes": "lovenugget"
   },
   {
     "name": "Possessed Squash",
     "type": "toggle",
     "img": "images/locations/possessedsquash.png",
+    "disabled_img": "images/locations/possessedsquashbw.png",
+    "disabled_img_mods": "none",
     "codes": "possessedsquash"
   },
   {
     "name": "Masters Instrument",
     "type": "toggle",
     "img": "images/locations/mastersinstrument.png",
+    "disabled_img": "images/locations/mastersinstrumentbw.png",
+    "disabled_img_mods": "none",
     "codes": "mastersinstrument"
   },
   {
     "name": "Maternal Sculpture",
     "type": "toggle",
     "img": "images/locations/maternalsculpture.png",
+    "disabled_img": "images/locations/maternalsculpturebw.png",
+    "disabled_img_mods": "none",
     "codes": "maternalsculpture"
   },
   {
     "name": "Crystallized Telepathy",
     "type": "toggle",
     "img": "images/locations/crystallizedtelepathy.png",
+    "disabled_img": "images/locations/crystallizedtelepathybw.png",
+    "disabled_img_mods": "none",
     "codes": "crystallizedtelepathy"
   },
   {
     "name": "Universal Com",
     "type": "toggle",
     "img": "images/locations/universalcom.png",
+    "disabled_img": "images/locations/universalcombw.png",
+    "disabled_img_mods": "none",
     "codes": "universalcom"
   },
   {
     "name": "Alien Billboard",
     "type": "toggle",
     "img": "images/locations/alienbillboard.png",
+    "disabled_img": "images/locations/alienbillboardbw.png",
+    "disabled_img_mods": "none",
     "codes": "alienbillboard"
   },
   {
     "name": "Repugnant Appendage",
     "type": "toggle",
     "img": "images/locations/repugnantappendage.png",
+    "disabled_img": "images/locations/repugnantappendagebw.png",
+    "disabled_img_mods": "none",
     "codes": "repugnantappendage"
   },
   {
     "name": "Heavy-Duty Magnetizer",
     "type": "toggle",
     "img": "images/locations/heavy-dutymagnetizer.png",
+    "disabled_img": "images/locations/heavy-dutymagnetizerbw.png",
+    "disabled_img_mods": "none",
     "codes": "heavy-dutymagnetizer"
   },
   {
     "name": "Forged Courage",
     "type": "toggle",
     "img": "images/locations/forgedcourage.png",
+    "disabled_img": "images/locations/forgedcouragebw.png",
+    "disabled_img_mods": "none",
     "codes": "forgedcourage"
   },
   {
     "name": "Essence of True Love",
     "type": "toggle",
     "img": "images/locations/essenceoftruelove.png",
+    "disabled_img": "images/locations/essenceoftruelovebw.png",
+    "disabled_img_mods": "none",
     "codes": "essenceoftruelove"
   },
   {
     "name": "Temporal Mechanism",
     "type": "toggle",
     "img": "images/locations/temporalmechanism.png",
+    "disabled_img": "images/locations/temporalmechanismbw.png",
+    "disabled_img_mods": "none",
     "codes": "temporalmechanism"
   },
   {
     "name": "Olimarnite Shell",
     "type": "toggle",
     "img": "images/locations/olimarniteshell.png",
+    "disabled_img": "images/locations/olimarniteshellbw.png",
+    "disabled_img_mods": "none",
     "codes": "olimarniteshell"
   },
   {
     "name": "Exhausted Superstick",
     "type": "toggle",
     "img": "images/locations/exhaustedsuperstick.png",
+    "disabled_img": "images/locations/exhaustedsuperstickbw.png",
+    "disabled_img_mods": "none",
     "codes": "exhaustedsuperstick"
   },
   {
     "name": "Memorial Shell",
     "type": "toggle",
     "img": "images/locations/memorialshell.png",
+    "disabled_img": "images/locations/memorialshellbw.png",
+    "disabled_img_mods": "none",
     "codes": "memorialshell"
   },
   {
     "name": "Courage Reactor",
     "type": "toggle",
     "img": "images/locations/couragereactor.png",
+    "disabled_img": "images/locations/couragereactorbw.png",
+    "disabled_img_mods": "none",
     "codes": "couragereactor"
   },
   {
     "name": "Spirit Flogger",
     "type": "toggle",
     "img": "images/locations/spiritflogger.png",
+    "disabled_img": "images/locations/spiritfloggerbw.png",
+    "disabled_img_mods": "none",
     "codes": "spiritflogger"
   },
   {
     "name": "Network Mainbrain",
     "type": "toggle",
     "img": "images/locations/networkmainbrain.png",
+    "disabled_img": "images/locations/networkmainbrainbw.png",
+    "disabled_img_mods": "none",
     "codes": "networkmainbrain"
   },
   {
     "name": "Broken Food Master",
     "type": "toggle",
     "img": "images/locations/brokenfoodmaster.png",
+    "disabled_img": "images/locations/brokenfoodmasterbw.png",
+    "disabled_img_mods": "none",
     "codes": "brokenfoodmaster"
   },
   {
     "name": "Priceless Statue",
     "type": "toggle",
     "img": "images/locations/pricelessstatue.png",
+    "disabled_img": "images/locations/pricelessstatuebw.png",
+    "disabled_img_mods": "none",
     "codes": "pricelessstatue"
   },
   {
     "name": "Seed of Greed",
     "type": "toggle",
     "img": "images/locations/seedofgreed.png",
+    "disabled_img": "images/locations/seedofgreedbw.png",
+    "disabled_img_mods": "none",
     "codes": "seedofgreed"
   },
   {
     "name": "Coiled Launcher",
     "type": "toggle",
     "img": "images/locations/coiledlauncher.png",
+    "disabled_img": "images/locations/coiledlauncherbw.png",
+    "disabled_img_mods": "none",
     "codes": "coiledlauncher"
   },
   {
     "name": "Crystallized Clairvoyance",
     "type": "toggle",
     "img": "images/locations/crystallizedclairvoyance.png",
+    "disabled_img": "images/locations/crystallizedclairvoyancebw.png",
+    "disabled_img_mods": "none",
     "codes": "crystallizedclairvoyance"
   },
   {
     "name": "Essence of Desire",
     "type": "toggle",
     "img": "images/locations/essenceofdesire.png",
+    "disabled_img": "images/locations/essenceofdesirebw.png",
+    "disabled_img_mods": "none",
     "codes": "essenceofdesire"
   },
   {
     "name": "Unknown Merit",
     "type": "toggle",
     "img": "images/locations/unknownmerit.png",
+    "disabled_img": "images/locations/unknownmeritbw.png",
+    "disabled_img_mods": "none",
     "codes": "unknownmerit"
   },
   {
     "name": "Adamantine Girdle",
     "type": "toggle",
     "img": "images/locations/adamantinegirdle.png",
+    "disabled_img": "images/locations/adamantinegirdlebw.png",
+    "disabled_img_mods": "none",
     "codes": "adamantinegirdle"
   },
   {
     "name": "Healing Cask",
     "type": "toggle",
     "img": "images/locations/healingcask.png",
+    "disabled_img": "images/locations/healingcaskbw.png",
+    "disabled_img_mods": "none",
     "codes": "healingcask"
   },
   {
     "name": "Stringent Container",
     "type": "toggle",
     "img": "images/locations/stringentcontainer.png",
+    "disabled_img": "images/locations/stringentcontainerbw.png",
+    "disabled_img_mods": "none",
     "codes": "stringentcontainer"
   },
   {
     "name": "Yellow Taste Tyrant",
     "type": "toggle",
     "img": "images/locations/yellowtastetyrant.png",
+    "disabled_img": "images/locations/yellowtastetyrantbw.png",
+    "disabled_img_mods": "none",
     "codes": "yellowtastetyrant"
   },
   {
     "name": "Treasured Gyro Block",
     "type": "toggle",
     "img": "images/locations/treasuredgyroblock.png",
+    "disabled_img": "images/locations/treasuredgyroblockbw.png",
+    "disabled_img_mods": "none",
     "codes": "treasuredgyroblock"
   },
   {
     "name": "Lip Service",
     "type": "toggle",
     "img": "images/locations/lipservice.png",
+    "disabled_img": "images/locations/lipservicebw.png",
+    "disabled_img_mods": "none",
     "codes": "lipservice"
   },
   {
     "name": "Activity Arouser",
     "type": "toggle",
     "img": "images/locations/activityarouser.png",
+    "disabled_img": "images/locations/activityarouserbw.png",
+    "disabled_img_mods": "none",
     "codes": "activityarouser"
   },
   {
     "name": "Time Capsule",
     "type": "toggle",
     "img": "images/locations/timecapsule.png",
+    "disabled_img": "images/locations/timecapsulebw.png",
+    "disabled_img_mods": "none",
     "codes": "timecapsule"
   },
   {
     "name": "Dimensional Slicer",
     "type": "toggle",
     "img": "images/locations/dimensionalslicer.png",
+    "disabled_img": "images/locations/dimensionalslicerbw.png",
+    "disabled_img_mods": "none",
     "codes": "dimensionalslicer"
   },
   {
     "name": "Vacuum Processor",
     "type": "toggle",
     "img": "images/locations/vacuumprocessor.png",
+    "disabled_img": "images/locations/vacuumprocessorbw.png",
+    "disabled_img_mods": "none",
     "codes": "vacuumprocessor"
   },
   {
     "name": "Superstrong Stabilizer",
     "type": "toggle",
     "img": "images/locations/superstrongstabilizer.png",
+    "disabled_img": "images/locations/superstrongstabilizerbw.png",
+    "disabled_img_mods": "none",
     "codes": "superstrongstabilizer"
   },
   {
     "name": "Petrified Heart",
     "type": "toggle",
     "img": "images/locations/petrifiedheart.png",
+    "disabled_img": "images/locations/petrifiedheartbw.png",
+    "disabled_img_mods": "none",
     "codes": "petrifiedheart"
   },
   {
     "name": "Future Orb",
     "type": "toggle",
     "img": "images/locations/futureorb.png",
+    "disabled_img": "images/locations/futureorbbw.png",
+    "disabled_img_mods": "none",
     "codes": "futureorb"
   },
   {
     "name": "Crystallized Telekinesis",
     "type": "toggle",
     "img": "images/locations/crystallizedtelekinesis.png",
+    "disabled_img": "images/locations/crystallizedtelekinesisbw.png",
+    "disabled_img_mods": "none",
     "codes": "crystallizedtelekinesis"
   },
   {
     "name": "Milk Tub",
     "type": "toggle",
     "img": "images/locations/milktub.png",
+    "disabled_img": "images/locations/milktubbw.png",
+    "disabled_img_mods": "none",
     "codes": "milktub"
   },
   {
     "name": "Frosty Bauble",
     "type": "toggle",
     "img": "images/locations/frostybauble.png",
+    "disabled_img": "images/locations/frostybaublebw.png",
+    "disabled_img_mods": "none",
     "codes": "frostybauble"
   },
   {
     "name": "Eternal Emerald Eye",
     "type": "toggle",
     "img": "images/locations/eternalemeraldeye.png",
+    "disabled_img": "images/locations/eternalemeraldeyebw.png",
+    "disabled_img_mods": "none",
     "codes": "eternalemeraldeye"
   },
   {
     "name": "Mirrored Stage",
     "type": "toggle",
     "img": "images/locations/mirroredstage.png",
+    "disabled_img": "images/locations/mirroredstagebw.png",
+    "disabled_img_mods": "none",
     "codes": "mirroredstage"
   },
   {
     "name": "Gyroid Bust",
     "type": "toggle",
     "img": "images/locations/gyroidbust.png",
+    "disabled_img": "images/locations/gyroidbustbw.png",
+    "disabled_img_mods": "none",
     "codes": "gyroidbust"
   },
   {
     "name": "Flame Tiller",
     "type": "toggle",
     "img": "images/locations/flametiller.png",
+    "disabled_img": "images/locations/flametillerbw.png",
+    "disabled_img_mods": "none",
     "codes": "flametiller"
   },
   {
     "name": "Regal Diamond",
     "type": "toggle",
     "img": "images/locations/regaldiamond.png",
+    "disabled_img": "images/locations/regaldiamondbw.png",
+    "disabled_img_mods": "none",
     "codes": "regaldiamond"
   },
   {
     "name": "Love Sphere",
     "type": "toggle",
     "img": "images/locations/lovesphere.png",
+    "disabled_img": "images/locations/lovespherebw.png",
+    "disabled_img_mods": "none",
     "codes": "lovesphere"
   },
   {
     "name": "Lustrous Element",
     "type": "toggle",
     "img": "images/locations/lustrouselement.png",
+    "disabled_img": "images/locations/lustrouselementbw.png",
+    "disabled_img_mods": "none",
     "codes": "lustrouselement"
   },
   {
     "name": "Anti-hiccup Fungus",
     "type": "toggle",
     "img": "images/locations/anti-hiccupfungus.png",
+    "disabled_img": "images/locations/anti-hiccupfungusbw.png",
+    "disabled_img_mods": "none",
     "codes": "anti-hiccupfungus"
   },
   {
     "name": "Thirst Activator",
     "type": "toggle",
     "img": "images/locations/thirstactivator.png",
+    "disabled_img": "images/locations/thirstactivatorbw.png",
+    "disabled_img_mods": "none",
     "codes": "thirstactivator"
   },
   {
     "name": "Gemstar Wife",
     "type": "toggle",
     "img": "images/locations/gemstarwife.png",
+    "disabled_img": "images/locations/gemstarwifebw.png",
+    "disabled_img_mods": "none",
     "codes": "gemstarwife"
   },
   {
     "name": "Essential Furnishing",
     "type": "toggle",
     "img": "images/locations/essentialfurnishing.png",
+    "disabled_img": "images/locations/essentialfurnishingbw.png",
+    "disabled_img_mods": "none",
     "codes": "essentialfurnishing"
   },
   {
     "name": "Triple Sugar Threat",
     "type": "toggle",
     "img": "images/locations/triplesugarthreat.png",
+    "disabled_img": "images/locations/triplesugarthreatbw.png",
+    "disabled_img_mods": "none",
     "codes": "triplesugarthreat"
   },
   {
     "name": "Succulent Mattress",
     "type": "toggle",
     "img": "images/locations/succulentmattress.png",
+    "disabled_img": "images/locations/succulentmattressbw.png",
+    "disabled_img_mods": "none",
     "codes": "succulentmattress"
   },
   {
     "name": "Fleeting Art Form",
     "type": "toggle",
     "img": "images/locations/fleetingartform.png",
+    "disabled_img": "images/locations/fleetingartformbw.png",
+    "disabled_img_mods": "none",
     "codes": "fleetingartform"
   },
   {
     "name": "Onion Replica",
     "type": "toggle",
     "img": "images/locations/onionreplica.png",
+    "disabled_img": "images/locations/onionreplicabw.png",
+    "disabled_img_mods": "none",
     "codes": "onionreplica"
   },
   {
     "name": "Proton AA",
     "type": "toggle",
     "img": "images/locations/protonaa.png",
+    "disabled_img": "images/locations/protonaabw.png",
+    "disabled_img_mods": "none",
     "codes": "protonaa"
   },
   {
     "name": "Hideous Victual",
     "type": "toggle",
     "img": "images/locations/hideousvictual.png",
+    "disabled_img": "images/locations/hideousvictualbw.png",
+    "disabled_img_mods": "none",
     "codes": "hideousvictual"
   },
   {
     "name": "Comfort Cookie",
     "type": "toggle",
     "img": "images/locations/comfortcookie.png",
+    "disabled_img": "images/locations/comfortcookiebw.png",
+    "disabled_img_mods": "none",
     "codes": "comfortcookie"
   },
   {
     "name": "Indomitable CPU",
     "type": "toggle",
     "img": "images/locations/indomitablecpu.png",
+    "disabled_img": "images/locations/indomitablecpubw.png",
+    "disabled_img_mods": "none",
     "codes": "indomitablecpu"
   },
   {
     "name": "Cosmic Archive",
     "type": "toggle",
     "img": "images/locations/cosmicarchive.png",
+    "disabled_img": "images/locations/cosmicarchivebw.png",
+    "disabled_img_mods": "none",
     "codes": "cosmicarchive"
   },
   {
     "name": "King of Sweets",
     "type": "toggle",
     "img": "images/locations/kingofsweets.png",
+    "disabled_img": "images/locations/kingofsweetsbw.png",
+    "disabled_img_mods": "none",
     "codes": "kingofsweets"
   },
   {
     "name": "Leviathan Feather",
     "type": "toggle",
     "img": "images/locations/leviathanfeather.png",
+    "disabled_img": "images/locations/leviathanfeatherbw.png",
+    "disabled_img_mods": "none",
     "codes": "leviathanfeather"
   },
   {
     "name": "Air Brake",
     "type": "toggle",
     "img": "images/locations/airbrake.png",
+    "disabled_img": "images/locations/airbrakebw.png",
+    "disabled_img_mods": "none",
     "codes": "airbrake"
   },
   {
     "name": "Pale Passion",
     "type": "toggle",
     "img": "images/locations/palepassion.png",
+    "disabled_img": "images/locations/palepassionbw.png",
+    "disabled_img_mods": "none",
     "codes": "palepassion"
   },
   {
     "name": "Omniscient Sphere",
     "type": "toggle",
     "img": "images/locations/omniscientsphere.png",
+    "disabled_img": "images/locations/omniscientspherebw.png",
+    "disabled_img_mods": "none",
     "codes": "omniscientsphere"
   },
   {
     "name": "Patience Tester",
     "type": "toggle",
     "img": "images/locations/patiencetester.png",
+    "disabled_img": "images/locations/patiencetesterbw.png",
+    "disabled_img_mods": "none",
     "codes": "patiencetester"
   },
   {
     "name": "Manual Honer",
     "type": "toggle",
     "img": "images/locations/manualhoner.png",
+    "disabled_img": "images/locations/manualhonerbw.png",
+    "disabled_img_mods": "none",
     "codes": "manualhoner"
   },
   {
     "name": "Pastry Wheel",
     "type": "toggle",
     "img": "images/locations/pastrywheel.png",
+    "disabled_img": "images/locations/pastrywheelbw.png",
+    "disabled_img_mods": "none",
     "codes": "pastrywheel"
   },
   {
     "name": "Pilgrim Bulb",
     "type": "toggle",
     "img": "images/locations/pilgrimbulb.png",
+    "disabled_img": "images/locations/pilgrimbulbbw.png",
+    "disabled_img_mods": "none",
     "codes": "pilgrimbulb"
   },
   {
     "name": "Aquatic Mine",
     "type": "toggle",
     "img": "images/locations/aquaticmine.png",
+    "disabled_img": "images/locations/aquaticminebw.png",
+    "disabled_img_mods": "none",
     "codes": "aquaticmine"
   },
   {
     "name": "Stone of Glory",
     "type": "toggle",
     "img": "images/locations/stoneofglory.png",
+    "disabled_img": "images/locations/stoneofglorybw.png",
+    "disabled_img_mods": "none",
     "codes": "stoneofglory"
   },
   {
     "name": "Decorative Goo",
     "type": "toggle",
     "img": "images/locations/decorativegoo.png",
+    "disabled_img": "images/locations/decorativegoobw.png",
+    "disabled_img_mods": "none",
     "codes": "decorativegoo"
   },
   {
     "name": "Rubber Ugly",
     "type": "toggle",
     "img": "images/locations/rubberugly.png",
+    "disabled_img": "images/locations/rubberuglybw.png",
+    "disabled_img_mods": "none",
     "codes": "rubberugly"
   },
   {
     "name": "Dream Architect",
     "type": "toggle",
     "img": "images/locations/dreamarchitect.png",
+    "disabled_img": "images/locations/dreamarchitectbw.png",
+    "disabled_img_mods": "none",
     "codes": "dreamarchitect"
   },
   {
     "name": "Drone Supplies",
     "type": "toggle",
     "img": "images/locations/dronesupplies.png",
+    "disabled_img": "images/locations/dronesuppliesbw.png",
+    "disabled_img_mods": "none",
     "codes": "dronesupplies"
   },
   {
     "name": "Toxic Toadstool",
     "type": "toggle",
     "img": "images/locations/toxictoadstool.png",
+    "disabled_img": "images/locations/toxictoadstoolbw.png",
+    "disabled_img_mods": "none",
     "codes": "toxictoadstool"
   },
   {
     "name": "Essence of Despair",
     "type": "toggle",
     "img": "images/locations/essenceofdespair.png",
+    "disabled_img": "images/locations/essenceofdespairbw.png",
+    "disabled_img_mods": "none",
     "codes": "essenceofdespair"
   },
   {
     "name": "Repair Juggernaut",
     "type": "toggle",
     "img": "images/locations/repairjuggernaut.png",
+    "disabled_img": "images/locations/repairjuggernautbw.png",
+    "disabled_img_mods": "none",
     "codes": "repairjuggernaut"
   },
   {
     "name": "Stellar Orb",
     "type": "toggle",
     "img": "images/locations/stellarorb.png",
+    "disabled_img": "images/locations/stellarorbbw.png",
+    "disabled_img_mods": "none",
     "codes": "stellarorb"
   },
   {
     "name": "Drought Ender",
     "type": "toggle",
     "img": "images/locations/droughtender.png",
+    "disabled_img": "images/locations/droughtenderbw.png",
+    "disabled_img_mods": "none",
     "codes": "droughtender"
   },
   {
     "name": "Stupendous Lens",
     "type": "toggle",
     "img": "images/locations/stupendouslens.png",
+    "disabled_img": "images/locations/stupendouslensbw.png",
+    "disabled_img_mods": "none",
     "codes": "stupendouslens"
   },
   {
     "name": "Shock Therapist",
     "type": "toggle",
     "img": "images/locations/shocktherapist.png",
+    "disabled_img": "images/locations/shocktherapistbw.png",
+    "disabled_img_mods": "none",
     "codes": "shocktherapist"
   },
   {
     "name": "Sunseed Berry",
     "type": "toggle",
     "img": "images/locations/sunseedberry.png",
+    "disabled_img": "images/locations/sunseedberrybw.png",
+    "disabled_img_mods": "none",
     "codes": "sunseedberry"
   },
   {
     "name": "Fuel Reservoir",
     "type": "toggle",
     "img": "images/locations/fuelreservoir.png",
+    "disabled_img": "images/locations/fuelreservoirbw.png",
+    "disabled_img_mods": "none",
     "codes": "fuelreservoir"
   },
   {
     "name": "Massage Girdle",
     "type": "toggle",
     "img": "images/locations/massagegirdle.png",
+    "disabled_img": "images/locations/massagegirdlebw.png",
+    "disabled_img_mods": "none",
     "codes": "massagegirdle"
   },
   {
     "name": "Citrus Lump",
     "type": "toggle",
     "img": "images/locations/citruslump.png",
+    "disabled_img": "images/locations/citruslumpbw.png",
+    "disabled_img_mods": "none",
     "codes": "citruslump"
   },
   {
     "name": "Crystal Clover",
     "type": "toggle",
     "img": "images/locations/crystalclover.png",
+    "disabled_img": "images/locations/crystalcloverbw.png",
+    "disabled_img_mods": "none",
     "codes": "crystalclover"
   },
   {
     "name": "Chocolate Cushion",
     "type": "toggle",
     "img": "images/locations/chocolatecushion.png",
+    "disabled_img": "images/locations/chocolatecushionbw.png",
+    "disabled_img_mods": "none",
     "codes": "chocolatecushion"
   },
   {
     "name": "Superstick Textile",
     "type": "toggle",
     "img": "images/locations/supersticktextile.png",
+    "disabled_img": "images/locations/supersticktextilebw.png",
+    "disabled_img_mods": "none",
     "codes": "supersticktextile"
   },
   {
     "name": "Impediment Scourge",
     "type": "toggle",
     "img": "images/locations/impedimentscourge.png",
+    "disabled_img": "images/locations/impedimentscourgebw.png",
+    "disabled_img_mods": "none",
     "codes": "impedimentscourge"
   },
   {
     "name": "Icon of Progress",
     "type": "toggle",
     "img": "images/locations/iconofprogress.png",
+    "disabled_img": "images/locations/iconofprogressbw.png",
+    "disabled_img_mods": "none",
     "codes": "iconofprogress"
   },
   {
     "name": "Mystical Disc",
     "type": "toggle",
     "img": "images/locations/mysticaldisc.png",
+    "disabled_img": "images/locations/mysticaldiscbw.png",
+    "disabled_img_mods": "none",
     "codes": "mysticaldisc"
   },
   {
     "name": "Corpulent Nut",
     "type": "toggle",
     "img": "images/locations/corpulentnut.png",
+    "disabled_img": "images/locations/corpulentnutbw.png",
+    "disabled_img_mods": "none",
     "codes": "corpulentnut"
   },
   {
     "name": "Mirth Sphere",
     "type": "toggle",
     "img": "images/locations/mirthsphere.png",
+    "disabled_img": "images/locations/mirthspherebw.png",
+    "disabled_img_mods": "none",
     "codes": "mirthsphere"
   },
   {
     "name": "Furious Adhesive",
     "type": "toggle",
     "img": "images/locations/furiousadhesive.png",
+    "disabled_img": "images/locations/furiousadhesivebw.png",
+    "disabled_img_mods": "none",
     "codes": "furiousadhesive"
   },
   {
     "name": "Combustion Berry",
     "type": "toggle",
     "img": "images/locations/combustionberry.png",
+    "disabled_img": "images/locations/combustionberrybw.png",
+    "disabled_img_mods": "none",
     "codes": "combustionberry"
   },
   {
     "name": "Fruit Guard",
     "type": "toggle",
     "img": "images/locations/fruitguard.png",
+    "disabled_img": "images/locations/fruitguardbw.png",
+    "disabled_img_mods": "none",
     "codes": "fruitguard"
   },
   {
     "name": "Pink Menace",
     "type": "toggle",
     "img": "images/locations/pinkmenace.png",
+    "disabled_img": "images/locations/pinkmenacebw.png",
+    "disabled_img_mods": "none",
     "codes": "pinkmenace"
   },
   {
     "name": "Endless Repository",
     "type": "toggle",
     "img": "images/locations/endlessrepository.png",
+    "disabled_img": "images/locations/endlessrepositorybw.png",
+    "disabled_img_mods": "none",
     "codes": "endlessrepository"
   },
   {
     "name": "Creative Inspiration",
     "type": "toggle",
     "img": "images/locations/creativeinspiration.png",
+    "disabled_img": "images/locations/creativeinspirationbw.png",
+    "disabled_img_mods": "none",
     "codes": "creativeinspiration"
   },
   {
     "name": "Implement of Toil",
     "type": "toggle",
     "img": "images/locations/implementoftoil.png",
+    "disabled_img": "images/locations/implementoftoilbw.png",
+    "disabled_img_mods": "none",
     "codes": "implementoftoil"
   },
   {
     "name": "Prototype Detector",
     "type": "toggle",
     "img": "images/locations/prototypedetector.png",
+    "disabled_img": "images/locations/prototypedetectorbw.png",
+    "disabled_img_mods": "none",
     "codes": "prototypedetector"
   },
   {
     "name": "Confection Hoop",
     "type": "toggle",
     "img": "images/locations/confectionhoop.png",
+    "disabled_img": "images/locations/confectionhoopbw.png",
+    "disabled_img_mods": "none",
     "codes": "confectionhoop"
   },
   {
     "name": "King of Bugs",
     "type": "toggle",
     "img": "images/locations/kingofbugs.png",
+    "disabled_img": "images/locations/kingofbugsbw.png",
+    "disabled_img_mods": "none",
     "codes": "kingofbugs"
   },
   {
     "name": "Flare Cannon",
     "type": "toggle",
     "img": "images/locations/flarecannon.png",
+    "disabled_img": "images/locations/flarecannonbw.png",
+    "disabled_img_mods": "none",
     "codes": "flarecannon"
   },
   {
     "name": "Meat of Champions",
     "type": "toggle",
     "img": "images/locations/meatofchampions.png",
+    "disabled_img": "images/locations/meatofchampionsbw.png",
+    "disabled_img_mods": "none",
     "codes": "meatofchampions"
   },
   {
     "name": "Strife Monolith",
     "type": "toggle",
     "img": "images/locations/strifemonolith.png",
+    "disabled_img": "images/locations/strifemonolithbw.png",
+    "disabled_img_mods": "none",
     "codes": "strifemonolith"
   },
   {
     "name": "Nutrient Silo",
     "type": "toggle",
     "img": "images/locations/nutrientsilo.png",
+    "disabled_img": "images/locations/nutrientsilobw.png",
+    "disabled_img_mods": "none",
     "codes": "nutrientsilo"
   },
   {
     "name": "Impenetrable Cookie",
     "type": "toggle",
     "img": "images/locations/impenetrablecookie.png",
+    "disabled_img": "images/locations/impenetrablecookiebw.png",
+    "disabled_img_mods": "none",
     "codes": "impenetrablecookie"
   },
   {
     "name": "Utter Scrap",
     "type": "toggle",
     "img": "images/locations/utterscrap.png",
+    "disabled_img": "images/locations/utterscrapbw.png",
+    "disabled_img_mods": "none",
     "codes": "utterscrap"
   },
   {
     "name": "Happiness Emblem",
     "type": "toggle",
     "img": "images/locations/happinessemblem.png",
+    "disabled_img": "images/locations/happinessemblembw.png",
+    "disabled_img_mods": "none",
     "codes": "happinessemblem"
   },
   {
     "name": "Child of the Earth",
     "type": "toggle",
     "img": "images/locations/childoftheearth.png",
+    "disabled_img": "images/locations/childoftheearthbw.png",
+    "disabled_img_mods": "none",
     "codes": "childoftheearth"
   },
   {
     "name": "Dream Material",
     "type": "toggle",
     "img": "images/locations/dreammaterial.png",
+    "disabled_img": "images/locations/dreammaterialbw.png",
+    "disabled_img_mods": "none",
     "codes": "dreammaterial"
   },
   {
     "name": "Durable Energy Cell",
     "type": "toggle",
     "img": "images/locations/durableenergycell.png",
+    "disabled_img": "images/locations/durableenergycellbw.png",
+    "disabled_img_mods": "none",
     "codes": "durableenergycell"
   },
   {
     "name": "Abstract Masterpiece",
     "type": "toggle",
     "img": "images/locations/abstractmasterpiece.png",
+    "disabled_img": "images/locations/abstractmasterpiecebw.png",
+    "disabled_img_mods": "none",
     "codes": "abstractmasterpiece"
   },
   {
     "name": "Growshroom",
     "type": "toggle",
     "img": "images/locations/growshroom.png",
+    "disabled_img": "images/locations/growshroombw.png",
+    "disabled_img_mods": "none",
     "codes": "growshroom"
   },
   {
     "name": "Amplified Amplifier",
     "type": "toggle",
     "img": "images/locations/amplifiedamplifier.png",
+    "disabled_img": "images/locations/amplifiedamplifierbw.png",
+    "disabled_img_mods": "none",
     "codes": "amplifiedamplifier"
   },
   {
     "name": "Cupids Grenade",
     "type": "toggle",
     "img": "images/locations/cupidsgrenade.png",
+    "disabled_img": "images/locations/cupidsgrenadebw.png",
+    "disabled_img_mods": "none",
     "codes": "cupidsgrenade"
   },
   {
     "name": "Salivatrix",
     "type": "toggle",
     "img": "images/locations/salivatrix.png",
+    "disabled_img": "images/locations/salivatrixbw.png",
+    "disabled_img_mods": "none",
     "codes": "salivatrix"
   },
   {
     "name": "Space Wave Receiver",
     "type": "toggle",
     "img": "images/locations/spacewavereceiver.png",
+    "disabled_img": "images/locations/spacewavereceiverbw.png",
+    "disabled_img_mods": "none",
     "codes": "spacewavereceiver"
   },
   {
     "name": "Luck Wafer",
     "type": "toggle",
     "img": "images/locations/luckwafer.png",
+    "disabled_img": "images/locations/luckwaferbw.png",
+    "disabled_img_mods": "none",
     "codes": "luckwafer"
   },
   {
     "name": "Chance Totem",
     "type": "toggle",
     "img": "images/locations/chancetotem.png",
+    "disabled_img": "images/locations/chancetotembw.png",
+    "disabled_img_mods": "none",
     "codes": "chancetotem"
   },
   {
     "name": "Boss Stone",
     "type": "toggle",
     "img": "images/locations/bossstone.png",
+    "disabled_img": "images/locations/bossstonebw.png",
+    "disabled_img_mods": "none",
     "codes": "bossstone"
   },
   {
     "name": "Hypnotic Platter",
     "type": "toggle",
     "img": "images/locations/hypnoticplatter.png",
+    "disabled_img": "images/locations/hypnoticplatterbw.png",
+    "disabled_img_mods": "none",
     "codes": "hypnoticplatter"
   },
   {
     "name": "Massive Lid",
     "type": "toggle",
     "img": "images/locations/massivelid.png",
+    "disabled_img": "images/locations/massivelidbw.png",
+    "disabled_img_mods": "none",
     "codes": "massivelid"
   },
   {
     "name": "Five-man Napsack",
     "type": "toggle",
     "img": "images/locations/five-mannapsack.png",
+    "disabled_img": "images/locations/five-mannapsackbw.png",
+    "disabled_img_mods": "none",
     "codes": "five-mannapsack"
   },
   {
     "name": "Flame of Tomorrow",
     "type": "toggle",
     "img": "images/locations/flameoftomorrow.png",
+    "disabled_img": "images/locations/flameoftomorrowbw.png",
+    "disabled_img_mods": "none",
     "codes": "flameoftomorrow"
   },
   {
     "name": "Danger Chime",
     "type": "toggle",
     "img": "images/locations/dangerchime.png",
+    "disabled_img": "images/locations/dangerchimebw.png",
+    "disabled_img_mods": "none",
     "codes": "dangerchime"
   },
   {
     "name": "Fossilized Ursidae",
     "type": "toggle",
     "img": "images/locations/fossilizedursidae.png",
+    "disabled_img": "images/locations/fossilizedursidaebw.png",
+    "disabled_img_mods": "none",
     "codes": "fossilizedursidae"
   },
   {
     "name": "Silencer",
     "type": "toggle",
     "img": "images/locations/silencer.png",
+    "disabled_img": "images/locations/silencerbw.png",
+    "disabled_img_mods": "none",
     "codes": "silencer"
   },
   {
     "name": "Mysterious Remains",
     "type": "toggle",
     "img": "images/locations/mysteriousremains.png",
+    "disabled_img": "images/locations/mysteriousremainsbw.png",
+    "disabled_img_mods": "none",
     "codes": "mysteriousremains"
   },
   {
     "name": "Geographic Projection",
     "type": "toggle",
     "img": "images/locations/geographicprojection.png",
+    "disabled_img": "images/locations/geographicprojectionbw.png",
+    "disabled_img_mods": "none",
     "codes": "geographicprojection"
   },
   {
     "name": "Lost Gyro Block",
     "type": "toggle",
     "img": "images/locations/lostgyroblock.png",
+    "disabled_img": "images/locations/lostgyroblockbw.png",
+    "disabled_img_mods": "none",
     "codes": "lostgyroblock"
   },
   {
     "name": "Disguised Delicacy",
     "type": "toggle",
     "img": "images/locations/disguiseddelicacy.png",
+    "disabled_img": "images/locations/disguiseddelicacybw.png",
+    "disabled_img_mods": "none",
     "codes": "disguiseddelicacy"
   },
   {
     "name": "Worthless Statue",
     "type": "toggle",
     "img": "images/locations/worthlessstatue.png",
+    "disabled_img": "images/locations/worthlessstatuebw.png",
+    "disabled_img_mods": "none",
     "codes": "worthlessstatue"
   },
   {
     "name": "Meat Satchel",
     "type": "toggle",
     "img": "images/locations/meatsatchel.png",
+    "disabled_img": "images/locations/meatsatchelbw.png",
+    "disabled_img_mods": "none",
     "codes": "meatsatchel"
   },
   {
     "name": "Invigorator",
     "type": "toggle",
     "img": "images/locations/invigorator.png",
+    "disabled_img": "images/locations/invigoratorbw.png",
+    "disabled_img_mods": "none",
     "codes": "invigorator"
   },
   {
     "name": "Sud Generator",
     "type": "toggle",
     "img": "images/locations/sudgenerator.png",
+    "disabled_img": "images/locations/sudgeneratorbw.png",
+    "disabled_img_mods": "none",
     "codes": "sudgenerator"
   },
   {
     "name": "Glee Spinner",
     "type": "toggle",
     "img": "images/locations/gleespinner.png",
+    "disabled_img": "images/locations/gleespinnerbw.png",
+    "disabled_img_mods": "none",
     "codes": "gleespinner"
   },
   {
     "name": "Taste Sensation",
     "type": "toggle",
     "img": "images/locations/tastesensation.png",
+    "disabled_img": "images/locations/tastesensationbw.png",
+    "disabled_img_mods": "none",
     "codes": "tastesensation"
   },
   {
     "name": "Sulking Antenna",
     "type": "toggle",
     "img": "images/locations/sulkingantenna.png",
+    "disabled_img": "images/locations/sulkingantennabw.png",
+    "disabled_img_mods": "none",
     "codes": "sulkingantenna"
   },
   {
     "name": "Fond Gyro Block",
     "type": "toggle",
     "img": "images/locations/fondgyroblock.png",
+    "disabled_img": "images/locations/fondgyroblockbw.png",
+    "disabled_img_mods": "none",
     "codes": "fondgyroblock"
   },
   {
     "name": "Unspeakable Wonder",
     "type": "toggle",
     "img": "images/locations/unspeakablewonder.png",
+    "disabled_img": "images/locations/unspeakablewonderbw.png",
+    "disabled_img_mods": "none",
     "codes": "unspeakablewonder"
   },
   {
     "name": "Armored Nut",
     "type": "toggle",
     "img": "images/locations/armorednut.png",
+    "disabled_img": "images/locations/armorednutbw.png",
+    "disabled_img_mods": "none",
     "codes": "armorednut"
   },
   {
     "name": "Brute Knuckles",
     "type": "toggle",
     "img": "images/locations/bruteknuckles.png",
+    "disabled_img": "images/locations/bruteknucklesbw.png",
+    "disabled_img_mods": "none",
     "codes": "bruteknuckles"
   },
   {
     "name": "Quenching Emblem",
     "type": "toggle",
     "img": "images/locations/quenchingemblem.png",
+    "disabled_img": "images/locations/quenchingemblembw.png",
+    "disabled_img_mods": "none",
     "codes": "quenchingemblem"
   },
   {
     "name": "Princess Pearl",
     "type": "toggle",
     "img": "images/locations/princesspearl.png",
+    "disabled_img": "images/locations/princesspearlbw.png",
+    "disabled_img_mods": "none",
     "codes": "princesspearl"
   },
   {
     "name": "Justice Alloy",
     "type": "toggle",
     "img": "images/locations/justicealloy.png",
+    "disabled_img": "images/locations/justicealloybw.png",
+    "disabled_img_mods": "none",
     "codes": "justicealloy"
   },
   {
     "name": "Anxious Sprout",
     "type": "toggle",
     "img": "images/locations/anxioussprout.png",
+    "disabled_img": "images/locations/anxioussproutbw.png",
+    "disabled_img_mods": "none",
     "codes": "anxioussprout"
   },
   {
     "name": "Favorite Gyro Block",
     "type": "toggle",
     "img": "images/locations/favoritegyroblock.png",
+    "disabled_img": "images/locations/favoritegyroblockbw.png",
+    "disabled_img_mods": "none",
     "codes": "favoritegyroblock"
   },
   {
     "name": "Gherkin Gate",
     "type": "toggle",
     "img": "images/locations/gherkingate.png",
+    "disabled_img": "images/locations/gherkingatebw.png",
+    "disabled_img_mods": "none",
     "codes": "gherkingate"
   },
   {
     "name": "Pondering Emblem",
     "type": "toggle",
     "img": "images/locations/ponderingemblem.png",
+    "disabled_img": "images/locations/ponderingemblembw.png",
+    "disabled_img_mods": "none",
     "codes": "ponderingemblem"
   },
   {
     "name": "Conifer Spire",
     "type": "toggle",
     "img": "images/locations/coniferspire.png",
+    "disabled_img": "images/locations/coniferspirebw.png",
+    "disabled_img_mods": "none",
     "codes": "coniferspire"
   },
   {
     "name": "Science Project",
     "type": "toggle",
     "img": "images/locations/scienceproject.png",
+    "disabled_img": "images/locations/scienceprojectbw.png",
+    "disabled_img_mods": "none",
     "codes": "scienceproject"
   }
 ]

@@ -1,0 +1,737 @@
+{
+  "overview": {
+    "type": "array",
+    "dock": "bottom",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "text",
+            "text": "Valley of Repose - Surface"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_couragereactor",
+                        "loc_utterscrap",
+                        "loc_spinyalientreat",
+                        "loc_fossilizedursidae",
+                        "loc_unspeakablewonder",
+                        "loc_pinkmenace",
+                        "loc_temporalmechanism"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Emergence Cave"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_citruslump",
+                        "loc_quenchingemblem",
+                        "loc_sphericalatlas"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Subterranean Complex"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_exhaustedsuperstick",
+                        "loc_nouveautable",
+                        "loc_networkmainbrain",
+                        "loc_spiritflogger",
+                        "loc_coiledlauncher",
+                        "loc_omegaflywheel",
+                        "loc_superstrongstabilizer"
+                      ],
+                      [
+                        "loc_adamantinegirdle",
+                        "loc_mysticaldisc",
+                        "loc_repairjuggernaut",
+                        "loc_spacewavereceiver",
+                        "loc_vacuumprocessor",
+                        "loc_furiousadhesive",
+                        "loc_indomitablecpu"
+                      ],
+                      [
+                        "loc_thirstactivator",
+                        "loc_stellarorb"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Frontier Cavern"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_essenceofrage",
+                        "loc_essentialfurnishing",
+                        "loc_iconofprogress",
+                        "loc_joyreceptacle",
+                        "loc_dangerchime",
+                        "loc_fleetingartform",
+                        "loc_gemstarhusband"
+                      ],
+                      [
+                        "loc_innocencelost",
+                        "loc_omniscientsphere",
+                        "loc_bruteknuckles",
+                        "loc_pricelessstatue",
+                        "loc_worthlessstatue",
+                        "loc_flametiller",
+                        "loc_spousealert"
+                      ],
+                      [
+                        "loc_repugnantappendage"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0, 46, 0",
+        "content": [
+          {
+            "type": "text",
+            "text": "Awakening Wood - Surface"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_sunseedberry",
+                        "loc_chancetotem",
+                        "loc_pilgrimbulb",
+                        "loc_geographicprojection",
+                        "loc_healingcask",
+                        "loc_decorativegoo",
+                        "loc_airbrake"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Hole of Beasts"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_stoneofglory",
+                        "loc_cosmicarchive",
+                        "loc_strifemonolith",
+                        "loc_dreamarchitect",
+                        "loc_luckwafer",
+                        "loc_prototypedetector"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "White Flower Garden"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_alienbillboard",
+                        "loc_droughtender",
+                        "loc_petrifiedheart",
+                        "loc_supersticktextile",
+                        "loc_survivalointment",
+                        "loc_toxictoadstool",
+                        "loc_five-mannapsack"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Bulblax Kingdom"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_crystalclover",
+                        "loc_tearstone",
+                        "loc_olimarniteshell",
+                        "loc_crystalking",
+                        "loc_unknownmerit",
+                        "loc_anxioussprout",
+                        "loc_colossalfossil"
+                      ],
+                      [
+                        "loc_eternalemeraldeye",
+                        "loc_forgedcourage",
+                        "loc_gyroidbust"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Snagret Hole"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_crystallizedtelekinesis",
+                        "loc_leviathanfeather",
+                        "loc_combustionberry",
+                        "loc_tastesensation",
+                        "loc_meatsatchel",
+                        "loc_crystallizedtelepathy",
+                        "loc_cupidsgrenade"
+                      ],
+                      [
+                        "loc_heavy-dutymagnetizer",
+                        "loc_crystallizedclairvoyance",
+                        "loc_emperorwhistle",
+                        "loc_salivatrix",
+                        "loc_scienceproject",
+                        "loc_stupendouslens",
+                        "loc_triplesugarthreat"
+                      ],
+                      [
+                        "loc_justicealloy"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0, 46, 0",
+        "content": [
+          {
+            "type": "text",
+            "text": "Perplexing Pool - Surface"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_gherkingate",
+                        "loc_impedimentscourge",
+                        "loc_aquaticmine",
+                        "loc_fortifieddelicacy",
+                        "loc_onionreplica",
+                        "loc_opticalillustration",
+                        "loc_massagegirdle"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Citadel of Spiders"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_lovenugget",
+                        "loc_creativeinspiration",
+                        "loc_lipservice",
+                        "loc_paradoxicalenigma",
+                        "loc_memorialshell",
+                        "loc_patiencetester",
+                        "loc_flameoftomorrow"
+                      ],
+                      [
+                        "loc_kingofsweets",
+                        "loc_timecapsule",
+                        "loc_regaldiamond",
+                        "loc_thekey"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Glutton's Kitchen"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_mastersinstrument",
+                        "loc_massivelid",
+                        "loc_imperativecookie",
+                        "loc_directorofdestiny",
+                        "loc_harmonicsynthesizer",
+                        "loc_invigorator",
+                        "loc_happinessemblem"
+                      ],
+                      [
+                        "loc_whitegoodness",
+                        "loc_boomcone",
+                        "loc_sulkingantenna",
+                        "loc_dreammaterial",
+                        "loc_hideousvictual",
+                        "loc_meatofchampions",
+                        "loc_sweetdreamer"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Shower Room"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_mercilessextractor",
+                        "loc_durableenergycell",
+                        "loc_sudgenerator",
+                        "loc_mirroredstage",
+                        "loc_scrumptiousshell",
+                        "loc_vorpalplatter",
+                        "loc_arborealfrippery"
+                      ],
+                      [
+                        "loc_brokenfoodmaster",
+                        "loc_endlessrepository",
+                        "loc_ponderingemblem",
+                        "loc_abstractmasterpiece",
+                        "loc_behemothjaw",
+                        "loc_rubberugly",
+                        "loc_amplifiedamplifier"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Submerged Castle"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_bugbait",
+                        "loc_dietdoomer",
+                        "loc_pastrywheel",
+                        "loc_chocolatecushion",
+                        "loc_comfortcookie",
+                        "loc_confectionhoop",
+                        "loc_activityarouser"
+                      ],
+                      [
+                        "loc_compellingcookie",
+                        "loc_succulentmattress",
+                        "loc_dronesupplies",
+                        "loc_palepassion",
+                        "loc_protonaa",
+                        "loc_professionalnoisemaker"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0, 46, 0",
+        "content": [
+          {
+            "type": "text",
+            "text": "Wistful Wild - Surface"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_doomsdayapparatus",
+                        "loc_seedofgreed",
+                        "loc_anti-hiccupfungus",
+                        "loc_armorednut",
+                        "loc_coniferspire"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Cavern of Chaos"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_enamelbuster",
+                        "loc_mirthsphere",
+                        "loc_essenceofdespair",
+                        "loc_frostybauble",
+                        "loc_gemstarwife",
+                        "loc_childoftheearth",
+                        "loc_infernalvegetable"
+                      ],
+                      [
+                        "loc_milktub",
+                        "loc_mysteriousremains",
+                        "loc_growshroom",
+                        "loc_princesspearl",
+                        "loc_fuelreservoir",
+                        "loc_impenetrablecookie",
+                        "loc_fruitguard"
+                      ],
+                      [
+                        "loc_maternalsculpture",
+                        "loc_wigglenoggin",
+                        "loc_silencer"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Hole of Heroes"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_corpulentnut",
+                        "loc_essenceoftruelove",
+                        "loc_lovesphere",
+                        "loc_lustrouselement",
+                        "loc_nutrientsilo",
+                        "loc_joylessjewel",
+                        "loc_dimensionalslicer"
+                      ],
+                      [
+                        "loc_treasuredgyroblock",
+                        "loc_favoritegyroblock",
+                        "loc_lostgyroblock",
+                        "loc_memorablegyroblock",
+                        "loc_fondgyroblock",
+                        "loc_rememberedoldbuddy"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Dream Den"
+          },
+          {
+            "type": "array",
+            "dock": "left",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "array",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "itemgrid",
+                    "h_alignment": "left",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "loc_disguiseddelicacy",
+                        "loc_implementoftoil",
+                        "loc_manualhoner",
+                        "loc_gleespinner",
+                        "loc_mirroredelement",
+                        "loc_insectcondo",
+                        "loc_futureorb"
+                      ],
+                      [
+                        "loc_essenceofdesire",
+                        "loc_extremeperspirator",
+                        "loc_possessedsquash",
+                        "loc_talismanoflife",
+                        "loc_bossstone",
+                        "loc_yellowtastetyrant",
+                        "loc_stringentcontainer"
+                      ],
+                      [
+                        "loc_universalcom",
+                        "loc_hypnoticplatter",
+                        "loc_comedybomb",
+                        "loc_flarecannon",
+                        "loc_kingofbugs",
+                        "loc_monsterpump",
+                        "loc_shocktherapist"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

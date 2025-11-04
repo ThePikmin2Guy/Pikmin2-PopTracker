@@ -29,6 +29,10 @@
           [
             "",
             "setting_caves_rando"
+          ],
+          [
+            "setting_weapons_in_pool_txt",
+            "setting_weapons_in_pool"
           ]
         ]
       }

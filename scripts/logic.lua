@@ -76,8 +76,19 @@ function SB()
 end
 
 function DebtPayedOff()
-  local debt = 10000
-  return CountPokos() >= debt
+  local pokos = 0
+  pokos = pokos + Tracker:FindObjectForCode("pokos_tenthousand").CurrentStage * 10000
+  pokos = pokos + Tracker:FindObjectForCode("pokos_thousand").CurrentStage * 1000
+  pokos = pokos + Tracker:FindObjectForCode("pokos_hundred").CurrentStage * 100
+  pokos = pokos + Tracker:FindObjectForCode("pokos_ten").CurrentStage * 10
+  pokos = pokos + Tracker:FindObjectForCode("pokos_one").CurrentStage * 1
+  local debt = 0
+  debt = debt + Tracker:FindObjectForCode("debt_tenthousand").CurrentStage * 10000
+  debt = debt + Tracker:FindObjectForCode("debt_thousand").CurrentStage * 1000
+  debt = debt + Tracker:FindObjectForCode("debt_hundred").CurrentStage * 100
+  debt = debt + Tracker:FindObjectForCode("debt_ten").CurrentStage * 10
+  debt = debt + Tracker:FindObjectForCode("debt_one").CurrentStage * 1
+  return pokos >= debt
 end
 
 function IsSelectedDestination(entrance, area)

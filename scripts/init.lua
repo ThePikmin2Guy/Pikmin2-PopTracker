@@ -25,6 +25,7 @@ Tracker:AddLocations("locations/ww.json")
 -- Layouts
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/tabs.json")
+Tracker:AddLayouts("layouts/overview.json")
 Tracker:AddLayouts("layouts/pikmin.json")
 Tracker:AddLayouts("layouts/explorer_kit.json")
 Tracker:AddLayouts("layouts/keys.json")

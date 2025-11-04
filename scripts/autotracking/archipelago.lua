@@ -98,6 +98,14 @@ function OnClear(slot_data)
   if not caves_shuffled then
     ResetCaves()
   end
+
+  local weapons_in_pool = Tracker:FindObjectForCode("setting_weapons_in_pool").CurrentStage == 1
+  if weapons_in_pool then
+    Tracker:FindObjectForCode("loc_comedybomb").Active = true
+    Tracker:FindObjectForCode("loc_flarecannon").Active = true
+    Tracker:FindObjectForCode("loc_monsterpump").Active = true
+    Tracker:FindObjectForCode("loc_shocktherapist").Active = true
+  end
 end
 
 function OnItem(index, item_id, item_name, player_number)

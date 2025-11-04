@@ -5,10 +5,8 @@
       {
         "title": "  Overview  ",
         "content": {
-          "type": "map",
-          "maps": [
-            "overview"
-          ]
+          "type": "layout",
+          "key": "overview"
         }
       },
       {

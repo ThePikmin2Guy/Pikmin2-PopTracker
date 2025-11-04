@@ -4,8 +4,6 @@
     "access_rules": [
       "$Has|W3"
     ],
-    "chest_unopened_img": "images/items/duck.png",
-    "chest_opened_img": "images/items/duckbw.png",
     "children": [
       {
         "name": "Gherkin Gate",
@@ -161,7 +159,8 @@
             "visibility_rules": "$NotHasKey|CoS",
             "sections": [
               {
-                "name": "CoS Key has not been found yet"
+                "name": "CoS Key has not been found yet",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -184,7 +183,8 @@
             ],
             "sections": [
               {
-                "name": "Visit the cave and set the destination"
+                "name": "Visit the cave and set the destination",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -1122,7 +1122,8 @@
             "visibility_rules": "$NotHasKey|GK",
             "sections": [
               {
-                "name": "GK Key has not been found yet"
+                "name": "GK Key has not been found yet",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -1145,7 +1146,8 @@
             ],
             "sections": [
               {
-                "name": "Visit the cave and set the destination"
+                "name": "Visit the cave and set the destination",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -2083,7 +2085,8 @@
             "visibility_rules": "$NotHasKey|SR",
             "sections": [
               {
-                "name": "SR Key has not been found yet"
+                "name": "SR Key has not been found yet",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -2106,7 +2109,8 @@
             ],
             "sections": [
               {
-                "name": "Visit the cave and set the destination"
+                "name": "Visit the cave and set the destination",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -3045,7 +3049,8 @@
             "visibility_rules": "$NotHasKey|SMGC",
             "sections": [
               {
-                "name": "SMGC Key has not been found yet"
+                "name": "SMGC Key has not been found yet",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -3068,7 +3073,8 @@
             ],
             "sections": [
               {
-                "name": "Visit the cave and set the destination"
+                "name": "Visit the cave and set the destination",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [

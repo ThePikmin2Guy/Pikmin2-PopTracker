@@ -1,5 +1,10 @@
 [
   {
+    "name": "Unknown Location",
+    "type": "toggle",
+    "codes": "unknownlocation"
+  },
+  {
     "name": "Crystal King",
     "type": "toggle",
     "img": "images/locations/crystalkingbw.png",

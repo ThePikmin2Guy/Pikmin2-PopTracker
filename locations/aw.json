@@ -4,8 +4,6 @@
     "access_rules": [
       "$Has|W2"
     ],
-    "chest_unopened_img": "images/items/duck.png",
-    "chest_opened_img": "images/items/duckbw.png",
     "children": [
       {
         "name": "Sunseed Berry",
@@ -162,7 +160,8 @@
             "visibility_rules": "$NotHasKey|HoB",
             "sections": [
               {
-                "name": "HoB Key has not been found yet"
+                "name": "HoB Key has not been found yet",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -185,7 +184,8 @@
             ],
             "sections": [
               {
-                "name": "Visit the cave and set the destination"
+                "name": "Visit the cave and set the destination",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -1124,7 +1124,8 @@
             "visibility_rules": "$NotHasKey|WFG",
             "sections": [
               {
-                "name": "WFG Key has not been found yet"
+                "name": "WFG Key has not been found yet",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -1147,7 +1148,8 @@
             ],
             "sections": [
               {
-                "name": "Visit the cave and set the destination"
+                "name": "Visit the cave and set the destination",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -2086,7 +2088,8 @@
             "visibility_rules": "$NotHasKey|BK",
             "sections": [
               {
-                "name": "BK Key has not been found yet"
+                "name": "BK Key has not been found yet",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -2109,7 +2112,8 @@
             ],
             "sections": [
               {
-                "name": "Visit the cave and set the destination"
+                "name": "Visit the cave and set the destination",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -3048,7 +3052,8 @@
             "visibility_rules": "$NotHasKey|SH",
             "sections": [
               {
-                "name": "SH Key has not been found yet"
+                "name": "SH Key has not been found yet",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
@@ -3071,7 +3076,8 @@
             ],
             "sections": [
               {
-                "name": "Visit the cave and set the destination"
+                "name": "Visit the cave and set the destination",
+                "hosted_item": "unknownlocation"
               }
             ],
             "map_locations": [
