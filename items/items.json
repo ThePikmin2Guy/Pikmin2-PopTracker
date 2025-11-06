@@ -20,13 +20,13 @@
   {
     "name": "Purple Pikmin",
     "type": "toggle",
-    "img": "images/pikmins/PurpleCandypop.png",
+    "img": "images/pikmins/VioletCandypop.png",
     "codes": "purpleonion"
   },
   {
     "name": "White Pikmin",
     "type": "toggle",
-    "img": "images/pikmins/WhiteCandypop.png",
+    "img": "images/pikmins/IvoryCandypop.png",
     "codes": "whiteonion"
   },
   {
