@@ -2,7 +2,7 @@
   "name": "Pikmin 2 Poptrakcer",
   "game_name": "Pikmin 2",
   "package_uid": "ap_pikmin2",
-  "package_version": "0.0.1",
+  "package_version": "0.1.0",
   "platform": "gamecube",
   "author": "Vinaigre",
   "variants": {
