@@ -1,0 +1,12 @@
+{
+  "treasures": {
+    "type": "itemgrid",
+    "rows": [
+      [
+        "treasures_hundred",
+        "treasures_ten",
+        "treasures_one"
+      ]
+    ]
+  }
+}

@@ -6,6 +6,7 @@
       {
         "type": "itemgrid",
         "h_alignment": "left",
+        "item_v_alignment": "center",
         "item_size": "80, 40",
         "rows": [
           [

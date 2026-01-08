@@ -11,28 +11,8 @@
         "item_size": "240, 40",
         "rows": [
           [
-            "setting_onion_rando_txt",
-            "setting_onion_rando"
-          ],
-          [
-            "setting_start_onion_txt",
-            "setting_start_onion"
-          ],
-          [
             "setting_prog_globes_txt",
             "setting_prog_globes"
-          ],
-          [
-            "setting_caves_locked_txt",
-            "setting_caves_locked"
-          ],
-          [
-            "",
-            "setting_caves_rando"
-          ],
-          [
-            "setting_weapons_in_pool_txt",
-            "setting_weapons_in_pool"
           ]
         ]
       }

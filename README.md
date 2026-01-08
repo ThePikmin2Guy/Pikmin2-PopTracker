@@ -13,6 +13,6 @@ Since this is my first time making a tracker pack, any feedback is greatly appre
 
 ## Credits
 
-All images except the bubble font are taken directly from the [Pikmin wiki](https://www.pikminwiki.com/).
+All images except the bubble font are taken from the [Pikmin wiki](https://www.pikminwiki.com/) and [spriters-resource.com](https://www.spriters-resource.com/gamecube/pikmin2/).
 
 The bubble font is extracted from a Pikmin 3 sprite in [spriters-resource.com](https://www.spriters-resource.com/wii_u/pikmin3/asset/69870/).

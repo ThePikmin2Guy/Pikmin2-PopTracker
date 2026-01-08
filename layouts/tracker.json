@@ -38,15 +38,6 @@
             },
             {
               "type": "group",
-              "header": "Titan Dweevil Weapons",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "td_weapons_grid"
-              }
-            },
-            {
-              "type": "group",
               "header": "Pokos",
               "dock": "left",
               "content": {

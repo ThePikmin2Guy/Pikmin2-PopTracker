@@ -28,10 +28,14 @@ function Has(item)
 
     ["W2"] = "sphericalatlas",
     ["W3"] = "geographicprojection",
+    ["W4"] = "debt",
+
     ["NS"] = "five-mannapsack",
   }
 
-  if (item == "W2" or item == "W3") and Tracker:FindObjectForCode("setting_prog_globes").CurrentStage == 1 then
+  if item == "W4" then
+    return DebtPayedOff() and Has("W2") and Has("W3")
+  elseif (item == "W2" or item == "W3") and Tracker:FindObjectForCode("setting_prog_globes").CurrentStage == 1 then
     local globe1 = Tracker:FindObjectForCode("sphericalatlas").Active
     local globe2 = Tracker:FindObjectForCode("geographicprojection").Active
     if item == "W2" then
@@ -110,4 +114,33 @@ function ResetCaves()
   Tracker:FindObjectForCode("CoC_dst").CurrentStage = 12
   Tracker:FindObjectForCode("HoH_dst").CurrentStage = 13
   Tracker:FindObjectForCode("DD_dst").CurrentStage = 14
+end
+
+function CanAccess(cave)
+  local cave_access = {
+    EC = {},
+    SC = {"BP", "WP"},
+    FC = {"BP"},
+    HoB = {"W2"},
+    WFG = {"W2", "PP"},
+    BK = {"W2", "YP", "PP", "WP"},
+    SH = {"W2", "BP", "WP"},
+    CoS = {"W3"},
+    GK = {"W3", "YP"},
+    SR = {"W3", "BP", "YP"},
+    SMGC = {"W3", "BP"},
+    CoC = {"W4"},
+    HoH = {"W4", "BP", "YP"},
+    DD = {"W4", "WP", "BP"},
+  }
+
+  if not HasKey(cave) then
+    return false
+  end
+  for _, key in ipairs(cave_access[cave]) do
+    if not Has(key) then
+      return false
+    end
+  end
+  return true
 end

@@ -2,6 +2,7 @@ require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
 
 CUR_INDEX = -1
+SLOT_DATA = {}
 
 function dump_table(o, depth)
   if depth == nil then
@@ -25,6 +26,36 @@ end
 
 function OnClear(slot_data)
   CUR_INDEX = -1
+  SLOT_DATA = slot_data
+
+  if SLOT_DATA["progressive_globes"] == 1 then
+    Tracker:FindObjectForCode("setting_prog_globes").CurrentStage = 1
+  else
+    Tracker:FindObjectForCode("setting_prog_globes").CurrentStage = 0
+  end
+
+  Tracker:FindObjectForCode("debt_tenthousand").CurrentStage = math.floor(SLOT_DATA["debt"] / 10000) % 10
+  Tracker:FindObjectForCode("debt_thousand").CurrentStage = math.floor(SLOT_DATA["debt"] / 1000) % 10
+  Tracker:FindObjectForCode("debt_hundred").CurrentStage = math.floor(SLOT_DATA["debt"] / 100) % 10
+  Tracker:FindObjectForCode("debt_ten").CurrentStage = math.floor(SLOT_DATA["debt"] / 10) % 10
+  Tracker:FindObjectForCode("debt_one").CurrentStage = SLOT_DATA["debt"] % 10
+
+  local starting_onion_id = 0
+  local onions_in_pool = false
+  for area, color in pairs(SLOT_DATA["onion_locations"]) do
+    if area == "VoR" then
+      local pikmin = {
+        red = 0,
+        yellow = 1,
+        blue = 2
+      }
+      starting_onion_id = pikmin[color]
+    end
+    if color == "none" then
+      onions_in_pool = true
+    end
+  end
+
   -- reset locations
   for _, location in pairs(LOCATION_MAPPING) do
     if location[1] then
@@ -41,11 +72,10 @@ function OnClear(slot_data)
     end
   end
   -- reset items
-  local onion_shuffled = Tracker:FindObjectForCode("setting_onion_rando").CurrentStage
   for _, item in pairs(ITEM_MAPPING) do
     if item[1] and item[2] then
       -- don't reset onions if not in pool
-      if onion_shuffled == 2 or (item[1] ~= "redonion" and item[1] ~= "yellowonion" and item[1] ~= "blueonion") then
+      if onions_in_pool or (item[1] ~= "redonion" and item[1] ~= "yellowonion" and item[1] ~= "blueonion") then
         local obj = Tracker:FindObjectForCode(item[1])
         if obj then
           if item[2] == "toggle" then
@@ -63,21 +93,23 @@ function OnClear(slot_data)
     end
   end
 
-  if onion_shuffled == 0 then
-    Tracker:FindObjectForCode("redonion").Active = true
-  else
-    local start_onion_id = Tracker:FindObjectForCode("setting_start_onion").CurrentStage
-    if start_onion_id == 0 then
-      Tracker:FindObjectForCode("redonion").Active = true
-    elseif start_onion_id == 1 then
-      Tracker:FindObjectForCode("yellowonion").Active = true
-    elseif start_onion_id == 2 then
-      Tracker:FindObjectForCode("blueonion").Active = true
-    end
+  -- Purple pikmin always available in VoR
+  Tracker:FindObjectForCode("purpleonion").Active = true
+
+  -- White pikmin always available in AW
+  if Has("W2") then
+    Tracker:FindObjectForCode("whiteonion").Active = true
   end
 
-  local caves_locked = Tracker:FindObjectForCode("setting_caves_locked").CurrentStage == 1
-  if not caves_locked then
+  if starting_onion_id == 0 then
+    Tracker:FindObjectForCode("redonion").Active = true
+  elseif starting_onion_id == 1 then
+    Tracker:FindObjectForCode("yellowonion").Active = true
+  elseif starting_onion_id == 2 then
+    Tracker:FindObjectForCode("blueonion").Active = true
+  end
+
+  if SLOT_DATA["cave_keys"] == 0 then
     Tracker:FindObjectForCode("ecentrancekey").Active = true
     Tracker:FindObjectForCode("scentrancekey").Active = true
     Tracker:FindObjectForCode("fcentrancekey").Active = true
@@ -94,18 +126,15 @@ function OnClear(slot_data)
     Tracker:FindObjectForCode("ddentrancekey").Active = true
   end
 
-  local caves_shuffled = Tracker:FindObjectForCode("setting_caves_rando").CurrentStage == 1
-  if not caves_shuffled then
-    ResetCaves()
-  end
-
-  local weapons_in_pool = Tracker:FindObjectForCode("setting_weapons_in_pool").CurrentStage == 1
-  if weapons_in_pool then
+  if SLOT_DATA["weapons_in_pool"] == 1 then
     Tracker:FindObjectForCode("loc_comedybomb").Active = true
     Tracker:FindObjectForCode("loc_flarecannon").Active = true
     Tracker:FindObjectForCode("loc_monsterpump").Active = true
     Tracker:FindObjectForCode("loc_shocktherapist").Active = true
   end
+
+  UpdatePokos()
+  UpdateTreasureCount()
 end
 
 function OnItem(index, item_id, item_name, player_number)
@@ -119,11 +148,17 @@ function OnItem(index, item_id, item_name, player_number)
     if obj.Type == "toggle" then
       obj.Active = true
     end
+
+    if Has("W2") then
+      Tracker:FindObjectForCode("whiteonion").Active = true
+    end
   else
     print(string.format("onItem: could not find object for code %s", item[1]))
   end
 
+  UpdateCaveAccess()
   UpdatePokos()
+  UpdateTreasureCount()
 end
 
 function OnLocation(location_id, location_name)
@@ -145,6 +180,32 @@ function OnLocation(location_id, location_name)
   end
 end
 
+function UpdateCaveAccess()
+  for cave_in, cave_out in pairs(SLOT_DATA["caves"]) do
+    local caves = {
+      EC = 1,
+      SC = 2,
+      FC = 3,
+      HoB = 4,
+      WFG = 5,
+      BK = 6,
+      SH = 7,
+      CoS = 8,
+      GK = 9,
+      SR = 10,
+      SMGC = 11,
+      CoC = 12,
+      HoH = 13,
+      DD = 14,
+    }
+    if CanAccess(cave_in) then
+      Tracker:FindObjectForCode(cave_in .. "_dst").CurrentStage = caves[cave_out]
+    else
+      Tracker:FindObjectForCode(cave_in .. "_dst").CurrentStage = 0
+    end
+  end
+end
+
 function UpdatePokos()
   local current_pokos = CountPokos()
   local digits = { 0, 0, 0, 0, 0 }
@@ -163,6 +224,24 @@ function UpdatePokos()
   digits[5] = current_pokos % 10
 
   for k, v in pairs(pokos_codes) do
+    Tracker:FindObjectForCode(v).CurrentStage = digits[k]
+  end
+end
+
+function UpdateTreasureCount()
+  local current_treasures = CountTreasures()
+  local digits = { 0, 0, 0 }
+  local treasures_codes = {
+    "treasures_hundred",
+    "treasures_ten",
+    "treasures_one"
+  }
+
+  digits[1] = math.floor(current_treasures / 100) % 10
+  digits[2] = math.floor(current_treasures / 10) % 10
+  digits[3] = current_treasures % 10
+
+  for k, v in pairs(treasures_codes) do
     Tracker:FindObjectForCode(v).CurrentStage = digits[k]
   end
 end

@@ -12,12 +12,13 @@ Tracker:AddMaps("maps/maps.json")
 -- Items
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/locations.json")
-Tracker:AddItems("items/pokos.json")
+Tracker:AddItems("items/numbers.json")
 Tracker:AddItems("items/cave_entries.json")
 Tracker:AddItems("items/options.json")
 
 -- Locations
 Tracker:AddLocations("locations/vor.json")
+Tracker:AddLocations("locations/ec.json")
 Tracker:AddLocations("locations/aw.json")
 Tracker:AddLocations("locations/pp.json")
 Tracker:AddLocations("locations/ww.json")
@@ -34,6 +35,7 @@ Tracker:AddLayouts("layouts/pokos.json")
 Tracker:AddLayouts("layouts/entrances.json")
 Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("layouts/treasures.json")
 
 -- Scripts
 ScriptHost:LoadScript("scripts/logic.lua")

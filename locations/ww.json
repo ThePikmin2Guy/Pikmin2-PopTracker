@@ -2,7 +2,7 @@
   {
     "name": "WW",
     "access_rules": [
-      "$DebtPayedOff"
+      "$DebtPayedOff,$Has|W2,$Has|W3"
     ],
     "children": [
       {
@@ -108,7 +108,7 @@
       {
         "name": "Cavern of Chaos",
         "access_rules": [
-          "$HasKey|CoC"
+          "$CanAccess|CoC"
         ],
         "children": [
           {
@@ -187,11 +187,19 @@
             "sections": [
               {
                 "name": "Exhausted Superstick",
-                "hosted_item": "loc_exhaustedsuperstick"
+                "hosted_item": "loc_exhaustedsuperstick",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Nouveau Table",
-                "hosted_item": "loc_nouveautable"
+                "hosted_item": "loc_nouveautable",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Network Mainbrain",
@@ -223,15 +231,27 @@
               },
               {
                 "name": "Repair Juggernaut",
-                "hosted_item": "loc_repairjuggernaut"
+                "hosted_item": "loc_repairjuggernaut",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Space Wave Receiver",
-                "hosted_item": "loc_spacewavereceiver"
+                "hosted_item": "loc_spacewavereceiver",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Vacuum Processor",
-                "hosted_item": "loc_vacuumprocessor"
+                "hosted_item": "loc_vacuumprocessor",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Furious Adhesive",
@@ -282,15 +302,27 @@
               },
               {
                 "name": "Danger Chime",
-                "hosted_item": "loc_dangerchime"
+                "hosted_item": "loc_dangerchime",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Fleeting Art Form",
-                "hosted_item": "loc_fleetingartform"
+                "hosted_item": "loc_fleetingartform",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Gemstar Husband",
-                "hosted_item": "loc_gemstarhusband"
+                "hosted_item": "loc_gemstarhusband",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Innocence Lost",
@@ -306,11 +338,19 @@
               },
               {
                 "name": "Priceless Statue",
-                "hosted_item": "loc_pricelessstatue"
+                "hosted_item": "loc_pricelessstatue",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Worthless Statue",
-                "hosted_item": "loc_worthlessstatue"
+                "hosted_item": "loc_worthlessstatue",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Flame Tiller",
@@ -396,11 +436,19 @@
               },
               {
                 "name": "Survival Ointment",
-                "hosted_item": "loc_survivalointment"
+                "hosted_item": "loc_survivalointment",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Toxic Toadstool",
-                "hosted_item": "loc_toxictoadstool"
+                "hosted_item": "loc_toxictoadstool",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Five-man Napsack",
@@ -518,19 +566,35 @@
               },
               {
                 "name": "Salivatrix",
-                "hosted_item": "loc_salivatrix"
+                "hosted_item": "loc_salivatrix",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Science Project",
-                "hosted_item": "loc_scienceproject"
+                "hosted_item": "loc_scienceproject",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Stupendous Lens",
-                "hosted_item": "loc_stupendouslens"
+                "hosted_item": "loc_stupendouslens",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Triple Sugar Threat",
-                "hosted_item": "loc_triplesugarthreat"
+                "hosted_item": "loc_triplesugarthreat",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Justice Alloy",
@@ -616,11 +680,19 @@
               },
               {
                 "name": "Massive Lid",
-                "hosted_item": "loc_massivelid"
+                "hosted_item": "loc_massivelid",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Imperative Cookie",
-                "hosted_item": "loc_imperativecookie"
+                "hosted_item": "loc_imperativecookie",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Director of Destiny",
@@ -632,7 +704,11 @@
               },
               {
                 "name": "Invigorator",
-                "hosted_item": "loc_invigorator"
+                "hosted_item": "loc_invigorator",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Happiness Emblem",
@@ -640,7 +716,11 @@
               },
               {
                 "name": "White Goodness",
-                "hosted_item": "loc_whitegoodness"
+                "hosted_item": "loc_whitegoodness",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Boom Cone",
@@ -687,23 +767,43 @@
               },
               {
                 "name": "Durable Energy Cell",
-                "hosted_item": "loc_durableenergycell"
+                "hosted_item": "loc_durableenergycell",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Sud Generator",
-                "hosted_item": "loc_sudgenerator"
+                "hosted_item": "loc_sudgenerator",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Mirrored Stage",
-                "hosted_item": "loc_mirroredstage"
+                "hosted_item": "loc_mirroredstage",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Scrumptious Shell",
-                "hosted_item": "loc_scrumptiousshell"
+                "hosted_item": "loc_scrumptiousshell",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Vorpal Platter",
-                "hosted_item": "loc_vorpalplatter"
+                "hosted_item": "loc_vorpalplatter",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Arboreal Frippery",
@@ -711,27 +811,51 @@
               },
               {
                 "name": "Broken Food Master",
-                "hosted_item": "loc_brokenfoodmaster"
+                "hosted_item": "loc_brokenfoodmaster",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Endless Repository",
-                "hosted_item": "loc_endlessrepository"
+                "hosted_item": "loc_endlessrepository",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Pondering Emblem",
-                "hosted_item": "loc_ponderingemblem"
+                "hosted_item": "loc_ponderingemblem",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Abstract Masterpiece",
-                "hosted_item": "loc_abstractmasterpiece"
+                "hosted_item": "loc_abstractmasterpiece",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Behemoth Jaw",
-                "hosted_item": "loc_behemothjaw"
+                "hosted_item": "loc_behemothjaw",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Rubber Ugly",
-                "hosted_item": "loc_rubberugly"
+                "hosted_item": "loc_rubberugly",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Amplified Amplifier",
@@ -803,7 +927,11 @@
               },
               {
                 "name": "Professional Noisemaker",
-                "hosted_item": "loc_professionalnoisemaker"
+                "hosted_item": "loc_professionalnoisemaker",
+                "access_rules": [
+                  "$Has|PP",
+                  "^$SB"
+                ]
               }
             ],
             "map_locations": [
@@ -830,15 +958,27 @@
               },
               {
                 "name": "Essence of Despair",
-                "hosted_item": "loc_essenceofdespair"
+                "hosted_item": "loc_essenceofdespair",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Frosty Bauble",
-                "hosted_item": "loc_frostybauble"
+                "hosted_item": "loc_frostybauble",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Gemstar Wife",
-                "hosted_item": "loc_gemstarwife"
+                "hosted_item": "loc_gemstarwife",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Child of the Earth",
@@ -850,27 +990,51 @@
               },
               {
                 "name": "Milk Tub",
-                "hosted_item": "loc_milktub"
+                "hosted_item": "loc_milktub",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Mysterious Remains",
-                "hosted_item": "loc_mysteriousremains"
+                "hosted_item": "loc_mysteriousremains",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Growshroom",
-                "hosted_item": "loc_growshroom"
+                "hosted_item": "loc_growshroom",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Princess Pearl",
-                "hosted_item": "loc_princesspearl"
+                "hosted_item": "loc_princesspearl",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Fuel Reservoir",
-                "hosted_item": "loc_fuelreservoir"
+                "hosted_item": "loc_fuelreservoir",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Impenetrable Cookie",
-                "hosted_item": "loc_impenetrablecookie"
+                "hosted_item": "loc_impenetrablecookie",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Fruit Guard",
@@ -878,11 +1042,19 @@
               },
               {
                 "name": "Maternal Sculpture",
-                "hosted_item": "loc_maternalsculpture"
+                "hosted_item": "loc_maternalsculpture",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Wiggle Noggin",
-                "hosted_item": "loc_wigglenoggin"
+                "hosted_item": "loc_wigglenoggin",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Silencer",
@@ -921,7 +1093,11 @@
               },
               {
                 "name": "Nutrient Silo",
-                "hosted_item": "loc_nutrientsilo"
+                "hosted_item": "loc_nutrientsilo",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Joyless Jewel",
@@ -929,11 +1105,19 @@
               },
               {
                 "name": "Dimensional Slicer",
-                "hosted_item": "loc_dimensionalslicer"
+                "hosted_item": "loc_dimensionalslicer",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Treasured Gyro Block",
-                "hosted_item": "loc_treasuredgyroblock"
+                "hosted_item": "loc_treasuredgyroblock",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Favorite Gyro Block",
@@ -945,11 +1129,19 @@
               },
               {
                 "name": "Memorable Gyro Block",
-                "hosted_item": "loc_memorablegyroblock"
+                "hosted_item": "loc_memorablegyroblock",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Fond Gyro Block",
-                "hosted_item": "loc_fondgyroblock"
+                "hosted_item": "loc_fondgyroblock",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Remembered Old Buddy",
@@ -972,7 +1164,11 @@
             "sections": [
               {
                 "name": "Disguised Delicacy",
-                "hosted_item": "loc_disguiseddelicacy"
+                "hosted_item": "loc_disguiseddelicacy",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Implement of Toil",
@@ -980,19 +1176,35 @@
               },
               {
                 "name": "Manual Honer",
-                "hosted_item": "loc_manualhoner"
+                "hosted_item": "loc_manualhoner",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Glee Spinner",
-                "hosted_item": "loc_gleespinner"
+                "hosted_item": "loc_gleespinner",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Mirrored Element",
-                "hosted_item": "loc_mirroredelement"
+                "hosted_item": "loc_mirroredelement",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Insect Condo",
-                "hosted_item": "loc_insectcondo"
+                "hosted_item": "loc_insectcondo",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Future Orb",
@@ -1004,31 +1216,59 @@
               },
               {
                 "name": "Extreme Perspirator",
-                "hosted_item": "loc_extremeperspirator"
+                "hosted_item": "loc_extremeperspirator",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Possessed Squash",
-                "hosted_item": "loc_possessedsquash"
+                "hosted_item": "loc_possessedsquash",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Talisman of Life",
-                "hosted_item": "loc_talismanoflife"
+                "hosted_item": "loc_talismanoflife",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Boss Stone",
-                "hosted_item": "loc_bossstone"
+                "hosted_item": "loc_bossstone",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Yellow Taste Tyrant",
-                "hosted_item": "loc_yellowtastetyrant"
+                "hosted_item": "loc_yellowtastetyrant",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Stringent Container",
-                "hosted_item": "loc_stringentcontainer"
+                "hosted_item": "loc_stringentcontainer",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Universal Com",
-                "hosted_item": "loc_universalcom"
+                "hosted_item": "loc_universalcom",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Hypnotic Platter",
@@ -1070,7 +1310,7 @@
       {
         "name": "Hole of Heroes",
         "access_rules": [
-          "$HasKey|HoH,$Has|BP,$Has|YP",
+          "$CanAccess|HoH",
           "$HasKey|HoH,^$SB"
         ],
         "children": [
@@ -1099,7 +1339,7 @@
               "$HasKey|HoH,$IsSelectedDestination|HoH|unknown"
             ],
             "access_rules": [
-              "{$HasKey|HoH,$IsSelectedDestination|HoH|unknown}"
+              "{$HasKey|HoH,$IsSelectedDestination|HoH|unknown,$Has|BP,$Has|YP}"
             ],
             "sections": [
               {
@@ -1150,11 +1390,19 @@
             "sections": [
               {
                 "name": "Exhausted Superstick",
-                "hosted_item": "loc_exhaustedsuperstick"
+                "hosted_item": "loc_exhaustedsuperstick",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Nouveau Table",
-                "hosted_item": "loc_nouveautable"
+                "hosted_item": "loc_nouveautable",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Network Mainbrain",
@@ -1186,15 +1434,27 @@
               },
               {
                 "name": "Repair Juggernaut",
-                "hosted_item": "loc_repairjuggernaut"
+                "hosted_item": "loc_repairjuggernaut",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Space Wave Receiver",
-                "hosted_item": "loc_spacewavereceiver"
+                "hosted_item": "loc_spacewavereceiver",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Vacuum Processor",
-                "hosted_item": "loc_vacuumprocessor"
+                "hosted_item": "loc_vacuumprocessor",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Furious Adhesive",
@@ -1245,15 +1505,27 @@
               },
               {
                 "name": "Danger Chime",
-                "hosted_item": "loc_dangerchime"
+                "hosted_item": "loc_dangerchime",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Fleeting Art Form",
-                "hosted_item": "loc_fleetingartform"
+                "hosted_item": "loc_fleetingartform",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Gemstar Husband",
-                "hosted_item": "loc_gemstarhusband"
+                "hosted_item": "loc_gemstarhusband",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Innocence Lost",
@@ -1269,11 +1541,19 @@
               },
               {
                 "name": "Priceless Statue",
-                "hosted_item": "loc_pricelessstatue"
+                "hosted_item": "loc_pricelessstatue",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Worthless Statue",
-                "hosted_item": "loc_worthlessstatue"
+                "hosted_item": "loc_worthlessstatue",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Flame Tiller",
@@ -1359,11 +1639,19 @@
               },
               {
                 "name": "Survival Ointment",
-                "hosted_item": "loc_survivalointment"
+                "hosted_item": "loc_survivalointment",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Toxic Toadstool",
-                "hosted_item": "loc_toxictoadstool"
+                "hosted_item": "loc_toxictoadstool",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Five-man Napsack",
@@ -1481,19 +1769,35 @@
               },
               {
                 "name": "Salivatrix",
-                "hosted_item": "loc_salivatrix"
+                "hosted_item": "loc_salivatrix",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Science Project",
-                "hosted_item": "loc_scienceproject"
+                "hosted_item": "loc_scienceproject",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Stupendous Lens",
-                "hosted_item": "loc_stupendouslens"
+                "hosted_item": "loc_stupendouslens",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Triple Sugar Threat",
-                "hosted_item": "loc_triplesugarthreat"
+                "hosted_item": "loc_triplesugarthreat",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Justice Alloy",
@@ -1579,11 +1883,19 @@
               },
               {
                 "name": "Massive Lid",
-                "hosted_item": "loc_massivelid"
+                "hosted_item": "loc_massivelid",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Imperative Cookie",
-                "hosted_item": "loc_imperativecookie"
+                "hosted_item": "loc_imperativecookie",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Director of Destiny",
@@ -1595,7 +1907,11 @@
               },
               {
                 "name": "Invigorator",
-                "hosted_item": "loc_invigorator"
+                "hosted_item": "loc_invigorator",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Happiness Emblem",
@@ -1603,7 +1919,11 @@
               },
               {
                 "name": "White Goodness",
-                "hosted_item": "loc_whitegoodness"
+                "hosted_item": "loc_whitegoodness",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Boom Cone",
@@ -1650,23 +1970,43 @@
               },
               {
                 "name": "Durable Energy Cell",
-                "hosted_item": "loc_durableenergycell"
+                "hosted_item": "loc_durableenergycell",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Sud Generator",
-                "hosted_item": "loc_sudgenerator"
+                "hosted_item": "loc_sudgenerator",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Mirrored Stage",
-                "hosted_item": "loc_mirroredstage"
+                "hosted_item": "loc_mirroredstage",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Scrumptious Shell",
-                "hosted_item": "loc_scrumptiousshell"
+                "hosted_item": "loc_scrumptiousshell",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Vorpal Platter",
-                "hosted_item": "loc_vorpalplatter"
+                "hosted_item": "loc_vorpalplatter",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Arboreal Frippery",
@@ -1674,27 +2014,51 @@
               },
               {
                 "name": "Broken Food Master",
-                "hosted_item": "loc_brokenfoodmaster"
+                "hosted_item": "loc_brokenfoodmaster",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Endless Repository",
-                "hosted_item": "loc_endlessrepository"
+                "hosted_item": "loc_endlessrepository",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Pondering Emblem",
-                "hosted_item": "loc_ponderingemblem"
+                "hosted_item": "loc_ponderingemblem",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Abstract Masterpiece",
-                "hosted_item": "loc_abstractmasterpiece"
+                "hosted_item": "loc_abstractmasterpiece",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Behemoth Jaw",
-                "hosted_item": "loc_behemothjaw"
+                "hosted_item": "loc_behemothjaw",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Rubber Ugly",
-                "hosted_item": "loc_rubberugly"
+                "hosted_item": "loc_rubberugly",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Amplified Amplifier",
@@ -1766,7 +2130,11 @@
               },
               {
                 "name": "Professional Noisemaker",
-                "hosted_item": "loc_professionalnoisemaker"
+                "hosted_item": "loc_professionalnoisemaker",
+                "access_rules": [
+                  "$Has|PP",
+                  "^$SB"
+                ]
               }
             ],
             "map_locations": [
@@ -1793,15 +2161,27 @@
               },
               {
                 "name": "Essence of Despair",
-                "hosted_item": "loc_essenceofdespair"
+                "hosted_item": "loc_essenceofdespair",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Frosty Bauble",
-                "hosted_item": "loc_frostybauble"
+                "hosted_item": "loc_frostybauble",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Gemstar Wife",
-                "hosted_item": "loc_gemstarwife"
+                "hosted_item": "loc_gemstarwife",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Child of the Earth",
@@ -1813,27 +2193,51 @@
               },
               {
                 "name": "Milk Tub",
-                "hosted_item": "loc_milktub"
+                "hosted_item": "loc_milktub",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Mysterious Remains",
-                "hosted_item": "loc_mysteriousremains"
+                "hosted_item": "loc_mysteriousremains",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Growshroom",
-                "hosted_item": "loc_growshroom"
+                "hosted_item": "loc_growshroom",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Princess Pearl",
-                "hosted_item": "loc_princesspearl"
+                "hosted_item": "loc_princesspearl",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Fuel Reservoir",
-                "hosted_item": "loc_fuelreservoir"
+                "hosted_item": "loc_fuelreservoir",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Impenetrable Cookie",
-                "hosted_item": "loc_impenetrablecookie"
+                "hosted_item": "loc_impenetrablecookie",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Fruit Guard",
@@ -1841,11 +2245,19 @@
               },
               {
                 "name": "Maternal Sculpture",
-                "hosted_item": "loc_maternalsculpture"
+                "hosted_item": "loc_maternalsculpture",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Wiggle Noggin",
-                "hosted_item": "loc_wigglenoggin"
+                "hosted_item": "loc_wigglenoggin",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Silencer",
@@ -1884,7 +2296,11 @@
               },
               {
                 "name": "Nutrient Silo",
-                "hosted_item": "loc_nutrientsilo"
+                "hosted_item": "loc_nutrientsilo",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Joyless Jewel",
@@ -1892,11 +2308,19 @@
               },
               {
                 "name": "Dimensional Slicer",
-                "hosted_item": "loc_dimensionalslicer"
+                "hosted_item": "loc_dimensionalslicer",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Treasured Gyro Block",
-                "hosted_item": "loc_treasuredgyroblock"
+                "hosted_item": "loc_treasuredgyroblock",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Favorite Gyro Block",
@@ -1908,11 +2332,19 @@
               },
               {
                 "name": "Memorable Gyro Block",
-                "hosted_item": "loc_memorablegyroblock"
+                "hosted_item": "loc_memorablegyroblock",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Fond Gyro Block",
-                "hosted_item": "loc_fondgyroblock"
+                "hosted_item": "loc_fondgyroblock",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Remembered Old Buddy",
@@ -1935,7 +2367,11 @@
             "sections": [
               {
                 "name": "Disguised Delicacy",
-                "hosted_item": "loc_disguiseddelicacy"
+                "hosted_item": "loc_disguiseddelicacy",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Implement of Toil",
@@ -1943,19 +2379,35 @@
               },
               {
                 "name": "Manual Honer",
-                "hosted_item": "loc_manualhoner"
+                "hosted_item": "loc_manualhoner",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Glee Spinner",
-                "hosted_item": "loc_gleespinner"
+                "hosted_item": "loc_gleespinner",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Mirrored Element",
-                "hosted_item": "loc_mirroredelement"
+                "hosted_item": "loc_mirroredelement",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Insect Condo",
-                "hosted_item": "loc_insectcondo"
+                "hosted_item": "loc_insectcondo",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Future Orb",
@@ -1967,31 +2419,59 @@
               },
               {
                 "name": "Extreme Perspirator",
-                "hosted_item": "loc_extremeperspirator"
+                "hosted_item": "loc_extremeperspirator",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Possessed Squash",
-                "hosted_item": "loc_possessedsquash"
+                "hosted_item": "loc_possessedsquash",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Talisman of Life",
-                "hosted_item": "loc_talismanoflife"
+                "hosted_item": "loc_talismanoflife",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Boss Stone",
-                "hosted_item": "loc_bossstone"
+                "hosted_item": "loc_bossstone",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Yellow Taste Tyrant",
-                "hosted_item": "loc_yellowtastetyrant"
+                "hosted_item": "loc_yellowtastetyrant",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Stringent Container",
-                "hosted_item": "loc_stringentcontainer"
+                "hosted_item": "loc_stringentcontainer",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Universal Com",
-                "hosted_item": "loc_universalcom"
+                "hosted_item": "loc_universalcom",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Hypnotic Platter",
@@ -2033,7 +2513,7 @@
       {
         "name": "Dream Den",
         "access_rules": [
-          "$HasKey|DD,$Has|WP,$Has|BP",
+          "$CanAccess|DD",
           "$HasKey|DD,^$SB"
         ],
         "children": [
@@ -2062,7 +2542,7 @@
               "$HasKey|DD,$IsSelectedDestination|DD|unknown"
             ],
             "access_rules": [
-              "{$HasKey|DD,$IsSelectedDestination|DD|unknown}"
+              "{$HasKey|DD,$IsSelectedDestination|DD|unknown,$Has|WP,$Has|BP}"
             ],
             "sections": [
               {
@@ -2113,11 +2593,19 @@
             "sections": [
               {
                 "name": "Exhausted Superstick",
-                "hosted_item": "loc_exhaustedsuperstick"
+                "hosted_item": "loc_exhaustedsuperstick",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Nouveau Table",
-                "hosted_item": "loc_nouveautable"
+                "hosted_item": "loc_nouveautable",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Network Mainbrain",
@@ -2149,15 +2637,27 @@
               },
               {
                 "name": "Repair Juggernaut",
-                "hosted_item": "loc_repairjuggernaut"
+                "hosted_item": "loc_repairjuggernaut",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Space Wave Receiver",
-                "hosted_item": "loc_spacewavereceiver"
+                "hosted_item": "loc_spacewavereceiver",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Vacuum Processor",
-                "hosted_item": "loc_vacuumprocessor"
+                "hosted_item": "loc_vacuumprocessor",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Furious Adhesive",
@@ -2208,15 +2708,27 @@
               },
               {
                 "name": "Danger Chime",
-                "hosted_item": "loc_dangerchime"
+                "hosted_item": "loc_dangerchime",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Fleeting Art Form",
-                "hosted_item": "loc_fleetingartform"
+                "hosted_item": "loc_fleetingartform",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Gemstar Husband",
-                "hosted_item": "loc_gemstarhusband"
+                "hosted_item": "loc_gemstarhusband",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Innocence Lost",
@@ -2232,11 +2744,19 @@
               },
               {
                 "name": "Priceless Statue",
-                "hosted_item": "loc_pricelessstatue"
+                "hosted_item": "loc_pricelessstatue",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Worthless Statue",
-                "hosted_item": "loc_worthlessstatue"
+                "hosted_item": "loc_worthlessstatue",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Flame Tiller",
@@ -2322,11 +2842,19 @@
               },
               {
                 "name": "Survival Ointment",
-                "hosted_item": "loc_survivalointment"
+                "hosted_item": "loc_survivalointment",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Toxic Toadstool",
-                "hosted_item": "loc_toxictoadstool"
+                "hosted_item": "loc_toxictoadstool",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Five-man Napsack",
@@ -2444,19 +2972,35 @@
               },
               {
                 "name": "Salivatrix",
-                "hosted_item": "loc_salivatrix"
+                "hosted_item": "loc_salivatrix",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Science Project",
-                "hosted_item": "loc_scienceproject"
+                "hosted_item": "loc_scienceproject",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Stupendous Lens",
-                "hosted_item": "loc_stupendouslens"
+                "hosted_item": "loc_stupendouslens",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Triple Sugar Threat",
-                "hosted_item": "loc_triplesugarthreat"
+                "hosted_item": "loc_triplesugarthreat",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Justice Alloy",
@@ -2542,11 +3086,19 @@
               },
               {
                 "name": "Massive Lid",
-                "hosted_item": "loc_massivelid"
+                "hosted_item": "loc_massivelid",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Imperative Cookie",
-                "hosted_item": "loc_imperativecookie"
+                "hosted_item": "loc_imperativecookie",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Director of Destiny",
@@ -2558,7 +3110,11 @@
               },
               {
                 "name": "Invigorator",
-                "hosted_item": "loc_invigorator"
+                "hosted_item": "loc_invigorator",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Happiness Emblem",
@@ -2566,7 +3122,11 @@
               },
               {
                 "name": "White Goodness",
-                "hosted_item": "loc_whitegoodness"
+                "hosted_item": "loc_whitegoodness",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Boom Cone",
@@ -2613,23 +3173,43 @@
               },
               {
                 "name": "Durable Energy Cell",
-                "hosted_item": "loc_durableenergycell"
+                "hosted_item": "loc_durableenergycell",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Sud Generator",
-                "hosted_item": "loc_sudgenerator"
+                "hosted_item": "loc_sudgenerator",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Mirrored Stage",
-                "hosted_item": "loc_mirroredstage"
+                "hosted_item": "loc_mirroredstage",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Scrumptious Shell",
-                "hosted_item": "loc_scrumptiousshell"
+                "hosted_item": "loc_scrumptiousshell",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Vorpal Platter",
-                "hosted_item": "loc_vorpalplatter"
+                "hosted_item": "loc_vorpalplatter",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Arboreal Frippery",
@@ -2637,27 +3217,51 @@
               },
               {
                 "name": "Broken Food Master",
-                "hosted_item": "loc_brokenfoodmaster"
+                "hosted_item": "loc_brokenfoodmaster",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Endless Repository",
-                "hosted_item": "loc_endlessrepository"
+                "hosted_item": "loc_endlessrepository",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Pondering Emblem",
-                "hosted_item": "loc_ponderingemblem"
+                "hosted_item": "loc_ponderingemblem",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Abstract Masterpiece",
-                "hosted_item": "loc_abstractmasterpiece"
+                "hosted_item": "loc_abstractmasterpiece",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Behemoth Jaw",
-                "hosted_item": "loc_behemothjaw"
+                "hosted_item": "loc_behemothjaw",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Rubber Ugly",
-                "hosted_item": "loc_rubberugly"
+                "hosted_item": "loc_rubberugly",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Amplified Amplifier",
@@ -2729,7 +3333,11 @@
               },
               {
                 "name": "Professional Noisemaker",
-                "hosted_item": "loc_professionalnoisemaker"
+                "hosted_item": "loc_professionalnoisemaker",
+                "access_rules": [
+                  "$Has|PP",
+                  "^$SB"
+                ]
               }
             ],
             "map_locations": [
@@ -2756,15 +3364,27 @@
               },
               {
                 "name": "Essence of Despair",
-                "hosted_item": "loc_essenceofdespair"
+                "hosted_item": "loc_essenceofdespair",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Frosty Bauble",
-                "hosted_item": "loc_frostybauble"
+                "hosted_item": "loc_frostybauble",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Gemstar Wife",
-                "hosted_item": "loc_gemstarwife"
+                "hosted_item": "loc_gemstarwife",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Child of the Earth",
@@ -2776,27 +3396,51 @@
               },
               {
                 "name": "Milk Tub",
-                "hosted_item": "loc_milktub"
+                "hosted_item": "loc_milktub",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Mysterious Remains",
-                "hosted_item": "loc_mysteriousremains"
+                "hosted_item": "loc_mysteriousremains",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Growshroom",
-                "hosted_item": "loc_growshroom"
+                "hosted_item": "loc_growshroom",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Princess Pearl",
-                "hosted_item": "loc_princesspearl"
+                "hosted_item": "loc_princesspearl",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Fuel Reservoir",
-                "hosted_item": "loc_fuelreservoir"
+                "hosted_item": "loc_fuelreservoir",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Impenetrable Cookie",
-                "hosted_item": "loc_impenetrablecookie"
+                "hosted_item": "loc_impenetrablecookie",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Fruit Guard",
@@ -2804,11 +3448,19 @@
               },
               {
                 "name": "Maternal Sculpture",
-                "hosted_item": "loc_maternalsculpture"
+                "hosted_item": "loc_maternalsculpture",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Wiggle Noggin",
-                "hosted_item": "loc_wigglenoggin"
+                "hosted_item": "loc_wigglenoggin",
+                "access_rules": [
+                  "$Has|WP,$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Silencer",
@@ -2847,7 +3499,11 @@
               },
               {
                 "name": "Nutrient Silo",
-                "hosted_item": "loc_nutrientsilo"
+                "hosted_item": "loc_nutrientsilo",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Joyless Jewel",
@@ -2855,11 +3511,19 @@
               },
               {
                 "name": "Dimensional Slicer",
-                "hosted_item": "loc_dimensionalslicer"
+                "hosted_item": "loc_dimensionalslicer",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Treasured Gyro Block",
-                "hosted_item": "loc_treasuredgyroblock"
+                "hosted_item": "loc_treasuredgyroblock",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Favorite Gyro Block",
@@ -2871,11 +3535,19 @@
               },
               {
                 "name": "Memorable Gyro Block",
-                "hosted_item": "loc_memorablegyroblock"
+                "hosted_item": "loc_memorablegyroblock",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Fond Gyro Block",
-                "hosted_item": "loc_fondgyroblock"
+                "hosted_item": "loc_fondgyroblock",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Remembered Old Buddy",
@@ -2898,7 +3570,11 @@
             "sections": [
               {
                 "name": "Disguised Delicacy",
-                "hosted_item": "loc_disguiseddelicacy"
+                "hosted_item": "loc_disguiseddelicacy",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Implement of Toil",
@@ -2906,19 +3582,35 @@
               },
               {
                 "name": "Manual Honer",
-                "hosted_item": "loc_manualhoner"
+                "hosted_item": "loc_manualhoner",
+                "access_rules": [
+                  "$Has|YP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Glee Spinner",
-                "hosted_item": "loc_gleespinner"
+                "hosted_item": "loc_gleespinner",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Mirrored Element",
-                "hosted_item": "loc_mirroredelement"
+                "hosted_item": "loc_mirroredelement",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Insect Condo",
-                "hosted_item": "loc_insectcondo"
+                "hosted_item": "loc_insectcondo",
+                "access_rules": [
+                  "$Has|RP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Future Orb",
@@ -2930,31 +3622,59 @@
               },
               {
                 "name": "Extreme Perspirator",
-                "hosted_item": "loc_extremeperspirator"
+                "hosted_item": "loc_extremeperspirator",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Possessed Squash",
-                "hosted_item": "loc_possessedsquash"
+                "hosted_item": "loc_possessedsquash",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Talisman of Life",
-                "hosted_item": "loc_talismanoflife"
+                "hosted_item": "loc_talismanoflife",
+                "access_rules": [
+                  "$Has|BP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Boss Stone",
-                "hosted_item": "loc_bossstone"
+                "hosted_item": "loc_bossstone",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Yellow Taste Tyrant",
-                "hosted_item": "loc_yellowtastetyrant"
+                "hosted_item": "loc_yellowtastetyrant",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Stringent Container",
-                "hosted_item": "loc_stringentcontainer"
+                "hosted_item": "loc_stringentcontainer",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Universal Com",
-                "hosted_item": "loc_universalcom"
+                "hosted_item": "loc_universalcom",
+                "access_rules": [
+                  "$Has|WP",
+                  "^$SB"
+                ]
               },
               {
                 "name": "Hypnotic Platter",
