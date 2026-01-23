@@ -144,3 +144,16 @@ function CanAccess(cave)
   end
   return true
 end
+
+function CheckBuried(location)
+  if Has("WP") or SLOT_DATA["buried_treasure_locations"] == nil then
+    return true
+  end
+
+  for _, treasure in pairs(SLOT_DATA["buried_treasure_locations"]) do
+    if location == treasure[2] then
+      return false
+    end
+  end
+  return true
+end

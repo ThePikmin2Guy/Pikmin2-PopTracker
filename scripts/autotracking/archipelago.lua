@@ -229,7 +229,12 @@ function UpdatePokos()
 end
 
 function UpdateTreasureCount()
-  local current_treasures = CountTreasures()
+  local onions = {
+    red = "redonion",
+    yellow = "yellowonion",
+    blue = "blueonion"
+  }
+  local current_treasures = CountTreasures(onions[SLOT_DATA["onion_locations"]["VoR"]])
   local digits = { 0, 0, 0 }
   local treasures_codes = {
     "treasures_hundred",

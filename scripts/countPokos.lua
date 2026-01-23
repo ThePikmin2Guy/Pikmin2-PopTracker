@@ -199,7 +199,24 @@ TREASURE_VALUES = {
   ["anti-hiccupfungus"] = 30,
   ["coniferspire"] = 15,
   ["armorednut"] = 60,
-  ["doomsdayapparatus"] = 3000
+  ["doomsdayapparatus"] = 3000,
+  ["ecentrancekey"] = 0,
+  ["scentrancekey"] = 0,
+  ["fcentrancekey"] = 0,
+  ["hobentrancekey"] = 0,
+  ["wfgentrancekey"] = 0,
+  ["bkentrancekey"] = 0,
+  ["shentrancekey"] = 0,
+  ["cosentrancekey"] = 0,
+  ["gkentrancekey"] = 0,
+  ["srentrancekey"] = 0,
+  ["smgcentrancekey"] = 0,
+  ["cocentrancekey"] = 0,
+  ["hohentrancekey"] = 0,
+  ["ddentrancekey"] = 0,
+  ["redonion"] = 0,
+  ["yellowonion"] = 0,
+  ["blueonion"] = 0
 }
 
 function CountPokos()
@@ -214,12 +231,14 @@ function CountPokos()
   return total
 end
 
-function CountTreasures()
+function CountTreasures(start_onion)
   local total = 0
   for code in pairs(TREASURE_VALUES) do
-    local obj = Tracker:FindObjectForCode(code)
-    if obj ~= nil and obj.Active then
-      total = total + 1
+    if code ~= start_onion then
+      local obj = Tracker:FindObjectForCode(code)
+      if obj ~= nil and obj.Active then
+        total = total + 1
+      end
     end
   end
 

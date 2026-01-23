@@ -7,7 +7,9 @@
     "children": [
       {
         "name": "Doomsday Apparatus",
-        "access_rules": [],
+        "access_rules": [
+          "$CheckBuried|WW Doomsday Apparatus"
+        ],
         "sections": [
           {
             "name": "Treasure",
@@ -26,8 +28,8 @@
       {
         "name": "Seed of Greed",
         "access_rules": [
-          "$Has|BP,$Has|WP",
-          "$Has|BP,^$SB"
+          "$Has|BP,$Has|WP,$CheckBuried|WW Seed of Greed",
+          "$Has|BP,^$SB,$CheckBuried|WW Seed of Greed"
         ],
         "sections": [
           {
@@ -47,8 +49,8 @@
       {
         "name": "Anti-hiccup Fungus",
         "access_rules": [
-          "$Has|BP,$Has|WP",
-          "$Has|BP,^$SB"
+          "$Has|BP,$Has|WP,$CheckBuried|WW Anti-hiccup Fungus",
+          "$Has|BP,^$SB,$CheckBuried|WW Anti-hiccup Fungus"
         ],
         "sections": [
           {
@@ -68,7 +70,7 @@
       {
         "name": "Armored Nut",
         "access_rules": [
-          "$Has|BP"
+          "$Has|BP,$CheckBuried|WW Armored Nut"
         ],
         "sections": [
           {
@@ -88,7 +90,7 @@
       {
         "name": "Conifer Spire",
         "access_rules": [
-          "$Has|YP,$Has|BP"
+          "$Has|YP,$Has|BP,$CheckBuried|WW Conifer Spire"
         ],
         "sections": [
           {
@@ -160,15 +162,24 @@
             "sections": [
               {
                 "name": "Citrus Lump",
-                "hosted_item": "loc_citruslump"
+                "hosted_item": "loc_citruslump",
+                "access_rules": [
+                  "$CheckBuried|EC Citrus Lump"
+                ]
               },
               {
                 "name": "Quenching Emblem",
-                "hosted_item": "loc_quenchingemblem"
+                "hosted_item": "loc_quenchingemblem",
+                "access_rules": [
+                  "$CheckBuried|EC Quenching Emblem"
+                ]
               },
               {
                 "name": "Spherical Atlas",
-                "hosted_item": "loc_sphericalatlas"
+                "hosted_item": "loc_sphericalatlas",
+                "access_rules": [
+                  "$CheckBuried|EC Spherical Atlas"
+                ]
               }
             ],
             "map_locations": [
@@ -189,85 +200,118 @@
                 "name": "Exhausted Superstick",
                 "hosted_item": "loc_exhaustedsuperstick",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Exhausted Superstick",
+                  "^$SB,$CheckBuried|SC Exhausted Superstick"
                 ]
               },
               {
                 "name": "Nouveau Table",
                 "hosted_item": "loc_nouveautable",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Nouveau Table",
+                  "^$SB,$CheckBuried|SC Nouveau Table"
                 ]
               },
               {
                 "name": "Network Mainbrain",
-                "hosted_item": "loc_networkmainbrain"
+                "hosted_item": "loc_networkmainbrain",
+                "access_rules": [
+                  "$CheckBuried|SC Network Mainbrain"
+                ]
               },
               {
                 "name": "Spirit Flogger",
-                "hosted_item": "loc_spiritflogger"
+                "hosted_item": "loc_spiritflogger",
+                "access_rules": [
+                  "$CheckBuried|SC Spirit Flogger"
+                ]
               },
               {
                 "name": "Coiled Launcher",
-                "hosted_item": "loc_coiledlauncher"
+                "hosted_item": "loc_coiledlauncher",
+                "access_rules": [
+                  "$CheckBuried|SC Coiled Launcher"
+                ]
               },
               {
                 "name": "Omega Flywheel",
-                "hosted_item": "loc_omegaflywheel"
+                "hosted_item": "loc_omegaflywheel",
+                "access_rules": [
+                  "$CheckBuried|SC Omega Flywheel"
+                ]
               },
               {
                 "name": "Superstrong Stabilizer",
-                "hosted_item": "loc_superstrongstabilizer"
+                "hosted_item": "loc_superstrongstabilizer",
+                "access_rules": [
+                  "$CheckBuried|SC Superstrong Stabilizer"
+                ]
               },
               {
                 "name": "Adamantine Girdle",
-                "hosted_item": "loc_adamantinegirdle"
+                "hosted_item": "loc_adamantinegirdle",
+                "access_rules": [
+                  "$CheckBuried|SC Adamantine Girdle"
+                ]
               },
               {
                 "name": "Mystical Disc",
-                "hosted_item": "loc_mysticaldisc"
+                "hosted_item": "loc_mysticaldisc",
+                "access_rules": [
+                  "$CheckBuried|SC Mystical Disc"
+                ]
               },
               {
                 "name": "Repair Juggernaut",
                 "hosted_item": "loc_repairjuggernaut",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Repair Juggernaut",
+                  "^$SB,$CheckBuried|SC Repair Juggernaut"
                 ]
               },
               {
                 "name": "Space Wave Receiver",
                 "hosted_item": "loc_spacewavereceiver",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Space Wave Receiver",
+                  "^$SB,$CheckBuried|SC Space Wave Receiver"
                 ]
               },
               {
                 "name": "Vacuum Processor",
                 "hosted_item": "loc_vacuumprocessor",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Vacuum Processor",
+                  "^$SB,$CheckBuried|SC Vacuum Processor"
                 ]
               },
               {
                 "name": "Furious Adhesive",
-                "hosted_item": "loc_furiousadhesive"
+                "hosted_item": "loc_furiousadhesive",
+                "access_rules": [
+                  "$CheckBuried|SC Furious Adhesive"
+                ]
               },
               {
                 "name": "Indomitable CPU",
-                "hosted_item": "loc_indomitablecpu"
+                "hosted_item": "loc_indomitablecpu",
+                "access_rules": [
+                  "$CheckBuried|SC Indomitable CPU"
+                ]
               },
               {
                 "name": "Thirst Activator",
-                "hosted_item": "loc_thirstactivator"
+                "hosted_item": "loc_thirstactivator",
+                "access_rules": [
+                  "$CheckBuried|SC Thirst Activator"
+                ]
               },
               {
                 "name": "Stellar Orb",
-                "hosted_item": "loc_stellarorb"
+                "hosted_item": "loc_stellarorb",
+                "access_rules": [
+                  "$CheckBuried|SC Stellar Orb"
+                ]
               }
             ],
             "map_locations": [
@@ -286,83 +330,113 @@
             "sections": [
               {
                 "name": "Essence of Rage",
-                "hosted_item": "loc_essenceofrage"
+                "hosted_item": "loc_essenceofrage",
+                "access_rules": [
+                  "$CheckBuried|FC Essence of Rage"
+                ]
               },
               {
                 "name": "Essential Furnishing",
-                "hosted_item": "loc_essentialfurnishing"
+                "hosted_item": "loc_essentialfurnishing",
+                "access_rules": [
+                  "$CheckBuried|FC Essential Furnishing"
+                ]
               },
               {
                 "name": "Icon of Progress",
-                "hosted_item": "loc_iconofprogress"
+                "hosted_item": "loc_iconofprogress",
+                "access_rules": [
+                  "$CheckBuried|FC Icon of Progress"
+                ]
               },
               {
                 "name": "Joy Receptacle",
-                "hosted_item": "loc_joyreceptacle"
+                "hosted_item": "loc_joyreceptacle",
+                "access_rules": [
+                  "$CheckBuried|FC Joy Receptacle"
+                ]
               },
               {
                 "name": "Danger Chime",
                 "hosted_item": "loc_dangerchime",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|FC Danger Chime",
+                  "^$SB,$CheckBuried|FC Danger Chime"
                 ]
               },
               {
                 "name": "Fleeting Art Form",
                 "hosted_item": "loc_fleetingartform",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|FC Fleeting Art Form",
+                  "^$SB,$CheckBuried|FC Fleeting Art Form"
                 ]
               },
               {
                 "name": "Gemstar Husband",
                 "hosted_item": "loc_gemstarhusband",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|FC Gemstar Husband",
+                  "^$SB,$CheckBuried|FC Gemstar Husband"
                 ]
               },
               {
                 "name": "Innocence Lost",
-                "hosted_item": "loc_innocencelost"
+                "hosted_item": "loc_innocencelost",
+                "access_rules": [
+                  "$CheckBuried|FC Innocence Lost"
+                ]
               },
               {
                 "name": "Omniscient Sphere",
-                "hosted_item": "loc_omniscientsphere"
+                "hosted_item": "loc_omniscientsphere",
+                "access_rules": [
+                  "$CheckBuried|FC Omniscient Sphere"
+                ]
               },
               {
                 "name": "Brute Knuckles",
-                "hosted_item": "loc_bruteknuckles"
+                "hosted_item": "loc_bruteknuckles",
+                "access_rules": [
+                  "$CheckBuried|FC Brute Knuckles"
+                ]
               },
               {
                 "name": "Priceless Statue",
                 "hosted_item": "loc_pricelessstatue",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|FC Priceless Statue",
+                  "^$SB,$CheckBuried|FC Priceless Statue"
                 ]
               },
               {
                 "name": "Worthless Statue",
                 "hosted_item": "loc_worthlessstatue",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|FC Worthless Statue",
+                  "^$SB,$CheckBuried|FC Worthless Statue"
                 ]
               },
               {
                 "name": "Flame Tiller",
-                "hosted_item": "loc_flametiller"
+                "hosted_item": "loc_flametiller",
+                "access_rules": [
+                  "$CheckBuried|FC Flame Tiller"
+                ]
               },
               {
                 "name": "Spouse Alert",
-                "hosted_item": "loc_spousealert"
+                "hosted_item": "loc_spousealert",
+                "access_rules": [
+                  "$CheckBuried|FC Spouse Alert"
+                ]
               },
               {
                 "name": "Repugnant Appendage",
-                "hosted_item": "loc_repugnantappendage"
+                "hosted_item": "loc_repugnantappendage",
+                "access_rules": [
+                  "$CheckBuried|FC Repugnant Appendage"
+                ]
               }
             ],
             "map_locations": [
@@ -381,27 +455,45 @@
             "sections": [
               {
                 "name": "Stone of Glory",
-                "hosted_item": "loc_stoneofglory"
+                "hosted_item": "loc_stoneofglory",
+                "access_rules": [
+                  "$CheckBuried|HoB Stone of Glory"
+                ]
               },
               {
                 "name": "Cosmic Archive",
-                "hosted_item": "loc_cosmicarchive"
+                "hosted_item": "loc_cosmicarchive",
+                "access_rules": [
+                  "$CheckBuried|HoB Cosmic Archive"
+                ]
               },
               {
                 "name": "Strife Monolith",
-                "hosted_item": "loc_strifemonolith"
+                "hosted_item": "loc_strifemonolith",
+                "access_rules": [
+                  "$CheckBuried|HoB Strife Monolith"
+                ]
               },
               {
                 "name": "Dream Architect",
-                "hosted_item": "loc_dreamarchitect"
+                "hosted_item": "loc_dreamarchitect",
+                "access_rules": [
+                  "$CheckBuried|HoB Dream Architect"
+                ]
               },
               {
                 "name": "Luck Wafer",
-                "hosted_item": "loc_luckwafer"
+                "hosted_item": "loc_luckwafer",
+                "access_rules": [
+                  "$CheckBuried|HoB Luck Wafer"
+                ]
               },
               {
                 "name": "Prototype Detector",
-                "hosted_item": "loc_prototypedetector"
+                "hosted_item": "loc_prototypedetector",
+                "access_rules": [
+                  "$CheckBuried|HoB Prototype Detector"
+                ]
               }
             ],
             "map_locations": [
@@ -420,39 +512,54 @@
             "sections": [
               {
                 "name": "Alien Billboard",
-                "hosted_item": "loc_alienbillboard"
+                "hosted_item": "loc_alienbillboard",
+                "access_rules": [
+                  "$CheckBuried|WFG Alien Billboard"
+                ]
               },
               {
                 "name": "Drought Ender",
-                "hosted_item": "loc_droughtender"
+                "hosted_item": "loc_droughtender",
+                "access_rules": [
+                  "$CheckBuried|WFG Drought Ender"
+                ]
               },
               {
                 "name": "Petrified Heart",
-                "hosted_item": "loc_petrifiedheart"
+                "hosted_item": "loc_petrifiedheart",
+                "access_rules": [
+                  "$CheckBuried|WFG Petrified Heart"
+                ]
               },
               {
                 "name": "Superstick Textile",
-                "hosted_item": "loc_supersticktextile"
+                "hosted_item": "loc_supersticktextile",
+                "access_rules": [
+                  "$CheckBuried|WFG Superstick Textile"
+                ]
               },
               {
                 "name": "Survival Ointment",
                 "hosted_item": "loc_survivalointment",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|WFG Survival Ointment",
+                  "^$SB,$CheckBuried|WFG Survival Ointment"
                 ]
               },
               {
                 "name": "Toxic Toadstool",
                 "hosted_item": "loc_toxictoadstool",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|WFG Toxic Toadstool",
+                  "^$SB,$CheckBuried|WFG Toxic Toadstool"
                 ]
               },
               {
                 "name": "Five-man Napsack",
-                "hosted_item": "loc_five-mannapsack"
+                "hosted_item": "loc_five-mannapsack",
+                "access_rules": [
+                  "$CheckBuried|WFG Five-man Napsack"
+                ]
               }
             ],
             "map_locations": [
@@ -471,43 +578,73 @@
             "sections": [
               {
                 "name": "Crystal Clover",
-                "hosted_item": "loc_crystalclover"
+                "hosted_item": "loc_crystalclover",
+                "access_rules": [
+                  "$CheckBuried|BK Crystal Clover"
+                ]
               },
               {
                 "name": "Tear Stone",
-                "hosted_item": "loc_tearstone"
+                "hosted_item": "loc_tearstone",
+                "access_rules": [
+                  "$CheckBuried|BK Tear Stone"
+                ]
               },
               {
                 "name": "Olimarnite Shell",
-                "hosted_item": "loc_olimarniteshell"
+                "hosted_item": "loc_olimarniteshell",
+                "access_rules": [
+                  "$CheckBuried|BK Olimarnite Shell"
+                ]
               },
               {
                 "name": "Crystal King",
-                "hosted_item": "loc_crystalking"
+                "hosted_item": "loc_crystalking",
+                "access_rules": [
+                  "$CheckBuried|BK Crystal King"
+                ]
               },
               {
                 "name": "Unknown Merit",
-                "hosted_item": "loc_unknownmerit"
+                "hosted_item": "loc_unknownmerit",
+                "access_rules": [
+                  "$CheckBuried|BK Unknown Merit"
+                ]
               },
               {
                 "name": "Anxious Sprout",
-                "hosted_item": "loc_anxioussprout"
+                "hosted_item": "loc_anxioussprout",
+                "access_rules": [
+                  "$CheckBuried|BK Anxious Sprout"
+                ]
               },
               {
                 "name": "Colossal Fossil",
-                "hosted_item": "loc_colossalfossil"
+                "hosted_item": "loc_colossalfossil",
+                "access_rules": [
+                  "$CheckBuried|BK Colossal Fossil"
+                ]
               },
               {
                 "name": "Eternal Emerald Eye",
-                "hosted_item": "loc_eternalemeraldeye"
+                "hosted_item": "loc_eternalemeraldeye",
+                "access_rules": [
+                  "$CheckBuried|BK Eternal Emerald Eye"
+                ]
               },
               {
                 "name": "Forged Courage",
-                "hosted_item": "loc_forgedcourage"
+                "hosted_item": "loc_forgedcourage",
+                "access_rules": [
+                  "$CheckBuried|BK Forged Courage"
+                ]
               },
               {
                 "name": "Gyroid Bust",
-                "hosted_item": "loc_gyroidbust"
+                "hosted_item": "loc_gyroidbust",
+                "access_rules": [
+                  "$CheckBuried|BK Gyroid Bust"
+                ]
               }
             ],
             "map_locations": [
@@ -526,79 +663,112 @@
             "sections": [
               {
                 "name": "Crystallized Telekinesis",
-                "hosted_item": "loc_crystallizedtelekinesis"
+                "hosted_item": "loc_crystallizedtelekinesis",
+                "access_rules": [
+                  "$CheckBuried|SH Crystallized Telekinesis"
+                ]
               },
               {
                 "name": "Leviathan Feather",
-                "hosted_item": "loc_leviathanfeather"
+                "hosted_item": "loc_leviathanfeather",
+                "access_rules": [
+                  "$CheckBuried|SH Leviathan Feather"
+                ]
               },
               {
                 "name": "Combustion Berry",
-                "hosted_item": "loc_combustionberry"
+                "hosted_item": "loc_combustionberry",
+                "access_rules": [
+                  "$CheckBuried|SH Combustion Berry"
+                ]
               },
               {
                 "name": "Taste Sensation",
-                "hosted_item": "loc_tastesensation"
+                "hosted_item": "loc_tastesensation",
+                "access_rules": [
+                  "$CheckBuried|SH Taste Sensation"
+                ]
               },
               {
                 "name": "Meat Satchel",
-                "hosted_item": "loc_meatsatchel"
+                "hosted_item": "loc_meatsatchel",
+                "access_rules": [
+                  "$CheckBuried|SH Meat Satchel"
+                ]
               },
               {
                 "name": "Crystallized Telepathy",
-                "hosted_item": "loc_crystallizedtelepathy"
+                "hosted_item": "loc_crystallizedtelepathy",
+                "access_rules": [
+                  "$CheckBuried|SH Crystallized Telepathy"
+                ]
               },
               {
                 "name": "Cupid's Grenade",
-                "hosted_item": "loc_cupidsgrenade"
+                "hosted_item": "loc_cupidsgrenade",
+                "access_rules": [
+                  "$CheckBuried|SH Cupid's Grenade"
+                ]
               },
               {
                 "name": "Heavy-duty Magnetizer",
-                "hosted_item": "loc_heavy-dutymagnetizer"
+                "hosted_item": "loc_heavy-dutymagnetizer",
+                "access_rules": [
+                  "$CheckBuried|SH Heavy-duty Magnetizer"
+                ]
               },
               {
                 "name": "Crystallized Clairvoyance",
-                "hosted_item": "loc_crystallizedclairvoyance"
+                "hosted_item": "loc_crystallizedclairvoyance",
+                "access_rules": [
+                  "$CheckBuried|SH Crystallized Clairvoyance"
+                ]
               },
               {
                 "name": "Emperor Whistle",
-                "hosted_item": "loc_emperorwhistle"
+                "hosted_item": "loc_emperorwhistle",
+                "access_rules": [
+                  "$CheckBuried|SH Emperor Whistle"
+                ]
               },
               {
                 "name": "Salivatrix",
                 "hosted_item": "loc_salivatrix",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|SH Salivatrix",
+                  "^$SB,$CheckBuried|SH Salivatrix"
                 ]
               },
               {
                 "name": "Science Project",
                 "hosted_item": "loc_scienceproject",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|SH Science Project",
+                  "^$SB,$CheckBuried|SH Science Project"
                 ]
               },
               {
                 "name": "Stupendous Lens",
                 "hosted_item": "loc_stupendouslens",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|SH Stupendous Lens",
+                  "^$SB,$CheckBuried|SH Stupendous Lens"
                 ]
               },
               {
                 "name": "Triple Sugar Threat",
                 "hosted_item": "loc_triplesugarthreat",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|SH Triple Sugar Threat",
+                  "^$SB,$CheckBuried|SH Triple Sugar Threat"
                 ]
               },
               {
                 "name": "Justice Alloy",
-                "hosted_item": "loc_justicealloy"
+                "hosted_item": "loc_justicealloy",
+                "access_rules": [
+                  "$CheckBuried|SH Justice Alloy"
+                ]
               }
             ],
             "map_locations": [
@@ -617,47 +787,80 @@
             "sections": [
               {
                 "name": "Love Nugget",
-                "hosted_item": "loc_lovenugget"
+                "hosted_item": "loc_lovenugget",
+                "access_rules": [
+                  "$CheckBuried|CoS Love Nugget"
+                ]
               },
               {
                 "name": "Creative Inspiration",
-                "hosted_item": "loc_creativeinspiration"
+                "hosted_item": "loc_creativeinspiration",
+                "access_rules": [
+                  "$CheckBuried|CoS Creative Inspiration"
+                ]
               },
               {
                 "name": "Lip Service",
-                "hosted_item": "loc_lipservice"
+                "hosted_item": "loc_lipservice",
+                "access_rules": [
+                  "$CheckBuried|CoS Lip Service"
+                ]
               },
               {
                 "name": "Paradoxical Enigma",
-                "hosted_item": "loc_paradoxicalenigma"
+                "hosted_item": "loc_paradoxicalenigma",
+                "access_rules": [
+                  "$CheckBuried|CoS Paradoxical Enigma"
+                ]
               },
               {
                 "name": "Memorial Shell",
-                "hosted_item": "loc_memorialshell"
+                "hosted_item": "loc_memorialshell",
+                "access_rules": [
+                  "$CheckBuried|CoS Memorial Shell"
+                ]
               },
               {
                 "name": "Patience Tester",
-                "hosted_item": "loc_patiencetester"
+                "hosted_item": "loc_patiencetester",
+                "access_rules": [
+                  "$CheckBuried|CoS Patience Tester"
+                ]
               },
               {
                 "name": "Flame of Tomorrow",
-                "hosted_item": "loc_flameoftomorrow"
+                "hosted_item": "loc_flameoftomorrow",
+                "access_rules": [
+                  "$CheckBuried|CoS Flame of Tomorrow"
+                ]
               },
               {
                 "name": "King of Sweets",
-                "hosted_item": "loc_kingofsweets"
+                "hosted_item": "loc_kingofsweets",
+                "access_rules": [
+                  "$CheckBuried|CoS King of Sweets"
+                ]
               },
               {
                 "name": "Time Capsule",
-                "hosted_item": "loc_timecapsule"
+                "hosted_item": "loc_timecapsule",
+                "access_rules": [
+                  "$CheckBuried|CoS Time Capsule"
+                ]
               },
               {
                 "name": "Regal Diamond",
-                "hosted_item": "loc_regaldiamond"
+                "hosted_item": "loc_regaldiamond",
+                "access_rules": [
+                  "$CheckBuried|CoS Regal Diamond"
+                ]
               },
               {
                 "name": "The Key",
-                "hosted_item": "loc_thekey"
+                "hosted_item": "loc_thekey",
+                "access_rules": [
+                  "$CheckBuried|CoS The Key"
+                ]
               }
             ],
             "map_locations": [
@@ -676,75 +879,105 @@
             "sections": [
               {
                 "name": "Master's Instrument",
-                "hosted_item": "loc_mastersinstrument"
+                "hosted_item": "loc_mastersinstrument",
+                "access_rules": [
+                  "$CheckBuried|GK Master's Instrument"
+                ]
               },
               {
                 "name": "Massive Lid",
                 "hosted_item": "loc_massivelid",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|GK Massive Lid",
+                  "^$SB,$CheckBuried|GK Massive Lid"
                 ]
               },
               {
                 "name": "Imperative Cookie",
                 "hosted_item": "loc_imperativecookie",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|GK Imperative Cookie",
+                  "^$SB,$CheckBuried|GK Imperative Cookie"
                 ]
               },
               {
                 "name": "Director of Destiny",
-                "hosted_item": "loc_directorofdestiny"
+                "hosted_item": "loc_directorofdestiny",
+                "access_rules": [
+                  "$CheckBuried|GK Director of Destiny"
+                ]
               },
               {
                 "name": "Harmonic Synthesizer",
-                "hosted_item": "loc_harmonicsynthesizer"
+                "hosted_item": "loc_harmonicsynthesizer",
+                "access_rules": [
+                  "$CheckBuried|GK Harmonic Synthesizer"
+                ]
               },
               {
                 "name": "Invigorator",
                 "hosted_item": "loc_invigorator",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|GK Invigorator",
+                  "^$SB,$CheckBuried|GK Invigorator"
                 ]
               },
               {
                 "name": "Happiness Emblem",
-                "hosted_item": "loc_happinessemblem"
+                "hosted_item": "loc_happinessemblem",
+                "access_rules": [
+                  "$CheckBuried|GK Happiness Emblem"
+                ]
               },
               {
                 "name": "White Goodness",
                 "hosted_item": "loc_whitegoodness",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|GK White Goodness",
+                  "^$SB,$CheckBuried|GK White Goodness"
                 ]
               },
               {
                 "name": "Boom Cone",
-                "hosted_item": "loc_boomcone"
+                "hosted_item": "loc_boomcone",
+                "access_rules": [
+                  "$CheckBuried|GK Boom Cone"
+                ]
               },
               {
                 "name": "Sulking Antenna",
-                "hosted_item": "loc_sulkingantenna"
+                "hosted_item": "loc_sulkingantenna",
+                "access_rules": [
+                  "$CheckBuried|GK Sulking Antenna"
+                ]
               },
               {
                 "name": "Dream Material",
-                "hosted_item": "loc_dreammaterial"
+                "hosted_item": "loc_dreammaterial",
+                "access_rules": [
+                  "$CheckBuried|GK Dream Material"
+                ]
               },
               {
                 "name": "Hideous Victual",
-                "hosted_item": "loc_hideousvictual"
+                "hosted_item": "loc_hideousvictual",
+                "access_rules": [
+                  "$CheckBuried|GK Hideous Victual"
+                ]
               },
               {
                 "name": "Meat of Champions",
-                "hosted_item": "loc_meatofchampions"
+                "hosted_item": "loc_meatofchampions",
+                "access_rules": [
+                  "$CheckBuried|GK Meat of Champions"
+                ]
               },
               {
                 "name": "Sweet Dreamer",
-                "hosted_item": "loc_sweetdreamer"
+                "hosted_item": "loc_sweetdreamer",
+                "access_rules": [
+                  "$CheckBuried|GK Sweet Dreamer"
+                ]
               }
             ],
             "map_locations": [
@@ -763,103 +996,112 @@
             "sections": [
               {
                 "name": "Merciless Extractor",
-                "hosted_item": "loc_mercilessextractor"
+                "hosted_item": "loc_mercilessextractor",
+                "access_rules": [
+                  "$CheckBuried|SR Merciless Extractor"
+                ]
               },
               {
                 "name": "Durable Energy Cell",
                 "hosted_item": "loc_durableenergycell",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SR Durable Energy Cell",
+                  "^$SB,$CheckBuried|SR Durable Energy Cell"
                 ]
               },
               {
                 "name": "Sud Generator",
                 "hosted_item": "loc_sudgenerator",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SR Sud Generator",
+                  "^$SB,$CheckBuried|SR Sud Generator"
                 ]
               },
               {
                 "name": "Mirrored Stage",
                 "hosted_item": "loc_mirroredstage",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Mirrored Stage",
+                  "^$SB,$CheckBuried|SR Mirrored Stage"
                 ]
               },
               {
                 "name": "Scrumptious Shell",
                 "hosted_item": "loc_scrumptiousshell",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Scrumptious Shell",
+                  "^$SB,$CheckBuried|SR Scrumptious Shell"
                 ]
               },
               {
                 "name": "Vorpal Platter",
                 "hosted_item": "loc_vorpalplatter",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Vorpal Platter",
+                  "^$SB,$CheckBuried|SR Vorpal Platter"
                 ]
               },
               {
                 "name": "Arboreal Frippery",
-                "hosted_item": "loc_arborealfrippery"
+                "hosted_item": "loc_arborealfrippery",
+                "access_rules": [
+                  "$CheckBuried|SR Arboreal Frippery"
+                ]
               },
               {
                 "name": "Broken Food Master",
                 "hosted_item": "loc_brokenfoodmaster",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Broken Food Master",
+                  "^$SB,$CheckBuried|SR Broken Food Master"
                 ]
               },
               {
                 "name": "Endless Repository",
                 "hosted_item": "loc_endlessrepository",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Endless Repository",
+                  "^$SB,$CheckBuried|SR Endless Repository"
                 ]
               },
               {
                 "name": "Pondering Emblem",
                 "hosted_item": "loc_ponderingemblem",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Pondering Emblem",
+                  "^$SB,$CheckBuried|SR Pondering Emblem"
                 ]
               },
               {
                 "name": "Abstract Masterpiece",
                 "hosted_item": "loc_abstractmasterpiece",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Abstract Masterpiece",
+                  "^$SB,$CheckBuried|SR Abstract Masterpiece"
                 ]
               },
               {
                 "name": "Behemoth Jaw",
                 "hosted_item": "loc_behemothjaw",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Behemoth Jaw",
+                  "^$SB,$CheckBuried|SR Behemoth Jaw"
                 ]
               },
               {
                 "name": "Rubber Ugly",
                 "hosted_item": "loc_rubberugly",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Rubber Ugly",
+                  "^$SB,$CheckBuried|SR Rubber Ugly"
                 ]
               },
               {
                 "name": "Amplified Amplifier",
-                "hosted_item": "loc_amplifiedamplifier"
+                "hosted_item": "loc_amplifiedamplifier",
+                "access_rules": [
+                  "$CheckBuried|SR Amplified Amplifier"
+                ]
               }
             ],
             "map_locations": [
@@ -879,58 +1121,94 @@
             "sections": [
               {
                 "name": "Bug Bait",
-                "hosted_item": "loc_bugbait"
+                "hosted_item": "loc_bugbait",
+                "access_rules": [
+                  "$CheckBuried|SMGC Bug Bait"
+                ]
               },
               {
                 "name": "Diet Doomer",
-                "hosted_item": "loc_dietdoomer"
+                "hosted_item": "loc_dietdoomer",
+                "access_rules": [
+                  "$CheckBuried|SMGC Diet Doomer"
+                ]
               },
               {
                 "name": "Pastry Wheel",
-                "hosted_item": "loc_pastrywheel"
+                "hosted_item": "loc_pastrywheel",
+                "access_rules": [
+                  "$CheckBuried|SMGC Pastry Wheel"
+                ]
               },
               {
                 "name": "Chocolate Cushion",
-                "hosted_item": "loc_chocolatecushion"
+                "hosted_item": "loc_chocolatecushion",
+                "access_rules": [
+                  "$CheckBuried|SMGC Chocolate Cushion"
+                ]
               },
               {
                 "name": "Comfort Cookie",
-                "hosted_item": "loc_comfortcookie"
+                "hosted_item": "loc_comfortcookie",
+                "access_rules": [
+                  "$CheckBuried|SMGC Comfort Cookie"
+                ]
               },
               {
                 "name": "Confection Hoop",
-                "hosted_item": "loc_confectionhoop"
+                "hosted_item": "loc_confectionhoop",
+                "access_rules": [
+                  "$CheckBuried|SMGC Confection Hoop"
+                ]
               },
               {
                 "name": "Activity Arouser",
-                "hosted_item": "loc_activityarouser"
+                "hosted_item": "loc_activityarouser",
+                "access_rules": [
+                  "$CheckBuried|SMGC Activity Arouser"
+                ]
               },
               {
                 "name": "Compelling Cookie",
-                "hosted_item": "loc_compellingcookie"
+                "hosted_item": "loc_compellingcookie",
+                "access_rules": [
+                  "$CheckBuried|SMGC Compelling Cookie"
+                ]
               },
               {
                 "name": "Succulent Mattress",
-                "hosted_item": "loc_succulentmattress"
+                "hosted_item": "loc_succulentmattress",
+                "access_rules": [
+                  "$CheckBuried|SMGC Succulent Mattress"
+                ]
               },
               {
                 "name": "Drone Supplies",
-                "hosted_item": "loc_dronesupplies"
+                "hosted_item": "loc_dronesupplies",
+                "access_rules": [
+                  "$CheckBuried|SMGC Drone Supplies"
+                ]
               },
               {
                 "name": "Pale Passion",
-                "hosted_item": "loc_palepassion"
+                "hosted_item": "loc_palepassion",
+                "access_rules": [
+                  "$CheckBuried|SMGC Pale Passion"
+                ]
               },
               {
                 "name": "Proton AA",
-                "hosted_item": "loc_protonaa"
+                "hosted_item": "loc_protonaa",
+                "access_rules": [
+                  "$CheckBuried|SMGC Proton AA"
+                ]
               },
               {
                 "name": "Professional Noisemaker",
                 "hosted_item": "loc_professionalnoisemaker",
                 "access_rules": [
-                  "$Has|PP",
-                  "^$SB"
+                  "$Has|PP,$CheckBuried|SMGC Professional Noisemaker",
+                  "^$SB,$CheckBuried|SMGC Professional Noisemaker"
                 ]
               }
             ],
@@ -950,115 +1228,133 @@
             "sections": [
               {
                 "name": "Enamel Buster",
-                "hosted_item": "loc_enamelbuster"
+                "hosted_item": "loc_enamelbuster",
+                "access_rules": [
+                  "$CheckBuried|CoC Enamel Buster"
+                ]
               },
               {
                 "name": "Mirth Sphere",
-                "hosted_item": "loc_mirthsphere"
+                "hosted_item": "loc_mirthsphere",
+                "access_rules": [
+                  "$CheckBuried|CoC Mirth Sphere"
+                ]
               },
               {
                 "name": "Essence of Despair",
                 "hosted_item": "loc_essenceofdespair",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|CoC Essence of Despair",
+                  "^$SB,$CheckBuried|CoC Essence of Despair"
                 ]
               },
               {
                 "name": "Frosty Bauble",
                 "hosted_item": "loc_frostybauble",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|CoC Frosty Bauble",
+                  "^$SB,$CheckBuried|CoC Frosty Bauble"
                 ]
               },
               {
                 "name": "Gemstar Wife",
                 "hosted_item": "loc_gemstarwife",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|CoC Gemstar Wife",
+                  "^$SB,$CheckBuried|CoC Gemstar Wife"
                 ]
               },
               {
                 "name": "Child of the Earth",
-                "hosted_item": "loc_childoftheearth"
+                "hosted_item": "loc_childoftheearth",
+                "access_rules": [
+                  "$CheckBuried|CoC Child of the Earth"
+                ]
               },
               {
                 "name": "Infernal Vegetable",
-                "hosted_item": "loc_infernalvegetable"
+                "hosted_item": "loc_infernalvegetable",
+                "access_rules": [
+                  "$CheckBuried|CoC Infernal Vegetable"
+                ]
               },
               {
                 "name": "Milk Tub",
                 "hosted_item": "loc_milktub",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|CoC Milk Tub",
+                  "^$SB,$CheckBuried|CoC Milk Tub"
                 ]
               },
               {
                 "name": "Mysterious Remains",
                 "hosted_item": "loc_mysteriousremains",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|CoC Mysterious Remains",
+                  "^$SB,$CheckBuried|CoC Mysterious Remains"
                 ]
               },
               {
                 "name": "Growshroom",
                 "hosted_item": "loc_growshroom",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|CoC Growshroom",
+                  "^$SB,$CheckBuried|CoC Growshroom"
                 ]
               },
               {
                 "name": "Princess Pearl",
                 "hosted_item": "loc_princesspearl",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|CoC Princess Pearl",
+                  "^$SB,$CheckBuried|CoC Princess Pearl"
                 ]
               },
               {
                 "name": "Fuel Reservoir",
                 "hosted_item": "loc_fuelreservoir",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|CoC Fuel Reservoir",
+                  "^$SB,$CheckBuried|CoC Fuel Reservoir"
                 ]
               },
               {
                 "name": "Impenetrable Cookie",
                 "hosted_item": "loc_impenetrablecookie",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|CoC Impenetrable Cookie",
+                  "^$SB,$CheckBuried|CoC Impenetrable Cookie"
                 ]
               },
               {
                 "name": "Fruit Guard",
-                "hosted_item": "loc_fruitguard"
+                "hosted_item": "loc_fruitguard",
+                "access_rules": [
+                  "$CheckBuried|CoC Fruit Guard"
+                ]
               },
               {
                 "name": "Maternal Sculpture",
                 "hosted_item": "loc_maternalsculpture",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|CoC Maternal Sculpture",
+                  "^$SB,$CheckBuried|CoC Maternal Sculpture"
                 ]
               },
               {
                 "name": "Wiggle Noggin",
                 "hosted_item": "loc_wigglenoggin",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|CoC Wiggle Noggin",
+                  "^$SB,$CheckBuried|CoC Wiggle Noggin"
                 ]
               },
               {
                 "name": "Silencer",
-                "hosted_item": "loc_silencer"
+                "hosted_item": "loc_silencer",
+                "access_rules": [
+                  "$CheckBuried|CoC Silencer"
+                ]
               }
             ],
             "map_locations": [
@@ -1077,75 +1373,99 @@
             "sections": [
               {
                 "name": "Corpulent Nut",
-                "hosted_item": "loc_corpulentnut"
+                "hosted_item": "loc_corpulentnut",
+                "access_rules": [
+                  "$CheckBuried|HoH Corpulent Nut"
+                ]
               },
               {
                 "name": "Essence of True Love",
-                "hosted_item": "loc_essenceoftruelove"
+                "hosted_item": "loc_essenceoftruelove",
+                "access_rules": [
+                  "$CheckBuried|HoH Essence of True Love"
+                ]
               },
               {
                 "name": "Love Sphere",
-                "hosted_item": "loc_lovesphere"
+                "hosted_item": "loc_lovesphere",
+                "access_rules": [
+                  "$CheckBuried|HoH Love Sphere"
+                ]
               },
               {
                 "name": "Lustrous Element",
-                "hosted_item": "loc_lustrouselement"
+                "hosted_item": "loc_lustrouselement",
+                "access_rules": [
+                  "$CheckBuried|HoH Lustrous Element"
+                ]
               },
               {
                 "name": "Nutrient Silo",
                 "hosted_item": "loc_nutrientsilo",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+                  "^$SB,$CheckBuried|HoH Nutrient Silo"
                 ]
               },
               {
                 "name": "Joyless Jewel",
-                "hosted_item": "loc_joylessjewel"
+                "hosted_item": "loc_joylessjewel",
+                "access_rules": [
+                  "$CheckBuried|HoH Joyless Jewel"
+                ]
               },
               {
                 "name": "Dimensional Slicer",
                 "hosted_item": "loc_dimensionalslicer",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+                  "^$SB,$CheckBuried|HoH Dimensional Slicer"
                 ]
               },
               {
                 "name": "Treasured Gyro Block",
                 "hosted_item": "loc_treasuredgyroblock",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+                  "^$SB,$CheckBuried|HoH Treasured Gyro Block"
                 ]
               },
               {
                 "name": "Favorite Gyro Block",
-                "hosted_item": "loc_favoritegyroblock"
+                "hosted_item": "loc_favoritegyroblock",
+                "access_rules": [
+                  "$CheckBuried|HoH Favorite Gyro Block"
+                ]
               },
               {
                 "name": "Lost Gyro Block",
-                "hosted_item": "loc_lostgyroblock"
+                "hosted_item": "loc_lostgyroblock",
+                "access_rules": [
+                  "$CheckBuried|HoH Lost Gyro Block"
+                ]
               },
               {
                 "name": "Memorable Gyro Block",
                 "hosted_item": "loc_memorablegyroblock",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+                  "^$SB,$CheckBuried|HoH Memorable Gyro Block"
                 ]
               },
               {
                 "name": "Fond Gyro Block",
                 "hosted_item": "loc_fondgyroblock",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+                  "^$SB,$CheckBuried|HoH Fond Gyro Block"
                 ]
               },
               {
                 "name": "Remembered Old Buddy",
-                "hosted_item": "loc_rememberedoldbuddy"
+                "hosted_item": "loc_rememberedoldbuddy",
+                "access_rules": [
+                  "$CheckBuried|HoH Remembered Old Buddy"
+                ]
               }
             ],
             "map_locations": [
@@ -1166,133 +1486,160 @@
                 "name": "Disguised Delicacy",
                 "hosted_item": "loc_disguiseddelicacy",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Disguised Delicacy",
+                  "^$SB,$CheckBuried|DD Disguised Delicacy"
                 ]
               },
               {
                 "name": "Implement of Toil",
-                "hosted_item": "loc_implementoftoil"
+                "hosted_item": "loc_implementoftoil",
+                "access_rules": [
+                  "$CheckBuried|DD Implement of Toil"
+                ]
               },
               {
                 "name": "Manual Honer",
                 "hosted_item": "loc_manualhoner",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|DD Manual Honer",
+                  "^$SB,$CheckBuried|DD Manual Honer"
                 ]
               },
               {
                 "name": "Glee Spinner",
                 "hosted_item": "loc_gleespinner",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Glee Spinner",
+                  "^$SB,$CheckBuried|DD Glee Spinner"
                 ]
               },
               {
                 "name": "Mirrored Element",
                 "hosted_item": "loc_mirroredelement",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Mirrored Element",
+                  "^$SB,$CheckBuried|DD Mirrored Element"
                 ]
               },
               {
                 "name": "Insect Condo",
                 "hosted_item": "loc_insectcondo",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|DD Insect Condo",
+                  "^$SB,$CheckBuried|DD Insect Condo"
                 ]
               },
               {
                 "name": "Future Orb",
-                "hosted_item": "loc_futureorb"
+                "hosted_item": "loc_futureorb",
+                "access_rules": [
+                  "$CheckBuried|DD Future Orb"
+                ]
               },
               {
                 "name": "Essence of Desire",
-                "hosted_item": "loc_essenceofdesire"
+                "hosted_item": "loc_essenceofdesire",
+                "access_rules": [
+                  "$CheckBuried|DD Essence of Desire"
+                ]
               },
               {
                 "name": "Extreme Perspirator",
                 "hosted_item": "loc_extremeperspirator",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Extreme Perspirator",
+                  "^$SB,$CheckBuried|DD Extreme Perspirator"
                 ]
               },
               {
                 "name": "Possessed Squash",
                 "hosted_item": "loc_possessedsquash",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Possessed Squash",
+                  "^$SB,$CheckBuried|DD Possessed Squash"
                 ]
               },
               {
                 "name": "Talisman of Life",
                 "hosted_item": "loc_talismanoflife",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|DD Talisman of Life",
+                  "^$SB,$CheckBuried|DD Talisman of Life"
                 ]
               },
               {
                 "name": "Boss Stone",
                 "hosted_item": "loc_bossstone",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Boss Stone",
+                  "^$SB,$CheckBuried|DD Boss Stone"
                 ]
               },
               {
                 "name": "Yellow Taste Tyrant",
                 "hosted_item": "loc_yellowtastetyrant",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Yellow Taste Tyrant",
+                  "^$SB,$CheckBuried|DD Yellow Taste Tyrant"
                 ]
               },
               {
                 "name": "Stringent Container",
                 "hosted_item": "loc_stringentcontainer",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Stringent Container",
+                  "^$SB,$CheckBuried|DD Stringent Container"
                 ]
               },
               {
                 "name": "Universal Com",
                 "hosted_item": "loc_universalcom",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Universal Com",
+                  "^$SB,$CheckBuried|DD Universal Com"
                 ]
               },
               {
                 "name": "Hypnotic Platter",
-                "hosted_item": "loc_hypnoticplatter"
+                "hosted_item": "loc_hypnoticplatter",
+                "access_rules": [
+                  "$CheckBuried|DD Hypnotic Platter"
+                ]
               },
               {
                 "name": "Comedy Bomb",
-                "hosted_item": "loc_comedybomb"
+                "hosted_item": "loc_comedybomb",
+                "access_rules": [
+                  "$CheckBuried|DD Comedy Bomb"
+                ]
               },
               {
                 "name": "Flare Cannon",
-                "hosted_item": "loc_flarecannon"
+                "hosted_item": "loc_flarecannon",
+                "access_rules": [
+                  "$CheckBuried|DD Flare Cannon"
+                ]
               },
               {
                 "name": "King of Bugs",
-                "hosted_item": "loc_kingofbugs"
+                "hosted_item": "loc_kingofbugs",
+                "access_rules": [
+                  "$CheckBuried|DD King of Bugs"
+                ]
               },
               {
                 "name": "Monster Pump",
-                "hosted_item": "loc_monsterpump"
+                "hosted_item": "loc_monsterpump",
+                "access_rules": [
+                  "$CheckBuried|DD Monster Pump"
+                ]
               },
               {
                 "name": "Shock Therapist",
-                "hosted_item": "loc_shocktherapist"
+                "hosted_item": "loc_shocktherapist",
+                "access_rules": [
+                  "$CheckBuried|DD Shock Therapist"
+                ]
               }
             ],
             "map_locations": [
@@ -1363,15 +1710,24 @@
             "sections": [
               {
                 "name": "Citrus Lump",
-                "hosted_item": "loc_citruslump"
+                "hosted_item": "loc_citruslump",
+                "access_rules": [
+                  "$CheckBuried|EC Citrus Lump"
+                ]
               },
               {
                 "name": "Quenching Emblem",
-                "hosted_item": "loc_quenchingemblem"
+                "hosted_item": "loc_quenchingemblem",
+                "access_rules": [
+                  "$CheckBuried|EC Quenching Emblem"
+                ]
               },
               {
                 "name": "Spherical Atlas",
-                "hosted_item": "loc_sphericalatlas"
+                "hosted_item": "loc_sphericalatlas",
+                "access_rules": [
+                  "$CheckBuried|EC Spherical Atlas"
+                ]
               }
             ],
             "map_locations": [
@@ -1392,85 +1748,118 @@
                 "name": "Exhausted Superstick",
                 "hosted_item": "loc_exhaustedsuperstick",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Exhausted Superstick",
+                  "^$SB,$CheckBuried|SC Exhausted Superstick"
                 ]
               },
               {
                 "name": "Nouveau Table",
                 "hosted_item": "loc_nouveautable",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Nouveau Table",
+                  "^$SB,$CheckBuried|SC Nouveau Table"
                 ]
               },
               {
                 "name": "Network Mainbrain",
-                "hosted_item": "loc_networkmainbrain"
+                "hosted_item": "loc_networkmainbrain",
+                "access_rules": [
+                  "$CheckBuried|SC Network Mainbrain"
+                ]
               },
               {
                 "name": "Spirit Flogger",
-                "hosted_item": "loc_spiritflogger"
+                "hosted_item": "loc_spiritflogger",
+                "access_rules": [
+                  "$CheckBuried|SC Spirit Flogger"
+                ]
               },
               {
                 "name": "Coiled Launcher",
-                "hosted_item": "loc_coiledlauncher"
+                "hosted_item": "loc_coiledlauncher",
+                "access_rules": [
+                  "$CheckBuried|SC Coiled Launcher"
+                ]
               },
               {
                 "name": "Omega Flywheel",
-                "hosted_item": "loc_omegaflywheel"
+                "hosted_item": "loc_omegaflywheel",
+                "access_rules": [
+                  "$CheckBuried|SC Omega Flywheel"
+                ]
               },
               {
                 "name": "Superstrong Stabilizer",
-                "hosted_item": "loc_superstrongstabilizer"
+                "hosted_item": "loc_superstrongstabilizer",
+                "access_rules": [
+                  "$CheckBuried|SC Superstrong Stabilizer"
+                ]
               },
               {
                 "name": "Adamantine Girdle",
-                "hosted_item": "loc_adamantinegirdle"
+                "hosted_item": "loc_adamantinegirdle",
+                "access_rules": [
+                  "$CheckBuried|SC Adamantine Girdle"
+                ]
               },
               {
                 "name": "Mystical Disc",
-                "hosted_item": "loc_mysticaldisc"
+                "hosted_item": "loc_mysticaldisc",
+                "access_rules": [
+                  "$CheckBuried|SC Mystical Disc"
+                ]
               },
               {
                 "name": "Repair Juggernaut",
                 "hosted_item": "loc_repairjuggernaut",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Repair Juggernaut",
+                  "^$SB,$CheckBuried|SC Repair Juggernaut"
                 ]
               },
               {
                 "name": "Space Wave Receiver",
                 "hosted_item": "loc_spacewavereceiver",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Space Wave Receiver",
+                  "^$SB,$CheckBuried|SC Space Wave Receiver"
                 ]
               },
               {
                 "name": "Vacuum Processor",
                 "hosted_item": "loc_vacuumprocessor",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Vacuum Processor",
+                  "^$SB,$CheckBuried|SC Vacuum Processor"
                 ]
               },
               {
                 "name": "Furious Adhesive",
-                "hosted_item": "loc_furiousadhesive"
+                "hosted_item": "loc_furiousadhesive",
+                "access_rules": [
+                  "$CheckBuried|SC Furious Adhesive"
+                ]
               },
               {
                 "name": "Indomitable CPU",
-                "hosted_item": "loc_indomitablecpu"
+                "hosted_item": "loc_indomitablecpu",
+                "access_rules": [
+                  "$CheckBuried|SC Indomitable CPU"
+                ]
               },
               {
                 "name": "Thirst Activator",
-                "hosted_item": "loc_thirstactivator"
+                "hosted_item": "loc_thirstactivator",
+                "access_rules": [
+                  "$CheckBuried|SC Thirst Activator"
+                ]
               },
               {
                 "name": "Stellar Orb",
-                "hosted_item": "loc_stellarorb"
+                "hosted_item": "loc_stellarorb",
+                "access_rules": [
+                  "$CheckBuried|SC Stellar Orb"
+                ]
               }
             ],
             "map_locations": [
@@ -1489,83 +1878,113 @@
             "sections": [
               {
                 "name": "Essence of Rage",
-                "hosted_item": "loc_essenceofrage"
+                "hosted_item": "loc_essenceofrage",
+                "access_rules": [
+                  "$CheckBuried|FC Essence of Rage"
+                ]
               },
               {
                 "name": "Essential Furnishing",
-                "hosted_item": "loc_essentialfurnishing"
+                "hosted_item": "loc_essentialfurnishing",
+                "access_rules": [
+                  "$CheckBuried|FC Essential Furnishing"
+                ]
               },
               {
                 "name": "Icon of Progress",
-                "hosted_item": "loc_iconofprogress"
+                "hosted_item": "loc_iconofprogress",
+                "access_rules": [
+                  "$CheckBuried|FC Icon of Progress"
+                ]
               },
               {
                 "name": "Joy Receptacle",
-                "hosted_item": "loc_joyreceptacle"
+                "hosted_item": "loc_joyreceptacle",
+                "access_rules": [
+                  "$CheckBuried|FC Joy Receptacle"
+                ]
               },
               {
                 "name": "Danger Chime",
                 "hosted_item": "loc_dangerchime",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|FC Danger Chime",
+                  "^$SB,$CheckBuried|FC Danger Chime"
                 ]
               },
               {
                 "name": "Fleeting Art Form",
                 "hosted_item": "loc_fleetingartform",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|FC Fleeting Art Form",
+                  "^$SB,$CheckBuried|FC Fleeting Art Form"
                 ]
               },
               {
                 "name": "Gemstar Husband",
                 "hosted_item": "loc_gemstarhusband",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|FC Gemstar Husband",
+                  "^$SB,$CheckBuried|FC Gemstar Husband"
                 ]
               },
               {
                 "name": "Innocence Lost",
-                "hosted_item": "loc_innocencelost"
+                "hosted_item": "loc_innocencelost",
+                "access_rules": [
+                  "$CheckBuried|FC Innocence Lost"
+                ]
               },
               {
                 "name": "Omniscient Sphere",
-                "hosted_item": "loc_omniscientsphere"
+                "hosted_item": "loc_omniscientsphere",
+                "access_rules": [
+                  "$CheckBuried|FC Omniscient Sphere"
+                ]
               },
               {
                 "name": "Brute Knuckles",
-                "hosted_item": "loc_bruteknuckles"
+                "hosted_item": "loc_bruteknuckles",
+                "access_rules": [
+                  "$CheckBuried|FC Brute Knuckles"
+                ]
               },
               {
                 "name": "Priceless Statue",
                 "hosted_item": "loc_pricelessstatue",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|FC Priceless Statue",
+                  "^$SB,$CheckBuried|FC Priceless Statue"
                 ]
               },
               {
                 "name": "Worthless Statue",
                 "hosted_item": "loc_worthlessstatue",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|FC Worthless Statue",
+                  "^$SB,$CheckBuried|FC Worthless Statue"
                 ]
               },
               {
                 "name": "Flame Tiller",
-                "hosted_item": "loc_flametiller"
+                "hosted_item": "loc_flametiller",
+                "access_rules": [
+                  "$CheckBuried|FC Flame Tiller"
+                ]
               },
               {
                 "name": "Spouse Alert",
-                "hosted_item": "loc_spousealert"
+                "hosted_item": "loc_spousealert",
+                "access_rules": [
+                  "$CheckBuried|FC Spouse Alert"
+                ]
               },
               {
                 "name": "Repugnant Appendage",
-                "hosted_item": "loc_repugnantappendage"
+                "hosted_item": "loc_repugnantappendage",
+                "access_rules": [
+                  "$CheckBuried|FC Repugnant Appendage"
+                ]
               }
             ],
             "map_locations": [
@@ -1584,27 +2003,45 @@
             "sections": [
               {
                 "name": "Stone of Glory",
-                "hosted_item": "loc_stoneofglory"
+                "hosted_item": "loc_stoneofglory",
+                "access_rules": [
+                  "$CheckBuried|HoB Stone of Glory"
+                ]
               },
               {
                 "name": "Cosmic Archive",
-                "hosted_item": "loc_cosmicarchive"
+                "hosted_item": "loc_cosmicarchive",
+                "access_rules": [
+                  "$CheckBuried|HoB Cosmic Archive"
+                ]
               },
               {
                 "name": "Strife Monolith",
-                "hosted_item": "loc_strifemonolith"
+                "hosted_item": "loc_strifemonolith",
+                "access_rules": [
+                  "$CheckBuried|HoB Strife Monolith"
+                ]
               },
               {
                 "name": "Dream Architect",
-                "hosted_item": "loc_dreamarchitect"
+                "hosted_item": "loc_dreamarchitect",
+                "access_rules": [
+                  "$CheckBuried|HoB Dream Architect"
+                ]
               },
               {
                 "name": "Luck Wafer",
-                "hosted_item": "loc_luckwafer"
+                "hosted_item": "loc_luckwafer",
+                "access_rules": [
+                  "$CheckBuried|HoB Luck Wafer"
+                ]
               },
               {
                 "name": "Prototype Detector",
-                "hosted_item": "loc_prototypedetector"
+                "hosted_item": "loc_prototypedetector",
+                "access_rules": [
+                  "$CheckBuried|HoB Prototype Detector"
+                ]
               }
             ],
             "map_locations": [
@@ -1623,39 +2060,54 @@
             "sections": [
               {
                 "name": "Alien Billboard",
-                "hosted_item": "loc_alienbillboard"
+                "hosted_item": "loc_alienbillboard",
+                "access_rules": [
+                  "$CheckBuried|WFG Alien Billboard"
+                ]
               },
               {
                 "name": "Drought Ender",
-                "hosted_item": "loc_droughtender"
+                "hosted_item": "loc_droughtender",
+                "access_rules": [
+                  "$CheckBuried|WFG Drought Ender"
+                ]
               },
               {
                 "name": "Petrified Heart",
-                "hosted_item": "loc_petrifiedheart"
+                "hosted_item": "loc_petrifiedheart",
+                "access_rules": [
+                  "$CheckBuried|WFG Petrified Heart"
+                ]
               },
               {
                 "name": "Superstick Textile",
-                "hosted_item": "loc_supersticktextile"
+                "hosted_item": "loc_supersticktextile",
+                "access_rules": [
+                  "$CheckBuried|WFG Superstick Textile"
+                ]
               },
               {
                 "name": "Survival Ointment",
                 "hosted_item": "loc_survivalointment",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|WFG Survival Ointment",
+                  "^$SB,$CheckBuried|WFG Survival Ointment"
                 ]
               },
               {
                 "name": "Toxic Toadstool",
                 "hosted_item": "loc_toxictoadstool",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|WFG Toxic Toadstool",
+                  "^$SB,$CheckBuried|WFG Toxic Toadstool"
                 ]
               },
               {
                 "name": "Five-man Napsack",
-                "hosted_item": "loc_five-mannapsack"
+                "hosted_item": "loc_five-mannapsack",
+                "access_rules": [
+                  "$CheckBuried|WFG Five-man Napsack"
+                ]
               }
             ],
             "map_locations": [
@@ -1674,43 +2126,73 @@
             "sections": [
               {
                 "name": "Crystal Clover",
-                "hosted_item": "loc_crystalclover"
+                "hosted_item": "loc_crystalclover",
+                "access_rules": [
+                  "$CheckBuried|BK Crystal Clover"
+                ]
               },
               {
                 "name": "Tear Stone",
-                "hosted_item": "loc_tearstone"
+                "hosted_item": "loc_tearstone",
+                "access_rules": [
+                  "$CheckBuried|BK Tear Stone"
+                ]
               },
               {
                 "name": "Olimarnite Shell",
-                "hosted_item": "loc_olimarniteshell"
+                "hosted_item": "loc_olimarniteshell",
+                "access_rules": [
+                  "$CheckBuried|BK Olimarnite Shell"
+                ]
               },
               {
                 "name": "Crystal King",
-                "hosted_item": "loc_crystalking"
+                "hosted_item": "loc_crystalking",
+                "access_rules": [
+                  "$CheckBuried|BK Crystal King"
+                ]
               },
               {
                 "name": "Unknown Merit",
-                "hosted_item": "loc_unknownmerit"
+                "hosted_item": "loc_unknownmerit",
+                "access_rules": [
+                  "$CheckBuried|BK Unknown Merit"
+                ]
               },
               {
                 "name": "Anxious Sprout",
-                "hosted_item": "loc_anxioussprout"
+                "hosted_item": "loc_anxioussprout",
+                "access_rules": [
+                  "$CheckBuried|BK Anxious Sprout"
+                ]
               },
               {
                 "name": "Colossal Fossil",
-                "hosted_item": "loc_colossalfossil"
+                "hosted_item": "loc_colossalfossil",
+                "access_rules": [
+                  "$CheckBuried|BK Colossal Fossil"
+                ]
               },
               {
                 "name": "Eternal Emerald Eye",
-                "hosted_item": "loc_eternalemeraldeye"
+                "hosted_item": "loc_eternalemeraldeye",
+                "access_rules": [
+                  "$CheckBuried|BK Eternal Emerald Eye"
+                ]
               },
               {
                 "name": "Forged Courage",
-                "hosted_item": "loc_forgedcourage"
+                "hosted_item": "loc_forgedcourage",
+                "access_rules": [
+                  "$CheckBuried|BK Forged Courage"
+                ]
               },
               {
                 "name": "Gyroid Bust",
-                "hosted_item": "loc_gyroidbust"
+                "hosted_item": "loc_gyroidbust",
+                "access_rules": [
+                  "$CheckBuried|BK Gyroid Bust"
+                ]
               }
             ],
             "map_locations": [
@@ -1729,79 +2211,112 @@
             "sections": [
               {
                 "name": "Crystallized Telekinesis",
-                "hosted_item": "loc_crystallizedtelekinesis"
+                "hosted_item": "loc_crystallizedtelekinesis",
+                "access_rules": [
+                  "$CheckBuried|SH Crystallized Telekinesis"
+                ]
               },
               {
                 "name": "Leviathan Feather",
-                "hosted_item": "loc_leviathanfeather"
+                "hosted_item": "loc_leviathanfeather",
+                "access_rules": [
+                  "$CheckBuried|SH Leviathan Feather"
+                ]
               },
               {
                 "name": "Combustion Berry",
-                "hosted_item": "loc_combustionberry"
+                "hosted_item": "loc_combustionberry",
+                "access_rules": [
+                  "$CheckBuried|SH Combustion Berry"
+                ]
               },
               {
                 "name": "Taste Sensation",
-                "hosted_item": "loc_tastesensation"
+                "hosted_item": "loc_tastesensation",
+                "access_rules": [
+                  "$CheckBuried|SH Taste Sensation"
+                ]
               },
               {
                 "name": "Meat Satchel",
-                "hosted_item": "loc_meatsatchel"
+                "hosted_item": "loc_meatsatchel",
+                "access_rules": [
+                  "$CheckBuried|SH Meat Satchel"
+                ]
               },
               {
                 "name": "Crystallized Telepathy",
-                "hosted_item": "loc_crystallizedtelepathy"
+                "hosted_item": "loc_crystallizedtelepathy",
+                "access_rules": [
+                  "$CheckBuried|SH Crystallized Telepathy"
+                ]
               },
               {
                 "name": "Cupid's Grenade",
-                "hosted_item": "loc_cupidsgrenade"
+                "hosted_item": "loc_cupidsgrenade",
+                "access_rules": [
+                  "$CheckBuried|SH Cupid's Grenade"
+                ]
               },
               {
                 "name": "Heavy-duty Magnetizer",
-                "hosted_item": "loc_heavy-dutymagnetizer"
+                "hosted_item": "loc_heavy-dutymagnetizer",
+                "access_rules": [
+                  "$CheckBuried|SH Heavy-duty Magnetizer"
+                ]
               },
               {
                 "name": "Crystallized Clairvoyance",
-                "hosted_item": "loc_crystallizedclairvoyance"
+                "hosted_item": "loc_crystallizedclairvoyance",
+                "access_rules": [
+                  "$CheckBuried|SH Crystallized Clairvoyance"
+                ]
               },
               {
                 "name": "Emperor Whistle",
-                "hosted_item": "loc_emperorwhistle"
+                "hosted_item": "loc_emperorwhistle",
+                "access_rules": [
+                  "$CheckBuried|SH Emperor Whistle"
+                ]
               },
               {
                 "name": "Salivatrix",
                 "hosted_item": "loc_salivatrix",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|SH Salivatrix",
+                  "^$SB,$CheckBuried|SH Salivatrix"
                 ]
               },
               {
                 "name": "Science Project",
                 "hosted_item": "loc_scienceproject",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|SH Science Project",
+                  "^$SB,$CheckBuried|SH Science Project"
                 ]
               },
               {
                 "name": "Stupendous Lens",
                 "hosted_item": "loc_stupendouslens",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|SH Stupendous Lens",
+                  "^$SB,$CheckBuried|SH Stupendous Lens"
                 ]
               },
               {
                 "name": "Triple Sugar Threat",
                 "hosted_item": "loc_triplesugarthreat",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|SH Triple Sugar Threat",
+                  "^$SB,$CheckBuried|SH Triple Sugar Threat"
                 ]
               },
               {
                 "name": "Justice Alloy",
-                "hosted_item": "loc_justicealloy"
+                "hosted_item": "loc_justicealloy",
+                "access_rules": [
+                  "$CheckBuried|SH Justice Alloy"
+                ]
               }
             ],
             "map_locations": [
@@ -1820,47 +2335,80 @@
             "sections": [
               {
                 "name": "Love Nugget",
-                "hosted_item": "loc_lovenugget"
+                "hosted_item": "loc_lovenugget",
+                "access_rules": [
+                  "$CheckBuried|CoS Love Nugget"
+                ]
               },
               {
                 "name": "Creative Inspiration",
-                "hosted_item": "loc_creativeinspiration"
+                "hosted_item": "loc_creativeinspiration",
+                "access_rules": [
+                  "$CheckBuried|CoS Creative Inspiration"
+                ]
               },
               {
                 "name": "Lip Service",
-                "hosted_item": "loc_lipservice"
+                "hosted_item": "loc_lipservice",
+                "access_rules": [
+                  "$CheckBuried|CoS Lip Service"
+                ]
               },
               {
                 "name": "Paradoxical Enigma",
-                "hosted_item": "loc_paradoxicalenigma"
+                "hosted_item": "loc_paradoxicalenigma",
+                "access_rules": [
+                  "$CheckBuried|CoS Paradoxical Enigma"
+                ]
               },
               {
                 "name": "Memorial Shell",
-                "hosted_item": "loc_memorialshell"
+                "hosted_item": "loc_memorialshell",
+                "access_rules": [
+                  "$CheckBuried|CoS Memorial Shell"
+                ]
               },
               {
                 "name": "Patience Tester",
-                "hosted_item": "loc_patiencetester"
+                "hosted_item": "loc_patiencetester",
+                "access_rules": [
+                  "$CheckBuried|CoS Patience Tester"
+                ]
               },
               {
                 "name": "Flame of Tomorrow",
-                "hosted_item": "loc_flameoftomorrow"
+                "hosted_item": "loc_flameoftomorrow",
+                "access_rules": [
+                  "$CheckBuried|CoS Flame of Tomorrow"
+                ]
               },
               {
                 "name": "King of Sweets",
-                "hosted_item": "loc_kingofsweets"
+                "hosted_item": "loc_kingofsweets",
+                "access_rules": [
+                  "$CheckBuried|CoS King of Sweets"
+                ]
               },
               {
                 "name": "Time Capsule",
-                "hosted_item": "loc_timecapsule"
+                "hosted_item": "loc_timecapsule",
+                "access_rules": [
+                  "$CheckBuried|CoS Time Capsule"
+                ]
               },
               {
                 "name": "Regal Diamond",
-                "hosted_item": "loc_regaldiamond"
+                "hosted_item": "loc_regaldiamond",
+                "access_rules": [
+                  "$CheckBuried|CoS Regal Diamond"
+                ]
               },
               {
                 "name": "The Key",
-                "hosted_item": "loc_thekey"
+                "hosted_item": "loc_thekey",
+                "access_rules": [
+                  "$CheckBuried|CoS The Key"
+                ]
               }
             ],
             "map_locations": [
@@ -1879,75 +2427,105 @@
             "sections": [
               {
                 "name": "Master's Instrument",
-                "hosted_item": "loc_mastersinstrument"
+                "hosted_item": "loc_mastersinstrument",
+                "access_rules": [
+                  "$CheckBuried|GK Master's Instrument"
+                ]
               },
               {
                 "name": "Massive Lid",
                 "hosted_item": "loc_massivelid",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|GK Massive Lid",
+                  "^$SB,$CheckBuried|GK Massive Lid"
                 ]
               },
               {
                 "name": "Imperative Cookie",
                 "hosted_item": "loc_imperativecookie",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|GK Imperative Cookie",
+                  "^$SB,$CheckBuried|GK Imperative Cookie"
                 ]
               },
               {
                 "name": "Director of Destiny",
-                "hosted_item": "loc_directorofdestiny"
+                "hosted_item": "loc_directorofdestiny",
+                "access_rules": [
+                  "$CheckBuried|GK Director of Destiny"
+                ]
               },
               {
                 "name": "Harmonic Synthesizer",
-                "hosted_item": "loc_harmonicsynthesizer"
+                "hosted_item": "loc_harmonicsynthesizer",
+                "access_rules": [
+                  "$CheckBuried|GK Harmonic Synthesizer"
+                ]
               },
               {
                 "name": "Invigorator",
                 "hosted_item": "loc_invigorator",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|GK Invigorator",
+                  "^$SB,$CheckBuried|GK Invigorator"
                 ]
               },
               {
                 "name": "Happiness Emblem",
-                "hosted_item": "loc_happinessemblem"
+                "hosted_item": "loc_happinessemblem",
+                "access_rules": [
+                  "$CheckBuried|GK Happiness Emblem"
+                ]
               },
               {
                 "name": "White Goodness",
                 "hosted_item": "loc_whitegoodness",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|GK White Goodness",
+                  "^$SB,$CheckBuried|GK White Goodness"
                 ]
               },
               {
                 "name": "Boom Cone",
-                "hosted_item": "loc_boomcone"
+                "hosted_item": "loc_boomcone",
+                "access_rules": [
+                  "$CheckBuried|GK Boom Cone"
+                ]
               },
               {
                 "name": "Sulking Antenna",
-                "hosted_item": "loc_sulkingantenna"
+                "hosted_item": "loc_sulkingantenna",
+                "access_rules": [
+                  "$CheckBuried|GK Sulking Antenna"
+                ]
               },
               {
                 "name": "Dream Material",
-                "hosted_item": "loc_dreammaterial"
+                "hosted_item": "loc_dreammaterial",
+                "access_rules": [
+                  "$CheckBuried|GK Dream Material"
+                ]
               },
               {
                 "name": "Hideous Victual",
-                "hosted_item": "loc_hideousvictual"
+                "hosted_item": "loc_hideousvictual",
+                "access_rules": [
+                  "$CheckBuried|GK Hideous Victual"
+                ]
               },
               {
                 "name": "Meat of Champions",
-                "hosted_item": "loc_meatofchampions"
+                "hosted_item": "loc_meatofchampions",
+                "access_rules": [
+                  "$CheckBuried|GK Meat of Champions"
+                ]
               },
               {
                 "name": "Sweet Dreamer",
-                "hosted_item": "loc_sweetdreamer"
+                "hosted_item": "loc_sweetdreamer",
+                "access_rules": [
+                  "$CheckBuried|GK Sweet Dreamer"
+                ]
               }
             ],
             "map_locations": [
@@ -1966,103 +2544,112 @@
             "sections": [
               {
                 "name": "Merciless Extractor",
-                "hosted_item": "loc_mercilessextractor"
+                "hosted_item": "loc_mercilessextractor",
+                "access_rules": [
+                  "$CheckBuried|SR Merciless Extractor"
+                ]
               },
               {
                 "name": "Durable Energy Cell",
                 "hosted_item": "loc_durableenergycell",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SR Durable Energy Cell",
+                  "^$SB,$CheckBuried|SR Durable Energy Cell"
                 ]
               },
               {
                 "name": "Sud Generator",
                 "hosted_item": "loc_sudgenerator",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SR Sud Generator",
+                  "^$SB,$CheckBuried|SR Sud Generator"
                 ]
               },
               {
                 "name": "Mirrored Stage",
                 "hosted_item": "loc_mirroredstage",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Mirrored Stage",
+                  "^$SB,$CheckBuried|SR Mirrored Stage"
                 ]
               },
               {
                 "name": "Scrumptious Shell",
                 "hosted_item": "loc_scrumptiousshell",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Scrumptious Shell",
+                  "^$SB,$CheckBuried|SR Scrumptious Shell"
                 ]
               },
               {
                 "name": "Vorpal Platter",
                 "hosted_item": "loc_vorpalplatter",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Vorpal Platter",
+                  "^$SB,$CheckBuried|SR Vorpal Platter"
                 ]
               },
               {
                 "name": "Arboreal Frippery",
-                "hosted_item": "loc_arborealfrippery"
+                "hosted_item": "loc_arborealfrippery",
+                "access_rules": [
+                  "$CheckBuried|SR Arboreal Frippery"
+                ]
               },
               {
                 "name": "Broken Food Master",
                 "hosted_item": "loc_brokenfoodmaster",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Broken Food Master",
+                  "^$SB,$CheckBuried|SR Broken Food Master"
                 ]
               },
               {
                 "name": "Endless Repository",
                 "hosted_item": "loc_endlessrepository",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Endless Repository",
+                  "^$SB,$CheckBuried|SR Endless Repository"
                 ]
               },
               {
                 "name": "Pondering Emblem",
                 "hosted_item": "loc_ponderingemblem",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Pondering Emblem",
+                  "^$SB,$CheckBuried|SR Pondering Emblem"
                 ]
               },
               {
                 "name": "Abstract Masterpiece",
                 "hosted_item": "loc_abstractmasterpiece",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Abstract Masterpiece",
+                  "^$SB,$CheckBuried|SR Abstract Masterpiece"
                 ]
               },
               {
                 "name": "Behemoth Jaw",
                 "hosted_item": "loc_behemothjaw",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Behemoth Jaw",
+                  "^$SB,$CheckBuried|SR Behemoth Jaw"
                 ]
               },
               {
                 "name": "Rubber Ugly",
                 "hosted_item": "loc_rubberugly",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Rubber Ugly",
+                  "^$SB,$CheckBuried|SR Rubber Ugly"
                 ]
               },
               {
                 "name": "Amplified Amplifier",
-                "hosted_item": "loc_amplifiedamplifier"
+                "hosted_item": "loc_amplifiedamplifier",
+                "access_rules": [
+                  "$CheckBuried|SR Amplified Amplifier"
+                ]
               }
             ],
             "map_locations": [
@@ -2082,58 +2669,94 @@
             "sections": [
               {
                 "name": "Bug Bait",
-                "hosted_item": "loc_bugbait"
+                "hosted_item": "loc_bugbait",
+                "access_rules": [
+                  "$CheckBuried|SMGC Bug Bait"
+                ]
               },
               {
                 "name": "Diet Doomer",
-                "hosted_item": "loc_dietdoomer"
+                "hosted_item": "loc_dietdoomer",
+                "access_rules": [
+                  "$CheckBuried|SMGC Diet Doomer"
+                ]
               },
               {
                 "name": "Pastry Wheel",
-                "hosted_item": "loc_pastrywheel"
+                "hosted_item": "loc_pastrywheel",
+                "access_rules": [
+                  "$CheckBuried|SMGC Pastry Wheel"
+                ]
               },
               {
                 "name": "Chocolate Cushion",
-                "hosted_item": "loc_chocolatecushion"
+                "hosted_item": "loc_chocolatecushion",
+                "access_rules": [
+                  "$CheckBuried|SMGC Chocolate Cushion"
+                ]
               },
               {
                 "name": "Comfort Cookie",
-                "hosted_item": "loc_comfortcookie"
+                "hosted_item": "loc_comfortcookie",
+                "access_rules": [
+                  "$CheckBuried|SMGC Comfort Cookie"
+                ]
               },
               {
                 "name": "Confection Hoop",
-                "hosted_item": "loc_confectionhoop"
+                "hosted_item": "loc_confectionhoop",
+                "access_rules": [
+                  "$CheckBuried|SMGC Confection Hoop"
+                ]
               },
               {
                 "name": "Activity Arouser",
-                "hosted_item": "loc_activityarouser"
+                "hosted_item": "loc_activityarouser",
+                "access_rules": [
+                  "$CheckBuried|SMGC Activity Arouser"
+                ]
               },
               {
                 "name": "Compelling Cookie",
-                "hosted_item": "loc_compellingcookie"
+                "hosted_item": "loc_compellingcookie",
+                "access_rules": [
+                  "$CheckBuried|SMGC Compelling Cookie"
+                ]
               },
               {
                 "name": "Succulent Mattress",
-                "hosted_item": "loc_succulentmattress"
+                "hosted_item": "loc_succulentmattress",
+                "access_rules": [
+                  "$CheckBuried|SMGC Succulent Mattress"
+                ]
               },
               {
                 "name": "Drone Supplies",
-                "hosted_item": "loc_dronesupplies"
+                "hosted_item": "loc_dronesupplies",
+                "access_rules": [
+                  "$CheckBuried|SMGC Drone Supplies"
+                ]
               },
               {
                 "name": "Pale Passion",
-                "hosted_item": "loc_palepassion"
+                "hosted_item": "loc_palepassion",
+                "access_rules": [
+                  "$CheckBuried|SMGC Pale Passion"
+                ]
               },
               {
                 "name": "Proton AA",
-                "hosted_item": "loc_protonaa"
+                "hosted_item": "loc_protonaa",
+                "access_rules": [
+                  "$CheckBuried|SMGC Proton AA"
+                ]
               },
               {
                 "name": "Professional Noisemaker",
                 "hosted_item": "loc_professionalnoisemaker",
                 "access_rules": [
-                  "$Has|PP",
-                  "^$SB"
+                  "$Has|PP,$CheckBuried|SMGC Professional Noisemaker",
+                  "^$SB,$CheckBuried|SMGC Professional Noisemaker"
                 ]
               }
             ],
@@ -2153,115 +2776,133 @@
             "sections": [
               {
                 "name": "Enamel Buster",
-                "hosted_item": "loc_enamelbuster"
+                "hosted_item": "loc_enamelbuster",
+                "access_rules": [
+                  "$CheckBuried|CoC Enamel Buster"
+                ]
               },
               {
                 "name": "Mirth Sphere",
-                "hosted_item": "loc_mirthsphere"
+                "hosted_item": "loc_mirthsphere",
+                "access_rules": [
+                  "$CheckBuried|CoC Mirth Sphere"
+                ]
               },
               {
                 "name": "Essence of Despair",
                 "hosted_item": "loc_essenceofdespair",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|CoC Essence of Despair",
+                  "^$SB,$CheckBuried|CoC Essence of Despair"
                 ]
               },
               {
                 "name": "Frosty Bauble",
                 "hosted_item": "loc_frostybauble",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|CoC Frosty Bauble",
+                  "^$SB,$CheckBuried|CoC Frosty Bauble"
                 ]
               },
               {
                 "name": "Gemstar Wife",
                 "hosted_item": "loc_gemstarwife",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|CoC Gemstar Wife",
+                  "^$SB,$CheckBuried|CoC Gemstar Wife"
                 ]
               },
               {
                 "name": "Child of the Earth",
-                "hosted_item": "loc_childoftheearth"
+                "hosted_item": "loc_childoftheearth",
+                "access_rules": [
+                  "$CheckBuried|CoC Child of the Earth"
+                ]
               },
               {
                 "name": "Infernal Vegetable",
-                "hosted_item": "loc_infernalvegetable"
+                "hosted_item": "loc_infernalvegetable",
+                "access_rules": [
+                  "$CheckBuried|CoC Infernal Vegetable"
+                ]
               },
               {
                 "name": "Milk Tub",
                 "hosted_item": "loc_milktub",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|CoC Milk Tub",
+                  "^$SB,$CheckBuried|CoC Milk Tub"
                 ]
               },
               {
                 "name": "Mysterious Remains",
                 "hosted_item": "loc_mysteriousremains",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|CoC Mysterious Remains",
+                  "^$SB,$CheckBuried|CoC Mysterious Remains"
                 ]
               },
               {
                 "name": "Growshroom",
                 "hosted_item": "loc_growshroom",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|CoC Growshroom",
+                  "^$SB,$CheckBuried|CoC Growshroom"
                 ]
               },
               {
                 "name": "Princess Pearl",
                 "hosted_item": "loc_princesspearl",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|CoC Princess Pearl",
+                  "^$SB,$CheckBuried|CoC Princess Pearl"
                 ]
               },
               {
                 "name": "Fuel Reservoir",
                 "hosted_item": "loc_fuelreservoir",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|CoC Fuel Reservoir",
+                  "^$SB,$CheckBuried|CoC Fuel Reservoir"
                 ]
               },
               {
                 "name": "Impenetrable Cookie",
                 "hosted_item": "loc_impenetrablecookie",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|CoC Impenetrable Cookie",
+                  "^$SB,$CheckBuried|CoC Impenetrable Cookie"
                 ]
               },
               {
                 "name": "Fruit Guard",
-                "hosted_item": "loc_fruitguard"
+                "hosted_item": "loc_fruitguard",
+                "access_rules": [
+                  "$CheckBuried|CoC Fruit Guard"
+                ]
               },
               {
                 "name": "Maternal Sculpture",
                 "hosted_item": "loc_maternalsculpture",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|CoC Maternal Sculpture",
+                  "^$SB,$CheckBuried|CoC Maternal Sculpture"
                 ]
               },
               {
                 "name": "Wiggle Noggin",
                 "hosted_item": "loc_wigglenoggin",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|CoC Wiggle Noggin",
+                  "^$SB,$CheckBuried|CoC Wiggle Noggin"
                 ]
               },
               {
                 "name": "Silencer",
-                "hosted_item": "loc_silencer"
+                "hosted_item": "loc_silencer",
+                "access_rules": [
+                  "$CheckBuried|CoC Silencer"
+                ]
               }
             ],
             "map_locations": [
@@ -2280,75 +2921,99 @@
             "sections": [
               {
                 "name": "Corpulent Nut",
-                "hosted_item": "loc_corpulentnut"
+                "hosted_item": "loc_corpulentnut",
+                "access_rules": [
+                  "$CheckBuried|HoH Corpulent Nut"
+                ]
               },
               {
                 "name": "Essence of True Love",
-                "hosted_item": "loc_essenceoftruelove"
+                "hosted_item": "loc_essenceoftruelove",
+                "access_rules": [
+                  "$CheckBuried|HoH Essence of True Love"
+                ]
               },
               {
                 "name": "Love Sphere",
-                "hosted_item": "loc_lovesphere"
+                "hosted_item": "loc_lovesphere",
+                "access_rules": [
+                  "$CheckBuried|HoH Love Sphere"
+                ]
               },
               {
                 "name": "Lustrous Element",
-                "hosted_item": "loc_lustrouselement"
+                "hosted_item": "loc_lustrouselement",
+                "access_rules": [
+                  "$CheckBuried|HoH Lustrous Element"
+                ]
               },
               {
                 "name": "Nutrient Silo",
                 "hosted_item": "loc_nutrientsilo",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+                  "^$SB,$CheckBuried|HoH Nutrient Silo"
                 ]
               },
               {
                 "name": "Joyless Jewel",
-                "hosted_item": "loc_joylessjewel"
+                "hosted_item": "loc_joylessjewel",
+                "access_rules": [
+                  "$CheckBuried|HoH Joyless Jewel"
+                ]
               },
               {
                 "name": "Dimensional Slicer",
                 "hosted_item": "loc_dimensionalslicer",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+                  "^$SB,$CheckBuried|HoH Dimensional Slicer"
                 ]
               },
               {
                 "name": "Treasured Gyro Block",
                 "hosted_item": "loc_treasuredgyroblock",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+                  "^$SB,$CheckBuried|HoH Treasured Gyro Block"
                 ]
               },
               {
                 "name": "Favorite Gyro Block",
-                "hosted_item": "loc_favoritegyroblock"
+                "hosted_item": "loc_favoritegyroblock",
+                "access_rules": [
+                  "$CheckBuried|HoH Favorite Gyro Block"
+                ]
               },
               {
                 "name": "Lost Gyro Block",
-                "hosted_item": "loc_lostgyroblock"
+                "hosted_item": "loc_lostgyroblock",
+                "access_rules": [
+                  "$CheckBuried|HoH Lost Gyro Block"
+                ]
               },
               {
                 "name": "Memorable Gyro Block",
                 "hosted_item": "loc_memorablegyroblock",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+                  "^$SB,$CheckBuried|HoH Memorable Gyro Block"
                 ]
               },
               {
                 "name": "Fond Gyro Block",
                 "hosted_item": "loc_fondgyroblock",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+                  "^$SB,$CheckBuried|HoH Fond Gyro Block"
                 ]
               },
               {
                 "name": "Remembered Old Buddy",
-                "hosted_item": "loc_rememberedoldbuddy"
+                "hosted_item": "loc_rememberedoldbuddy",
+                "access_rules": [
+                  "$CheckBuried|HoH Remembered Old Buddy"
+                ]
               }
             ],
             "map_locations": [
@@ -2369,133 +3034,160 @@
                 "name": "Disguised Delicacy",
                 "hosted_item": "loc_disguiseddelicacy",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Disguised Delicacy",
+                  "^$SB,$CheckBuried|DD Disguised Delicacy"
                 ]
               },
               {
                 "name": "Implement of Toil",
-                "hosted_item": "loc_implementoftoil"
+                "hosted_item": "loc_implementoftoil",
+                "access_rules": [
+                  "$CheckBuried|DD Implement of Toil"
+                ]
               },
               {
                 "name": "Manual Honer",
                 "hosted_item": "loc_manualhoner",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|DD Manual Honer",
+                  "^$SB,$CheckBuried|DD Manual Honer"
                 ]
               },
               {
                 "name": "Glee Spinner",
                 "hosted_item": "loc_gleespinner",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Glee Spinner",
+                  "^$SB,$CheckBuried|DD Glee Spinner"
                 ]
               },
               {
                 "name": "Mirrored Element",
                 "hosted_item": "loc_mirroredelement",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Mirrored Element",
+                  "^$SB,$CheckBuried|DD Mirrored Element"
                 ]
               },
               {
                 "name": "Insect Condo",
                 "hosted_item": "loc_insectcondo",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|DD Insect Condo",
+                  "^$SB,$CheckBuried|DD Insect Condo"
                 ]
               },
               {
                 "name": "Future Orb",
-                "hosted_item": "loc_futureorb"
+                "hosted_item": "loc_futureorb",
+                "access_rules": [
+                  "$CheckBuried|DD Future Orb"
+                ]
               },
               {
                 "name": "Essence of Desire",
-                "hosted_item": "loc_essenceofdesire"
+                "hosted_item": "loc_essenceofdesire",
+                "access_rules": [
+                  "$CheckBuried|DD Essence of Desire"
+                ]
               },
               {
                 "name": "Extreme Perspirator",
                 "hosted_item": "loc_extremeperspirator",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Extreme Perspirator",
+                  "^$SB,$CheckBuried|DD Extreme Perspirator"
                 ]
               },
               {
                 "name": "Possessed Squash",
                 "hosted_item": "loc_possessedsquash",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Possessed Squash",
+                  "^$SB,$CheckBuried|DD Possessed Squash"
                 ]
               },
               {
                 "name": "Talisman of Life",
                 "hosted_item": "loc_talismanoflife",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|DD Talisman of Life",
+                  "^$SB,$CheckBuried|DD Talisman of Life"
                 ]
               },
               {
                 "name": "Boss Stone",
                 "hosted_item": "loc_bossstone",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Boss Stone",
+                  "^$SB,$CheckBuried|DD Boss Stone"
                 ]
               },
               {
                 "name": "Yellow Taste Tyrant",
                 "hosted_item": "loc_yellowtastetyrant",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Yellow Taste Tyrant",
+                  "^$SB,$CheckBuried|DD Yellow Taste Tyrant"
                 ]
               },
               {
                 "name": "Stringent Container",
                 "hosted_item": "loc_stringentcontainer",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Stringent Container",
+                  "^$SB,$CheckBuried|DD Stringent Container"
                 ]
               },
               {
                 "name": "Universal Com",
                 "hosted_item": "loc_universalcom",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Universal Com",
+                  "^$SB,$CheckBuried|DD Universal Com"
                 ]
               },
               {
                 "name": "Hypnotic Platter",
-                "hosted_item": "loc_hypnoticplatter"
+                "hosted_item": "loc_hypnoticplatter",
+                "access_rules": [
+                  "$CheckBuried|DD Hypnotic Platter"
+                ]
               },
               {
                 "name": "Comedy Bomb",
-                "hosted_item": "loc_comedybomb"
+                "hosted_item": "loc_comedybomb",
+                "access_rules": [
+                  "$CheckBuried|DD Comedy Bomb"
+                ]
               },
               {
                 "name": "Flare Cannon",
-                "hosted_item": "loc_flarecannon"
+                "hosted_item": "loc_flarecannon",
+                "access_rules": [
+                  "$CheckBuried|DD Flare Cannon"
+                ]
               },
               {
                 "name": "King of Bugs",
-                "hosted_item": "loc_kingofbugs"
+                "hosted_item": "loc_kingofbugs",
+                "access_rules": [
+                  "$CheckBuried|DD King of Bugs"
+                ]
               },
               {
                 "name": "Monster Pump",
-                "hosted_item": "loc_monsterpump"
+                "hosted_item": "loc_monsterpump",
+                "access_rules": [
+                  "$CheckBuried|DD Monster Pump"
+                ]
               },
               {
                 "name": "Shock Therapist",
-                "hosted_item": "loc_shocktherapist"
+                "hosted_item": "loc_shocktherapist",
+                "access_rules": [
+                  "$CheckBuried|DD Shock Therapist"
+                ]
               }
             ],
             "map_locations": [
@@ -2566,15 +3258,24 @@
             "sections": [
               {
                 "name": "Citrus Lump",
-                "hosted_item": "loc_citruslump"
+                "hosted_item": "loc_citruslump",
+                "access_rules": [
+                  "$CheckBuried|EC Citrus Lump"
+                ]
               },
               {
                 "name": "Quenching Emblem",
-                "hosted_item": "loc_quenchingemblem"
+                "hosted_item": "loc_quenchingemblem",
+                "access_rules": [
+                  "$CheckBuried|EC Quenching Emblem"
+                ]
               },
               {
                 "name": "Spherical Atlas",
-                "hosted_item": "loc_sphericalatlas"
+                "hosted_item": "loc_sphericalatlas",
+                "access_rules": [
+                  "$CheckBuried|EC Spherical Atlas"
+                ]
               }
             ],
             "map_locations": [
@@ -2595,85 +3296,118 @@
                 "name": "Exhausted Superstick",
                 "hosted_item": "loc_exhaustedsuperstick",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Exhausted Superstick",
+                  "^$SB,$CheckBuried|SC Exhausted Superstick"
                 ]
               },
               {
                 "name": "Nouveau Table",
                 "hosted_item": "loc_nouveautable",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Nouveau Table",
+                  "^$SB,$CheckBuried|SC Nouveau Table"
                 ]
               },
               {
                 "name": "Network Mainbrain",
-                "hosted_item": "loc_networkmainbrain"
+                "hosted_item": "loc_networkmainbrain",
+                "access_rules": [
+                  "$CheckBuried|SC Network Mainbrain"
+                ]
               },
               {
                 "name": "Spirit Flogger",
-                "hosted_item": "loc_spiritflogger"
+                "hosted_item": "loc_spiritflogger",
+                "access_rules": [
+                  "$CheckBuried|SC Spirit Flogger"
+                ]
               },
               {
                 "name": "Coiled Launcher",
-                "hosted_item": "loc_coiledlauncher"
+                "hosted_item": "loc_coiledlauncher",
+                "access_rules": [
+                  "$CheckBuried|SC Coiled Launcher"
+                ]
               },
               {
                 "name": "Omega Flywheel",
-                "hosted_item": "loc_omegaflywheel"
+                "hosted_item": "loc_omegaflywheel",
+                "access_rules": [
+                  "$CheckBuried|SC Omega Flywheel"
+                ]
               },
               {
                 "name": "Superstrong Stabilizer",
-                "hosted_item": "loc_superstrongstabilizer"
+                "hosted_item": "loc_superstrongstabilizer",
+                "access_rules": [
+                  "$CheckBuried|SC Superstrong Stabilizer"
+                ]
               },
               {
                 "name": "Adamantine Girdle",
-                "hosted_item": "loc_adamantinegirdle"
+                "hosted_item": "loc_adamantinegirdle",
+                "access_rules": [
+                  "$CheckBuried|SC Adamantine Girdle"
+                ]
               },
               {
                 "name": "Mystical Disc",
-                "hosted_item": "loc_mysticaldisc"
+                "hosted_item": "loc_mysticaldisc",
+                "access_rules": [
+                  "$CheckBuried|SC Mystical Disc"
+                ]
               },
               {
                 "name": "Repair Juggernaut",
                 "hosted_item": "loc_repairjuggernaut",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Repair Juggernaut",
+                  "^$SB,$CheckBuried|SC Repair Juggernaut"
                 ]
               },
               {
                 "name": "Space Wave Receiver",
                 "hosted_item": "loc_spacewavereceiver",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Space Wave Receiver",
+                  "^$SB,$CheckBuried|SC Space Wave Receiver"
                 ]
               },
               {
                 "name": "Vacuum Processor",
                 "hosted_item": "loc_vacuumprocessor",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SC Vacuum Processor",
+                  "^$SB,$CheckBuried|SC Vacuum Processor"
                 ]
               },
               {
                 "name": "Furious Adhesive",
-                "hosted_item": "loc_furiousadhesive"
+                "hosted_item": "loc_furiousadhesive",
+                "access_rules": [
+                  "$CheckBuried|SC Furious Adhesive"
+                ]
               },
               {
                 "name": "Indomitable CPU",
-                "hosted_item": "loc_indomitablecpu"
+                "hosted_item": "loc_indomitablecpu",
+                "access_rules": [
+                  "$CheckBuried|SC Indomitable CPU"
+                ]
               },
               {
                 "name": "Thirst Activator",
-                "hosted_item": "loc_thirstactivator"
+                "hosted_item": "loc_thirstactivator",
+                "access_rules": [
+                  "$CheckBuried|SC Thirst Activator"
+                ]
               },
               {
                 "name": "Stellar Orb",
-                "hosted_item": "loc_stellarorb"
+                "hosted_item": "loc_stellarorb",
+                "access_rules": [
+                  "$CheckBuried|SC Stellar Orb"
+                ]
               }
             ],
             "map_locations": [
@@ -2692,83 +3426,113 @@
             "sections": [
               {
                 "name": "Essence of Rage",
-                "hosted_item": "loc_essenceofrage"
+                "hosted_item": "loc_essenceofrage",
+                "access_rules": [
+                  "$CheckBuried|FC Essence of Rage"
+                ]
               },
               {
                 "name": "Essential Furnishing",
-                "hosted_item": "loc_essentialfurnishing"
+                "hosted_item": "loc_essentialfurnishing",
+                "access_rules": [
+                  "$CheckBuried|FC Essential Furnishing"
+                ]
               },
               {
                 "name": "Icon of Progress",
-                "hosted_item": "loc_iconofprogress"
+                "hosted_item": "loc_iconofprogress",
+                "access_rules": [
+                  "$CheckBuried|FC Icon of Progress"
+                ]
               },
               {
                 "name": "Joy Receptacle",
-                "hosted_item": "loc_joyreceptacle"
+                "hosted_item": "loc_joyreceptacle",
+                "access_rules": [
+                  "$CheckBuried|FC Joy Receptacle"
+                ]
               },
               {
                 "name": "Danger Chime",
                 "hosted_item": "loc_dangerchime",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|FC Danger Chime",
+                  "^$SB,$CheckBuried|FC Danger Chime"
                 ]
               },
               {
                 "name": "Fleeting Art Form",
                 "hosted_item": "loc_fleetingartform",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|FC Fleeting Art Form",
+                  "^$SB,$CheckBuried|FC Fleeting Art Form"
                 ]
               },
               {
                 "name": "Gemstar Husband",
                 "hosted_item": "loc_gemstarhusband",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|FC Gemstar Husband",
+                  "^$SB,$CheckBuried|FC Gemstar Husband"
                 ]
               },
               {
                 "name": "Innocence Lost",
-                "hosted_item": "loc_innocencelost"
+                "hosted_item": "loc_innocencelost",
+                "access_rules": [
+                  "$CheckBuried|FC Innocence Lost"
+                ]
               },
               {
                 "name": "Omniscient Sphere",
-                "hosted_item": "loc_omniscientsphere"
+                "hosted_item": "loc_omniscientsphere",
+                "access_rules": [
+                  "$CheckBuried|FC Omniscient Sphere"
+                ]
               },
               {
                 "name": "Brute Knuckles",
-                "hosted_item": "loc_bruteknuckles"
+                "hosted_item": "loc_bruteknuckles",
+                "access_rules": [
+                  "$CheckBuried|FC Brute Knuckles"
+                ]
               },
               {
                 "name": "Priceless Statue",
                 "hosted_item": "loc_pricelessstatue",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|FC Priceless Statue",
+                  "^$SB,$CheckBuried|FC Priceless Statue"
                 ]
               },
               {
                 "name": "Worthless Statue",
                 "hosted_item": "loc_worthlessstatue",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|FC Worthless Statue",
+                  "^$SB,$CheckBuried|FC Worthless Statue"
                 ]
               },
               {
                 "name": "Flame Tiller",
-                "hosted_item": "loc_flametiller"
+                "hosted_item": "loc_flametiller",
+                "access_rules": [
+                  "$CheckBuried|FC Flame Tiller"
+                ]
               },
               {
                 "name": "Spouse Alert",
-                "hosted_item": "loc_spousealert"
+                "hosted_item": "loc_spousealert",
+                "access_rules": [
+                  "$CheckBuried|FC Spouse Alert"
+                ]
               },
               {
                 "name": "Repugnant Appendage",
-                "hosted_item": "loc_repugnantappendage"
+                "hosted_item": "loc_repugnantappendage",
+                "access_rules": [
+                  "$CheckBuried|FC Repugnant Appendage"
+                ]
               }
             ],
             "map_locations": [
@@ -2787,27 +3551,45 @@
             "sections": [
               {
                 "name": "Stone of Glory",
-                "hosted_item": "loc_stoneofglory"
+                "hosted_item": "loc_stoneofglory",
+                "access_rules": [
+                  "$CheckBuried|HoB Stone of Glory"
+                ]
               },
               {
                 "name": "Cosmic Archive",
-                "hosted_item": "loc_cosmicarchive"
+                "hosted_item": "loc_cosmicarchive",
+                "access_rules": [
+                  "$CheckBuried|HoB Cosmic Archive"
+                ]
               },
               {
                 "name": "Strife Monolith",
-                "hosted_item": "loc_strifemonolith"
+                "hosted_item": "loc_strifemonolith",
+                "access_rules": [
+                  "$CheckBuried|HoB Strife Monolith"
+                ]
               },
               {
                 "name": "Dream Architect",
-                "hosted_item": "loc_dreamarchitect"
+                "hosted_item": "loc_dreamarchitect",
+                "access_rules": [
+                  "$CheckBuried|HoB Dream Architect"
+                ]
               },
               {
                 "name": "Luck Wafer",
-                "hosted_item": "loc_luckwafer"
+                "hosted_item": "loc_luckwafer",
+                "access_rules": [
+                  "$CheckBuried|HoB Luck Wafer"
+                ]
               },
               {
                 "name": "Prototype Detector",
-                "hosted_item": "loc_prototypedetector"
+                "hosted_item": "loc_prototypedetector",
+                "access_rules": [
+                  "$CheckBuried|HoB Prototype Detector"
+                ]
               }
             ],
             "map_locations": [
@@ -2826,39 +3608,54 @@
             "sections": [
               {
                 "name": "Alien Billboard",
-                "hosted_item": "loc_alienbillboard"
+                "hosted_item": "loc_alienbillboard",
+                "access_rules": [
+                  "$CheckBuried|WFG Alien Billboard"
+                ]
               },
               {
                 "name": "Drought Ender",
-                "hosted_item": "loc_droughtender"
+                "hosted_item": "loc_droughtender",
+                "access_rules": [
+                  "$CheckBuried|WFG Drought Ender"
+                ]
               },
               {
                 "name": "Petrified Heart",
-                "hosted_item": "loc_petrifiedheart"
+                "hosted_item": "loc_petrifiedheart",
+                "access_rules": [
+                  "$CheckBuried|WFG Petrified Heart"
+                ]
               },
               {
                 "name": "Superstick Textile",
-                "hosted_item": "loc_supersticktextile"
+                "hosted_item": "loc_supersticktextile",
+                "access_rules": [
+                  "$CheckBuried|WFG Superstick Textile"
+                ]
               },
               {
                 "name": "Survival Ointment",
                 "hosted_item": "loc_survivalointment",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|WFG Survival Ointment",
+                  "^$SB,$CheckBuried|WFG Survival Ointment"
                 ]
               },
               {
                 "name": "Toxic Toadstool",
                 "hosted_item": "loc_toxictoadstool",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|WFG Toxic Toadstool",
+                  "^$SB,$CheckBuried|WFG Toxic Toadstool"
                 ]
               },
               {
                 "name": "Five-man Napsack",
-                "hosted_item": "loc_five-mannapsack"
+                "hosted_item": "loc_five-mannapsack",
+                "access_rules": [
+                  "$CheckBuried|WFG Five-man Napsack"
+                ]
               }
             ],
             "map_locations": [
@@ -2877,43 +3674,73 @@
             "sections": [
               {
                 "name": "Crystal Clover",
-                "hosted_item": "loc_crystalclover"
+                "hosted_item": "loc_crystalclover",
+                "access_rules": [
+                  "$CheckBuried|BK Crystal Clover"
+                ]
               },
               {
                 "name": "Tear Stone",
-                "hosted_item": "loc_tearstone"
+                "hosted_item": "loc_tearstone",
+                "access_rules": [
+                  "$CheckBuried|BK Tear Stone"
+                ]
               },
               {
                 "name": "Olimarnite Shell",
-                "hosted_item": "loc_olimarniteshell"
+                "hosted_item": "loc_olimarniteshell",
+                "access_rules": [
+                  "$CheckBuried|BK Olimarnite Shell"
+                ]
               },
               {
                 "name": "Crystal King",
-                "hosted_item": "loc_crystalking"
+                "hosted_item": "loc_crystalking",
+                "access_rules": [
+                  "$CheckBuried|BK Crystal King"
+                ]
               },
               {
                 "name": "Unknown Merit",
-                "hosted_item": "loc_unknownmerit"
+                "hosted_item": "loc_unknownmerit",
+                "access_rules": [
+                  "$CheckBuried|BK Unknown Merit"
+                ]
               },
               {
                 "name": "Anxious Sprout",
-                "hosted_item": "loc_anxioussprout"
+                "hosted_item": "loc_anxioussprout",
+                "access_rules": [
+                  "$CheckBuried|BK Anxious Sprout"
+                ]
               },
               {
                 "name": "Colossal Fossil",
-                "hosted_item": "loc_colossalfossil"
+                "hosted_item": "loc_colossalfossil",
+                "access_rules": [
+                  "$CheckBuried|BK Colossal Fossil"
+                ]
               },
               {
                 "name": "Eternal Emerald Eye",
-                "hosted_item": "loc_eternalemeraldeye"
+                "hosted_item": "loc_eternalemeraldeye",
+                "access_rules": [
+                  "$CheckBuried|BK Eternal Emerald Eye"
+                ]
               },
               {
                 "name": "Forged Courage",
-                "hosted_item": "loc_forgedcourage"
+                "hosted_item": "loc_forgedcourage",
+                "access_rules": [
+                  "$CheckBuried|BK Forged Courage"
+                ]
               },
               {
                 "name": "Gyroid Bust",
-                "hosted_item": "loc_gyroidbust"
+                "hosted_item": "loc_gyroidbust",
+                "access_rules": [
+                  "$CheckBuried|BK Gyroid Bust"
+                ]
               }
             ],
             "map_locations": [
@@ -2932,79 +3759,112 @@
             "sections": [
               {
                 "name": "Crystallized Telekinesis",
-                "hosted_item": "loc_crystallizedtelekinesis"
+                "hosted_item": "loc_crystallizedtelekinesis",
+                "access_rules": [
+                  "$CheckBuried|SH Crystallized Telekinesis"
+                ]
               },
               {
                 "name": "Leviathan Feather",
-                "hosted_item": "loc_leviathanfeather"
+                "hosted_item": "loc_leviathanfeather",
+                "access_rules": [
+                  "$CheckBuried|SH Leviathan Feather"
+                ]
               },
               {
                 "name": "Combustion Berry",
-                "hosted_item": "loc_combustionberry"
+                "hosted_item": "loc_combustionberry",
+                "access_rules": [
+                  "$CheckBuried|SH Combustion Berry"
+                ]
               },
               {
                 "name": "Taste Sensation",
-                "hosted_item": "loc_tastesensation"
+                "hosted_item": "loc_tastesensation",
+                "access_rules": [
+                  "$CheckBuried|SH Taste Sensation"
+                ]
               },
               {
                 "name": "Meat Satchel",
-                "hosted_item": "loc_meatsatchel"
+                "hosted_item": "loc_meatsatchel",
+                "access_rules": [
+                  "$CheckBuried|SH Meat Satchel"
+                ]
               },
               {
                 "name": "Crystallized Telepathy",
-                "hosted_item": "loc_crystallizedtelepathy"
+                "hosted_item": "loc_crystallizedtelepathy",
+                "access_rules": [
+                  "$CheckBuried|SH Crystallized Telepathy"
+                ]
               },
               {
                 "name": "Cupid's Grenade",
-                "hosted_item": "loc_cupidsgrenade"
+                "hosted_item": "loc_cupidsgrenade",
+                "access_rules": [
+                  "$CheckBuried|SH Cupid's Grenade"
+                ]
               },
               {
                 "name": "Heavy-duty Magnetizer",
-                "hosted_item": "loc_heavy-dutymagnetizer"
+                "hosted_item": "loc_heavy-dutymagnetizer",
+                "access_rules": [
+                  "$CheckBuried|SH Heavy-duty Magnetizer"
+                ]
               },
               {
                 "name": "Crystallized Clairvoyance",
-                "hosted_item": "loc_crystallizedclairvoyance"
+                "hosted_item": "loc_crystallizedclairvoyance",
+                "access_rules": [
+                  "$CheckBuried|SH Crystallized Clairvoyance"
+                ]
               },
               {
                 "name": "Emperor Whistle",
-                "hosted_item": "loc_emperorwhistle"
+                "hosted_item": "loc_emperorwhistle",
+                "access_rules": [
+                  "$CheckBuried|SH Emperor Whistle"
+                ]
               },
               {
                 "name": "Salivatrix",
                 "hosted_item": "loc_salivatrix",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|SH Salivatrix",
+                  "^$SB,$CheckBuried|SH Salivatrix"
                 ]
               },
               {
                 "name": "Science Project",
                 "hosted_item": "loc_scienceproject",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|SH Science Project",
+                  "^$SB,$CheckBuried|SH Science Project"
                 ]
               },
               {
                 "name": "Stupendous Lens",
                 "hosted_item": "loc_stupendouslens",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|SH Stupendous Lens",
+                  "^$SB,$CheckBuried|SH Stupendous Lens"
                 ]
               },
               {
                 "name": "Triple Sugar Threat",
                 "hosted_item": "loc_triplesugarthreat",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|SH Triple Sugar Threat",
+                  "^$SB,$CheckBuried|SH Triple Sugar Threat"
                 ]
               },
               {
                 "name": "Justice Alloy",
-                "hosted_item": "loc_justicealloy"
+                "hosted_item": "loc_justicealloy",
+                "access_rules": [
+                  "$CheckBuried|SH Justice Alloy"
+                ]
               }
             ],
             "map_locations": [
@@ -3023,47 +3883,80 @@
             "sections": [
               {
                 "name": "Love Nugget",
-                "hosted_item": "loc_lovenugget"
+                "hosted_item": "loc_lovenugget",
+                "access_rules": [
+                  "$CheckBuried|CoS Love Nugget"
+                ]
               },
               {
                 "name": "Creative Inspiration",
-                "hosted_item": "loc_creativeinspiration"
+                "hosted_item": "loc_creativeinspiration",
+                "access_rules": [
+                  "$CheckBuried|CoS Creative Inspiration"
+                ]
               },
               {
                 "name": "Lip Service",
-                "hosted_item": "loc_lipservice"
+                "hosted_item": "loc_lipservice",
+                "access_rules": [
+                  "$CheckBuried|CoS Lip Service"
+                ]
               },
               {
                 "name": "Paradoxical Enigma",
-                "hosted_item": "loc_paradoxicalenigma"
+                "hosted_item": "loc_paradoxicalenigma",
+                "access_rules": [
+                  "$CheckBuried|CoS Paradoxical Enigma"
+                ]
               },
               {
                 "name": "Memorial Shell",
-                "hosted_item": "loc_memorialshell"
+                "hosted_item": "loc_memorialshell",
+                "access_rules": [
+                  "$CheckBuried|CoS Memorial Shell"
+                ]
               },
               {
                 "name": "Patience Tester",
-                "hosted_item": "loc_patiencetester"
+                "hosted_item": "loc_patiencetester",
+                "access_rules": [
+                  "$CheckBuried|CoS Patience Tester"
+                ]
               },
               {
                 "name": "Flame of Tomorrow",
-                "hosted_item": "loc_flameoftomorrow"
+                "hosted_item": "loc_flameoftomorrow",
+                "access_rules": [
+                  "$CheckBuried|CoS Flame of Tomorrow"
+                ]
               },
               {
                 "name": "King of Sweets",
-                "hosted_item": "loc_kingofsweets"
+                "hosted_item": "loc_kingofsweets",
+                "access_rules": [
+                  "$CheckBuried|CoS King of Sweets"
+                ]
               },
               {
                 "name": "Time Capsule",
-                "hosted_item": "loc_timecapsule"
+                "hosted_item": "loc_timecapsule",
+                "access_rules": [
+                  "$CheckBuried|CoS Time Capsule"
+                ]
               },
               {
                 "name": "Regal Diamond",
-                "hosted_item": "loc_regaldiamond"
+                "hosted_item": "loc_regaldiamond",
+                "access_rules": [
+                  "$CheckBuried|CoS Regal Diamond"
+                ]
               },
               {
                 "name": "The Key",
-                "hosted_item": "loc_thekey"
+                "hosted_item": "loc_thekey",
+                "access_rules": [
+                  "$CheckBuried|CoS The Key"
+                ]
               }
             ],
             "map_locations": [
@@ -3082,75 +3975,105 @@
             "sections": [
               {
                 "name": "Master's Instrument",
-                "hosted_item": "loc_mastersinstrument"
+                "hosted_item": "loc_mastersinstrument",
+                "access_rules": [
+                  "$CheckBuried|GK Master's Instrument"
+                ]
               },
               {
                 "name": "Massive Lid",
                 "hosted_item": "loc_massivelid",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|GK Massive Lid",
+                  "^$SB,$CheckBuried|GK Massive Lid"
                 ]
               },
               {
                 "name": "Imperative Cookie",
                 "hosted_item": "loc_imperativecookie",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|GK Imperative Cookie",
+                  "^$SB,$CheckBuried|GK Imperative Cookie"
                 ]
               },
               {
                 "name": "Director of Destiny",
-                "hosted_item": "loc_directorofdestiny"
+                "hosted_item": "loc_directorofdestiny",
+                "access_rules": [
+                  "$CheckBuried|GK Director of Destiny"
+                ]
               },
               {
                 "name": "Harmonic Synthesizer",
-                "hosted_item": "loc_harmonicsynthesizer"
+                "hosted_item": "loc_harmonicsynthesizer",
+                "access_rules": [
+                  "$CheckBuried|GK Harmonic Synthesizer"
+                ]
               },
               {
                 "name": "Invigorator",
                 "hosted_item": "loc_invigorator",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|GK Invigorator",
+                  "^$SB,$CheckBuried|GK Invigorator"
                 ]
               },
               {
                 "name": "Happiness Emblem",
-                "hosted_item": "loc_happinessemblem"
+                "hosted_item": "loc_happinessemblem",
+                "access_rules": [
+                  "$CheckBuried|GK Happiness Emblem"
+                ]
               },
               {
                 "name": "White Goodness",
                 "hosted_item": "loc_whitegoodness",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|GK White Goodness",
+                  "^$SB,$CheckBuried|GK White Goodness"
                 ]
               },
               {
                 "name": "Boom Cone",
-                "hosted_item": "loc_boomcone"
+                "hosted_item": "loc_boomcone",
+                "access_rules": [
+                  "$CheckBuried|GK Boom Cone"
+                ]
               },
               {
                 "name": "Sulking Antenna",
-                "hosted_item": "loc_sulkingantenna"
+                "hosted_item": "loc_sulkingantenna",
+                "access_rules": [
+                  "$CheckBuried|GK Sulking Antenna"
+                ]
               },
               {
                 "name": "Dream Material",
-                "hosted_item": "loc_dreammaterial"
+                "hosted_item": "loc_dreammaterial",
+                "access_rules": [
+                  "$CheckBuried|GK Dream Material"
+                ]
               },
               {
                 "name": "Hideous Victual",
-                "hosted_item": "loc_hideousvictual"
+                "hosted_item": "loc_hideousvictual",
+                "access_rules": [
+                  "$CheckBuried|GK Hideous Victual"
+                ]
               },
               {
                 "name": "Meat of Champions",
-                "hosted_item": "loc_meatofchampions"
+                "hosted_item": "loc_meatofchampions",
+                "access_rules": [
+                  "$CheckBuried|GK Meat of Champions"
+                ]
               },
               {
                 "name": "Sweet Dreamer",
-                "hosted_item": "loc_sweetdreamer"
+                "hosted_item": "loc_sweetdreamer",
+                "access_rules": [
+                  "$CheckBuried|GK Sweet Dreamer"
+                ]
               }
             ],
             "map_locations": [
@@ -3169,103 +4092,112 @@
             "sections": [
               {
                 "name": "Merciless Extractor",
-                "hosted_item": "loc_mercilessextractor"
+                "hosted_item": "loc_mercilessextractor",
+                "access_rules": [
+                  "$CheckBuried|SR Merciless Extractor"
+                ]
               },
               {
                 "name": "Durable Energy Cell",
                 "hosted_item": "loc_durableenergycell",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SR Durable Energy Cell",
+                  "^$SB,$CheckBuried|SR Durable Energy Cell"
                 ]
               },
               {
                 "name": "Sud Generator",
                 "hosted_item": "loc_sudgenerator",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|SR Sud Generator",
+                  "^$SB,$CheckBuried|SR Sud Generator"
                 ]
               },
               {
                 "name": "Mirrored Stage",
                 "hosted_item": "loc_mirroredstage",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Mirrored Stage",
+                  "^$SB,$CheckBuried|SR Mirrored Stage"
                 ]
               },
               {
                 "name": "Scrumptious Shell",
                 "hosted_item": "loc_scrumptiousshell",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Scrumptious Shell",
+                  "^$SB,$CheckBuried|SR Scrumptious Shell"
                 ]
               },
               {
                 "name": "Vorpal Platter",
                 "hosted_item": "loc_vorpalplatter",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Vorpal Platter",
+                  "^$SB,$CheckBuried|SR Vorpal Platter"
                 ]
               },
               {
                 "name": "Arboreal Frippery",
-                "hosted_item": "loc_arborealfrippery"
+                "hosted_item": "loc_arborealfrippery",
+                "access_rules": [
+                  "$CheckBuried|SR Arboreal Frippery"
+                ]
               },
               {
                 "name": "Broken Food Master",
                 "hosted_item": "loc_brokenfoodmaster",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Broken Food Master",
+                  "^$SB,$CheckBuried|SR Broken Food Master"
                 ]
               },
               {
                 "name": "Endless Repository",
                 "hosted_item": "loc_endlessrepository",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Endless Repository",
+                  "^$SB,$CheckBuried|SR Endless Repository"
                 ]
               },
               {
                 "name": "Pondering Emblem",
                 "hosted_item": "loc_ponderingemblem",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Pondering Emblem",
+                  "^$SB,$CheckBuried|SR Pondering Emblem"
                 ]
               },
               {
                 "name": "Abstract Masterpiece",
                 "hosted_item": "loc_abstractmasterpiece",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Abstract Masterpiece",
+                  "^$SB,$CheckBuried|SR Abstract Masterpiece"
                 ]
               },
               {
                 "name": "Behemoth Jaw",
                 "hosted_item": "loc_behemothjaw",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Behemoth Jaw",
+                  "^$SB,$CheckBuried|SR Behemoth Jaw"
                 ]
               },
               {
                 "name": "Rubber Ugly",
                 "hosted_item": "loc_rubberugly",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|SR Rubber Ugly",
+                  "^$SB,$CheckBuried|SR Rubber Ugly"
                 ]
               },
               {
                 "name": "Amplified Amplifier",
-                "hosted_item": "loc_amplifiedamplifier"
+                "hosted_item": "loc_amplifiedamplifier",
+                "access_rules": [
+                  "$CheckBuried|SR Amplified Amplifier"
+                ]
               }
             ],
             "map_locations": [
@@ -3285,58 +4217,94 @@
             "sections": [
               {
                 "name": "Bug Bait",
-                "hosted_item": "loc_bugbait"
+                "hosted_item": "loc_bugbait",
+                "access_rules": [
+                  "$CheckBuried|SMGC Bug Bait"
+                ]
               },
               {
                 "name": "Diet Doomer",
-                "hosted_item": "loc_dietdoomer"
+                "hosted_item": "loc_dietdoomer",
+                "access_rules": [
+                  "$CheckBuried|SMGC Diet Doomer"
+                ]
               },
               {
                 "name": "Pastry Wheel",
-                "hosted_item": "loc_pastrywheel"
+                "hosted_item": "loc_pastrywheel",
+                "access_rules": [
+                  "$CheckBuried|SMGC Pastry Wheel"
+                ]
               },
               {
                 "name": "Chocolate Cushion",
-                "hosted_item": "loc_chocolatecushion"
+                "hosted_item": "loc_chocolatecushion",
+                "access_rules": [
+                  "$CheckBuried|SMGC Chocolate Cushion"
+                ]
               },
               {
                 "name": "Comfort Cookie",
-                "hosted_item": "loc_comfortcookie"
+                "hosted_item": "loc_comfortcookie",
+                "access_rules": [
+                  "$CheckBuried|SMGC Comfort Cookie"
+                ]
               },
               {
                 "name": "Confection Hoop",
-                "hosted_item": "loc_confectionhoop"
+                "hosted_item": "loc_confectionhoop",
+                "access_rules": [
+                  "$CheckBuried|SMGC Confection Hoop"
+                ]
               },
               {
                 "name": "Activity Arouser",
-                "hosted_item": "loc_activityarouser"
+                "hosted_item": "loc_activityarouser",
+                "access_rules": [
+                  "$CheckBuried|SMGC Activity Arouser"
+                ]
               },
               {
                 "name": "Compelling Cookie",
-                "hosted_item": "loc_compellingcookie"
+                "hosted_item": "loc_compellingcookie",
+                "access_rules": [
+                  "$CheckBuried|SMGC Compelling Cookie"
+                ]
               },
               {
                 "name": "Succulent Mattress",
-                "hosted_item": "loc_succulentmattress"
+                "hosted_item": "loc_succulentmattress",
+                "access_rules": [
+                  "$CheckBuried|SMGC Succulent Mattress"
+                ]
               },
               {
                 "name": "Drone Supplies",
-                "hosted_item": "loc_dronesupplies"
+                "hosted_item": "loc_dronesupplies",
+                "access_rules": [
+                  "$CheckBuried|SMGC Drone Supplies"
+                ]
               },
               {
                 "name": "Pale Passion",
-                "hosted_item": "loc_palepassion"
+                "hosted_item": "loc_palepassion",
+                "access_rules": [
+                  "$CheckBuried|SMGC Pale Passion"
+                ]
               },
               {
                 "name": "Proton AA",
-                "hosted_item": "loc_protonaa"
+                "hosted_item": "loc_protonaa",
+                "access_rules": [
+                  "$CheckBuried|SMGC Proton AA"
+                ]
               },
               {
                 "name": "Professional Noisemaker",
                 "hosted_item": "loc_professionalnoisemaker",
                 "access_rules": [
-                  "$Has|PP",
-                  "^$SB"
+                  "$Has|PP,$CheckBuried|SMGC Professional Noisemaker",
+                  "^$SB,$CheckBuried|SMGC Professional Noisemaker"
                 ]
               }
             ],
@@ -3356,115 +4324,133 @@
             "sections": [
               {
                 "name": "Enamel Buster",
-                "hosted_item": "loc_enamelbuster"
+                "hosted_item": "loc_enamelbuster",
+                "access_rules": [
+                  "$CheckBuried|CoC Enamel Buster"
+                ]
               },
               {
                 "name": "Mirth Sphere",
-                "hosted_item": "loc_mirthsphere"
+                "hosted_item": "loc_mirthsphere",
+                "access_rules": [
+                  "$CheckBuried|CoC Mirth Sphere"
+                ]
               },
               {
                 "name": "Essence of Despair",
                 "hosted_item": "loc_essenceofdespair",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|CoC Essence of Despair",
+                  "^$SB,$CheckBuried|CoC Essence of Despair"
                 ]
               },
               {
                 "name": "Frosty Bauble",
                 "hosted_item": "loc_frostybauble",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|CoC Frosty Bauble",
+                  "^$SB,$CheckBuried|CoC Frosty Bauble"
                 ]
               },
               {
                 "name": "Gemstar Wife",
                 "hosted_item": "loc_gemstarwife",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|CoC Gemstar Wife",
+                  "^$SB,$CheckBuried|CoC Gemstar Wife"
                 ]
               },
               {
                 "name": "Child of the Earth",
-                "hosted_item": "loc_childoftheearth"
+                "hosted_item": "loc_childoftheearth",
+                "access_rules": [
+                  "$CheckBuried|CoC Child of the Earth"
+                ]
               },
               {
                 "name": "Infernal Vegetable",
-                "hosted_item": "loc_infernalvegetable"
+                "hosted_item": "loc_infernalvegetable",
+                "access_rules": [
+                  "$CheckBuried|CoC Infernal Vegetable"
+                ]
               },
               {
                 "name": "Milk Tub",
                 "hosted_item": "loc_milktub",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|CoC Milk Tub",
+                  "^$SB,$CheckBuried|CoC Milk Tub"
                 ]
               },
               {
                 "name": "Mysterious Remains",
                 "hosted_item": "loc_mysteriousremains",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|CoC Mysterious Remains",
+                  "^$SB,$CheckBuried|CoC Mysterious Remains"
                 ]
               },
               {
                 "name": "Growshroom",
                 "hosted_item": "loc_growshroom",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|CoC Growshroom",
+                  "^$SB,$CheckBuried|CoC Growshroom"
                 ]
               },
               {
                 "name": "Princess Pearl",
                 "hosted_item": "loc_princesspearl",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|CoC Princess Pearl",
+                  "^$SB,$CheckBuried|CoC Princess Pearl"
                 ]
               },
               {
                 "name": "Fuel Reservoir",
                 "hosted_item": "loc_fuelreservoir",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|CoC Fuel Reservoir",
+                  "^$SB,$CheckBuried|CoC Fuel Reservoir"
                 ]
               },
               {
                 "name": "Impenetrable Cookie",
                 "hosted_item": "loc_impenetrablecookie",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|CoC Impenetrable Cookie",
+                  "^$SB,$CheckBuried|CoC Impenetrable Cookie"
                 ]
               },
               {
                 "name": "Fruit Guard",
-                "hosted_item": "loc_fruitguard"
+                "hosted_item": "loc_fruitguard",
+                "access_rules": [
+                  "$CheckBuried|CoC Fruit Guard"
+                ]
               },
               {
                 "name": "Maternal Sculpture",
                 "hosted_item": "loc_maternalsculpture",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|CoC Maternal Sculpture",
+                  "^$SB,$CheckBuried|CoC Maternal Sculpture"
                 ]
               },
               {
                 "name": "Wiggle Noggin",
                 "hosted_item": "loc_wigglenoggin",
                 "access_rules": [
-                  "$Has|WP,$Has|BP",
-                  "^$SB"
+                  "$Has|WP,$Has|BP,$CheckBuried|CoC Wiggle Noggin",
+                  "^$SB,$CheckBuried|CoC Wiggle Noggin"
                 ]
               },
               {
                 "name": "Silencer",
-                "hosted_item": "loc_silencer"
+                "hosted_item": "loc_silencer",
+                "access_rules": [
+                  "$CheckBuried|CoC Silencer"
+                ]
               }
             ],
             "map_locations": [
@@ -3483,75 +4469,99 @@
             "sections": [
               {
                 "name": "Corpulent Nut",
-                "hosted_item": "loc_corpulentnut"
+                "hosted_item": "loc_corpulentnut",
+                "access_rules": [
+                  "$CheckBuried|HoH Corpulent Nut"
+                ]
               },
               {
                 "name": "Essence of True Love",
-                "hosted_item": "loc_essenceoftruelove"
+                "hosted_item": "loc_essenceoftruelove",
+                "access_rules": [
+                  "$CheckBuried|HoH Essence of True Love"
+                ]
               },
               {
                 "name": "Love Sphere",
-                "hosted_item": "loc_lovesphere"
+                "hosted_item": "loc_lovesphere",
+                "access_rules": [
+                  "$CheckBuried|HoH Love Sphere"
+                ]
               },
               {
                 "name": "Lustrous Element",
-                "hosted_item": "loc_lustrouselement"
+                "hosted_item": "loc_lustrouselement",
+                "access_rules": [
+                  "$CheckBuried|HoH Lustrous Element"
+                ]
               },
               {
                 "name": "Nutrient Silo",
                 "hosted_item": "loc_nutrientsilo",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+                  "^$SB,$CheckBuried|HoH Nutrient Silo"
                 ]
               },
               {
                 "name": "Joyless Jewel",
-                "hosted_item": "loc_joylessjewel"
+                "hosted_item": "loc_joylessjewel",
+                "access_rules": [
+                  "$CheckBuried|HoH Joyless Jewel"
+                ]
               },
               {
                 "name": "Dimensional Slicer",
                 "hosted_item": "loc_dimensionalslicer",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+                  "^$SB,$CheckBuried|HoH Dimensional Slicer"
                 ]
               },
               {
                 "name": "Treasured Gyro Block",
                 "hosted_item": "loc_treasuredgyroblock",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+                  "^$SB,$CheckBuried|HoH Treasured Gyro Block"
                 ]
               },
               {
                 "name": "Favorite Gyro Block",
-                "hosted_item": "loc_favoritegyroblock"
+                "hosted_item": "loc_favoritegyroblock",
+                "access_rules": [
+                  "$CheckBuried|HoH Favorite Gyro Block"
+                ]
               },
               {
                 "name": "Lost Gyro Block",
-                "hosted_item": "loc_lostgyroblock"
+                "hosted_item": "loc_lostgyroblock",
+                "access_rules": [
+                  "$CheckBuried|HoH Lost Gyro Block"
+                ]
               },
               {
                 "name": "Memorable Gyro Block",
                 "hosted_item": "loc_memorablegyroblock",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+                  "^$SB,$CheckBuried|HoH Memorable Gyro Block"
                 ]
               },
               {
                 "name": "Fond Gyro Block",
                 "hosted_item": "loc_fondgyroblock",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+                  "^$SB,$CheckBuried|HoH Fond Gyro Block"
                 ]
               },
               {
                 "name": "Remembered Old Buddy",
-                "hosted_item": "loc_rememberedoldbuddy"
+                "hosted_item": "loc_rememberedoldbuddy",
+                "access_rules": [
+                  "$CheckBuried|HoH Remembered Old Buddy"
+                ]
               }
             ],
             "map_locations": [
@@ -3572,133 +4582,160 @@
                 "name": "Disguised Delicacy",
                 "hosted_item": "loc_disguiseddelicacy",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Disguised Delicacy",
+                  "^$SB,$CheckBuried|DD Disguised Delicacy"
                 ]
               },
               {
                 "name": "Implement of Toil",
-                "hosted_item": "loc_implementoftoil"
+                "hosted_item": "loc_implementoftoil",
+                "access_rules": [
+                  "$CheckBuried|DD Implement of Toil"
+                ]
               },
               {
                 "name": "Manual Honer",
                 "hosted_item": "loc_manualhoner",
                 "access_rules": [
-                  "$Has|YP",
-                  "^$SB"
+                  "$Has|YP,$CheckBuried|DD Manual Honer",
+                  "^$SB,$CheckBuried|DD Manual Honer"
                 ]
               },
               {
                 "name": "Glee Spinner",
                 "hosted_item": "loc_gleespinner",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Glee Spinner",
+                  "^$SB,$CheckBuried|DD Glee Spinner"
                 ]
               },
               {
                 "name": "Mirrored Element",
                 "hosted_item": "loc_mirroredelement",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Mirrored Element",
+                  "^$SB,$CheckBuried|DD Mirrored Element"
                 ]
               },
               {
                 "name": "Insect Condo",
                 "hosted_item": "loc_insectcondo",
                 "access_rules": [
-                  "$Has|RP",
-                  "^$SB"
+                  "$Has|RP,$CheckBuried|DD Insect Condo",
+                  "^$SB,$CheckBuried|DD Insect Condo"
                 ]
               },
               {
                 "name": "Future Orb",
-                "hosted_item": "loc_futureorb"
+                "hosted_item": "loc_futureorb",
+                "access_rules": [
+                  "$CheckBuried|DD Future Orb"
+                ]
               },
               {
                 "name": "Essence of Desire",
-                "hosted_item": "loc_essenceofdesire"
+                "hosted_item": "loc_essenceofdesire",
+                "access_rules": [
+                  "$CheckBuried|DD Essence of Desire"
+                ]
               },
               {
                 "name": "Extreme Perspirator",
                 "hosted_item": "loc_extremeperspirator",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Extreme Perspirator",
+                  "^$SB,$CheckBuried|DD Extreme Perspirator"
                 ]
               },
               {
                 "name": "Possessed Squash",
                 "hosted_item": "loc_possessedsquash",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Possessed Squash",
+                  "^$SB,$CheckBuried|DD Possessed Squash"
                 ]
               },
               {
                 "name": "Talisman of Life",
                 "hosted_item": "loc_talismanoflife",
                 "access_rules": [
-                  "$Has|BP",
-                  "^$SB"
+                  "$Has|BP,$CheckBuried|DD Talisman of Life",
+                  "^$SB,$CheckBuried|DD Talisman of Life"
                 ]
               },
               {
                 "name": "Boss Stone",
                 "hosted_item": "loc_bossstone",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Boss Stone",
+                  "^$SB,$CheckBuried|DD Boss Stone"
                 ]
               },
               {
                 "name": "Yellow Taste Tyrant",
                 "hosted_item": "loc_yellowtastetyrant",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Yellow Taste Tyrant",
+                  "^$SB,$CheckBuried|DD Yellow Taste Tyrant"
                 ]
               },
               {
                 "name": "Stringent Container",
                 "hosted_item": "loc_stringentcontainer",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Stringent Container",
+                  "^$SB,$CheckBuried|DD Stringent Container"
                 ]
               },
               {
                 "name": "Universal Com",
                 "hosted_item": "loc_universalcom",
                 "access_rules": [
-                  "$Has|WP",
-                  "^$SB"
+                  "$Has|WP,$CheckBuried|DD Universal Com",
+                  "^$SB,$CheckBuried|DD Universal Com"
                 ]
               },
               {
                 "name": "Hypnotic Platter",
-                "hosted_item": "loc_hypnoticplatter"
+                "hosted_item": "loc_hypnoticplatter",
+                "access_rules": [
+                  "$CheckBuried|DD Hypnotic Platter"
+                ]
               },
               {
                 "name": "Comedy Bomb",
-                "hosted_item": "loc_comedybomb"
+                "hosted_item": "loc_comedybomb",
+                "access_rules": [
+                  "$CheckBuried|DD Comedy Bomb"
+                ]
               },
               {
                 "name": "Flare Cannon",
-                "hosted_item": "loc_flarecannon"
+                "hosted_item": "loc_flarecannon",
+                "access_rules": [
+                  "$CheckBuried|DD Flare Cannon"
+                ]
               },
               {
                 "name": "King of Bugs",
-                "hosted_item": "loc_kingofbugs"
+                "hosted_item": "loc_kingofbugs",
+                "access_rules": [
+                  "$CheckBuried|DD King of Bugs"
+                ]
               },
               {
                 "name": "Monster Pump",
-                "hosted_item": "loc_monsterpump"
+                "hosted_item": "loc_monsterpump",
+                "access_rules": [
+                  "$CheckBuried|DD Monster Pump"
+                ]
               },
               {
                 "name": "Shock Therapist",
-                "hosted_item": "loc_shocktherapist"
+                "hosted_item": "loc_shocktherapist",
+                "access_rules": [
+                  "$CheckBuried|DD Shock Therapist"
+                ]
               }
             ],
             "map_locations": [
