@@ -1,50 +1,184 @@
 {
   "entrances_grid": {
     "type": "array",
-    "orientation": "horizontal",
+    "orientation": "vertical",
     "content": [
       {
-        "type": "itemgrid",
-        "h_alignment": "left",
-        "item_v_alignment": "center",
-        "item_size": "80, 40",
-        "rows": [
-          [
-            "EC_ent",
-            "EC_dst",
-            "SC_ent",
-            "SC_dst",
-            "FC_ent",
-            "FC_dst"
-          ],
-          [
-            "HoB_ent",
-            "HoB_dst",
-            "WFG_ent",
-            "WFG_dst",
-            "BK_ent",
-            "BK_dst",
-            "SH_ent",
-            "SH_dst"
-          ],
-          [
-            "CoS_ent",
-            "CoS_dst",
-            "GK_ent",
-            "GK_dst",
-            "SR_ent",
-            "SR_dst",
-            "SMGC_ent",
-            "SMGC_dst"
-          ],
-          [
-            "CoC_ent",
-            "CoC_dst",
-            "HoH_ent",
-            "HoH_dst",
-            "DD_ent",
-            "DD_dst"
-          ]
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "ecentrancekey",
+                "EC_dst"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "scentrancekey",
+                "SC_dst"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "fcentrancekey",
+                "FC_dst"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "hobentrancekey",
+                "HoB_dst"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "wfgentrancekey",
+                "WFG_dst"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "bkentrancekey",
+                "BK_dst"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "shentrancekey",
+                "SH_dst"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "cosentrancekey",
+                "CoS_dst"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "gkentrancekey",
+                "GK_dst"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "srentrancekey",
+                "SR_dst"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "smgcentrancekey",
+                "SMGC_dst"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "cocentrancekey",
+                "CoC_dst"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "hohentrancekey",
+                "HoH_dst"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_size": 40,
+            "rows": [
+              [
+                "ddentrancekey",
+                "DD_dst"
+              ]
+            ]
+          }
         ]
       }
     ]

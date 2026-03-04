@@ -1,13 +1,11 @@
 {
-  "td_weapons_grid": {
+  "td_weapons_grid_h": {
     "type": "itemgrid",
     "item_size": 40,
     "rows": [
       [
         "shocktherapist",
-        "flarecannon"
-      ],
-      [
+        "flarecannon",
         "comedybomb",
         "monsterpump"
       ]

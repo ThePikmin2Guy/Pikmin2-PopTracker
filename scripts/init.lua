@@ -1,5 +1,9 @@
 ENABLE_DEBUG_LOG = true
 
+local variant = Tracker.ActiveVariantUID
+
+IS_HORIZONTAL = variant:find("horizontal")
+
 print("\n-- Loading Pikmin 2 Tracker --")
 print("Variant: ", Tracker.ActiveVariantUID)
 if ENABLE_DEBUG_LOG then
@@ -18,10 +22,10 @@ Tracker:AddItems("items/options.json")
 
 -- Locations
 Tracker:AddLocations("locations/vor.json")
-Tracker:AddLocations("locations/ec.json")
 Tracker:AddLocations("locations/aw.json")
 Tracker:AddLocations("locations/pp.json")
 Tracker:AddLocations("locations/ww.json")
+Tracker:AddLocations("locations/world.json")
 
 -- Layouts
 Tracker:AddLayouts("layouts/tracker.json")
@@ -36,6 +40,13 @@ Tracker:AddLayouts("layouts/entrances.json")
 Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/treasures.json")
+
+if IS_HORIZONTAL then
+  Tracker:AddLayouts("layouts/horizontal/tracker_horizontal.json")
+  Tracker:AddLayouts("layouts/horizontal/pikmin_horizontal.json")
+  Tracker:AddLayouts("layouts/horizontal/pokos_horizontal.json")
+  Tracker:AddLayouts("layouts/horizontal/td_weapons_horizontal.json")
+end
 
 -- Scripts
 ScriptHost:LoadScript("scripts/logic.lua")

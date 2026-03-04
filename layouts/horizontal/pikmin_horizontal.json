@@ -1,5 +1,5 @@
 {
-  "pikmin_grid": {
+  "pikmin_grid_h": {
     "type": "array",
     "orientation": "vertical",
     "content": [
@@ -17,6 +17,15 @@
             "whiteonion"
           ]
         ]
+      },
+      {
+        "type": "group",
+        "header": "Treasures",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "treasures"
+        }
       }
     ]
   }

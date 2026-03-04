@@ -1,5 +1,5 @@
 {
-  "pokos_grid": {
+  "pokos_grid_h": {
     "type": "array",
     "orientation": "vertical",
     "content": [
@@ -33,6 +33,15 @@
               "debt_one"
             ]
           ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Titan Dweevil Weapons",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "td_weapons_grid_h"
         }
       }
     ]

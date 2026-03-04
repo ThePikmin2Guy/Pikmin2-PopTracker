@@ -3,10 +3,12 @@
     "type": "tabbed",
     "tabs": [
       {
-        "title": "  Overview  ",
+        "title": "  World Map  ",
         "content": {
-          "type": "layout",
-          "key": "overview"
+          "type": "map",
+          "maps": [
+            "world"
+          ]
         }
       },
       {

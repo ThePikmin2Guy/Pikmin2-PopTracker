@@ -7,48 +7,66 @@
       "content": [
         {
           "type": "dock",
-          "dock": "bottom",
+          "dock": "left",
           "content": [
             {
               "type": "group",
               "header": "Pikmins",
-              "dock": "left",
+              "dock": "top",
               "content": {
                 "type": "layout",
                 "key": "pikmin_grid"
               }
             },
             {
-              "type": "group",
-              "header": "Explorer Kit",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "explorer_kit_grid"
-              }
+              "type": "array",
+              "orientation": "horizontal",
+              "dock": "top",
+              "content": [
+                {
+                  "type": "layout",
+                  "key": "pokos_grid"
+                },
+                {
+                  "type": "group",
+                  "header": "Treasures",
+                  "dock": "top",
+                  "content": {
+                    "type": "layout",
+                    "key": "treasures"
+                  }
+                }
+              ]
             },
             {
-              "type": "group",
-              "header": "Cave Keys",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "cave_keys_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Pokos",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "pokos_grid"
-              }
+              "type": "array",
+              "orientation": "horizontal",
+              "dock": "top",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Explorer Kit",
+                  "dock": "top",
+                  "content": {
+                    "type": "layout",
+                    "key": "explorer_kit_grid"
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Titan Dweevil Weapons",
+                  "dock": "left",
+                  "content": {
+                    "type": "layout",
+                    "key": "td_weapons_grid"
+                  }
+                }
+              ]
             },
             {
               "type": "group",
               "header": "Cave Entrance Randomization",
-              "dock": "left",
+              "dock": "top",
               "content": {
                 "type": "layout",
                 "key": "entrances_grid"
