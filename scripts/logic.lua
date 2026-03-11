@@ -157,3 +157,11 @@ function CheckBuried(location)
   end
   return true
 end
+
+function IsSublevel(cave, level, result)
+  if SLOT_DATA["sublevels"] ~= nil then
+    return SLOT_DATA["sublevels"][cave][tonumber(level)] == tonumber(result) - 1
+  else
+    return level == result
+  end
+end
