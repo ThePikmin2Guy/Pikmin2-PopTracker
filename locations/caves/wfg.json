@@ -21,7 +21,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -43,7 +43,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -65,7 +65,7 @@
               {
                 "map": "wfg",
                 "x": 256,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -87,7 +87,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -110,7 +110,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -133,7 +133,7 @@
               {
                 "map": "wfg",
                 "x": 256,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -155,7 +155,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -182,7 +182,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -204,7 +204,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -226,7 +226,7 @@
               {
                 "map": "wfg",
                 "x": 256,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -248,7 +248,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -271,7 +271,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -294,7 +294,7 @@
               {
                 "map": "wfg",
                 "x": 256,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -316,7 +316,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -343,7 +343,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -365,7 +365,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -387,7 +387,7 @@
               {
                 "map": "wfg",
                 "x": 256,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -409,7 +409,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -432,7 +432,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -455,7 +455,7 @@
               {
                 "map": "wfg",
                 "x": 256,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -477,7 +477,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -504,7 +504,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -526,7 +526,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -548,7 +548,7 @@
               {
                 "map": "wfg",
                 "x": 256,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -570,7 +570,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -593,7 +593,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -616,7 +616,7 @@
               {
                 "map": "wfg",
                 "x": 256,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -638,7 +638,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -665,7 +665,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -687,7 +687,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -709,7 +709,7 @@
               {
                 "map": "wfg",
                 "x": 256,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -731,7 +731,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -754,7 +754,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -777,7 +777,7 @@
               {
                 "map": "wfg",
                 "x": 256,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -799,7 +799,7 @@
               {
                 "map": "wfg",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }

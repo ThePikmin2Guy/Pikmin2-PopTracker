@@ -21,7 +21,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -43,7 +43,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -66,7 +66,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -89,7 +89,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -112,7 +112,7 @@
               {
                 "map": "coc",
                 "x": 320,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -134,7 +134,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -156,7 +156,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -179,7 +179,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -202,7 +202,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -225,7 +225,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -248,7 +248,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -271,7 +271,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -294,7 +294,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -316,7 +316,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -339,7 +339,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -362,7 +362,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -384,7 +384,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -411,7 +411,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -433,7 +433,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -456,7 +456,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -479,7 +479,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -502,7 +502,7 @@
               {
                 "map": "coc",
                 "x": 320,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -524,7 +524,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -546,7 +546,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -569,7 +569,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -592,7 +592,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -615,7 +615,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -638,7 +638,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -661,7 +661,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -684,7 +684,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -706,7 +706,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -729,7 +729,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -752,7 +752,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -774,7 +774,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -801,7 +801,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -823,7 +823,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -846,7 +846,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -869,7 +869,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -892,7 +892,7 @@
               {
                 "map": "coc",
                 "x": 320,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -914,7 +914,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -936,7 +936,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -959,7 +959,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -982,7 +982,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1005,7 +1005,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1028,7 +1028,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1051,7 +1051,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1074,7 +1074,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1096,7 +1096,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1119,7 +1119,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1142,7 +1142,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1164,7 +1164,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 332,
+                "y": 458,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1191,7 +1191,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1213,7 +1213,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1236,7 +1236,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1259,7 +1259,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1282,7 +1282,7 @@
               {
                 "map": "coc",
                 "x": 320,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1304,7 +1304,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1326,7 +1326,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1349,7 +1349,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1372,7 +1372,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1395,7 +1395,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1418,7 +1418,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1441,7 +1441,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1464,7 +1464,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1486,7 +1486,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1509,7 +1509,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1532,7 +1532,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1554,7 +1554,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 458,
+                "y": 584,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1581,7 +1581,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1603,7 +1603,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1626,7 +1626,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1649,7 +1649,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1672,7 +1672,7 @@
               {
                 "map": "coc",
                 "x": 320,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1694,7 +1694,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1716,7 +1716,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1739,7 +1739,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1762,7 +1762,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1785,7 +1785,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1808,7 +1808,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1831,7 +1831,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1854,7 +1854,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1876,7 +1876,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1899,7 +1899,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1922,7 +1922,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1944,7 +1944,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 584,
+                "y": 710,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1971,7 +1971,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -1993,7 +1993,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2016,7 +2016,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2039,7 +2039,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2062,7 +2062,7 @@
               {
                 "map": "coc",
                 "x": 320,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2084,7 +2084,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2106,7 +2106,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2129,7 +2129,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2152,7 +2152,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2175,7 +2175,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2198,7 +2198,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2221,7 +2221,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2244,7 +2244,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2266,7 +2266,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2289,7 +2289,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2312,7 +2312,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2334,7 +2334,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 710,
+                "y": 836,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2361,7 +2361,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2383,7 +2383,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2406,7 +2406,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2429,7 +2429,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2452,7 +2452,7 @@
               {
                 "map": "coc",
                 "x": 320,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2474,7 +2474,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2496,7 +2496,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2519,7 +2519,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2542,7 +2542,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2565,7 +2565,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2588,7 +2588,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2611,7 +2611,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2634,7 +2634,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2656,7 +2656,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2679,7 +2679,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2702,7 +2702,7 @@
               {
                 "map": "coc",
                 "x": 256,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2724,7 +2724,7 @@
               {
                 "map": "coc",
                 "x": 192,
-                "y": 836,
+                "y": 962,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2750,8 +2750,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 192,
-                "y": 962,
+                "x": 688,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2772,8 +2772,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 256,
-                "y": 962,
+                "x": 752,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2795,8 +2795,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 192,
-                "y": 962,
+                "x": 688,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2818,8 +2818,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 256,
-                "y": 962,
+                "x": 752,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2841,8 +2841,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 320,
-                "y": 962,
+                "x": 816,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2863,8 +2863,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 192,
-                "y": 962,
+                "x": 688,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2885,8 +2885,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 256,
-                "y": 962,
+                "x": 752,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2908,8 +2908,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 192,
-                "y": 962,
+                "x": 688,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2931,8 +2931,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 256,
-                "y": 962,
+                "x": 752,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2954,8 +2954,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 192,
-                "y": 962,
+                "x": 688,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -2977,8 +2977,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 256,
-                "y": 962,
+                "x": 752,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3000,8 +3000,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 192,
-                "y": 962,
+                "x": 688,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3023,8 +3023,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 256,
-                "y": 962,
+                "x": 752,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3045,8 +3045,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 192,
-                "y": 962,
+                "x": 688,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3068,8 +3068,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 192,
-                "y": 962,
+                "x": 688,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3091,8 +3091,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 256,
-                "y": 962,
+                "x": 752,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3113,8 +3113,8 @@
             "map_locations": [
               {
                 "map": "coc",
-                "x": 192,
-                "y": 962,
+                "x": 688,
+                "y": 80,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3141,7 +3141,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3163,7 +3163,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3186,7 +3186,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3209,7 +3209,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3232,7 +3232,7 @@
               {
                 "map": "coc",
                 "x": 816,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3254,7 +3254,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3276,7 +3276,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3299,7 +3299,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3322,7 +3322,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3345,7 +3345,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3368,7 +3368,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3391,7 +3391,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3414,7 +3414,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3436,7 +3436,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3459,7 +3459,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3482,7 +3482,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3504,7 +3504,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 80,
+                "y": 206,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3531,7 +3531,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3553,7 +3553,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3576,7 +3576,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3599,7 +3599,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3622,7 +3622,7 @@
               {
                 "map": "coc",
                 "x": 816,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3644,7 +3644,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3666,7 +3666,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3689,7 +3689,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3712,7 +3712,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3735,7 +3735,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3758,7 +3758,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3781,7 +3781,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3804,7 +3804,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3826,7 +3826,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3849,7 +3849,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3872,7 +3872,7 @@
               {
                 "map": "coc",
                 "x": 752,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
@@ -3894,7 +3894,7 @@
               {
                 "map": "coc",
                 "x": 688,
-                "y": 206,
+                "y": 332,
                 "size": 32,
                 "border_thickness": 4
               }
