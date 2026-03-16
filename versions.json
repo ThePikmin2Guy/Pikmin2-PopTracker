@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "package_version": "0.2.0",
+      "download_url": "https://github.com/Vinaigre1/Pikmin2-PopTracker/releases/download/v0.2.0/Pikmin2-PopTracker.zip",
+      "sha256": "79A378A5EEA7671742196C85140C91F8820195D61E6D41565B843F5F953E23A1",
+      "changelog": []
+    },
+    {
       "package_version": "0.1.1",
       "download_url": "https://github.com/Vinaigre1/Pikmin2-PopTracker/releases/download/v0.1.1/Pikmin2-PopTracker.zip",
       "sha256": "9A428813163CF04A3978575A2EE2D36B91328B486AA0A4A017E63CAB389ABA2C",
