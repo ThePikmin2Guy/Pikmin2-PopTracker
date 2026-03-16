@@ -133,6 +133,7 @@ function OnClear(slot_data)
     Tracker:FindObjectForCode("loc_shocktherapist").Active = true
   end
 
+  UpdateCaveAccess()
   UpdatePokos()
   UpdateTreasureCount()
 end
@@ -233,12 +234,7 @@ function UpdatePokos()
 end
 
 function UpdateTreasureCount()
-  local onions = {
-    red = "redonion",
-    yellow = "yellowonion",
-    blue = "blueonion"
-  }
-  local current_treasures = CountTreasures(onions[SLOT_DATA["onion_locations"]["VoR"]])
+  local current_treasures = CountTreasures(SLOT_DATA["onion_locations"], SLOT_DATA["cave_keys"] == 0)
   local digits = { 0, 0, 0 }
   local treasures_codes = {
     "treasures_hundred",
