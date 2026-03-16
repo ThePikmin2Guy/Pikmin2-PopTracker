@@ -1,0 +1,2275 @@
+[
+  {
+    "name": "SR",
+    "children": [
+      {
+        "name": "Sublevel 1",
+        "children": [
+          {
+            "name": "Merciless Extractor",
+            "access_rules": [
+              "$CheckBuried|SR Merciless Extractor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mercilessextractor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|1",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Durable Energy Cell",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Durable Energy Cell",
+              "^$SB,$CheckBuried|SR Durable Energy Cell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_durableenergycell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sud Generator",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Sud Generator",
+              "^$SB,$CheckBuried|SR Sud Generator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sudgenerator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mirrored Stage",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Mirrored Stage",
+              "^$SB,$CheckBuried|SR Mirrored Stage"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mirroredstage"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Scrumptious Shell",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Scrumptious Shell",
+              "^$SB,$CheckBuried|SR Scrumptious Shell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scrumptiousshell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vorpal Platter",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Vorpal Platter",
+              "^$SB,$CheckBuried|SR Vorpal Platter"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vorpalplatter"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Arboreal Frippery",
+            "access_rules": [
+              "$CheckBuried|SR Arboreal Frippery"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_arborealfrippery"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|4",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Broken Food Master",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Broken Food Master",
+              "^$SB,$CheckBuried|SR Broken Food Master"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_brokenfoodmaster"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Endless Repository",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Endless Repository",
+              "^$SB,$CheckBuried|SR Endless Repository"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_endlessrepository"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pondering Emblem",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Pondering Emblem",
+              "^$SB,$CheckBuried|SR Pondering Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_ponderingemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Abstract Masterpiece",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Abstract Masterpiece",
+              "^$SB,$CheckBuried|SR Abstract Masterpiece"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_abstractmasterpiece"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Behemoth Jaw",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Behemoth Jaw",
+              "^$SB,$CheckBuried|SR Behemoth Jaw"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_behemothjaw"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Rubber Ugly",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Rubber Ugly",
+              "^$SB,$CheckBuried|SR Rubber Ugly"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rubberugly"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Amplified Amplifier",
+            "access_rules": [
+              "$CheckBuried|SR Amplified Amplifier"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_amplifiedamplifier"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|1|7",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 2",
+        "children": [
+          {
+            "name": "Merciless Extractor",
+            "access_rules": [
+              "$CheckBuried|SR Merciless Extractor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mercilessextractor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|1",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Durable Energy Cell",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Durable Energy Cell",
+              "^$SB,$CheckBuried|SR Durable Energy Cell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_durableenergycell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sud Generator",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Sud Generator",
+              "^$SB,$CheckBuried|SR Sud Generator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sudgenerator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mirrored Stage",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Mirrored Stage",
+              "^$SB,$CheckBuried|SR Mirrored Stage"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mirroredstage"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Scrumptious Shell",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Scrumptious Shell",
+              "^$SB,$CheckBuried|SR Scrumptious Shell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scrumptiousshell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vorpal Platter",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Vorpal Platter",
+              "^$SB,$CheckBuried|SR Vorpal Platter"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vorpalplatter"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Arboreal Frippery",
+            "access_rules": [
+              "$CheckBuried|SR Arboreal Frippery"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_arborealfrippery"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|4",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Broken Food Master",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Broken Food Master",
+              "^$SB,$CheckBuried|SR Broken Food Master"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_brokenfoodmaster"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Endless Repository",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Endless Repository",
+              "^$SB,$CheckBuried|SR Endless Repository"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_endlessrepository"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pondering Emblem",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Pondering Emblem",
+              "^$SB,$CheckBuried|SR Pondering Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_ponderingemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Abstract Masterpiece",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Abstract Masterpiece",
+              "^$SB,$CheckBuried|SR Abstract Masterpiece"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_abstractmasterpiece"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Behemoth Jaw",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Behemoth Jaw",
+              "^$SB,$CheckBuried|SR Behemoth Jaw"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_behemothjaw"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Rubber Ugly",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Rubber Ugly",
+              "^$SB,$CheckBuried|SR Rubber Ugly"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rubberugly"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Amplified Amplifier",
+            "access_rules": [
+              "$CheckBuried|SR Amplified Amplifier"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_amplifiedamplifier"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|2|7",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 3",
+        "children": [
+          {
+            "name": "Merciless Extractor",
+            "access_rules": [
+              "$CheckBuried|SR Merciless Extractor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mercilessextractor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|1",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Durable Energy Cell",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Durable Energy Cell",
+              "^$SB,$CheckBuried|SR Durable Energy Cell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_durableenergycell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sud Generator",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Sud Generator",
+              "^$SB,$CheckBuried|SR Sud Generator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sudgenerator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mirrored Stage",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Mirrored Stage",
+              "^$SB,$CheckBuried|SR Mirrored Stage"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mirroredstage"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Scrumptious Shell",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Scrumptious Shell",
+              "^$SB,$CheckBuried|SR Scrumptious Shell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scrumptiousshell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vorpal Platter",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Vorpal Platter",
+              "^$SB,$CheckBuried|SR Vorpal Platter"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vorpalplatter"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Arboreal Frippery",
+            "access_rules": [
+              "$CheckBuried|SR Arboreal Frippery"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_arborealfrippery"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|4",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Broken Food Master",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Broken Food Master",
+              "^$SB,$CheckBuried|SR Broken Food Master"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_brokenfoodmaster"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Endless Repository",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Endless Repository",
+              "^$SB,$CheckBuried|SR Endless Repository"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_endlessrepository"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pondering Emblem",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Pondering Emblem",
+              "^$SB,$CheckBuried|SR Pondering Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_ponderingemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Abstract Masterpiece",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Abstract Masterpiece",
+              "^$SB,$CheckBuried|SR Abstract Masterpiece"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_abstractmasterpiece"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Behemoth Jaw",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Behemoth Jaw",
+              "^$SB,$CheckBuried|SR Behemoth Jaw"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_behemothjaw"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Rubber Ugly",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Rubber Ugly",
+              "^$SB,$CheckBuried|SR Rubber Ugly"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rubberugly"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Amplified Amplifier",
+            "access_rules": [
+              "$CheckBuried|SR Amplified Amplifier"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_amplifiedamplifier"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|3|7",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 4",
+        "children": [
+          {
+            "name": "Merciless Extractor",
+            "access_rules": [
+              "$CheckBuried|SR Merciless Extractor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mercilessextractor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|1",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Durable Energy Cell",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Durable Energy Cell",
+              "^$SB,$CheckBuried|SR Durable Energy Cell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_durableenergycell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sud Generator",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Sud Generator",
+              "^$SB,$CheckBuried|SR Sud Generator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sudgenerator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mirrored Stage",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Mirrored Stage",
+              "^$SB,$CheckBuried|SR Mirrored Stage"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mirroredstage"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Scrumptious Shell",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Scrumptious Shell",
+              "^$SB,$CheckBuried|SR Scrumptious Shell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scrumptiousshell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vorpal Platter",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Vorpal Platter",
+              "^$SB,$CheckBuried|SR Vorpal Platter"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vorpalplatter"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Arboreal Frippery",
+            "access_rules": [
+              "$CheckBuried|SR Arboreal Frippery"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_arborealfrippery"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|4",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Broken Food Master",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Broken Food Master",
+              "^$SB,$CheckBuried|SR Broken Food Master"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_brokenfoodmaster"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Endless Repository",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Endless Repository",
+              "^$SB,$CheckBuried|SR Endless Repository"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_endlessrepository"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pondering Emblem",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Pondering Emblem",
+              "^$SB,$CheckBuried|SR Pondering Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_ponderingemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Abstract Masterpiece",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Abstract Masterpiece",
+              "^$SB,$CheckBuried|SR Abstract Masterpiece"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_abstractmasterpiece"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Behemoth Jaw",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Behemoth Jaw",
+              "^$SB,$CheckBuried|SR Behemoth Jaw"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_behemothjaw"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Rubber Ugly",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Rubber Ugly",
+              "^$SB,$CheckBuried|SR Rubber Ugly"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rubberugly"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Amplified Amplifier",
+            "access_rules": [
+              "$CheckBuried|SR Amplified Amplifier"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_amplifiedamplifier"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|4|7",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 5",
+        "children": [
+          {
+            "name": "Merciless Extractor",
+            "access_rules": [
+              "$CheckBuried|SR Merciless Extractor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mercilessextractor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|1",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Durable Energy Cell",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Durable Energy Cell",
+              "^$SB,$CheckBuried|SR Durable Energy Cell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_durableenergycell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sud Generator",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Sud Generator",
+              "^$SB,$CheckBuried|SR Sud Generator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sudgenerator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mirrored Stage",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Mirrored Stage",
+              "^$SB,$CheckBuried|SR Mirrored Stage"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mirroredstage"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Scrumptious Shell",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Scrumptious Shell",
+              "^$SB,$CheckBuried|SR Scrumptious Shell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scrumptiousshell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vorpal Platter",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Vorpal Platter",
+              "^$SB,$CheckBuried|SR Vorpal Platter"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vorpalplatter"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Arboreal Frippery",
+            "access_rules": [
+              "$CheckBuried|SR Arboreal Frippery"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_arborealfrippery"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|4",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Broken Food Master",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Broken Food Master",
+              "^$SB,$CheckBuried|SR Broken Food Master"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_brokenfoodmaster"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Endless Repository",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Endless Repository",
+              "^$SB,$CheckBuried|SR Endless Repository"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_endlessrepository"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pondering Emblem",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Pondering Emblem",
+              "^$SB,$CheckBuried|SR Pondering Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_ponderingemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Abstract Masterpiece",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Abstract Masterpiece",
+              "^$SB,$CheckBuried|SR Abstract Masterpiece"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_abstractmasterpiece"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Behemoth Jaw",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Behemoth Jaw",
+              "^$SB,$CheckBuried|SR Behemoth Jaw"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_behemothjaw"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Rubber Ugly",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Rubber Ugly",
+              "^$SB,$CheckBuried|SR Rubber Ugly"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rubberugly"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Amplified Amplifier",
+            "access_rules": [
+              "$CheckBuried|SR Amplified Amplifier"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_amplifiedamplifier"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|5|7",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 6",
+        "children": [
+          {
+            "name": "Merciless Extractor",
+            "access_rules": [
+              "$CheckBuried|SR Merciless Extractor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mercilessextractor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|1",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Durable Energy Cell",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Durable Energy Cell",
+              "^$SB,$CheckBuried|SR Durable Energy Cell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_durableenergycell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sud Generator",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Sud Generator",
+              "^$SB,$CheckBuried|SR Sud Generator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sudgenerator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mirrored Stage",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Mirrored Stage",
+              "^$SB,$CheckBuried|SR Mirrored Stage"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mirroredstage"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Scrumptious Shell",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Scrumptious Shell",
+              "^$SB,$CheckBuried|SR Scrumptious Shell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scrumptiousshell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vorpal Platter",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Vorpal Platter",
+              "^$SB,$CheckBuried|SR Vorpal Platter"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vorpalplatter"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Arboreal Frippery",
+            "access_rules": [
+              "$CheckBuried|SR Arboreal Frippery"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_arborealfrippery"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|4",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Broken Food Master",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Broken Food Master",
+              "^$SB,$CheckBuried|SR Broken Food Master"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_brokenfoodmaster"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Endless Repository",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Endless Repository",
+              "^$SB,$CheckBuried|SR Endless Repository"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_endlessrepository"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pondering Emblem",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Pondering Emblem",
+              "^$SB,$CheckBuried|SR Pondering Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_ponderingemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Abstract Masterpiece",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Abstract Masterpiece",
+              "^$SB,$CheckBuried|SR Abstract Masterpiece"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_abstractmasterpiece"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Behemoth Jaw",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Behemoth Jaw",
+              "^$SB,$CheckBuried|SR Behemoth Jaw"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_behemothjaw"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Rubber Ugly",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Rubber Ugly",
+              "^$SB,$CheckBuried|SR Rubber Ugly"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rubberugly"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Amplified Amplifier",
+            "access_rules": [
+              "$CheckBuried|SR Amplified Amplifier"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_amplifiedamplifier"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|6|7",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 7",
+        "children": [
+          {
+            "name": "Merciless Extractor",
+            "access_rules": [
+              "$CheckBuried|SR Merciless Extractor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mercilessextractor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|1",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Durable Energy Cell",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Durable Energy Cell",
+              "^$SB,$CheckBuried|SR Durable Energy Cell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_durableenergycell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sud Generator",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SR Sud Generator",
+              "^$SB,$CheckBuried|SR Sud Generator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sudgenerator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|2",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mirrored Stage",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Mirrored Stage",
+              "^$SB,$CheckBuried|SR Mirrored Stage"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mirroredstage"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Scrumptious Shell",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Scrumptious Shell",
+              "^$SB,$CheckBuried|SR Scrumptious Shell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scrumptiousshell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vorpal Platter",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Vorpal Platter",
+              "^$SB,$CheckBuried|SR Vorpal Platter"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vorpalplatter"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|3",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Arboreal Frippery",
+            "access_rules": [
+              "$CheckBuried|SR Arboreal Frippery"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_arborealfrippery"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|4",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Broken Food Master",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Broken Food Master",
+              "^$SB,$CheckBuried|SR Broken Food Master"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_brokenfoodmaster"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Endless Repository",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Endless Repository",
+              "^$SB,$CheckBuried|SR Endless Repository"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_endlessrepository"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pondering Emblem",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Pondering Emblem",
+              "^$SB,$CheckBuried|SR Pondering Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_ponderingemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|5",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Abstract Masterpiece",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Abstract Masterpiece",
+              "^$SB,$CheckBuried|SR Abstract Masterpiece"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_abstractmasterpiece"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Behemoth Jaw",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Behemoth Jaw",
+              "^$SB,$CheckBuried|SR Behemoth Jaw"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_behemothjaw"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Rubber Ugly",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|SR Rubber Ugly",
+              "^$SB,$CheckBuried|SR Rubber Ugly"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rubberugly"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|6",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 320,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Amplified Amplifier",
+            "access_rules": [
+              "$CheckBuried|SR Amplified Amplifier"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_amplifiedamplifier"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SR|7|7",
+            "map_locations": [
+              {
+                "map": "sr",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

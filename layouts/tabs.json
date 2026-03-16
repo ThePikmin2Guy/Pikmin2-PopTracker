@@ -3,45 +3,205 @@
     "type": "tabbed",
     "tabs": [
       {
-        "title": "  Overview  ",
+        "title": "  World Map  ",
         "content": {
-          "type": "layout",
-          "key": "overview"
+          "type": "map",
+          "maps": [
+            "world"
+          ]
         }
       },
       {
         "title": "  Valley of Repose  ",
         "content": {
-          "type": "map",
-          "maps": [
-            "valleyofrepose"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "  Surface  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "valleyofrepose"
+                ]
+              }
+            },
+            {
+              "title": "  Emergence Cave  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "ec"
+                ]
+              }
+            },
+            {
+              "title": "  Subterranean Complex  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sc"
+                ]
+              }
+            },
+            {
+              "title": "  Frontier Cavern  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fc"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "  Awakening Wood  ",
         "content": {
-          "type": "map",
-          "maps": [
-            "awakeningwood"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "  Surface  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "awakeningwood"
+                ]
+              }
+            },
+            {
+              "title": "  Hole of Beasts  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "hob"
+                ]
+              }
+            },
+            {
+              "title": "  White Flower Garden  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "wfg"
+                ]
+              }
+            },
+            {
+              "title": "  Bulblax Kingdom  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "bk"
+                ]
+              }
+            },
+            {
+              "title": "  Snagret Hole  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sh"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "  Perplexing Pool  ",
         "content": {
-          "type": "map",
-          "maps": [
-            "perplexingpool"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "  Surface  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "perplexingpool"
+                ]
+              }
+            },
+            {
+              "title": "  Citadel of Spiders  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cos"
+                ]
+              }
+            },
+            {
+              "title": "  Glutton's Kitchen  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "gk"
+                ]
+              }
+            },
+            {
+              "title": "  Shower Room  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sr"
+                ]
+              }
+            },
+            {
+              "title": "  Submerged Castle  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "smgc"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "  Wistful Wild  ",
         "content": {
-          "type": "map",
-          "maps": [
-            "wistfulwild"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "  Surface  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "wistfulwild"
+                ]
+              }
+            },
+            {
+              "title": "  Cavern of Chaos  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "coc"
+                ]
+              }
+            },
+            {
+              "title": "  Hole of Heroes  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "hoh"
+                ]
+              }
+            },
+            {
+              "title": "  Dream Den  ",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "dd"
+                ]
+              }
+            }
           ]
         }
       }

@@ -24,9 +24,93 @@
     "img": "/images/maps/WW_texture.png"
   },
   {
-    "name": "overview",
+    "name": "world",
     "location_size": 32,
     "location_border_thickness": 2,
-    "img": "/images/maps/overview.png"
+    "img": "/images/maps/world.jpg"
+  },
+  {
+    "name": "ec",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/EC_cave.png"
+  },
+  {
+    "name": "sc",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/SC_cave.png"
+  },
+  {
+    "name": "fc",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/FC_cave.png"
+  },
+  {
+    "name": "hob",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/HoB_cave.png"
+  },
+  {
+    "name": "wfg",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/WFG_cave.png"
+  },
+  {
+    "name": "bk",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/BK_cave.png"
+  },
+  {
+    "name": "sh",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/SH_cave.png"
+  },
+  {
+    "name": "cos",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/CoS_cave.png"
+  },
+  {
+    "name": "gk",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/GK_cave.png"
+  },
+  {
+    "name": "sr",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/SR_cave.png"
+  },
+  {
+    "name": "smgc",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/SMGC_cave.png"
+  },
+  {
+    "name": "coc",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/CoC_cave.png"
+  },
+  {
+    "name": "hoh",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/HoH_cave.png"
+  },
+  {
+    "name": "dd",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "/images/maps/DD_cave.png"
   }
 ]

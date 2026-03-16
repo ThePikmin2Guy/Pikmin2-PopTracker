@@ -1,0 +1,32 @@
+{
+  "pikmin_grid_h": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_size": 40,
+        "rows": [
+          [
+            "redonion",
+            "yellowonion",
+            "blueonion"
+          ],
+          [
+            "purpleonion",
+            "whiteonion"
+          ]
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Treasures",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "treasures"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,812 @@
+[
+  {
+    "name": "WFG",
+    "children": [
+      {
+        "name": "Sublevel 1",
+        "children": [
+          {
+            "name": "Alien Billboard",
+            "access_rules": [
+              "$CheckBuried|WFG Alien Billboard"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_alienbillboard"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|1|1",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Drought Ender",
+            "access_rules": [
+              "$CheckBuried|WFG Drought Ender"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_droughtender"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|1|2",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Petrified Heart",
+            "access_rules": [
+              "$CheckBuried|WFG Petrified Heart"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_petrifiedheart"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|1|2",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstick Textile",
+            "access_rules": [
+              "$CheckBuried|WFG Superstick Textile"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_supersticktextile"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|1|3",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Survival Ointment",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|WFG Survival Ointment",
+              "^$SB,$CheckBuried|WFG Survival Ointment"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_survivalointment"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|1|4",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Toxic Toadstool",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|WFG Toxic Toadstool",
+              "^$SB,$CheckBuried|WFG Toxic Toadstool"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_toxictoadstool"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|1|4",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Five-man Napsack",
+            "access_rules": [
+              "$CheckBuried|WFG Five-man Napsack"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_five-mannapsack"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|1|5",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 2",
+        "children": [
+          {
+            "name": "Alien Billboard",
+            "access_rules": [
+              "$CheckBuried|WFG Alien Billboard"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_alienbillboard"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|2|1",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Drought Ender",
+            "access_rules": [
+              "$CheckBuried|WFG Drought Ender"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_droughtender"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|2|2",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Petrified Heart",
+            "access_rules": [
+              "$CheckBuried|WFG Petrified Heart"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_petrifiedheart"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|2|2",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstick Textile",
+            "access_rules": [
+              "$CheckBuried|WFG Superstick Textile"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_supersticktextile"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|2|3",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Survival Ointment",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|WFG Survival Ointment",
+              "^$SB,$CheckBuried|WFG Survival Ointment"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_survivalointment"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|2|4",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Toxic Toadstool",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|WFG Toxic Toadstool",
+              "^$SB,$CheckBuried|WFG Toxic Toadstool"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_toxictoadstool"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|2|4",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Five-man Napsack",
+            "access_rules": [
+              "$CheckBuried|WFG Five-man Napsack"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_five-mannapsack"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|2|5",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 3",
+        "children": [
+          {
+            "name": "Alien Billboard",
+            "access_rules": [
+              "$CheckBuried|WFG Alien Billboard"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_alienbillboard"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|3|1",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Drought Ender",
+            "access_rules": [
+              "$CheckBuried|WFG Drought Ender"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_droughtender"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|3|2",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Petrified Heart",
+            "access_rules": [
+              "$CheckBuried|WFG Petrified Heart"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_petrifiedheart"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|3|2",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstick Textile",
+            "access_rules": [
+              "$CheckBuried|WFG Superstick Textile"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_supersticktextile"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|3|3",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Survival Ointment",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|WFG Survival Ointment",
+              "^$SB,$CheckBuried|WFG Survival Ointment"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_survivalointment"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|3|4",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Toxic Toadstool",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|WFG Toxic Toadstool",
+              "^$SB,$CheckBuried|WFG Toxic Toadstool"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_toxictoadstool"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|3|4",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Five-man Napsack",
+            "access_rules": [
+              "$CheckBuried|WFG Five-man Napsack"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_five-mannapsack"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|3|5",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 4",
+        "children": [
+          {
+            "name": "Alien Billboard",
+            "access_rules": [
+              "$CheckBuried|WFG Alien Billboard"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_alienbillboard"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|4|1",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Drought Ender",
+            "access_rules": [
+              "$CheckBuried|WFG Drought Ender"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_droughtender"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|4|2",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Petrified Heart",
+            "access_rules": [
+              "$CheckBuried|WFG Petrified Heart"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_petrifiedheart"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|4|2",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstick Textile",
+            "access_rules": [
+              "$CheckBuried|WFG Superstick Textile"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_supersticktextile"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|4|3",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Survival Ointment",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|WFG Survival Ointment",
+              "^$SB,$CheckBuried|WFG Survival Ointment"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_survivalointment"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|4|4",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Toxic Toadstool",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|WFG Toxic Toadstool",
+              "^$SB,$CheckBuried|WFG Toxic Toadstool"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_toxictoadstool"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|4|4",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Five-man Napsack",
+            "access_rules": [
+              "$CheckBuried|WFG Five-man Napsack"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_five-mannapsack"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|4|5",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 5",
+        "children": [
+          {
+            "name": "Alien Billboard",
+            "access_rules": [
+              "$CheckBuried|WFG Alien Billboard"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_alienbillboard"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|5|1",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Drought Ender",
+            "access_rules": [
+              "$CheckBuried|WFG Drought Ender"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_droughtender"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|5|2",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Petrified Heart",
+            "access_rules": [
+              "$CheckBuried|WFG Petrified Heart"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_petrifiedheart"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|5|2",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstick Textile",
+            "access_rules": [
+              "$CheckBuried|WFG Superstick Textile"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_supersticktextile"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|5|3",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Survival Ointment",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|WFG Survival Ointment",
+              "^$SB,$CheckBuried|WFG Survival Ointment"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_survivalointment"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|5|4",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Toxic Toadstool",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|WFG Toxic Toadstool",
+              "^$SB,$CheckBuried|WFG Toxic Toadstool"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_toxictoadstool"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|5|4",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Five-man Napsack",
+            "access_rules": [
+              "$CheckBuried|WFG Five-man Napsack"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_five-mannapsack"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|WFG|5|5",
+            "map_locations": [
+              {
+                "map": "wfg",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

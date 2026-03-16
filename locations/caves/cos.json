@@ -1,0 +1,1242 @@
+[
+  {
+    "name": "CoS",
+    "children": [
+      {
+        "name": "Sublevel 1",
+        "children": [
+          {
+            "name": "Love Nugget",
+            "access_rules": [
+              "$CheckBuried|CoS Love Nugget"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovenugget"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|1|1",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Creative Inspiration",
+            "access_rules": [
+              "$CheckBuried|CoS Creative Inspiration"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_creativeinspiration"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|1|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lip Service",
+            "access_rules": [
+              "$CheckBuried|CoS Lip Service"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lipservice"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|1|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Paradoxical Enigma",
+            "access_rules": [
+              "$CheckBuried|CoS Paradoxical Enigma"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_paradoxicalenigma"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|1|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorial Shell",
+            "access_rules": [
+              "$CheckBuried|CoS Memorial Shell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorialshell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|1|3",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Patience Tester",
+            "access_rules": [
+              "$CheckBuried|CoS Patience Tester"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_patiencetester"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|1|3",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Flame of Tomorrow",
+            "access_rules": [
+              "$CheckBuried|CoS Flame of Tomorrow"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_flameoftomorrow"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|1|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "King of Sweets",
+            "access_rules": [
+              "$CheckBuried|CoS King of Sweets"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_kingofsweets"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|1|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Time Capsule",
+            "access_rules": [
+              "$CheckBuried|CoS Time Capsule"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_timecapsule"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|1|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Regal Diamond",
+            "access_rules": [
+              "$CheckBuried|CoS Regal Diamond"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_regaldiamond"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|1|5",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "The Key",
+            "access_rules": [
+              "$CheckBuried|CoS The Key"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thekey"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|1|5",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 2",
+        "children": [
+          {
+            "name": "Love Nugget",
+            "access_rules": [
+              "$CheckBuried|CoS Love Nugget"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovenugget"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|2|1",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Creative Inspiration",
+            "access_rules": [
+              "$CheckBuried|CoS Creative Inspiration"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_creativeinspiration"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|2|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lip Service",
+            "access_rules": [
+              "$CheckBuried|CoS Lip Service"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lipservice"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|2|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Paradoxical Enigma",
+            "access_rules": [
+              "$CheckBuried|CoS Paradoxical Enigma"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_paradoxicalenigma"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|2|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorial Shell",
+            "access_rules": [
+              "$CheckBuried|CoS Memorial Shell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorialshell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|2|3",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Patience Tester",
+            "access_rules": [
+              "$CheckBuried|CoS Patience Tester"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_patiencetester"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|2|3",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Flame of Tomorrow",
+            "access_rules": [
+              "$CheckBuried|CoS Flame of Tomorrow"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_flameoftomorrow"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|2|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "King of Sweets",
+            "access_rules": [
+              "$CheckBuried|CoS King of Sweets"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_kingofsweets"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|2|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Time Capsule",
+            "access_rules": [
+              "$CheckBuried|CoS Time Capsule"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_timecapsule"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|2|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Regal Diamond",
+            "access_rules": [
+              "$CheckBuried|CoS Regal Diamond"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_regaldiamond"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|2|5",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "The Key",
+            "access_rules": [
+              "$CheckBuried|CoS The Key"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thekey"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|2|5",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 3",
+        "children": [
+          {
+            "name": "Love Nugget",
+            "access_rules": [
+              "$CheckBuried|CoS Love Nugget"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovenugget"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|3|1",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Creative Inspiration",
+            "access_rules": [
+              "$CheckBuried|CoS Creative Inspiration"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_creativeinspiration"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|3|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lip Service",
+            "access_rules": [
+              "$CheckBuried|CoS Lip Service"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lipservice"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|3|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Paradoxical Enigma",
+            "access_rules": [
+              "$CheckBuried|CoS Paradoxical Enigma"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_paradoxicalenigma"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|3|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorial Shell",
+            "access_rules": [
+              "$CheckBuried|CoS Memorial Shell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorialshell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|3|3",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Patience Tester",
+            "access_rules": [
+              "$CheckBuried|CoS Patience Tester"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_patiencetester"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|3|3",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Flame of Tomorrow",
+            "access_rules": [
+              "$CheckBuried|CoS Flame of Tomorrow"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_flameoftomorrow"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|3|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "King of Sweets",
+            "access_rules": [
+              "$CheckBuried|CoS King of Sweets"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_kingofsweets"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|3|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Time Capsule",
+            "access_rules": [
+              "$CheckBuried|CoS Time Capsule"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_timecapsule"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|3|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Regal Diamond",
+            "access_rules": [
+              "$CheckBuried|CoS Regal Diamond"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_regaldiamond"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|3|5",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "The Key",
+            "access_rules": [
+              "$CheckBuried|CoS The Key"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thekey"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|3|5",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 4",
+        "children": [
+          {
+            "name": "Love Nugget",
+            "access_rules": [
+              "$CheckBuried|CoS Love Nugget"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovenugget"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|4|1",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Creative Inspiration",
+            "access_rules": [
+              "$CheckBuried|CoS Creative Inspiration"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_creativeinspiration"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|4|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lip Service",
+            "access_rules": [
+              "$CheckBuried|CoS Lip Service"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lipservice"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|4|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Paradoxical Enigma",
+            "access_rules": [
+              "$CheckBuried|CoS Paradoxical Enigma"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_paradoxicalenigma"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|4|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorial Shell",
+            "access_rules": [
+              "$CheckBuried|CoS Memorial Shell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorialshell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|4|3",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Patience Tester",
+            "access_rules": [
+              "$CheckBuried|CoS Patience Tester"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_patiencetester"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|4|3",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Flame of Tomorrow",
+            "access_rules": [
+              "$CheckBuried|CoS Flame of Tomorrow"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_flameoftomorrow"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|4|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "King of Sweets",
+            "access_rules": [
+              "$CheckBuried|CoS King of Sweets"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_kingofsweets"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|4|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Time Capsule",
+            "access_rules": [
+              "$CheckBuried|CoS Time Capsule"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_timecapsule"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|4|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Regal Diamond",
+            "access_rules": [
+              "$CheckBuried|CoS Regal Diamond"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_regaldiamond"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|4|5",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "The Key",
+            "access_rules": [
+              "$CheckBuried|CoS The Key"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thekey"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|4|5",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 5",
+        "children": [
+          {
+            "name": "Love Nugget",
+            "access_rules": [
+              "$CheckBuried|CoS Love Nugget"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovenugget"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|5|1",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Creative Inspiration",
+            "access_rules": [
+              "$CheckBuried|CoS Creative Inspiration"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_creativeinspiration"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|5|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lip Service",
+            "access_rules": [
+              "$CheckBuried|CoS Lip Service"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lipservice"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|5|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Paradoxical Enigma",
+            "access_rules": [
+              "$CheckBuried|CoS Paradoxical Enigma"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_paradoxicalenigma"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|5|2",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorial Shell",
+            "access_rules": [
+              "$CheckBuried|CoS Memorial Shell"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorialshell"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|5|3",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Patience Tester",
+            "access_rules": [
+              "$CheckBuried|CoS Patience Tester"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_patiencetester"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|5|3",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Flame of Tomorrow",
+            "access_rules": [
+              "$CheckBuried|CoS Flame of Tomorrow"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_flameoftomorrow"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|5|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "King of Sweets",
+            "access_rules": [
+              "$CheckBuried|CoS King of Sweets"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_kingofsweets"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|5|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Time Capsule",
+            "access_rules": [
+              "$CheckBuried|CoS Time Capsule"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_timecapsule"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|5|4",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Regal Diamond",
+            "access_rules": [
+              "$CheckBuried|CoS Regal Diamond"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_regaldiamond"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|5|5",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "The Key",
+            "access_rules": [
+              "$CheckBuried|CoS The Key"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thekey"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|CoS|5|5",
+            "map_locations": [
+              {
+                "map": "cos",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

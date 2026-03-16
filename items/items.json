@@ -32,112 +32,112 @@
   {
     "name": "EC Entrance Key",
     "type": "toggle",
-    "img": "images/caves/EC.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_EC.png",
+    "disabled_img": "images/caves/closed_EC.png",
     "disabled_img_mods": "none",
     "codes": "ecentrancekey"
   },
   {
     "name": "SC Entrance Key",
     "type": "toggle",
-    "img": "images/caves/SC.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_SC.png",
+    "disabled_img": "images/caves/closed_SC.png",
     "disabled_img_mods": "none",
     "codes": "scentrancekey"
   },
   {
     "name": "FC Entrance Key",
     "type": "toggle",
-    "img": "images/caves/FC.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_FC.png",
+    "disabled_img": "images/caves/closed_FC.png",
     "disabled_img_mods": "none",
     "codes": "fcentrancekey"
   },
   {
     "name": "HoB Entrance Key",
     "type": "toggle",
-    "img": "images/caves/HoB.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_HoB.png",
+    "disabled_img": "images/caves/closed_HoB.png",
     "disabled_img_mods": "none",
     "codes": "hobentrancekey"
   },
   {
     "name": "WFG Entrance Key",
     "type": "toggle",
-    "img": "images/caves/WFG.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_WFG.png",
+    "disabled_img": "images/caves/closed_WFG.png",
     "disabled_img_mods": "none",
     "codes": "wfgentrancekey"
   },
   {
     "name": "BK Entrance Key",
     "type": "toggle",
-    "img": "images/caves/BK.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_BK.png",
+    "disabled_img": "images/caves/closed_BK.png",
     "disabled_img_mods": "none",
     "codes": "bkentrancekey"
   },
   {
     "name": "SH Entrance Key",
     "type": "toggle",
-    "img": "images/caves/SH.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_SH.png",
+    "disabled_img": "images/caves/closed_SH.png",
     "disabled_img_mods": "none",
     "codes": "shentrancekey"
   },
   {
     "name": "CoS Entrance Key",
     "type": "toggle",
-    "img": "images/caves/CoS.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_CoS.png",
+    "disabled_img": "images/caves/closed_CoS.png",
     "disabled_img_mods": "none",
     "codes": "cosentrancekey"
   },
   {
     "name": "GK Entrance Key",
     "type": "toggle",
-    "img": "images/caves/GK.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_GK.png",
+    "disabled_img": "images/caves/closed_GK.png",
     "disabled_img_mods": "none",
     "codes": "gkentrancekey"
   },
   {
     "name": "SR Entrance Key",
     "type": "toggle",
-    "img": "images/caves/SR.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_SR.png",
+    "disabled_img": "images/caves/closed_SR.png",
     "disabled_img_mods": "none",
     "codes": "srentrancekey"
   },
   {
     "name": "SMGC Entrance Key",
     "type": "toggle",
-    "img": "images/caves/SMGC.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_SMGC.png",
+    "disabled_img": "images/caves/closed_SMGC.png",
     "disabled_img_mods": "none",
     "codes": "smgcentrancekey"
   },
   {
     "name": "CoC Entrance Key",
     "type": "toggle",
-    "img": "images/caves/CoC.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_CoC.png",
+    "disabled_img": "images/caves/closed_CoC.png",
     "disabled_img_mods": "none",
     "codes": "cocentrancekey"
   },
   {
     "name": "HoH Entrance Key",
     "type": "toggle",
-    "img": "images/caves/HoH.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_HoH.png",
+    "disabled_img": "images/caves/closed_HoH.png",
     "disabled_img_mods": "none",
     "codes": "hohentrancekey"
   },
   {
     "name": "DD Entrance Key",
     "type": "toggle",
-    "img": "images/caves/DD.png",
-    "disabled_img": "images/caves/Key.png",
+    "img": "images/caves/open_DD.png",
+    "disabled_img": "images/caves/closed_DD.png",
     "disabled_img_mods": "none",
     "codes": "ddentrancekey"
   },

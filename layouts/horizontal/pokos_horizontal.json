@@ -1,0 +1,49 @@
+{
+  "pokos_grid_h": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "group",
+        "header": "Pokos",
+        "content": {
+          "type": "itemgrid",
+          "rows": [
+            [
+              "pokos_tenthousand",
+              "pokos_thousand",
+              "pokos_hundred",
+              "pokos_ten",
+              "pokos_one"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Debt",
+        "content": {
+          "type": "itemgrid",
+          "rows": [
+            [
+              "debt_tenthousand",
+              "debt_thousand",
+              "debt_hundred",
+              "debt_ten",
+              "debt_one"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Titan Dweevil Weapons",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "td_weapons_grid_h"
+        }
+      }
+    ]
+  }
+}

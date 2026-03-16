@@ -1,0 +1,149 @@
+[
+  {
+    "name": "EC",
+    "children": [
+      {
+        "name": "Sublevel 1",
+        "children": [
+          {
+            "name": "Citrus Lump",
+            "access_rules": [
+              "$CheckBuried|EC Citrus Lump"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_citruslump"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|EC|1|1",
+            "map_locations": [
+              {
+                "map": "ec",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Quenching Emblem",
+            "access_rules": [
+              "$CheckBuried|EC Quenching Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_quenchingemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|EC|1|1",
+            "map_locations": [
+              {
+                "map": "ec",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Spherical Atlas",
+            "access_rules": [
+              "$CheckBuried|EC Spherical Atlas"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sphericalatlas"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|EC|1|2",
+            "map_locations": [
+              {
+                "map": "ec",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 2",
+        "children": [
+          {
+            "name": "Citrus Lump",
+            "access_rules": [
+              "$CheckBuried|EC Citrus Lump"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_citruslump"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|EC|2|1",
+            "map_locations": [
+              {
+                "map": "ec",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Quenching Emblem",
+            "access_rules": [
+              "$CheckBuried|EC Quenching Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_quenchingemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|EC|2|1",
+            "map_locations": [
+              {
+                "map": "ec",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Spherical Atlas",
+            "access_rules": [
+              "$CheckBuried|EC Spherical Atlas"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sphericalatlas"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|EC|2|2",
+            "map_locations": [
+              {
+                "map": "ec",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,692 @@
+[
+  {
+    "name": "HoB",
+    "children": [
+      {
+        "name": "Sublevel 1",
+        "children": [
+          {
+            "name": "Stone of Glory",
+            "access_rules": [
+              "$CheckBuried|HoB Stone of Glory"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stoneofglory"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|1|1",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Cosmic Archive",
+            "access_rules": [
+              "$CheckBuried|HoB Cosmic Archive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_cosmicarchive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|1|3",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Strife Monolith",
+            "access_rules": [
+              "$CheckBuried|HoB Strife Monolith"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_strifemonolith"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|1|3",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dream Architect",
+            "access_rules": [
+              "$CheckBuried|HoB Dream Architect"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dreamarchitect"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|1|4",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Luck Wafer",
+            "access_rules": [
+              "$CheckBuried|HoB Luck Wafer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_luckwafer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|1|4",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Prototype Detector",
+            "access_rules": [
+              "$CheckBuried|HoB Prototype Detector"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_prototypedetector"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|1|5",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 2",
+        "children": [
+          {
+            "name": "Stone of Glory",
+            "access_rules": [
+              "$CheckBuried|HoB Stone of Glory"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stoneofglory"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|2|1",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Cosmic Archive",
+            "access_rules": [
+              "$CheckBuried|HoB Cosmic Archive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_cosmicarchive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|2|3",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Strife Monolith",
+            "access_rules": [
+              "$CheckBuried|HoB Strife Monolith"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_strifemonolith"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|2|3",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dream Architect",
+            "access_rules": [
+              "$CheckBuried|HoB Dream Architect"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dreamarchitect"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|2|4",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Luck Wafer",
+            "access_rules": [
+              "$CheckBuried|HoB Luck Wafer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_luckwafer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|2|4",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Prototype Detector",
+            "access_rules": [
+              "$CheckBuried|HoB Prototype Detector"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_prototypedetector"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|2|5",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 3",
+        "children": [
+          {
+            "name": "Stone of Glory",
+            "access_rules": [
+              "$CheckBuried|HoB Stone of Glory"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stoneofglory"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|3|1",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Cosmic Archive",
+            "access_rules": [
+              "$CheckBuried|HoB Cosmic Archive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_cosmicarchive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|3|3",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Strife Monolith",
+            "access_rules": [
+              "$CheckBuried|HoB Strife Monolith"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_strifemonolith"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|3|3",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dream Architect",
+            "access_rules": [
+              "$CheckBuried|HoB Dream Architect"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dreamarchitect"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|3|4",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Luck Wafer",
+            "access_rules": [
+              "$CheckBuried|HoB Luck Wafer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_luckwafer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|3|4",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Prototype Detector",
+            "access_rules": [
+              "$CheckBuried|HoB Prototype Detector"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_prototypedetector"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|3|5",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 4",
+        "children": [
+          {
+            "name": "Stone of Glory",
+            "access_rules": [
+              "$CheckBuried|HoB Stone of Glory"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stoneofglory"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|4|1",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Cosmic Archive",
+            "access_rules": [
+              "$CheckBuried|HoB Cosmic Archive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_cosmicarchive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|4|3",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Strife Monolith",
+            "access_rules": [
+              "$CheckBuried|HoB Strife Monolith"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_strifemonolith"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|4|3",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dream Architect",
+            "access_rules": [
+              "$CheckBuried|HoB Dream Architect"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dreamarchitect"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|4|4",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Luck Wafer",
+            "access_rules": [
+              "$CheckBuried|HoB Luck Wafer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_luckwafer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|4|4",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Prototype Detector",
+            "access_rules": [
+              "$CheckBuried|HoB Prototype Detector"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_prototypedetector"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|4|5",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 5",
+        "children": [
+          {
+            "name": "Stone of Glory",
+            "access_rules": [
+              "$CheckBuried|HoB Stone of Glory"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stoneofglory"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|5|1",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Cosmic Archive",
+            "access_rules": [
+              "$CheckBuried|HoB Cosmic Archive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_cosmicarchive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|5|3",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Strife Monolith",
+            "access_rules": [
+              "$CheckBuried|HoB Strife Monolith"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_strifemonolith"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|5|3",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dream Architect",
+            "access_rules": [
+              "$CheckBuried|HoB Dream Architect"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dreamarchitect"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|5|4",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Luck Wafer",
+            "access_rules": [
+              "$CheckBuried|HoB Luck Wafer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_luckwafer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|5|4",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Prototype Detector",
+            "access_rules": [
+              "$CheckBuried|HoB Prototype Detector"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_prototypedetector"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoB|5|5",
+            "map_locations": [
+              {
+                "map": "hob",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

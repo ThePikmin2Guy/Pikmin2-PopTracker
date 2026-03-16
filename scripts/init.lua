@@ -1,5 +1,9 @@
 ENABLE_DEBUG_LOG = true
 
+local variant = Tracker.ActiveVariantUID
+
+IS_HORIZONTAL = variant:find("horizontal")
+
 print("\n-- Loading Pikmin 2 Tracker --")
 print("Variant: ", Tracker.ActiveVariantUID)
 if ENABLE_DEBUG_LOG then
@@ -18,10 +22,24 @@ Tracker:AddItems("items/options.json")
 
 -- Locations
 Tracker:AddLocations("locations/vor.json")
-Tracker:AddLocations("locations/ec.json")
 Tracker:AddLocations("locations/aw.json")
 Tracker:AddLocations("locations/pp.json")
 Tracker:AddLocations("locations/ww.json")
+Tracker:AddLocations("locations/world.json")
+Tracker:AddLocations("locations/caves/ec.json")
+Tracker:AddLocations("locations/caves/sc.json")
+Tracker:AddLocations("locations/caves/fc.json")
+Tracker:AddLocations("locations/caves/hob.json")
+Tracker:AddLocations("locations/caves/wfg.json")
+Tracker:AddLocations("locations/caves/bk.json")
+Tracker:AddLocations("locations/caves/sh.json")
+Tracker:AddLocations("locations/caves/cos.json")
+Tracker:AddLocations("locations/caves/gk.json")
+Tracker:AddLocations("locations/caves/sr.json")
+Tracker:AddLocations("locations/caves/smgc.json")
+Tracker:AddLocations("locations/caves/coc.json")
+Tracker:AddLocations("locations/caves/hoh.json")
+Tracker:AddLocations("locations/caves/dd.json")
 
 -- Layouts
 Tracker:AddLayouts("layouts/tracker.json")
@@ -36,6 +54,13 @@ Tracker:AddLayouts("layouts/entrances.json")
 Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/treasures.json")
+
+if IS_HORIZONTAL then
+  Tracker:AddLayouts("layouts/horizontal/tracker_horizontal.json")
+  Tracker:AddLayouts("layouts/horizontal/pikmin_horizontal.json")
+  Tracker:AddLayouts("layouts/horizontal/pokos_horizontal.json")
+  Tracker:AddLayouts("layouts/horizontal/td_weapons_horizontal.json")
+end
 
 -- Scripts
 ScriptHost:LoadScript("scripts/logic.lua")

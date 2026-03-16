@@ -231,13 +231,21 @@ function CountPokos()
   return total
 end
 
-function CountTreasures(start_onion)
+function CountTreasures(onions_location, ignore_keys)
+  local onions = {
+    redonion = "red",
+    yellowonion = "yellow",
+    blueonion = "blue"
+  }
+
   local total = 0
   for code in pairs(TREASURE_VALUES) do
-    if code ~= start_onion then
-      local obj = Tracker:FindObjectForCode(code)
-      if obj ~= nil and obj.Active then
-        total = total + 1
+    if onions[code] == nil or (onions[code] ~= onions_location["VoR"] and onions[code] ~= onions_location["AW"] and onions[code] ~= onions_location["PP"]) then
+      if not ignore_keys or not code:match("entrancekey$") then
+        local obj = Tracker:FindObjectForCode(code)
+        if obj ~= nil and obj.Active then
+          total = total + 1
+        end
       end
     end
   end

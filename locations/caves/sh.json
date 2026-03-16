@@ -1,0 +1,2380 @@
+[
+  {
+    "name": "SH",
+    "children": [
+      {
+        "name": "Sublevel 1",
+        "children": [
+          {
+            "name": "Crystallized Telekinesis",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telekinesis"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelekinesis"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Leviathan Feather",
+            "access_rules": [
+              "$CheckBuried|SH Leviathan Feather"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_leviathanfeather"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Combustion Berry",
+            "access_rules": [
+              "$CheckBuried|SH Combustion Berry"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_combustionberry"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Taste Sensation",
+            "access_rules": [
+              "$CheckBuried|SH Taste Sensation"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_tastesensation"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat Satchel",
+            "access_rules": [
+              "$CheckBuried|SH Meat Satchel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatsatchel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|3",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Telepathy",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telepathy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelepathy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Cupid's Grenade",
+            "access_rules": [
+              "$CheckBuried|SH Cupid's Grenade"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_cupidsgrenade"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Heavy-duty Magnetizer",
+            "access_rules": [
+              "$CheckBuried|SH Heavy-duty Magnetizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_heavy-dutymagnetizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Clairvoyance",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Clairvoyance"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedclairvoyance"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Emperor Whistle",
+            "access_rules": [
+              "$CheckBuried|SH Emperor Whistle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_emperorwhistle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Salivatrix",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Salivatrix",
+              "^$SB,$CheckBuried|SH Salivatrix"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_salivatrix"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Science Project",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Science Project",
+              "^$SB,$CheckBuried|SH Science Project"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scienceproject"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stupendous Lens",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Stupendous Lens",
+              "^$SB,$CheckBuried|SH Stupendous Lens"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stupendouslens"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Triple Sugar Threat",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Triple Sugar Threat",
+              "^$SB,$CheckBuried|SH Triple Sugar Threat"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_triplesugarthreat"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 384,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Justice Alloy",
+            "access_rules": [
+              "$CheckBuried|SH Justice Alloy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_justicealloy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|1|7",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 2",
+        "children": [
+          {
+            "name": "Crystallized Telekinesis",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telekinesis"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelekinesis"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Leviathan Feather",
+            "access_rules": [
+              "$CheckBuried|SH Leviathan Feather"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_leviathanfeather"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Combustion Berry",
+            "access_rules": [
+              "$CheckBuried|SH Combustion Berry"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_combustionberry"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Taste Sensation",
+            "access_rules": [
+              "$CheckBuried|SH Taste Sensation"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_tastesensation"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat Satchel",
+            "access_rules": [
+              "$CheckBuried|SH Meat Satchel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatsatchel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|3",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Telepathy",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telepathy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelepathy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Cupid's Grenade",
+            "access_rules": [
+              "$CheckBuried|SH Cupid's Grenade"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_cupidsgrenade"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Heavy-duty Magnetizer",
+            "access_rules": [
+              "$CheckBuried|SH Heavy-duty Magnetizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_heavy-dutymagnetizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Clairvoyance",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Clairvoyance"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedclairvoyance"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Emperor Whistle",
+            "access_rules": [
+              "$CheckBuried|SH Emperor Whistle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_emperorwhistle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Salivatrix",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Salivatrix",
+              "^$SB,$CheckBuried|SH Salivatrix"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_salivatrix"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Science Project",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Science Project",
+              "^$SB,$CheckBuried|SH Science Project"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scienceproject"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stupendous Lens",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Stupendous Lens",
+              "^$SB,$CheckBuried|SH Stupendous Lens"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stupendouslens"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Triple Sugar Threat",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Triple Sugar Threat",
+              "^$SB,$CheckBuried|SH Triple Sugar Threat"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_triplesugarthreat"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 384,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Justice Alloy",
+            "access_rules": [
+              "$CheckBuried|SH Justice Alloy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_justicealloy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|2|7",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 3",
+        "children": [
+          {
+            "name": "Crystallized Telekinesis",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telekinesis"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelekinesis"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Leviathan Feather",
+            "access_rules": [
+              "$CheckBuried|SH Leviathan Feather"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_leviathanfeather"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Combustion Berry",
+            "access_rules": [
+              "$CheckBuried|SH Combustion Berry"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_combustionberry"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Taste Sensation",
+            "access_rules": [
+              "$CheckBuried|SH Taste Sensation"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_tastesensation"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat Satchel",
+            "access_rules": [
+              "$CheckBuried|SH Meat Satchel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatsatchel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|3",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Telepathy",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telepathy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelepathy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Cupid's Grenade",
+            "access_rules": [
+              "$CheckBuried|SH Cupid's Grenade"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_cupidsgrenade"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Heavy-duty Magnetizer",
+            "access_rules": [
+              "$CheckBuried|SH Heavy-duty Magnetizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_heavy-dutymagnetizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Clairvoyance",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Clairvoyance"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedclairvoyance"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Emperor Whistle",
+            "access_rules": [
+              "$CheckBuried|SH Emperor Whistle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_emperorwhistle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Salivatrix",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Salivatrix",
+              "^$SB,$CheckBuried|SH Salivatrix"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_salivatrix"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Science Project",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Science Project",
+              "^$SB,$CheckBuried|SH Science Project"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scienceproject"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stupendous Lens",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Stupendous Lens",
+              "^$SB,$CheckBuried|SH Stupendous Lens"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stupendouslens"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Triple Sugar Threat",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Triple Sugar Threat",
+              "^$SB,$CheckBuried|SH Triple Sugar Threat"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_triplesugarthreat"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 384,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Justice Alloy",
+            "access_rules": [
+              "$CheckBuried|SH Justice Alloy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_justicealloy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|3|7",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 4",
+        "children": [
+          {
+            "name": "Crystallized Telekinesis",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telekinesis"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelekinesis"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Leviathan Feather",
+            "access_rules": [
+              "$CheckBuried|SH Leviathan Feather"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_leviathanfeather"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Combustion Berry",
+            "access_rules": [
+              "$CheckBuried|SH Combustion Berry"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_combustionberry"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Taste Sensation",
+            "access_rules": [
+              "$CheckBuried|SH Taste Sensation"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_tastesensation"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat Satchel",
+            "access_rules": [
+              "$CheckBuried|SH Meat Satchel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatsatchel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|3",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Telepathy",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telepathy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelepathy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Cupid's Grenade",
+            "access_rules": [
+              "$CheckBuried|SH Cupid's Grenade"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_cupidsgrenade"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Heavy-duty Magnetizer",
+            "access_rules": [
+              "$CheckBuried|SH Heavy-duty Magnetizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_heavy-dutymagnetizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Clairvoyance",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Clairvoyance"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedclairvoyance"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Emperor Whistle",
+            "access_rules": [
+              "$CheckBuried|SH Emperor Whistle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_emperorwhistle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Salivatrix",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Salivatrix",
+              "^$SB,$CheckBuried|SH Salivatrix"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_salivatrix"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Science Project",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Science Project",
+              "^$SB,$CheckBuried|SH Science Project"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scienceproject"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stupendous Lens",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Stupendous Lens",
+              "^$SB,$CheckBuried|SH Stupendous Lens"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stupendouslens"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Triple Sugar Threat",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Triple Sugar Threat",
+              "^$SB,$CheckBuried|SH Triple Sugar Threat"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_triplesugarthreat"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 384,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Justice Alloy",
+            "access_rules": [
+              "$CheckBuried|SH Justice Alloy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_justicealloy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|4|7",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 5",
+        "children": [
+          {
+            "name": "Crystallized Telekinesis",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telekinesis"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelekinesis"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Leviathan Feather",
+            "access_rules": [
+              "$CheckBuried|SH Leviathan Feather"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_leviathanfeather"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Combustion Berry",
+            "access_rules": [
+              "$CheckBuried|SH Combustion Berry"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_combustionberry"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Taste Sensation",
+            "access_rules": [
+              "$CheckBuried|SH Taste Sensation"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_tastesensation"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat Satchel",
+            "access_rules": [
+              "$CheckBuried|SH Meat Satchel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatsatchel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|3",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Telepathy",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telepathy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelepathy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Cupid's Grenade",
+            "access_rules": [
+              "$CheckBuried|SH Cupid's Grenade"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_cupidsgrenade"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Heavy-duty Magnetizer",
+            "access_rules": [
+              "$CheckBuried|SH Heavy-duty Magnetizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_heavy-dutymagnetizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Clairvoyance",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Clairvoyance"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedclairvoyance"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Emperor Whistle",
+            "access_rules": [
+              "$CheckBuried|SH Emperor Whistle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_emperorwhistle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Salivatrix",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Salivatrix",
+              "^$SB,$CheckBuried|SH Salivatrix"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_salivatrix"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Science Project",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Science Project",
+              "^$SB,$CheckBuried|SH Science Project"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scienceproject"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stupendous Lens",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Stupendous Lens",
+              "^$SB,$CheckBuried|SH Stupendous Lens"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stupendouslens"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Triple Sugar Threat",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Triple Sugar Threat",
+              "^$SB,$CheckBuried|SH Triple Sugar Threat"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_triplesugarthreat"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 384,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Justice Alloy",
+            "access_rules": [
+              "$CheckBuried|SH Justice Alloy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_justicealloy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|5|7",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 6",
+        "children": [
+          {
+            "name": "Crystallized Telekinesis",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telekinesis"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelekinesis"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Leviathan Feather",
+            "access_rules": [
+              "$CheckBuried|SH Leviathan Feather"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_leviathanfeather"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Combustion Berry",
+            "access_rules": [
+              "$CheckBuried|SH Combustion Berry"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_combustionberry"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Taste Sensation",
+            "access_rules": [
+              "$CheckBuried|SH Taste Sensation"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_tastesensation"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat Satchel",
+            "access_rules": [
+              "$CheckBuried|SH Meat Satchel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatsatchel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|3",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Telepathy",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telepathy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelepathy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Cupid's Grenade",
+            "access_rules": [
+              "$CheckBuried|SH Cupid's Grenade"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_cupidsgrenade"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Heavy-duty Magnetizer",
+            "access_rules": [
+              "$CheckBuried|SH Heavy-duty Magnetizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_heavy-dutymagnetizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Clairvoyance",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Clairvoyance"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedclairvoyance"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Emperor Whistle",
+            "access_rules": [
+              "$CheckBuried|SH Emperor Whistle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_emperorwhistle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Salivatrix",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Salivatrix",
+              "^$SB,$CheckBuried|SH Salivatrix"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_salivatrix"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Science Project",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Science Project",
+              "^$SB,$CheckBuried|SH Science Project"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scienceproject"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stupendous Lens",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Stupendous Lens",
+              "^$SB,$CheckBuried|SH Stupendous Lens"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stupendouslens"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Triple Sugar Threat",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Triple Sugar Threat",
+              "^$SB,$CheckBuried|SH Triple Sugar Threat"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_triplesugarthreat"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 384,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Justice Alloy",
+            "access_rules": [
+              "$CheckBuried|SH Justice Alloy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_justicealloy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|6|7",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 7",
+        "children": [
+          {
+            "name": "Crystallized Telekinesis",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telekinesis"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelekinesis"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Leviathan Feather",
+            "access_rules": [
+              "$CheckBuried|SH Leviathan Feather"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_leviathanfeather"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|1",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Combustion Berry",
+            "access_rules": [
+              "$CheckBuried|SH Combustion Berry"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_combustionberry"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Taste Sensation",
+            "access_rules": [
+              "$CheckBuried|SH Taste Sensation"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_tastesensation"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|2",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat Satchel",
+            "access_rules": [
+              "$CheckBuried|SH Meat Satchel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatsatchel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|3",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Telepathy",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Telepathy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedtelepathy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Cupid's Grenade",
+            "access_rules": [
+              "$CheckBuried|SH Cupid's Grenade"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_cupidsgrenade"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Heavy-duty Magnetizer",
+            "access_rules": [
+              "$CheckBuried|SH Heavy-duty Magnetizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_heavy-dutymagnetizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|4",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Crystallized Clairvoyance",
+            "access_rules": [
+              "$CheckBuried|SH Crystallized Clairvoyance"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_crystallizedclairvoyance"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Emperor Whistle",
+            "access_rules": [
+              "$CheckBuried|SH Emperor Whistle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_emperorwhistle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|5",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Salivatrix",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Salivatrix",
+              "^$SB,$CheckBuried|SH Salivatrix"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_salivatrix"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Science Project",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Science Project",
+              "^$SB,$CheckBuried|SH Science Project"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_scienceproject"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stupendous Lens",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Stupendous Lens",
+              "^$SB,$CheckBuried|SH Stupendous Lens"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stupendouslens"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 320,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Triple Sugar Threat",
+            "access_rules": [
+              "$Has|WP,$Has|BP,$CheckBuried|SH Triple Sugar Threat",
+              "^$SB,$CheckBuried|SH Triple Sugar Threat"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_triplesugarthreat"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|6",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 384,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Justice Alloy",
+            "access_rules": [
+              "$CheckBuried|SH Justice Alloy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_justicealloy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SH|7|7",
+            "map_locations": [
+              {
+                "map": "sh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

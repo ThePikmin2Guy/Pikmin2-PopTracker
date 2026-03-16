@@ -133,6 +133,7 @@ function OnClear(slot_data)
     Tracker:FindObjectForCode("loc_shocktherapist").Active = true
   end
 
+  UpdateCaveAccess()
   UpdatePokos()
   UpdateTreasureCount()
 end
@@ -143,17 +144,21 @@ function OnItem(index, item_id, item_name, player_number)
   end
   CUR_INDEX = index;
   local item = ITEM_MAPPING[item_id]
-  local obj = Tracker:FindObjectForCode(item[1])
-  if obj then
-    if obj.Type == "toggle" then
-      obj.Active = true
-    end
-
-    if Has("W2") then
-      Tracker:FindObjectForCode("whiteonion").Active = true
-    end
+  if item == nil then
+    print(string.format("onItem: could not find mapping for item %s", item_id))
   else
-    print(string.format("onItem: could not find object for code %s", item[1]))
+    local obj = Tracker:FindObjectForCode(item[1])
+    if obj then
+      if obj.Type == "toggle" then
+        obj.Active = true
+      end
+
+      if Has("W2") then
+        Tracker:FindObjectForCode("whiteonion").Active = true
+      end
+    else
+      print(string.format("onItem: could not find object for code %s", item[1]))
+    end
   end
 
   UpdateCaveAccess()
@@ -229,12 +234,7 @@ function UpdatePokos()
 end
 
 function UpdateTreasureCount()
-  local onions = {
-    red = "redonion",
-    yellow = "yellowonion",
-    blue = "blueonion"
-  }
-  local current_treasures = CountTreasures(onions[SLOT_DATA["onion_locations"]["VoR"]])
+  local current_treasures = CountTreasures(SLOT_DATA["onion_locations"], SLOT_DATA["cave_keys"] == 0)
   local digits = { 0, 0, 0 }
   local treasures_codes = {
     "treasures_hundred",

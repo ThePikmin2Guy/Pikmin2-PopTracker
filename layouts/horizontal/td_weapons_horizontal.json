@@ -1,0 +1,14 @@
+{
+  "td_weapons_grid_h": {
+    "type": "itemgrid",
+    "item_size": 40,
+    "rows": [
+      [
+        "shocktherapist",
+        "flarecannon",
+        "comedybomb",
+        "monsterpump"
+      ]
+    ]
+  }
+}

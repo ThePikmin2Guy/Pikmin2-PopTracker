@@ -1,0 +1,3265 @@
+[
+  {
+    "name": "SC",
+    "children": [
+      {
+        "name": "Sublevel 1",
+        "children": [
+          {
+            "name": "Exhausted Superstick",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Exhausted Superstick",
+              "^$SB,$CheckBuried|SC Exhausted Superstick"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_exhaustedsuperstick"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nouveau Table",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Nouveau Table",
+              "^$SB,$CheckBuried|SC Nouveau Table"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nouveautable"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Network Mainbrain",
+            "access_rules": [
+              "$CheckBuried|SC Network Mainbrain"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_networkmainbrain"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Spirit Flogger",
+            "access_rules": [
+              "$CheckBuried|SC Spirit Flogger"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spiritflogger"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Coiled Launcher",
+            "access_rules": [
+              "$CheckBuried|SC Coiled Launcher"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_coiledlauncher"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Omega Flywheel",
+            "access_rules": [
+              "$CheckBuried|SC Omega Flywheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_omegaflywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstrong Stabilizer",
+            "access_rules": [
+              "$CheckBuried|SC Superstrong Stabilizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_superstrongstabilizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Adamantine Girdle",
+            "access_rules": [
+              "$CheckBuried|SC Adamantine Girdle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_adamantinegirdle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mystical Disc",
+            "access_rules": [
+              "$CheckBuried|SC Mystical Disc"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mysticaldisc"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Repair Juggernaut",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Repair Juggernaut",
+              "^$SB,$CheckBuried|SC Repair Juggernaut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_repairjuggernaut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Space Wave Receiver",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Space Wave Receiver",
+              "^$SB,$CheckBuried|SC Space Wave Receiver"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spacewavereceiver"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vacuum Processor",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Vacuum Processor",
+              "^$SB,$CheckBuried|SC Vacuum Processor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vacuumprocessor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Furious Adhesive",
+            "access_rules": [
+              "$CheckBuried|SC Furious Adhesive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_furiousadhesive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Indomitable CPU",
+            "access_rules": [
+              "$CheckBuried|SC Indomitable CPU"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_indomitablecpu"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Thirst Activator",
+            "access_rules": [
+              "$CheckBuried|SC Thirst Activator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thirstactivator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stellar Orb",
+            "access_rules": [
+              "$CheckBuried|SC Stellar Orb"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stellarorb"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|1|9",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 2",
+        "children": [
+          {
+            "name": "Exhausted Superstick",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Exhausted Superstick",
+              "^$SB,$CheckBuried|SC Exhausted Superstick"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_exhaustedsuperstick"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nouveau Table",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Nouveau Table",
+              "^$SB,$CheckBuried|SC Nouveau Table"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nouveautable"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Network Mainbrain",
+            "access_rules": [
+              "$CheckBuried|SC Network Mainbrain"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_networkmainbrain"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Spirit Flogger",
+            "access_rules": [
+              "$CheckBuried|SC Spirit Flogger"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spiritflogger"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Coiled Launcher",
+            "access_rules": [
+              "$CheckBuried|SC Coiled Launcher"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_coiledlauncher"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Omega Flywheel",
+            "access_rules": [
+              "$CheckBuried|SC Omega Flywheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_omegaflywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstrong Stabilizer",
+            "access_rules": [
+              "$CheckBuried|SC Superstrong Stabilizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_superstrongstabilizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Adamantine Girdle",
+            "access_rules": [
+              "$CheckBuried|SC Adamantine Girdle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_adamantinegirdle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mystical Disc",
+            "access_rules": [
+              "$CheckBuried|SC Mystical Disc"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mysticaldisc"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Repair Juggernaut",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Repair Juggernaut",
+              "^$SB,$CheckBuried|SC Repair Juggernaut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_repairjuggernaut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Space Wave Receiver",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Space Wave Receiver",
+              "^$SB,$CheckBuried|SC Space Wave Receiver"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spacewavereceiver"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vacuum Processor",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Vacuum Processor",
+              "^$SB,$CheckBuried|SC Vacuum Processor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vacuumprocessor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Furious Adhesive",
+            "access_rules": [
+              "$CheckBuried|SC Furious Adhesive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_furiousadhesive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Indomitable CPU",
+            "access_rules": [
+              "$CheckBuried|SC Indomitable CPU"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_indomitablecpu"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Thirst Activator",
+            "access_rules": [
+              "$CheckBuried|SC Thirst Activator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thirstactivator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stellar Orb",
+            "access_rules": [
+              "$CheckBuried|SC Stellar Orb"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stellarorb"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|2|9",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 3",
+        "children": [
+          {
+            "name": "Exhausted Superstick",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Exhausted Superstick",
+              "^$SB,$CheckBuried|SC Exhausted Superstick"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_exhaustedsuperstick"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nouveau Table",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Nouveau Table",
+              "^$SB,$CheckBuried|SC Nouveau Table"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nouveautable"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Network Mainbrain",
+            "access_rules": [
+              "$CheckBuried|SC Network Mainbrain"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_networkmainbrain"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Spirit Flogger",
+            "access_rules": [
+              "$CheckBuried|SC Spirit Flogger"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spiritflogger"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Coiled Launcher",
+            "access_rules": [
+              "$CheckBuried|SC Coiled Launcher"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_coiledlauncher"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Omega Flywheel",
+            "access_rules": [
+              "$CheckBuried|SC Omega Flywheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_omegaflywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstrong Stabilizer",
+            "access_rules": [
+              "$CheckBuried|SC Superstrong Stabilizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_superstrongstabilizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Adamantine Girdle",
+            "access_rules": [
+              "$CheckBuried|SC Adamantine Girdle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_adamantinegirdle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mystical Disc",
+            "access_rules": [
+              "$CheckBuried|SC Mystical Disc"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mysticaldisc"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Repair Juggernaut",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Repair Juggernaut",
+              "^$SB,$CheckBuried|SC Repair Juggernaut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_repairjuggernaut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Space Wave Receiver",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Space Wave Receiver",
+              "^$SB,$CheckBuried|SC Space Wave Receiver"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spacewavereceiver"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vacuum Processor",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Vacuum Processor",
+              "^$SB,$CheckBuried|SC Vacuum Processor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vacuumprocessor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Furious Adhesive",
+            "access_rules": [
+              "$CheckBuried|SC Furious Adhesive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_furiousadhesive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Indomitable CPU",
+            "access_rules": [
+              "$CheckBuried|SC Indomitable CPU"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_indomitablecpu"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Thirst Activator",
+            "access_rules": [
+              "$CheckBuried|SC Thirst Activator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thirstactivator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stellar Orb",
+            "access_rules": [
+              "$CheckBuried|SC Stellar Orb"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stellarorb"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|3|9",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 4",
+        "children": [
+          {
+            "name": "Exhausted Superstick",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Exhausted Superstick",
+              "^$SB,$CheckBuried|SC Exhausted Superstick"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_exhaustedsuperstick"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nouveau Table",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Nouveau Table",
+              "^$SB,$CheckBuried|SC Nouveau Table"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nouveautable"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Network Mainbrain",
+            "access_rules": [
+              "$CheckBuried|SC Network Mainbrain"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_networkmainbrain"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Spirit Flogger",
+            "access_rules": [
+              "$CheckBuried|SC Spirit Flogger"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spiritflogger"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Coiled Launcher",
+            "access_rules": [
+              "$CheckBuried|SC Coiled Launcher"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_coiledlauncher"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Omega Flywheel",
+            "access_rules": [
+              "$CheckBuried|SC Omega Flywheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_omegaflywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstrong Stabilizer",
+            "access_rules": [
+              "$CheckBuried|SC Superstrong Stabilizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_superstrongstabilizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Adamantine Girdle",
+            "access_rules": [
+              "$CheckBuried|SC Adamantine Girdle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_adamantinegirdle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mystical Disc",
+            "access_rules": [
+              "$CheckBuried|SC Mystical Disc"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mysticaldisc"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Repair Juggernaut",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Repair Juggernaut",
+              "^$SB,$CheckBuried|SC Repair Juggernaut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_repairjuggernaut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Space Wave Receiver",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Space Wave Receiver",
+              "^$SB,$CheckBuried|SC Space Wave Receiver"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spacewavereceiver"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vacuum Processor",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Vacuum Processor",
+              "^$SB,$CheckBuried|SC Vacuum Processor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vacuumprocessor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Furious Adhesive",
+            "access_rules": [
+              "$CheckBuried|SC Furious Adhesive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_furiousadhesive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Indomitable CPU",
+            "access_rules": [
+              "$CheckBuried|SC Indomitable CPU"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_indomitablecpu"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Thirst Activator",
+            "access_rules": [
+              "$CheckBuried|SC Thirst Activator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thirstactivator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stellar Orb",
+            "access_rules": [
+              "$CheckBuried|SC Stellar Orb"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stellarorb"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|4|9",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 5",
+        "children": [
+          {
+            "name": "Exhausted Superstick",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Exhausted Superstick",
+              "^$SB,$CheckBuried|SC Exhausted Superstick"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_exhaustedsuperstick"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nouveau Table",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Nouveau Table",
+              "^$SB,$CheckBuried|SC Nouveau Table"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nouveautable"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Network Mainbrain",
+            "access_rules": [
+              "$CheckBuried|SC Network Mainbrain"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_networkmainbrain"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Spirit Flogger",
+            "access_rules": [
+              "$CheckBuried|SC Spirit Flogger"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spiritflogger"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Coiled Launcher",
+            "access_rules": [
+              "$CheckBuried|SC Coiled Launcher"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_coiledlauncher"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Omega Flywheel",
+            "access_rules": [
+              "$CheckBuried|SC Omega Flywheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_omegaflywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstrong Stabilizer",
+            "access_rules": [
+              "$CheckBuried|SC Superstrong Stabilizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_superstrongstabilizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Adamantine Girdle",
+            "access_rules": [
+              "$CheckBuried|SC Adamantine Girdle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_adamantinegirdle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mystical Disc",
+            "access_rules": [
+              "$CheckBuried|SC Mystical Disc"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mysticaldisc"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Repair Juggernaut",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Repair Juggernaut",
+              "^$SB,$CheckBuried|SC Repair Juggernaut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_repairjuggernaut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Space Wave Receiver",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Space Wave Receiver",
+              "^$SB,$CheckBuried|SC Space Wave Receiver"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spacewavereceiver"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vacuum Processor",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Vacuum Processor",
+              "^$SB,$CheckBuried|SC Vacuum Processor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vacuumprocessor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Furious Adhesive",
+            "access_rules": [
+              "$CheckBuried|SC Furious Adhesive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_furiousadhesive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Indomitable CPU",
+            "access_rules": [
+              "$CheckBuried|SC Indomitable CPU"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_indomitablecpu"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Thirst Activator",
+            "access_rules": [
+              "$CheckBuried|SC Thirst Activator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thirstactivator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stellar Orb",
+            "access_rules": [
+              "$CheckBuried|SC Stellar Orb"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stellarorb"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|5|9",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 6",
+        "children": [
+          {
+            "name": "Exhausted Superstick",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Exhausted Superstick",
+              "^$SB,$CheckBuried|SC Exhausted Superstick"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_exhaustedsuperstick"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nouveau Table",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Nouveau Table",
+              "^$SB,$CheckBuried|SC Nouveau Table"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nouveautable"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Network Mainbrain",
+            "access_rules": [
+              "$CheckBuried|SC Network Mainbrain"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_networkmainbrain"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Spirit Flogger",
+            "access_rules": [
+              "$CheckBuried|SC Spirit Flogger"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spiritflogger"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Coiled Launcher",
+            "access_rules": [
+              "$CheckBuried|SC Coiled Launcher"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_coiledlauncher"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Omega Flywheel",
+            "access_rules": [
+              "$CheckBuried|SC Omega Flywheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_omegaflywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstrong Stabilizer",
+            "access_rules": [
+              "$CheckBuried|SC Superstrong Stabilizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_superstrongstabilizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Adamantine Girdle",
+            "access_rules": [
+              "$CheckBuried|SC Adamantine Girdle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_adamantinegirdle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mystical Disc",
+            "access_rules": [
+              "$CheckBuried|SC Mystical Disc"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mysticaldisc"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Repair Juggernaut",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Repair Juggernaut",
+              "^$SB,$CheckBuried|SC Repair Juggernaut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_repairjuggernaut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Space Wave Receiver",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Space Wave Receiver",
+              "^$SB,$CheckBuried|SC Space Wave Receiver"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spacewavereceiver"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vacuum Processor",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Vacuum Processor",
+              "^$SB,$CheckBuried|SC Vacuum Processor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vacuumprocessor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Furious Adhesive",
+            "access_rules": [
+              "$CheckBuried|SC Furious Adhesive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_furiousadhesive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Indomitable CPU",
+            "access_rules": [
+              "$CheckBuried|SC Indomitable CPU"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_indomitablecpu"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Thirst Activator",
+            "access_rules": [
+              "$CheckBuried|SC Thirst Activator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thirstactivator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stellar Orb",
+            "access_rules": [
+              "$CheckBuried|SC Stellar Orb"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stellarorb"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|6|9",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 7",
+        "children": [
+          {
+            "name": "Exhausted Superstick",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Exhausted Superstick",
+              "^$SB,$CheckBuried|SC Exhausted Superstick"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_exhaustedsuperstick"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nouveau Table",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Nouveau Table",
+              "^$SB,$CheckBuried|SC Nouveau Table"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nouveautable"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Network Mainbrain",
+            "access_rules": [
+              "$CheckBuried|SC Network Mainbrain"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_networkmainbrain"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Spirit Flogger",
+            "access_rules": [
+              "$CheckBuried|SC Spirit Flogger"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spiritflogger"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Coiled Launcher",
+            "access_rules": [
+              "$CheckBuried|SC Coiled Launcher"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_coiledlauncher"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Omega Flywheel",
+            "access_rules": [
+              "$CheckBuried|SC Omega Flywheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_omegaflywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstrong Stabilizer",
+            "access_rules": [
+              "$CheckBuried|SC Superstrong Stabilizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_superstrongstabilizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Adamantine Girdle",
+            "access_rules": [
+              "$CheckBuried|SC Adamantine Girdle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_adamantinegirdle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mystical Disc",
+            "access_rules": [
+              "$CheckBuried|SC Mystical Disc"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mysticaldisc"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Repair Juggernaut",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Repair Juggernaut",
+              "^$SB,$CheckBuried|SC Repair Juggernaut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_repairjuggernaut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Space Wave Receiver",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Space Wave Receiver",
+              "^$SB,$CheckBuried|SC Space Wave Receiver"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spacewavereceiver"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vacuum Processor",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Vacuum Processor",
+              "^$SB,$CheckBuried|SC Vacuum Processor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vacuumprocessor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Furious Adhesive",
+            "access_rules": [
+              "$CheckBuried|SC Furious Adhesive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_furiousadhesive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Indomitable CPU",
+            "access_rules": [
+              "$CheckBuried|SC Indomitable CPU"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_indomitablecpu"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 256,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Thirst Activator",
+            "access_rules": [
+              "$CheckBuried|SC Thirst Activator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thirstactivator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 320,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stellar Orb",
+            "access_rules": [
+              "$CheckBuried|SC Stellar Orb"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stellarorb"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|7|9",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 8",
+        "children": [
+          {
+            "name": "Exhausted Superstick",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Exhausted Superstick",
+              "^$SB,$CheckBuried|SC Exhausted Superstick"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_exhaustedsuperstick"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nouveau Table",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Nouveau Table",
+              "^$SB,$CheckBuried|SC Nouveau Table"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nouveautable"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 752,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Network Mainbrain",
+            "access_rules": [
+              "$CheckBuried|SC Network Mainbrain"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_networkmainbrain"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Spirit Flogger",
+            "access_rules": [
+              "$CheckBuried|SC Spirit Flogger"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spiritflogger"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 752,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Coiled Launcher",
+            "access_rules": [
+              "$CheckBuried|SC Coiled Launcher"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_coiledlauncher"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Omega Flywheel",
+            "access_rules": [
+              "$CheckBuried|SC Omega Flywheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_omegaflywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 752,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstrong Stabilizer",
+            "access_rules": [
+              "$CheckBuried|SC Superstrong Stabilizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_superstrongstabilizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 816,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Adamantine Girdle",
+            "access_rules": [
+              "$CheckBuried|SC Adamantine Girdle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_adamantinegirdle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mystical Disc",
+            "access_rules": [
+              "$CheckBuried|SC Mystical Disc"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mysticaldisc"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 752,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Repair Juggernaut",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Repair Juggernaut",
+              "^$SB,$CheckBuried|SC Repair Juggernaut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_repairjuggernaut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Space Wave Receiver",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Space Wave Receiver",
+              "^$SB,$CheckBuried|SC Space Wave Receiver"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spacewavereceiver"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 752,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vacuum Processor",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Vacuum Processor",
+              "^$SB,$CheckBuried|SC Vacuum Processor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vacuumprocessor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 816,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Furious Adhesive",
+            "access_rules": [
+              "$CheckBuried|SC Furious Adhesive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_furiousadhesive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Indomitable CPU",
+            "access_rules": [
+              "$CheckBuried|SC Indomitable CPU"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_indomitablecpu"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 752,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Thirst Activator",
+            "access_rules": [
+              "$CheckBuried|SC Thirst Activator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thirstactivator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 816,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stellar Orb",
+            "access_rules": [
+              "$CheckBuried|SC Stellar Orb"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stellarorb"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|8|9",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 9",
+        "children": [
+          {
+            "name": "Exhausted Superstick",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Exhausted Superstick",
+              "^$SB,$CheckBuried|SC Exhausted Superstick"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_exhaustedsuperstick"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nouveau Table",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Nouveau Table",
+              "^$SB,$CheckBuried|SC Nouveau Table"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nouveautable"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|1",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 752,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Network Mainbrain",
+            "access_rules": [
+              "$CheckBuried|SC Network Mainbrain"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_networkmainbrain"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Spirit Flogger",
+            "access_rules": [
+              "$CheckBuried|SC Spirit Flogger"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spiritflogger"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|2",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 752,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Coiled Launcher",
+            "access_rules": [
+              "$CheckBuried|SC Coiled Launcher"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_coiledlauncher"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Omega Flywheel",
+            "access_rules": [
+              "$CheckBuried|SC Omega Flywheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_omegaflywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 752,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Superstrong Stabilizer",
+            "access_rules": [
+              "$CheckBuried|SC Superstrong Stabilizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_superstrongstabilizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|3",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 816,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Adamantine Girdle",
+            "access_rules": [
+              "$CheckBuried|SC Adamantine Girdle"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_adamantinegirdle"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Mystical Disc",
+            "access_rules": [
+              "$CheckBuried|SC Mystical Disc"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mysticaldisc"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|5",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 752,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Repair Juggernaut",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Repair Juggernaut",
+              "^$SB,$CheckBuried|SC Repair Juggernaut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_repairjuggernaut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Space Wave Receiver",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Space Wave Receiver",
+              "^$SB,$CheckBuried|SC Space Wave Receiver"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_spacewavereceiver"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 752,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Vacuum Processor",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|SC Vacuum Processor",
+              "^$SB,$CheckBuried|SC Vacuum Processor"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_vacuumprocessor"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|6",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 816,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Furious Adhesive",
+            "access_rules": [
+              "$CheckBuried|SC Furious Adhesive"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_furiousadhesive"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Indomitable CPU",
+            "access_rules": [
+              "$CheckBuried|SC Indomitable CPU"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_indomitablecpu"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 752,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Thirst Activator",
+            "access_rules": [
+              "$CheckBuried|SC Thirst Activator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_thirstactivator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|7",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 816,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Stellar Orb",
+            "access_rules": [
+              "$CheckBuried|SC Stellar Orb"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_stellarorb"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SC|9|9",
+            "map_locations": [
+              {
+                "map": "sc",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1909 @@
+[
+  {
+    "name": "GK",
+    "children": [
+      {
+        "name": "Sublevel 1",
+        "children": [
+          {
+            "name": "Master's Instrument",
+            "access_rules": [
+              "$CheckBuried|GK Master's Instrument"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mastersinstrument"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|1",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Massive Lid",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Massive Lid",
+              "^$SB,$CheckBuried|GK Massive Lid"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_massivelid"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|2",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Imperative Cookie",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Imperative Cookie",
+              "^$SB,$CheckBuried|GK Imperative Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_imperativecookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|2",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Director of Destiny",
+            "access_rules": [
+              "$CheckBuried|GK Director of Destiny"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_directorofdestiny"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|3",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Harmonic Synthesizer",
+            "access_rules": [
+              "$CheckBuried|GK Harmonic Synthesizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_harmonicsynthesizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|3",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Invigorator",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Invigorator",
+              "^$SB,$CheckBuried|GK Invigorator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_invigorator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Happiness Emblem",
+            "access_rules": [
+              "$CheckBuried|GK Happiness Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_happinessemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "White Goodness",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK White Goodness",
+              "^$SB,$CheckBuried|GK White Goodness"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_whitegoodness"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Boom Cone",
+            "access_rules": [
+              "$CheckBuried|GK Boom Cone"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_boomcone"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|5",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sulking Antenna",
+            "access_rules": [
+              "$CheckBuried|GK Sulking Antenna"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sulkingantenna"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|5",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dream Material",
+            "access_rules": [
+              "$CheckBuried|GK Dream Material"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dreammaterial"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Hideous Victual",
+            "access_rules": [
+              "$CheckBuried|GK Hideous Victual"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_hideousvictual"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat of Champions",
+            "access_rules": [
+              "$CheckBuried|GK Meat of Champions"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatofchampions"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sweet Dreamer",
+            "access_rules": [
+              "$CheckBuried|GK Sweet Dreamer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sweetdreamer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|1|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 384,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 2",
+        "children": [
+          {
+            "name": "Master's Instrument",
+            "access_rules": [
+              "$CheckBuried|GK Master's Instrument"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mastersinstrument"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|1",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Massive Lid",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Massive Lid",
+              "^$SB,$CheckBuried|GK Massive Lid"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_massivelid"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|2",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Imperative Cookie",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Imperative Cookie",
+              "^$SB,$CheckBuried|GK Imperative Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_imperativecookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|2",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Director of Destiny",
+            "access_rules": [
+              "$CheckBuried|GK Director of Destiny"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_directorofdestiny"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|3",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Harmonic Synthesizer",
+            "access_rules": [
+              "$CheckBuried|GK Harmonic Synthesizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_harmonicsynthesizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|3",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Invigorator",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Invigorator",
+              "^$SB,$CheckBuried|GK Invigorator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_invigorator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Happiness Emblem",
+            "access_rules": [
+              "$CheckBuried|GK Happiness Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_happinessemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "White Goodness",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK White Goodness",
+              "^$SB,$CheckBuried|GK White Goodness"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_whitegoodness"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Boom Cone",
+            "access_rules": [
+              "$CheckBuried|GK Boom Cone"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_boomcone"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|5",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sulking Antenna",
+            "access_rules": [
+              "$CheckBuried|GK Sulking Antenna"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sulkingantenna"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|5",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dream Material",
+            "access_rules": [
+              "$CheckBuried|GK Dream Material"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dreammaterial"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Hideous Victual",
+            "access_rules": [
+              "$CheckBuried|GK Hideous Victual"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_hideousvictual"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat of Champions",
+            "access_rules": [
+              "$CheckBuried|GK Meat of Champions"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatofchampions"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sweet Dreamer",
+            "access_rules": [
+              "$CheckBuried|GK Sweet Dreamer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sweetdreamer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|2|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 384,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 3",
+        "children": [
+          {
+            "name": "Master's Instrument",
+            "access_rules": [
+              "$CheckBuried|GK Master's Instrument"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mastersinstrument"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|1",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Massive Lid",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Massive Lid",
+              "^$SB,$CheckBuried|GK Massive Lid"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_massivelid"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|2",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Imperative Cookie",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Imperative Cookie",
+              "^$SB,$CheckBuried|GK Imperative Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_imperativecookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|2",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Director of Destiny",
+            "access_rules": [
+              "$CheckBuried|GK Director of Destiny"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_directorofdestiny"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|3",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Harmonic Synthesizer",
+            "access_rules": [
+              "$CheckBuried|GK Harmonic Synthesizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_harmonicsynthesizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|3",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Invigorator",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Invigorator",
+              "^$SB,$CheckBuried|GK Invigorator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_invigorator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Happiness Emblem",
+            "access_rules": [
+              "$CheckBuried|GK Happiness Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_happinessemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "White Goodness",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK White Goodness",
+              "^$SB,$CheckBuried|GK White Goodness"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_whitegoodness"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Boom Cone",
+            "access_rules": [
+              "$CheckBuried|GK Boom Cone"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_boomcone"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|5",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sulking Antenna",
+            "access_rules": [
+              "$CheckBuried|GK Sulking Antenna"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sulkingantenna"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|5",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dream Material",
+            "access_rules": [
+              "$CheckBuried|GK Dream Material"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dreammaterial"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Hideous Victual",
+            "access_rules": [
+              "$CheckBuried|GK Hideous Victual"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_hideousvictual"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat of Champions",
+            "access_rules": [
+              "$CheckBuried|GK Meat of Champions"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatofchampions"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sweet Dreamer",
+            "access_rules": [
+              "$CheckBuried|GK Sweet Dreamer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sweetdreamer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|3|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 384,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 4",
+        "children": [
+          {
+            "name": "Master's Instrument",
+            "access_rules": [
+              "$CheckBuried|GK Master's Instrument"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mastersinstrument"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|1",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Massive Lid",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Massive Lid",
+              "^$SB,$CheckBuried|GK Massive Lid"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_massivelid"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|2",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Imperative Cookie",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Imperative Cookie",
+              "^$SB,$CheckBuried|GK Imperative Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_imperativecookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|2",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Director of Destiny",
+            "access_rules": [
+              "$CheckBuried|GK Director of Destiny"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_directorofdestiny"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|3",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Harmonic Synthesizer",
+            "access_rules": [
+              "$CheckBuried|GK Harmonic Synthesizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_harmonicsynthesizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|3",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Invigorator",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Invigorator",
+              "^$SB,$CheckBuried|GK Invigorator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_invigorator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Happiness Emblem",
+            "access_rules": [
+              "$CheckBuried|GK Happiness Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_happinessemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "White Goodness",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK White Goodness",
+              "^$SB,$CheckBuried|GK White Goodness"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_whitegoodness"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Boom Cone",
+            "access_rules": [
+              "$CheckBuried|GK Boom Cone"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_boomcone"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|5",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sulking Antenna",
+            "access_rules": [
+              "$CheckBuried|GK Sulking Antenna"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sulkingantenna"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|5",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dream Material",
+            "access_rules": [
+              "$CheckBuried|GK Dream Material"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dreammaterial"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Hideous Victual",
+            "access_rules": [
+              "$CheckBuried|GK Hideous Victual"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_hideousvictual"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat of Champions",
+            "access_rules": [
+              "$CheckBuried|GK Meat of Champions"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatofchampions"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sweet Dreamer",
+            "access_rules": [
+              "$CheckBuried|GK Sweet Dreamer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sweetdreamer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|4|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 384,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 5",
+        "children": [
+          {
+            "name": "Master's Instrument",
+            "access_rules": [
+              "$CheckBuried|GK Master's Instrument"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mastersinstrument"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|1",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Massive Lid",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Massive Lid",
+              "^$SB,$CheckBuried|GK Massive Lid"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_massivelid"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|2",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Imperative Cookie",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Imperative Cookie",
+              "^$SB,$CheckBuried|GK Imperative Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_imperativecookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|2",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Director of Destiny",
+            "access_rules": [
+              "$CheckBuried|GK Director of Destiny"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_directorofdestiny"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|3",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Harmonic Synthesizer",
+            "access_rules": [
+              "$CheckBuried|GK Harmonic Synthesizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_harmonicsynthesizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|3",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Invigorator",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Invigorator",
+              "^$SB,$CheckBuried|GK Invigorator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_invigorator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Happiness Emblem",
+            "access_rules": [
+              "$CheckBuried|GK Happiness Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_happinessemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "White Goodness",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK White Goodness",
+              "^$SB,$CheckBuried|GK White Goodness"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_whitegoodness"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Boom Cone",
+            "access_rules": [
+              "$CheckBuried|GK Boom Cone"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_boomcone"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|5",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sulking Antenna",
+            "access_rules": [
+              "$CheckBuried|GK Sulking Antenna"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sulkingantenna"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|5",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dream Material",
+            "access_rules": [
+              "$CheckBuried|GK Dream Material"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dreammaterial"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Hideous Victual",
+            "access_rules": [
+              "$CheckBuried|GK Hideous Victual"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_hideousvictual"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat of Champions",
+            "access_rules": [
+              "$CheckBuried|GK Meat of Champions"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatofchampions"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sweet Dreamer",
+            "access_rules": [
+              "$CheckBuried|GK Sweet Dreamer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sweetdreamer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|5|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 384,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 6",
+        "children": [
+          {
+            "name": "Master's Instrument",
+            "access_rules": [
+              "$CheckBuried|GK Master's Instrument"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_mastersinstrument"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|1",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Massive Lid",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Massive Lid",
+              "^$SB,$CheckBuried|GK Massive Lid"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_massivelid"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|2",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Imperative Cookie",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Imperative Cookie",
+              "^$SB,$CheckBuried|GK Imperative Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_imperativecookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|2",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Director of Destiny",
+            "access_rules": [
+              "$CheckBuried|GK Director of Destiny"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_directorofdestiny"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|3",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Harmonic Synthesizer",
+            "access_rules": [
+              "$CheckBuried|GK Harmonic Synthesizer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_harmonicsynthesizer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|3",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Invigorator",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK Invigorator",
+              "^$SB,$CheckBuried|GK Invigorator"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_invigorator"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Happiness Emblem",
+            "access_rules": [
+              "$CheckBuried|GK Happiness Emblem"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_happinessemblem"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "White Goodness",
+            "access_rules": [
+              "$Has|YP,$CheckBuried|GK White Goodness",
+              "^$SB,$CheckBuried|GK White Goodness"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_whitegoodness"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|4",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 320,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Boom Cone",
+            "access_rules": [
+              "$CheckBuried|GK Boom Cone"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_boomcone"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|5",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sulking Antenna",
+            "access_rules": [
+              "$CheckBuried|GK Sulking Antenna"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sulkingantenna"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|5",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dream Material",
+            "access_rules": [
+              "$CheckBuried|GK Dream Material"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dreammaterial"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Hideous Victual",
+            "access_rules": [
+              "$CheckBuried|GK Hideous Victual"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_hideousvictual"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 256,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Meat of Champions",
+            "access_rules": [
+              "$CheckBuried|GK Meat of Champions"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_meatofchampions"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 320,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Sweet Dreamer",
+            "access_rules": [
+              "$CheckBuried|GK Sweet Dreamer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_sweetdreamer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|GK|6|6",
+            "map_locations": [
+              {
+                "map": "gk",
+                "x": 384,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

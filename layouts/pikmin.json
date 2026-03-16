@@ -17,15 +17,6 @@
             "whiteonion"
           ]
         ]
-      },
-      {
-        "type": "group",
-        "header": "Treasures",
-        "dock": "left",
-        "content": {
-          "type": "layout",
-          "key": "treasures"
-        }
       }
     ]
   }

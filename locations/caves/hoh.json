@@ -1,0 +1,4447 @@
+[
+  {
+    "name": "HoH",
+    "children": [
+      {
+        "name": "Sublevel 1",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|1|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 2",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|2|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 3",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|3|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 4",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|4|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 5",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|5|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 6",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|6|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 7",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|7|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 192,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 8",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|8|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 80,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 9",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|9|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 10",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|10|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 11",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|11|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 12",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|12|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 13",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|13|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 14",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|14|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 836,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 15",
+        "children": [
+          {
+            "name": "Corpulent Nut",
+            "access_rules": [
+              "$CheckBuried|HoH Corpulent Nut"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_corpulentnut"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|1",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Essence of True Love",
+            "access_rules": [
+              "$CheckBuried|HoH Essence of True Love"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_essenceoftruelove"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|2",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Love Sphere",
+            "access_rules": [
+              "$CheckBuried|HoH Love Sphere"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lovesphere"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|3",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lustrous Element",
+            "access_rules": [
+              "$CheckBuried|HoH Lustrous Element"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lustrouselement"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|4",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Nutrient Silo",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Nutrient Silo",
+              "^$SB,$CheckBuried|HoH Nutrient Silo"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_nutrientsilo"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|6",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Joyless Jewel",
+            "access_rules": [
+              "$CheckBuried|HoH Joyless Jewel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_joylessjewel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|7",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Dimensional Slicer",
+            "access_rules": [
+              "$Has|RP,$CheckBuried|HoH Dimensional Slicer",
+              "^$SB,$CheckBuried|HoH Dimensional Slicer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dimensionalslicer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|9",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Treasured Gyro Block",
+            "access_rules": [
+              "$Has|WP,$CheckBuried|HoH Treasured Gyro Block",
+              "^$SB,$CheckBuried|HoH Treasured Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_treasuredgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|10",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Favorite Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Favorite Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_favoritegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|11",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Lost Gyro Block",
+            "access_rules": [
+              "$CheckBuried|HoH Lost Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_lostgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|12",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Memorable Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Memorable Gyro Block",
+              "^$SB,$CheckBuried|HoH Memorable Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_memorablegyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|13",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Fond Gyro Block",
+            "access_rules": [
+              "$Has|BP,$CheckBuried|HoH Fond Gyro Block",
+              "^$SB,$CheckBuried|HoH Fond Gyro Block"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_fondgyroblock"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|14",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Remembered Old Buddy",
+            "access_rules": [
+              "$CheckBuried|HoH Remembered Old Buddy"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_rememberedoldbuddy"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|HoH|15|15",
+            "map_locations": [
+              {
+                "map": "hoh",
+                "x": 688,
+                "y": 962,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

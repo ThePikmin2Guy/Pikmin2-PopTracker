@@ -1,0 +1,1467 @@
+[
+  {
+    "name": "SMGC",
+    "children": [
+      {
+        "name": "Sublevel 1",
+        "children": [
+          {
+            "name": "Bug Bait",
+            "access_rules": [
+              "$CheckBuried|SMGC Bug Bait"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_bugbait"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Diet Doomer",
+            "access_rules": [
+              "$CheckBuried|SMGC Diet Doomer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dietdoomer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pastry Wheel",
+            "access_rules": [
+              "$CheckBuried|SMGC Pastry Wheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_pastrywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Chocolate Cushion",
+            "access_rules": [
+              "$CheckBuried|SMGC Chocolate Cushion"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_chocolatecushion"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Comfort Cookie",
+            "access_rules": [
+              "$CheckBuried|SMGC Comfort Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_comfortcookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Confection Hoop",
+            "access_rules": [
+              "$CheckBuried|SMGC Confection Hoop"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_confectionhoop"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Activity Arouser",
+            "access_rules": [
+              "$CheckBuried|SMGC Activity Arouser"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_activityarouser"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Compelling Cookie",
+            "access_rules": [
+              "$CheckBuried|SMGC Compelling Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_compellingcookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Succulent Mattress",
+            "access_rules": [
+              "$CheckBuried|SMGC Succulent Mattress"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_succulentmattress"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Drone Supplies",
+            "access_rules": [
+              "$CheckBuried|SMGC Drone Supplies"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dronesupplies"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pale Passion",
+            "access_rules": [
+              "$CheckBuried|SMGC Pale Passion"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_palepassion"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Proton AA",
+            "access_rules": [
+              "$CheckBuried|SMGC Proton AA"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_protonaa"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Professional Noisemaker",
+            "access_rules": [
+              "$Has|PP,$CheckBuried|SMGC Professional Noisemaker",
+              "^$SB,$CheckBuried|SMGC Professional Noisemaker"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_professionalnoisemaker"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|1|5",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 206,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 2",
+        "children": [
+          {
+            "name": "Bug Bait",
+            "access_rules": [
+              "$CheckBuried|SMGC Bug Bait"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_bugbait"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Diet Doomer",
+            "access_rules": [
+              "$CheckBuried|SMGC Diet Doomer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dietdoomer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pastry Wheel",
+            "access_rules": [
+              "$CheckBuried|SMGC Pastry Wheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_pastrywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Chocolate Cushion",
+            "access_rules": [
+              "$CheckBuried|SMGC Chocolate Cushion"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_chocolatecushion"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Comfort Cookie",
+            "access_rules": [
+              "$CheckBuried|SMGC Comfort Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_comfortcookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Confection Hoop",
+            "access_rules": [
+              "$CheckBuried|SMGC Confection Hoop"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_confectionhoop"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Activity Arouser",
+            "access_rules": [
+              "$CheckBuried|SMGC Activity Arouser"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_activityarouser"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Compelling Cookie",
+            "access_rules": [
+              "$CheckBuried|SMGC Compelling Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_compellingcookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Succulent Mattress",
+            "access_rules": [
+              "$CheckBuried|SMGC Succulent Mattress"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_succulentmattress"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Drone Supplies",
+            "access_rules": [
+              "$CheckBuried|SMGC Drone Supplies"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dronesupplies"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pale Passion",
+            "access_rules": [
+              "$CheckBuried|SMGC Pale Passion"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_palepassion"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Proton AA",
+            "access_rules": [
+              "$CheckBuried|SMGC Proton AA"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_protonaa"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Professional Noisemaker",
+            "access_rules": [
+              "$Has|PP,$CheckBuried|SMGC Professional Noisemaker",
+              "^$SB,$CheckBuried|SMGC Professional Noisemaker"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_professionalnoisemaker"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|2|5",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 332,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 3",
+        "children": [
+          {
+            "name": "Bug Bait",
+            "access_rules": [
+              "$CheckBuried|SMGC Bug Bait"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_bugbait"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Diet Doomer",
+            "access_rules": [
+              "$CheckBuried|SMGC Diet Doomer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dietdoomer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pastry Wheel",
+            "access_rules": [
+              "$CheckBuried|SMGC Pastry Wheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_pastrywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Chocolate Cushion",
+            "access_rules": [
+              "$CheckBuried|SMGC Chocolate Cushion"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_chocolatecushion"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Comfort Cookie",
+            "access_rules": [
+              "$CheckBuried|SMGC Comfort Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_comfortcookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Confection Hoop",
+            "access_rules": [
+              "$CheckBuried|SMGC Confection Hoop"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_confectionhoop"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Activity Arouser",
+            "access_rules": [
+              "$CheckBuried|SMGC Activity Arouser"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_activityarouser"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Compelling Cookie",
+            "access_rules": [
+              "$CheckBuried|SMGC Compelling Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_compellingcookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Succulent Mattress",
+            "access_rules": [
+              "$CheckBuried|SMGC Succulent Mattress"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_succulentmattress"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Drone Supplies",
+            "access_rules": [
+              "$CheckBuried|SMGC Drone Supplies"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dronesupplies"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pale Passion",
+            "access_rules": [
+              "$CheckBuried|SMGC Pale Passion"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_palepassion"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Proton AA",
+            "access_rules": [
+              "$CheckBuried|SMGC Proton AA"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_protonaa"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Professional Noisemaker",
+            "access_rules": [
+              "$Has|PP,$CheckBuried|SMGC Professional Noisemaker",
+              "^$SB,$CheckBuried|SMGC Professional Noisemaker"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_professionalnoisemaker"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|3|5",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 458,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 4",
+        "children": [
+          {
+            "name": "Bug Bait",
+            "access_rules": [
+              "$CheckBuried|SMGC Bug Bait"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_bugbait"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Diet Doomer",
+            "access_rules": [
+              "$CheckBuried|SMGC Diet Doomer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dietdoomer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pastry Wheel",
+            "access_rules": [
+              "$CheckBuried|SMGC Pastry Wheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_pastrywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Chocolate Cushion",
+            "access_rules": [
+              "$CheckBuried|SMGC Chocolate Cushion"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_chocolatecushion"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Comfort Cookie",
+            "access_rules": [
+              "$CheckBuried|SMGC Comfort Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_comfortcookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Confection Hoop",
+            "access_rules": [
+              "$CheckBuried|SMGC Confection Hoop"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_confectionhoop"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Activity Arouser",
+            "access_rules": [
+              "$CheckBuried|SMGC Activity Arouser"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_activityarouser"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Compelling Cookie",
+            "access_rules": [
+              "$CheckBuried|SMGC Compelling Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_compellingcookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Succulent Mattress",
+            "access_rules": [
+              "$CheckBuried|SMGC Succulent Mattress"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_succulentmattress"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Drone Supplies",
+            "access_rules": [
+              "$CheckBuried|SMGC Drone Supplies"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dronesupplies"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pale Passion",
+            "access_rules": [
+              "$CheckBuried|SMGC Pale Passion"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_palepassion"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Proton AA",
+            "access_rules": [
+              "$CheckBuried|SMGC Proton AA"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_protonaa"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Professional Noisemaker",
+            "access_rules": [
+              "$Has|PP,$CheckBuried|SMGC Professional Noisemaker",
+              "^$SB,$CheckBuried|SMGC Professional Noisemaker"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_professionalnoisemaker"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|4|5",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 584,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sublevel 5",
+        "children": [
+          {
+            "name": "Bug Bait",
+            "access_rules": [
+              "$CheckBuried|SMGC Bug Bait"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_bugbait"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Diet Doomer",
+            "access_rules": [
+              "$CheckBuried|SMGC Diet Doomer"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dietdoomer"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pastry Wheel",
+            "access_rules": [
+              "$CheckBuried|SMGC Pastry Wheel"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_pastrywheel"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|1",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Chocolate Cushion",
+            "access_rules": [
+              "$CheckBuried|SMGC Chocolate Cushion"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_chocolatecushion"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Comfort Cookie",
+            "access_rules": [
+              "$CheckBuried|SMGC Comfort Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_comfortcookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Confection Hoop",
+            "access_rules": [
+              "$CheckBuried|SMGC Confection Hoop"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_confectionhoop"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|2",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Activity Arouser",
+            "access_rules": [
+              "$CheckBuried|SMGC Activity Arouser"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_activityarouser"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Compelling Cookie",
+            "access_rules": [
+              "$CheckBuried|SMGC Compelling Cookie"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_compellingcookie"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Succulent Mattress",
+            "access_rules": [
+              "$CheckBuried|SMGC Succulent Mattress"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_succulentmattress"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|3",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Drone Supplies",
+            "access_rules": [
+              "$CheckBuried|SMGC Drone Supplies"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_dronesupplies"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Pale Passion",
+            "access_rules": [
+              "$CheckBuried|SMGC Pale Passion"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_palepassion"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 256,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Proton AA",
+            "access_rules": [
+              "$CheckBuried|SMGC Proton AA"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_protonaa"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|4",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 320,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          },
+          {
+            "name": "Professional Noisemaker",
+            "access_rules": [
+              "$Has|PP,$CheckBuried|SMGC Professional Noisemaker",
+              "^$SB,$CheckBuried|SMGC Professional Noisemaker"
+            ],
+            "sections": [
+              {
+                "name": "Treasure",
+                "hosted_item": "loc_professionalnoisemaker"
+              }
+            ],
+            "visibility_rules": "$IsSublevel|SMGC|5|5",
+            "map_locations": [
+              {
+                "map": "smgc",
+                "x": 192,
+                "y": 710,
+                "size": 32,
+                "border_thickness": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
