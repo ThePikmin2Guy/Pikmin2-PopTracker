@@ -31,18 +31,13 @@ function Has(item)
     ["W4"] = "debt",
 
     ["NS"] = "five-mannapsack",
+    ["RA"] = "repugnant_appendage"
   }
 
   if item == "W4" then
-    return DebtPayedOff() and Has("W2") and Has("W3")
-  elseif (item == "W2" or item == "W3") and Tracker:FindObjectForCode("setting_prog_globes").CurrentStage == 1 then
-    local globe1 = Tracker:FindObjectForCode("sphericalatlas").Active
-    local globe2 = Tracker:FindObjectForCode("geographicprojection").Active
-    if item == "W2" then
-      return globe1 or globe2
-    elseif item == "W3" then
-      return globe1 and globe2
-    end
+    return DebtPayedOff()
+  elseif item == "WP" then
+    return Tracker:FindObjectForCode("whiteonion").Active or Has("W2")
   elseif item_map[item] ~= nil then
     return Tracker:FindObjectForCode(item_map[item]).Active
   end
@@ -116,37 +111,92 @@ function ResetCaves()
   Tracker:FindObjectForCode("DD_dst").CurrentStage = 14
 end
 
-function CanAccess(cave)
+function CaveAccessLevel(cave)
   local cave_access = {
-    EC = {},
-    SC = {"BP", "WP"},
-    FC = {"BP"},
-    HoB = {"W2"},
-    WFG = {"W2", "PP"},
-    BK = {"W2", "YP", "PP", "WP"},
-    SH = {"W2", "BP", "WP"},
-    CoS = {"W3"},
-    GK = {"W3", "YP"},
-    SR = {"W3", "BP", "YP"},
-    SMGC = {"W3", "BP"},
-    CoC = {"W4"},
-    HoH = {"W4", "BP", "YP"},
-    DD = {"W4", "WP", "BP"},
+    EC = {
+      {requirements = {}, level = true},
+    },
+    SC = {
+      {requirements = {"BP", "WP"}, level = true},
+      {requirements = {}, level = AccessibilityLevel.SequenceBreak},
+    },
+    FC = {
+      {requirements = {"BP"}, level = true},
+      {requirements = {}, level = AccessibilityLevel.SequenceBreak},
+    }, 
+    HoB = {
+      {requirements = {"W2"}, level = true},
+    },
+    WFG = {
+      {requirements = {"W2", "PP"}, level = true},
+      {requirements = {"W2", "BP"}, level = true},
+      {requirements = {"W2", "NS"}, level = AccessibilityLevel.SequenceBreak},
+    },
+    BK = {
+      {requirements = {"W2", "YP", "PP", "WP"}, level = true},
+      {requirements = {"W2", "YP", "BP"}, level = true},
+      {requirements = {"W2", "NS"}, level = AccessibilityLevel.SequenceBreak},
+    },
+    SH = {
+      {requirements = {"W2", "BP", "WP"}, level = true},
+      {requirements = {"W2", "WP"}, level = AccessibilityLevel.SequenceBreak},
+    },
+    CoS = {
+      {requirements = {"W3"}, level = true},
+    },
+    GK = {
+      {requirements = {"W3", "YP"}, level = true},
+      {requirements = {"W3", "NS"}, level = AccessibilityLevel.SequenceBreak},
+    },
+    SR = {
+      {requirements = {"W3", "BP", "YP"}, level = true},
+      {requirements = {"W3", "RA"}, level = AccessibilityLevel.SequenceBreak}
+    },
+    SMGC = {
+      {requirements = {"W3", "BP"}, level = true},
+    },
+    CoC = {
+      {requirements = {"W4"}, level = true},
+    },
+    HoH = {
+      {requirements = {"W4", "BP", "YP"}, level = true},
+    },
+    DD = {
+      {requirements = {"W4", "WP", "BP"}, level = true},
+      {requirements = {"W4", "WP"}, level = AccessibilityLevel.SequenceBreak},
+    },
   }
 
   if not HasKey(cave) then
     return false
   end
-  for _, key in ipairs(cave_access[cave]) do
-    if not Has(key) then
-      return false
+
+  for _, route in ipairs(cave_access[cave]) do
+    local can_access_route = true
+    for _, key in ipairs(route.requirements) do
+      if not Has(key) then
+        can_access_route = false
+        break
+      end
+    end
+    if can_access_route then
+      return route.level
     end
   end
-  return true
+  return false
+end
+
+function CanAccess(cave)
+  return CaveAccessLevel(cave) == true
+end
+
+function CanBreakAccess(cave)
+  return CaveAccessLevel(cave) == AccessibilityLevel.SequenceBreak
 end
 
 function CheckBuried(location)
-  if Has("WP") or SLOT_DATA["buried_treasure_locations"] == nil then
+  local white_pikmin = Tracker:FindObjectForCode("whiteonion")
+  if (white_pikmin ~= nil and white_pikmin.Active) or SLOT_DATA == nil or SLOT_DATA["buried_treasure_locations"] == nil then
     return true
   end
 
