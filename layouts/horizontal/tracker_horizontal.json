@@ -28,15 +28,6 @@
               }
             },
             {
-              "type": "group",
-              "header": "Cave Keys",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "cave_keys_grid"
-              }
-            },
-            {
               "type": "layout",
               "dock": "left",
               "key": "pokos_grid_h"

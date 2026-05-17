@@ -93,6 +93,10 @@ function OnClear(slot_data)
     end
   end
 
+  -- reset items not in ITEM_MAPPING
+  Tracker:FindObjectForCode("purpleonion").Active = false
+  Tracker:FindObjectForCode("whiteonion").Active = false
+
   -- Purple pikmin always available in VoR
   Tracker:FindObjectForCode("purpleonion").Active = true
 
