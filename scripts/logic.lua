@@ -31,13 +31,19 @@ function Has(item)
     ["W4"] = "debt",
 
     ["NS"] = "five-mannapsack",
-    ["RA"] = "repugnant_appendage"
+    ["RA"] = "repugnantappendage"
   }
 
   if item == "W4" then
-    return DebtPayedOff()
-  elseif item == "WP" then
-    return Tracker:FindObjectForCode("whiteonion").Active or Has("W2")
+    return DebtPayedOff() and Has("W2") and Has("W3")
+  elseif (item == "W2" or item == "W3") and Tracker:FindObjectForCode("setting_prog_globes").CurrentStage == 1 then
+    local globe1 = Tracker:FindObjectForCode("sphericalatlas").Active
+    local globe2 = Tracker:FindObjectForCode("geographicprojection").Active
+    if item == "W2" then
+      return globe1 or globe2
+    elseif item == "W3" then
+      return globe1 and globe2
+    end
   elseif item_map[item] ~= nil then
     return Tracker:FindObjectForCode(item_map[item]).Active
   end
@@ -111,92 +117,108 @@ function ResetCaves()
   Tracker:FindObjectForCode("DD_dst").CurrentStage = 14
 end
 
-function CaveAccessLevel(cave)
+function CanAccess(cave)
   local cave_access = {
-    EC = {
-      {requirements = {}, level = true},
-    },
+    EC = "$HasKey|EC",
+
     SC = {
-      {requirements = {"BP", "WP"}, level = true},
-      {requirements = {}, level = AccessibilityLevel.SequenceBreak},
+      "$HasKey|SC,$Has|BP,$Has|WP",
+      "$HasKey|SC,$Has|BP,$Has|NS,^$SB",
     },
-    FC = {
-      {requirements = {"BP"}, level = true},
-      {requirements = {}, level = AccessibilityLevel.SequenceBreak},
-    }, 
-    HoB = {
-      {requirements = {"W2"}, level = true},
-    },
-    WFG = {
-      {requirements = {"W2", "PP"}, level = true},
-      {requirements = {"W2", "BP"}, level = true},
-      {requirements = {"W2", "NS"}, level = AccessibilityLevel.SequenceBreak},
-    },
+
+    FC = "$HasKey|FC,$Has|BP",
+
+    HoB = "$HasKey|HoB,$Has|W2",
+
+    WFG = "$HasKey|WFG,$Has|W2,$Has|PP",
+
     BK = {
-      {requirements = {"W2", "YP", "PP", "WP"}, level = true},
-      {requirements = {"W2", "YP", "BP"}, level = true},
-      {requirements = {"W2", "NS"}, level = AccessibilityLevel.SequenceBreak},
+      "$HasKey|BK,$Has|W2,$Has|YP,$Has|PP,$Has|WP",
+      "$HasKey|BK,$Has|W2,$Has|NS,^$SB",
     },
+
     SH = {
-      {requirements = {"W2", "BP", "WP"}, level = true},
-      {requirements = {"W2", "WP"}, level = AccessibilityLevel.SequenceBreak},
+      "$HasKey|SH,$Has|W2,$Has|BP,$Has|WP",
+      "$HasKey|SH,$Has|W2,$Has|WP,^$SB",
     },
-    CoS = {
-      {requirements = {"W3"}, level = true},
-    },
+
+    CoS = "$HasKey|CoS,$Has|W3",
+
     GK = {
-      {requirements = {"W3", "YP"}, level = true},
-      {requirements = {"W3", "NS"}, level = AccessibilityLevel.SequenceBreak},
+      "$HasKey|GK,$Has|W3,$Has|YP",
+      "$HasKey|GK,$Has|W3,$Has|NS,^$SB",
     },
+
     SR = {
-      {requirements = {"W3", "BP", "YP"}, level = true},
-      {requirements = {"W3", "RA"}, level = AccessibilityLevel.SequenceBreak}
+      "$HasKey|SR,$Has|W3,$Has|BP,$Has|YP",
+      "$HasKey|SR,$Has|W3,$Has|BP,$Has|RA,^$SB",
     },
-    SMGC = {
-      {requirements = {"W3", "BP"}, level = true},
-    },
-    CoC = {
-      {requirements = {"W4"}, level = true},
-    },
-    HoH = {
-      {requirements = {"W4", "BP", "YP"}, level = true},
-    },
+
+    SMGC = "$HasKey|SMGC,$Has|W3,$Has|BP",
+
+    CoC = "$HasKey|CoC,$Has|W4",
+
+    HoH = "$HasKey|HoH,$Has|W4,$Has|BP,$Has|YP",
+
     DD = {
-      {requirements = {"W4", "WP", "BP"}, level = true},
-      {requirements = {"W4", "WP"}, level = AccessibilityLevel.SequenceBreak},
+      "$HasKey|DD,$Has|W4,$Has|WP,$Has|BP",
+      "$HasKey|DD,$Has|W4,$Has|WP,^$SB",
     },
   }
 
-  if not HasKey(cave) then
+  return EvaluateAccessRules(cave_access[cave])
+end
+
+function EvaluateAccessRules(rules)
+  if rules == nil then
     return false
   end
 
-  for _, route in ipairs(cave_access[cave]) do
-    local can_access_route = true
-    for _, key in ipairs(route.requirements) do
-      if not Has(key) then
-        can_access_route = false
-        break
-      end
-    end
-    if can_access_route then
-      return route.level
+  if type(rules) == "string" then
+    return EvaluateRuleRoute(rules)
+  end
+
+  for _, route in ipairs(rules) do
+    local result = EvaluateRuleRoute(route)
+
+    if result == true then
+      return true
+    elseif result == AccessibilityLevel.SequenceBreak then
+      return AccessibilityLevel.SequenceBreak
     end
   end
+
   return false
 end
 
-function CanAccess(cave)
-  return CaveAccessLevel(cave) == true
-end
+function EvaluateRuleRoute(route)
+  local is_sequence_break = false
 
-function CanBreakAccess(cave)
-  return CaveAccessLevel(cave) == AccessibilityLevel.SequenceBreak
+  for rule in string.gmatch(route, "([^,]+)") do
+    if rule == "^$SB" then
+      is_sequence_break = true
+    elseif string.sub(rule, 1, 8) == "$HasKey|" then
+      local key = string.sub(rule, 9)
+      if not HasKey(key) then
+        return false
+      end
+    elseif string.sub(rule, 1, 5) == "$Has|" then
+      local item = string.sub(rule, 6)
+      if not Has(item) then
+        return false
+      end
+    end
+  end
+
+  if is_sequence_break then
+    return AccessibilityLevel.SequenceBreak
+  end
+
+  return true
 end
 
 function CheckBuried(location)
-  local white_pikmin = Tracker:FindObjectForCode("whiteonion")
-  if (white_pikmin ~= nil and white_pikmin.Active) or SLOT_DATA == nil or SLOT_DATA["buried_treasure_locations"] == nil then
+  if Has("WP") or SLOT_DATA["buried_treasure_locations"] == nil then
     return true
   end
 
